@@ -1,8 +1,10 @@
 Non-matches
 None
+https://schema.org/QAPage
 html__responsive 
 en
 shortcut icon
+https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196
 apple-touch-icon
 image_src
 search
@@ -13,7 +15,6 @@ canonical
 viewport
 "width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0"
 og:type
-website
 og:url
 og:site_name
 Stack Overflow
@@ -26,34 +27,29 @@ stackoverflow.com
 twitter:title
 og:title
 name
-How to stop/terminate a python script from running?
 twitter:description
 og:description
 description
-I wrote a program in IDLE to tokenize text files and it starts to tokeniza 349 text files! How can I stop it? How can I stop a running Python program?
-webpack-public-path
 text/uri-list
 None
+https://cdn.sstatic.net/Js/third-party/npm/@stackoverflow/stacks/dist/js/stacks.min.js?v=6cc27826a5fd
 stylesheet
 text/css
 stylesheet
 text/css
-alternate
-application/atom+xml
-Feed for question 'How to stop/terminate a python script from running?'
-/feeds/question/19782075
+https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=259d42f3fd03
 twitter:app:country
 US
 twitter:app:name:iphone
 Stack Exchange iOS
 twitter:app:id:iphone
+871299723
 twitter:app:url:iphone
-se-zaphod://stackoverflow.com/questions/19782075/how-to-stop-terminate-a-python-script-from-running
 twitter:app:name:ipad
 Stack Exchange iOS
 twitter:app:id:ipad
+871299723
 twitter:app:url:ipad
-se-zaphod://stackoverflow.com/questions/19782075/how-to-stop-terminate-a-python-script-from-running
 twitter:app:name:googleplay
 Stack Exchange Android
 twitter:app:url:googleplay
@@ -71,29 +67,25 @@ noscript-css
 question-page unified-theme
 notify-container
 custom-header
-s-topbar ps-fixed t0 l0 js-top-bar
-s-topbar--container
-s-topbar--menu-btn js-left-sidebar-toggle
+#
 menuitem
 true
-left-sidebar
 false
-topbar-dialog leftnav-dialog js-leftnav-dialog dno
-left-sidebar js-unpinned-left-sidebar
-left-sidebar
-s-topbar--logo js-gps-track
+sm
+https://stackoverflow.com
 "top_nav.click({is_current:false, location:2, destination:8})"
+-img _glyph
 s-navigation
 presentation
 md:d-none
+https://stackoverflow.co/
 s-navigation--item js-gps-track
 "top_nav.products.click({location:2, destination:7})"
-"[""top navigation"",""about menu click"",null,null,null]"
+#
 s-navigation--item js-gps-track js-products-menu
 products-popover
 s-popover
 s-popover#toggle
-bottom
 is-selected
 "top_nav.products.click({location:2, destination:1})"
 "[""top navigation"",""products menu click"",null,null,null]"
@@ -108,79 +100,77 @@ menu
 true
 s-popover--arrow
 list-reset s-anchors s-anchors__inherit
+m6
 /questions
-bar-sm p6 d-block h:bg-black-100 js-gps-track
 "top_nav.products.click({location:2, destination:2})"
-"[""top navigation"",""public qa submenu click"",null,null,null]"
-fs-body1 d-block
-fs-caption d-block fc-light
+m6
 /teams
-bar-sm p6 d-block h:bg-black-100 js-gps-track
 "top_nav.products.click({location:2, destination:3})"
-"[""top navigation"",""teams submenu click"",null,null,null]"
-fs-body1 d-block
-fs-caption d-block fc-light
-bar-sm p6 d-block h:bg-black-100 js-gps-track
+m6
+https://stackoverflow.co/talent
 "top_nav.products.click({location:2, destination:5})"
-"[""top navigation"",""talent submenu click"",null,null,null]"
-fs-body1 d-block
-fs-caption d-block fc-light
-bar-sm p6 d-block h:bg-black-100 js-gps-track
+m6
+https://stackoverflow.co/advertising
 "top_nav.products.click({location:2, destination:6})"
-"[""top navigation"",""advertising submenu click"",null,null,null]"
-fs-body1 d-block
-fs-caption d-block fc-light
+https://stackoverflow.co/
 "top_nav.products.click({location:2, destination:7})"
-"[""top navigation"",""about submenu click"",null,null,null]"
 search
 search
 /search
-s-topbar--searchbar js-searchbar 
 off
-s-topbar--searchbar--input-group
+q
 text
 Search…
 ""
 off
+240
 s-input s-input__search js-search-field 
 Search
 top-search
 s-popover
 focus->s-popover#show
-bottom-start
 true
 s-input-icon s-input-icon__search svg-icon iconSearch
+18
+18
+0 0 18 18
 m18 16.5-5.14-5.18h-.35a7 7 0 1 0-1.19 1.19v.35L16.5 18l1.5-1.5ZM12 7A5 5 0 1 1 2 7a5 5 0 0 1 10 0Z
+s-popover p0 wmx100 wmn4 sm:wmn-initial js-top-search-popover
 top-search
 menu
 s-popover--arrow
+js-spinner p24 d-flex ai-center jc-center d-none
 s-spinner s-spinner__sm fc-orange-400
-v-visible-sr
-v-visible-sr js-screen-reader-info
+js-ac-results overflow-y-auto hmx3 d-none
 js-search-hints
 Tips for searching
-s-topbar--content
 presentation
-js-topbar-dialog-corral
 presentation
-topbar-dialog siteSwitcher-dialog dno
 menu
 header fw-wrap
 flex--item
+https://stackoverflow.com
 flex--item fl1
-js-close-button s-btn s-btn__muted p0 ml8 d-none sm:d-block
-button
+ai-center d-flex jc-end
 Close
 true
 svg-icon iconClear
-modal-content bg-powder-050 current-site-container
+18
+18
+0 0 18 18
+M15 4.41 13.59 3 9 7.59 4.41 3 3 4.41 7.59 9 3 13.59 4.41 15 9 10.41 13.59 15 15 13.59 10.41 9 15 4.41Z
 current-site 
 d-flex
+fl1
+https://stackoverflow.com
+current-site-link site-link js-gps-track d-flex gs8 gsx
+1
 site_switcher.click({ item_type:3 })
 favicon favicon-stackoverflow site-icon flex--item
 Stack Overflow
 flex--item fl1
 related-links
+https://stackoverflow.com/help
 js-gps-track
 site_switcher.click({ item_type:14 })
 js-gps-track
@@ -188,6 +178,9 @@ site_switcher.click({ item_type:6 })
 related-site d-flex
 L-shaped-icon-container
 L-shaped-icon
+https://meta.stackoverflow.com
+ site-link js-gps-track d-flex gs8 gsx
+552
 "site.switch({ target_site:552, item_type:3 }),site_switcher.click({ item_type:4 })"
 favicon favicon-stackoverflowmeta site-icon flex--item
 Meta Stack Overflow
@@ -202,45 +195,31 @@ site_switcher.click({ item_type:10 })
 login-link js-gps-track
 site_switcher.click({ item_type:11 })
 header
+https://stackexchange.com/sites
 float-right
 modal-content
 child-content
-s-topbar--item s-btn s-btn__icon s-btn__muted d-none sm:d-inline-flex js-searchbar-trigger
-button
+#
 Search
 true
 search
 Click to show search
 true
 svg-icon iconSearch
+18
+18
+0 0 18 18
 m18 16.5-5.14-5.18h-.35a7 7 0 1 0-1.19 1.19v.35L16.5 18l1.5-1.5ZM12 7A5 5 0 1 1 2 7a5 5 0 0 1 10 0Z
-s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track
 nofollow
 login.click
-"[""top navigation"",""login button click"",null,null,null]"
-s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap
 nofollow
 "[""sign up"",""Sign Up Navigation"",""Header"",null,null]"
-announcement-banner
-js-announcement-banner bg-black-700 fc-white ff-sans fs-body2 py2
-2022-06-22.2022-dev-survey-results
-notice-dsvr
-flex--item mr12
-_blank
-s-link js-link js-gps-track fw-bold fc-blue-300
-"announcement_banner.click({campaign: '2022-06-22.2022-dev-survey-results', location: 2, action: 2})"
-flex--item fc-white js-dismiss js-gps-track
-dismiss
-"announcement_banner.click({campaign: '2022-06-22.2022-dev-survey-results', location: 2, action: 1})"
-true
-m0 svg-icon iconClear
 container
-left-sidebar
-left-sidebar js-pinned-left-sidebar ps-relative
-left-sidebar--sticky-container js-sticky-leftnav
+md lg
 navigation
 nav-links
 ps-relative
+/
 pl8 js-gps-track nav-links--link
 "top_nav.click({is_current: false, location:2, destination:8})"
 ""
@@ -251,7 +230,6 @@ never
 d-flex ai-center
 flex--item truncate
 nav-links
-fs-fine tt-uppercase ml8 mt16 mb4 fc-light
 ps-relative  youarehere
 nav-questions
 /questions
@@ -263,7 +241,9 @@ right
 true
 never
 true
-svg-icon iconGlobe
+18
+18
+0 0 18 18
 M9 1C4.64 1 1 4.64 1 9c0 4.36 3.64 8 8 8 4.36 0 8-3.64 8-8 0-4.36-3.64-8-8-8ZM8 15.32a6.46 6.46 0 0 1-4.3-2.74 6.46 6.46 0 0 1-.93-5.01L7 11.68v.8c0 .88.12 1.32 1 1.32v1.52Zm5.72-2c-.2-.66-1-1.32-1.72-1.32h-1v-2c0-.44-.56-1-1-1H6V7h1c.44 0 1-.56 1-1V5h2c.88 0 1.4-.72 1.4-1.6v-.33a6.45 6.45 0 0 1 3.83 4.51 6.45 6.45 0 0 1-1.51 5.73v.01Z
 -link--channel-name
 ps-relative
@@ -305,7 +285,6 @@ flex--item tt-uppercase tt-uppercase fs-fine fc-light
 flex--item fs-fine fc-light
 javascript:void(0)
 s-link s-link__inherit mr8 js-gps-track js-collectives-navcta-toggle
-button
 popover-discover-collectives
 s-popover
 s-popover#toggle
@@ -314,6 +293,9 @@ is-selected
 "top_nav.click({is_current:false, location:2, destination:17})"
 true
 svg-icon iconInfoSm
+14
+14
+0 0 14 14
 M7 1a6 6 0 1 1 0 12A6 6 0 0 1 7 1Zm1 10V6H6v5h2Zm0-6V3H6v2h2Z
 ps-relative
 nav-collective-discover
@@ -327,34 +309,35 @@ true
 never
 true
 mt-auto fc-orange-400 svg-icon iconStarVerified
+18
+18
+0 0 18 18
 M9.86.89a1.14 1.14 0 0 0-1.72 0l-.5.58c-.3.35-.79.48-1.23.33l-.72-.25a1.14 1.14 0 0 0-1.49.85l-.14.76c-.1.45-.45.8-.9.9l-.76.14c-.67.14-1.08.83-.85 1.49l.25.72c.15.44.02.92-.33 1.23l-.58.5a1.14 1.14 0 0 0 0 1.72l.58.5c.35.3.48.79.33 1.23l-.25.72c-.23.66.18 1.35.85 1.49l.76.14c.45.1.8.45.9.9l.14.76c.14.67.83 1.08 1.49.85l.72-.25c.44-.15.92-.02 1.23.33l.5.58c.46.52 1.26.52 1.72 0l.5-.58c.3-.35.79-.48 1.23-.33l.72.25c.66.23 1.35-.18 1.49-.85l.14-.76c.1-.45.45-.8.9-.9l.76-.14c.67-.14 1.08-.83.85-1.49l-.25-.72c-.15-.44-.02-.92.33-1.23l.58-.5c.52-.46.52-1.26 0-1.72l-.58-.5c-.35-.3-.48-.79-.33-1.23l.25-.72a1.14 1.14 0 0 0-.85-1.49l-.76-.14c-.45-.1-.8-.45-.9-.9l-.14-.76a1.14 1.14 0 0 0-1.49-.85l-.72.25c-.44.15-.92.02-1.23-.33l-.5-.58Zm-.49 2.67L10.6 6.6c.05.15.19.24.34.25l3.26.22c.36.03.5.48.23.71l-2.5 2.1a.4.4 0 0 0-.14.4l.8 3.16a.4.4 0 0 1-.6.44L9.2 12.13a.4.4 0 0 0-.42 0l-2.77 1.74a.4.4 0 0 1-.6-.44l.8-3.16a.4.4 0 0 0-.13-.4l-2.5-2.1a.4.4 0 0 1 .22-.7l3.26-.23a.4.4 0 0 0 .34-.25l1.22-3.03a.4.4 0 0 1 .74 0Z
 -link--channel-name
 nav-links
 js-freemium-cta ps-relative
-fs-fine tt-uppercase ml8 mt16 mb8 fc-light
-bt bl bb bc-black-075 p12 pb6 fc-black-600 blr-sm overflow-hidden
-fc-black-750 mb6
+139
+114
 ""
-w100 s-btn s-btn__primary s-btn__xs bg-orange-400 js-gps-track
 teams.create.left-sidenav.click({ Action: 6 })
 "[""teams left navigation - anonymous"",""left nav free cta"",""stackoverflow.com/teams/create/free"",null,null]"
-w100 s-btn s-btn__muted s-btn__xs js-gps-track
+https://stackoverflow.co/teams
 teams.create.left-sidenav.click({ Action: 5 })
 "[""teams left navigation - anonymous"",""left nav free cta"",""stackoverflow.com/teams"",null,null]"
 flex--item tt-uppercase fs-fine fc-light
 flex--item
 javascript:void(0)
-s-link p12 fc-black-500 h:fc-black-800 js-gps-track
-button
 popover-teams-create-cta
 s-popover
 s-popover#toggle
-bottom-start
 is-selected
 teams.create.left-sidenav.click({ Action: ShowInfo })
 "[""teams left navigation - anonymous"",""left nav show teams info"",null,null,null]"
 true
 svg-icon iconInfoSm
+14
+14
+0 0 14 14
 M7 1a6 6 0 1 1 0 12A6 6 0 0 1 7 1Zm1 10V6H6v5h2Zm0-6V3H6v2h2Z
 ps-relative js-create-team-cta d-none
 pl8 js-gps-track nav-links--link
@@ -362,15 +345,20 @@ pl8 js-gps-track nav-links--link
 teams.create.left-sidenav.click({ Action: FreemiumTeamsCreateClick })
 "[""teams left navigation - anonymous"",""left nav team click"",""stackoverflow.com/teams/create/free"",null,null]"
 d-flex ai-center
-flex--item s-avatar va-middle bg-orange-400
 s-avatar--letter mtn1
 true
 svg-icon iconBriefcaseSm
+14
+14
+0 0 14 14
 M4 3a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1h.5c.83 0 1.5.67 1.5 1.5v5c0 .83-.67 1.5-1.5 1.5h-7A1.5 1.5 0 0 1 2 10.5v-5C2 4.67 2.67 4 3.5 4H4V3Zm5 1V3H5v1h4Z
 true
+9
+10
+0 0 9 10
+M0 1.84 4.5 0 9 1.84v3.17C9 7.53 6.3 10 4.5 10 2.7 10 0 7.53 0 5.01V1.84Z
 var(--white)
 M1 2.5 4.5 1 8 2.5v2.51C8 7.34 5.34 9 4.5 9 3.65 9 1 7.34 1 5.01V2.5Zm2.98 3.02L3.2 7h2.6l-.78-1.48a.4.4 0 0 1 .15-.38c.34-.24.73-.7.73-1.14 0-.71-.5-1.23-1.41-1.23-.92 0-1.39.52-1.39 1.23 0 .44.4.9.73 1.14.12.08.18.23.15.38Z
-var(--black-500)
 flex--item pl6
 s-popover ws2
 popover-discover-collectives
@@ -378,12 +366,14 @@ menu
 s-popover--arrow
 true
 fc-orange-500 float-right ml24 svg-spot spotCollective
+48
+48
+0 0 48 48
 M25.5 7a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM14 18.25c0-.69.56-1.25 1.25-1.25h22.5c.69 0 1.25.56 1.25 1.25V37.5a1 1 0 0 1-1.6.8l-4.07-3.05a1.25 1.25 0 0 0-.75-.25H15.25c-.69 0-1.25-.56-1.25-1.25v-15.5ZM7 24.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0ZM25.5 48a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM48 24.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Z
+.2
 M21 3.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0ZM24.5 2a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3ZM0 23.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0ZM3.5 22a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3ZM21 44.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0Zm3.5-1.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Zm20-23a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7ZM43 23.5a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Zm-23.23-3.14a1 1 0 0 1-.13 1.4l-2.08 1.74 2.08 1.73a1 1 0 1 1-1.28 1.54l-2.42-2.02a1.63 1.63 0 0 1 0-2.5l2.42-2.02a1 1 0 0 1 1.4.13Zm7.59 1.41a1 1 0 1 1 1.28-1.54l2.42 2.02c.78.65.78 1.85 0 2.5l-2.42 2.02a1 1 0 1 1-1.28-1.54l2.08-1.73-2.08-1.73ZM24.12 18a1 1 0 0 1 .87 1.12l-1 8a1 1 0 1 1-1.98-.24l1-8a1 1 0 0 1 1.11-.87Zm-11.87-5C11.01 13 10 14 10 15.25v15.5c0 1.24 1 2.25 2.25 2.25h17.33c.06 0 .11.02.15.05l4.07 3.05a2 2 0 0 0 3.2-1.6V15.25c0-1.24-1-2.25-2.25-2.25h-22.5ZM12 15.25c0-.14.11-.25.25-.25h22.5c.14 0 .25.11.25.25V34.5l-4.07-3.05a2.2 2.2 0 0 0-1.35-.45H12.25a.25.25 0 0 1-.25-.25v-15.5Zm7.24-10.68a1 1 0 1 0-.48-1.94A22.04 22.04 0 0 0 2.91 17.7a1 1 0 1 0 1.92.58 20.04 20.04 0 0 1 14.4-13.72Zm11.05-1.66a1 1 0 0 0-.58 1.92c6.45 1.92 11.54 7 13.46 13.46a1 1 0 1 0 1.92-.58 22.05 22.05 0 0 0-14.8-14.8ZM4.57 28.76a1 1 0 0 0-1.94.48 22.03 22.03 0 0 0 16.13 16.13 1 1 0 1 0 .48-1.94A20.03 20.03 0 0 1 4.57 28.76Zm40.8.48a1 1 0 1 0-1.94-.48 20.04 20.04 0 0 1-13.72 14.41 1 1 0 0 0 .58 1.92 22.04 22.04 0 0 0 15.08-15.85Z
-pt4 fw-bold
 my16 fs-caption fc-medium
 /collectives
-js-gps-track s-btn s-btn__primary s-btn__xs
 "top_nav.click({is_current:false, location:2, destination:18})"
 s-popover
 popover-teams-create-cta
@@ -391,88 +381,72 @@ menu
 true
 s-popover--arrow
 ps-relative overflow-hidden
-mb12 fs-caption fc-black-400
-mb12 fs-caption fc-medium
-js-gps-track s-btn s-btn__primary s-btn__xs
+https://stackoverflow.co/teams
 teams.create.left-sidenav.click({ Action: CtaClick })
 "[""teams left navigation - anonymous"",""left nav cta"",""stackoverflow.com/teams"",null,null]"
-ps-absolute t8 r8
 true
 fc-orange-500 svg-spot spotPeople
+48
+48
+0 0 48 48
 M13.5 28a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9ZM7 30a1 1 0 0 1 1-1h11a1 1 0 0 1 1 1v5h11v-5a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v10a2 2 0 0 1-2 2H33v5a1 1 0 0 1-1 1H20a1 1 0 0 1-1-1v-5H8a1 1 0 0 1-1-1V30Zm25-6.5a4.5 4.5 0 1 0 9 0 4.5 4.5 0 0 0-9 0ZM24.5 34a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9Z
+.2
 M16.4 26.08A6 6 0 1 0 7.53 26C5.64 26.06 4 27.52 4 29.45V40a1 1 0 0 0 1 1h9a1 1 0 1 0 0-2h-4v-7a1 1 0 1 0-2 0v7H6v-9.55c0-.73.67-1.45 1.64-1.45H16a1 1 0 0 0 .4-1.92ZM12 18a4 4 0 1 1 0 8 4 4 0 0 1 0-8Zm16.47 14a6 6 0 1 0-8.94 0A3.6 3.6 0 0 0 16 35.5V46a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V35.5c0-1.94-1.64-3.42-3.53-3.5ZM20 28a4 4 0 1 1 8 0 4 4 0 0 1-8 0Zm-.3 6h8.6c1 0 1.7.75 1.7 1.5V45h-2v-7a1 1 0 1 0-2 0v7h-4v-7a1 1 0 1 0-2 0v7h-2v-9.5c0-.75.7-1.5 1.7-1.5ZM42 22c0 1.54-.58 2.94-1.53 4A3.5 3.5 0 0 1 44 29.45V40a1 1 0 0 1-1 1h-9a1 1 0 1 1 0-2h4v-7a1 1 0 1 1 2 0v7h2v-9.55A1.5 1.5 0 0 0 40.48 28H32a1 1 0 0 1-.4-1.92A6 6 0 1 1 42 22Zm-2 0a4 4 0 1 0-8 0 4 4 0 0 0 8 0Z
+.35
 M17 10a1 1 0 011-1h12a1 1 0 110 2H18a1 1 0 01-1-1Zm1-5a1 1 0 100 2h12a1 1 0 100-2H18ZM14 1a1 1 0 00-1 1v12a1 1 0 001 1h5.09l4.2 4.2a1 1 0 001.46-.04l3.7-4.16H34a1 1 0 001-1V2a1 1 0 00-1-1H14Zm1 12V3h18v10h-5a1 1 0 00-.75.34l-3.3 3.7-3.74-3.75a1 1 0 00-.71-.29H15Z
 content
 snippet-hidden
 mainEntity
 None
+https://schema.org/Question
 image
 inner-content clearfix
 question-header
 d-flex sm:fd-column
 name
-fs-headline1 ow-break-word mb8 flex--item fl1
-/questions/19782075/how-to-stop-terminate-a-python-script-from-running
 question-hyperlink
-ml12 aside-cta flex--item print:d-none sm:ml0 sm:mb12 sm:order-first sm:as-end
 /questions/ask
-ws-nowrap s-btn s-btn__primary
-d-flex fw-wrap pb8 mb16 bb bc-black-075
-flex--item ws-nowrap mr16 mb8
+2008-09-25 09:42:55Z
 fc-light mr2
 dateCreated
-flex--item ws-nowrap mr16 mb8
+2008-09-25T09:42:55
 fc-light mr2
 ?lastactivity
 s-link s-link__inherit
-flex--item ws-nowrap mb8
-"Viewed 861,232 times"
+2010-12-20 04:51:02Z
+"Viewed 78,623 times"
 fc-light mr2
-mainbar
 main
 question and answers
 question js-question
+132359
+0
+89
 question
 js-zone-container zone-container-main
-everyonelovesstackoverflow everyoneloves__top-leaderboard everyoneloves__leaderboard
-js-report-ad-button-container 
+width: 728px
 post-layout
 votecell post-layout--left
-js-vote-up-btn flex--item s-btn s-btn__unset c-pointer 
-s-tooltip
-right
-This question shows research effort; it is useful and clear
-false
-Up vote
-fc-theme-primary
-""
-true
-svg-icon iconArrowUpLg
-js-vote-count flex--item d-flex fd-column ai-center fc-black-500 fs-title
+132359
 upvoteCount
-js-vote-down-btn flex--item s-btn s-btn__unset c-pointer 
-s-tooltip
-right
-This question does not show any research effort; it is unclear or not useful
-false
-Down vote
-fc-theme-primary
-""
-true
-svg-icon iconArrowDownLg
-js-bookmark-btn s-btn s-btn__unset c-pointer py4 js-gps-track
+89
+fs-caption
 s-tooltip
 right
 Bookmark this question.
 false
-Bookmark (28)
+Bookmark (127)
 fc-yellow-600
 "post.click({ item: 1, priv: 0, post_type: 1 })"
 true
 svg-icon iconBookmark
+18
+18
+0 0 18 18
 M6 1a2 2 0 0 0-2 2v14l5-4 5 4V3a2 2 0 0 0-2-2H6Zm3.9 3.83h2.9l-2.35 1.7.9 2.77L9 7.59l-2.35 1.7.9-2.76-2.35-1.7h2.9L9 2.06l.9 2.77Z
-js-bookmark-count mt4
-/posts/19782075/timeline
+127
+/posts/132359/timeline
+T
 timeline
 s-tooltip
 right
@@ -480,32 +454,47 @@ Show activity on this post.
 Timeline
 true
 mln2 mr0 svg-icon iconHistory
+19
+18
+0 0 19 18
 M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
 postcell post-layout--right
-s-prose js-post-body
 text
+status
+d-flex fd-column fw-nowrap
+d-flex fw-nowrap
+flex--item mr8
+true
+svg-icon iconLock
+18
+18
+0 0 18 18
+M16 9a2 2 0 0 0-2-2V6A5 5 0 0 0 4 6v1a2 2 0 0 0-2 2v6c0 1.1.9 2 2 2h10a2 2 0 0 0 2-2V9Zm-7 5a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm3.1-7H5.9V6a3.1 3.1 0 0 1 6.2 0v1Z
+flex--item wmn0 fl1 lh-lg
+flex--item fl1 lh-lg
+/help/locked-posts
+http://en.wikipedia.org/wiki/Google_platform
+nofollow noreferrer
+nofollow noreferrer
+nofollow noreferrer
+http://research.google.com/archive/gfs-sosp2003.pdf
+nofollow noreferrer
 post-taglist d-flex gs4 gsy fd-column
 d-flex ps-relative fw-wrap
-/questions/tagged/python
+/questions/tagged/performance
 post-tag
-show questions tagged 'python'
+show questions tagged 'performance'
 tag
-/questions/tagged/execution
+/questions/tagged/algorithm
 post-tag
-show questions tagged 'execution'
-tag
-/questions/tagged/terminate
-post-tag
-show questions tagged 'terminate'
-tag
-/questions/tagged/termination
-post-tag
-show questions tagged 'termination'
+show questions tagged 'algorithm'
 tag
 flex--item mr16 fl1 w96
 js-post-menu pt2
+132359
 d-flex gs8 s-anchors s-anchors__muted fw-wrap
 flex--item
+/q/132359
 nofollow
 url
 js-share-link js-gps-track
@@ -515,155 +504,94 @@ se-share-sheet
 Share a link to this question
 ""
 question
-facebook twitter 
-CC BY-SA 3.0
-bottom-start
-flex--item
-/posts/19782075/edit
-js-suggest-edit-post js-gps-track
-"post.click({ item: 6, priv: 0, post_type: 1 })"
-""
-flex--item
-button
-btnFollowPost-19782075
-s-btn s-btn__link js-follow-post js-follow-question js-gps-track
-"post.click({ item: 14, priv: 0, post_type: 1 })"
-s-tooltip 
-bottom
-bottom
-""
-Follow this question to receive notifications
+1
+CC BY-SA 2.5
 js-menu-popup-container
 post-signature flex--item
 user-info user-hover
 user-action-time
-/posts/19782075/revisions
+/posts/132359/revisions
 show all edits to this post
 js-gps-track
 "post.click({ item: 4, priv: 0, post_type: 1 })"
+2009-12-12 21:14:30Z
 relativetime
 user-gravatar32
-/users/1930504/jack-bracken
+/users/63550/peter-mortensen
 gravatar-wrapper-32
+https://i.stack.imgur.com/RIZKi.png?s=64&g=1
 user avatar
-bar-sm
+32
+32
 user-details
-/users/1930504/jack-bracken
+/users/63550/peter-mortensen
 -flair
 reputation-score
-reputation score 
-14 silver badges
+"reputation score 29,988"
+ltr
 true
-badge2
-badgecount
-v-visible-sr
-23 bronze badges
 true
-badge3
-badgecount
-v-visible-sr
+true
 post-signature owner flex--item
-user-info 
+user-info user-hover
 user-action-time
+2008-09-25 09:42:55Z
 relativetime
 user-gravatar32
-/users/2943370/macee
+/users/6508/jorge-ferreira
 gravatar-wrapper-32
 user avatar
-bar-sm
+32
+32
 user-details
 author
 None
 http://schema.org/Person
-/users/2943370/macee
+/users/6508/jorge-ferreira
 d-none
 name
 -flair
 reputation-score
-reputation score 
-4 gold badges
+"reputation score 93,075"
+ltr
 true
-badge1
-badgecount
-v-visible-sr
-14 silver badges
 true
-badge2
-badgecount
-v-visible-sr
-10 bronze badges
 true
-badge3
-badgecount
-v-visible-sr
 d-none
 commentCount
 post-layout--right js-post-comments-component
-comments-19782075
-comments js-comments-container bt bc-black-075 mt12 
+comments-132359
+132359
+15
 comments-list js-comments-list
+0
+false
 false
 true
-false
 true
-comment-29404267
-comment js-comment 
-js-comment-actions comment-actions
-comment-score js-comment-edit-hide
-number of 'useful comment' votes received
-warm
-comment-text  js-comment-text-and-form
-comment-body js-comment-edit-hide
-comment-copy
-d-inline-flex ai-center
-/users/315828/ayush
-"40,725 reputation"
-comment-user
-comment-date
-"2013-11-05 04:48:58Z, License: CC BY-SA 3.0"
-relativetime-clean
-comment-101639014
-comment js-comment 
-js-comment-actions comment-actions
-comment-score js-comment-edit-hide
-number of 'useful comment' votes received
-cool
-comment-text  js-comment-text-and-form
-comment-body js-comment-edit-hide
-comment-copy
-d-inline-flex ai-center
-/users/874188/tripleee
-"159,256 reputation"
-comment-user
-comment-date
-"2019-08-21 11:44:32Z, License: CC BY-SA 4.0"
-relativetime-clean
-comments-link-19782075
+comments-link-132359
+50
 true
-js-add-link comments-link disabled-link
-Use comments to ask for more information or suggest improvements. Avoid answering questions in comments.
-button
 js-link-separator dno
 js-show-link comments-link dno
 Expand to show all comments on this post
+#
 ""
-button
 js-zone-container zone-container-responsive
-dfp-isb
+width: 300px
 answers
-tab-top
 answers-header
-answers-subheader d-flex ai-center mb8
 flex--item fl1
+19
 display:none;
 answerCount
 flex--item
+d-flex g4 gsx ai-center sm:fd-column sm:ai-start
 d-flex fd-column ai-end sm:ai-start
 flex--item fs-caption
 answer-sort-dropdown-select-menu
 js-sort-preference-change s-link flex--item fs-fine d-none
 ScoreDesc
-/questions/19782075/how-to-stop-terminate-a-python-script-from-running?answertab=scoredesc#tab-top
 flex--item s-select
 answer-sort-dropdown-select-menu
 scoredesc
@@ -671,43 +599,39 @@ selected
 trending
 modifieddesc
 createdasc
-answer-34029481
+132448
+answer-132448
 answer js-answer
+132448
+132359
+47
+1
+1
+0
 acceptedAnswer
 None
+https://schema.org/Answer
 post-layout
 votecell post-layout--left
-js-vote-up-btn flex--item s-btn s-btn__unset c-pointer 
-s-tooltip
-right
-This answer is useful
-false
-Up vote
-fc-theme-primary
-""
-true
-svg-icon iconArrowUpLg
-js-vote-count flex--item d-flex fd-column ai-center fc-black-500 fs-title
+132448
 upvoteCount
-js-vote-down-btn flex--item s-btn s-btn__unset c-pointer 
-s-tooltip
-right
-This answer is not useful
-false
-Down vote
-fc-theme-primary
-""
-true
-svg-icon iconArrowDownLg
+47
+fs-caption
 js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
 right
 Loading when this answer was accepted…
+0
 note
 Accepted
 ta-center
 true
 svg-icon iconCheckmarkLg
-/posts/34029481/timeline
+36
+36
+0 0 36 36
+m6 14 8 8L30 6v8L14 30l-8-8v-8Z
+/posts/132448/timeline
+T
 timeline
 s-tooltip
 right
@@ -715,16 +639,23 @@ Show activity on this post.
 Timeline
 true
 mln2 mr0 svg-icon iconHistory
+19
+18
+0 0 19 18
 M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
 answercell post-layout--right
-s-prose js-post-body
 text
+mt24
+d-flex fw-wrap ai-start jc-end gs8 gsy
 dateCreated
+2008-09-25T10:09:41
 flex--item mr16
+flex: 1 1 100px;
 js-post-menu pt2
+132448
 d-flex gs8 s-anchors s-anchors__muted fw-wrap
 flex--item
-/a/34029481
+/a/132448
 nofollow
 url
 js-share-link js-gps-track
@@ -734,32 +665,17 @@ se-share-sheet
 Share a link to this answer
 ""
 answer
-facebook twitter 
-CC BY-SA 4.0
-bottom-start
-flex--item
-/posts/34029481/edit
-js-suggest-edit-post js-gps-track
-"post.click({ item: 6, priv: 0, post_type: 2 })"
-""
-flex--item
-button
-btnFollowPost-34029481
-s-btn s-btn__link js-follow-post js-follow-answer js-gps-track
-"post.click({ item: 14, priv: 0, post_type: 2 })"
-s-tooltip 
-bottom
-bottom
-""
-Follow this answer to receive notifications
+2
+CC BY-SA 2.5
 js-menu-popup-container
 post-signature flex--item fl0
 user-info 
 user-action-time
-/posts/34029481/revisions
+/posts/132448/revisions
 show all edits to this post
 js-gps-track
 "post.click({ item: 4, priv: 0, post_type: 2 })"
+2008-09-28 14:54:51Z
 relativetime
 user-gravatar32
 user-details
@@ -767,127 +683,374 @@ user-details
 post-signature flex--item fl0
 user-info user-hover
 user-action-time
+2008-09-25 10:09:41Z
 relativetime
 user-gravatar32
-/users/2838606/amir
+/users/2827/henryr
 gravatar-wrapper-32
 user avatar
-bar-sm
+32
+32
 user-details
 author
 None
 http://schema.org/Person
-/users/2838606/amir
+/users/2827/henryr
 d-none
 name
 -flair
 reputation-score
-"reputation score 10,106"
-9 gold badges
+reputation score 
+ltr
 true
-badge1
-badgecount
-v-visible-sr
-44 silver badges
 true
-badge2
-badgecount
-v-visible-sr
-71 bronze badges
 true
-badge3
-badgecount
-v-visible-sr
 d-none
 commentCount
 post-layout--right js-post-comments-component
-comments-34029481
-comments js-comments-container bt bc-black-075 mt12 
+comments-132448
+132448
+15
 comments-list js-comments-list
+0
 false
 true
 false
 true
-comment-95997414
-comment js-comment 
-js-comment-actions comment-actions
-comment-score js-comment-edit-hide
-number of 'useful comment' votes received
-warm
-comment-text  js-comment-text-and-form
-comment-body js-comment-edit-hide
-comment-copy
-d-inline-flex ai-center
-/users/3895960/dici
-"23,927 reputation"
-comment-user
-comment-date
-"2019-02-08 21:32:56Z, License: CC BY-SA 4.0"
-relativetime-clean
-comment-106736670
-comment js-comment 
-js-comment-actions comment-actions
-comment-score js-comment-edit-hide
-comment-text  js-comment-text-and-form
-comment-body js-comment-edit-hide
-comment-copy
-d-inline-flex ai-center
-/users/658060/c24b
-"4,691 reputation"
-comment-user
-comment-date
-"2020-02-21 13:21:31Z, License: CC BY-SA 4.0"
-relativetime-clean
-comments-link-34029481
+comments-link-132448
+50
 true
-js-add-link comments-link disabled-link
 Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
-button
+#
 js-link-separator dno
 js-show-link comments-link dno
 Expand to show all comments on this post
+#
 ""
-button
 js-zone-container zone-container-main
-everyonelovesstackoverflow everyoneloves__mid-leaderboard everyoneloves__leaderboard
-js-report-ad-button-container 
-answer-19782093
-answer js-answer accepted-answer js-accepted-answer
+width: 728px
+132370
+answer-132370
+answer js-answer
+132370
+132359
+26
+2
+0
+0
 suggestedAnswer
 None
+https://schema.org/Answer
 post-layout
 votecell post-layout--left
-js-vote-up-btn flex--item s-btn s-btn__unset c-pointer 
-s-tooltip
-right
-This answer is useful
-false
-Up vote
-fc-theme-primary
-""
-true
-svg-icon iconArrowUpLg
-js-vote-count flex--item d-flex fd-column ai-center fc-black-500 fs-title
+132370
 upvoteCount
-js-vote-down-btn flex--item s-btn s-btn__unset c-pointer 
+26
+fs-caption
+js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
+right
+Loading when this answer was accepted…
+0
+note
+Accepted
+ta-center
+true
+svg-icon iconCheckmarkLg
+36
+36
+0 0 36 36
+m6 14 8 8L30 6v8L14 30l-8-8v-8Z
+/posts/132370/timeline
+T
+timeline
 s-tooltip
 right
-This answer is not useful
-false
-Down vote
-fc-theme-primary
-""
+Show activity on this post.
+Timeline
 true
-svg-icon iconArrowDownLg
+mln2 mr0 svg-icon iconHistory
+19
+18
+0 0 19 18
+M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
+answercell post-layout--right
+text
+http://en.wikipedia.org/wiki/Google_platform
+nofollow noreferrer
+mt24
+d-flex fw-wrap ai-start jc-end gs8 gsy
+dateCreated
+2008-09-25T09:47:22
+flex--item mr16
+flex: 1 1 100px;
+js-post-menu pt2
+132370
+d-flex gs8 s-anchors s-anchors__muted fw-wrap
+flex--item
+/a/132370
+nofollow
+url
+js-share-link js-gps-track
+Short permalink to this answer
+"post.click({ item: 2, priv: 0, post_type: 2 })"
+se-share-sheet
+Share a link to this answer
+""
+answer
+2
+CC BY-SA 2.5
+js-menu-popup-container
+post-signature flex--item fl0
+user-info 
+user-action-time
+2008-09-25 09:47:22Z
+relativetime
+user-gravatar32
+/users/7883/vasil
+gravatar-wrapper-32
+user avatar
+32
+32
+user-details
+author
+None
+http://schema.org/Person
+/users/7883/vasil
+d-none
+name
+-flair
+reputation-score
+"reputation score 34,714"
+ltr
+true
+true
+true
+d-none
+commentCount
+post-layout--right js-post-comments-component
+comments-132370
+132370
+15
+comments-list js-comments-list
+0
+false
+true
+false
+true
+comments-link-132370
+50
+true
+Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
+#
+js-link-separator dno
+js-show-link comments-link dno
+Expand to show all comments on this post
+#
+""
+133586
+answer-133586
+answer js-answer
+133586
+132359
+22
+3
+0
+0
+suggestedAnswer
+None
+https://schema.org/Answer
+post-layout
+votecell post-layout--left
+133586
+upvoteCount
+22
+fs-caption
+js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
+right
+Loading when this answer was accepted…
+0
+note
+Accepted
+ta-center
+true
+svg-icon iconCheckmarkLg
+36
+36
+0 0 36 36
+m6 14 8 8L30 6v8L14 30l-8-8v-8Z
+/posts/133586/timeline
+T
+timeline
+s-tooltip
+right
+Show activity on this post.
+Timeline
+true
+mln2 mr0 svg-icon iconHistory
+19
+18
+0 0 19 18
+M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
+answercell post-layout--right
+text
+nofollow noreferrer
+mt24
+d-flex fw-wrap ai-start jc-end gs8 gsy
+dateCreated
+2008-09-25T14:14:29
+flex--item mr16
+flex: 1 1 100px;
+js-post-menu pt2
+133586
+d-flex gs8 s-anchors s-anchors__muted fw-wrap
+flex--item
+/a/133586
+nofollow
+url
+js-share-link js-gps-track
+Short permalink to this answer
+"post.click({ item: 2, priv: 0, post_type: 2 })"
+se-share-sheet
+Share a link to this answer
+""
+answer
+2
+CC BY-SA 2.5
+js-menu-popup-container
+post-signature flex--item fl0
+user-info user-hover
+user-action-time
+2008-09-25 14:14:29Z
+relativetime
+user-gravatar32
+/users/1968/konrad-rudolph
+gravatar-wrapper-32
+user avatar
+32
+32
+user-details
+author
+None
+http://schema.org/Person
+/users/1968/konrad-rudolph
+d-none
+name
+-flair
+reputation-score
+"reputation score 507,914"
+ltr
+true
+true
+true
+d-none
+commentCount
+post-layout--right js-post-comments-component
+comments-133586
+133586
+15
+comments-list js-comments-list
+0
+false
+true
+false
+true
+comment-114353
+comment js-comment 
+114353
+15962
+4
+js-comment-actions comment-actions
+comment-score js-comment-edit-hide
+cool
+comment-text  js-comment-text-and-form
+comment-copy
+d-inline-flex ai-center
+/users/15962/squarecog
+"19,091 reputation"
+comment-user
+comment-date
+ltr
+"2008-10-31 22:31:18Z, License: CC BY-SA 2.5"
+relativetime-clean
+comment-5397855
+comment js-comment 
+5397855
+178436
+0
+js-comment-actions comment-actions
+comment-score js-comment-edit-hide
+comment-text  js-comment-text-and-form
+comment-copy
+d-inline-flex ai-center
+/users/178436/stefan-savev
+"1,279 reputation"
+comment-user
+comment-date
+ltr
+"2011-02-01 01:37:10Z, License: CC BY-SA 2.5"
+relativetime-clean
+comment-5400294
+comment js-comment 
+5400294
+1968
+0
+js-comment-actions comment-actions
+comment-score js-comment-edit-hide
+comment-text  js-comment-text-and-form
+comment-copy
+d-inline-flex ai-center
+/users/1968/konrad-rudolph
+"507,914 reputation"
+comment-user
+comment-date
+ltr
+"2011-02-01 07:48:03Z, License: CC BY-SA 2.5"
+relativetime-clean
+comments-link-133586
+50
+true
+Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
+#
+js-link-separator dno
+js-show-link comments-link dno
+Expand to show all comments on this post
+#
+""
+js-zone-container zone-container-main
+width: 728px
+416076
+answer-416076
+answer js-answer accepted-answer js-accepted-answer
+416076
+132359
+5
+4
+0
+0
+suggestedAnswer
+None
+https://schema.org/Answer
+post-layout
+votecell post-layout--left
+416076
+upvoteCount
+5
+fs-caption
 js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8
 right
 Loading when this answer was accepted…
+0
 note
 Accepted
 ta-center
 true
 svg-icon iconCheckmarkLg
-/posts/19782093/timeline
+36
+36
+0 0 36 36
+m6 14 8 8L30 6v8L14 30l-8-8v-8Z
+/posts/416076/timeline
+T
 timeline
 s-tooltip
 right
@@ -895,16 +1058,29 @@ Show activity on this post.
 Timeline
 true
 mln2 mr0 svg-icon iconHistory
+19
+18
+0 0 19 18
 M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
 answercell post-layout--right
-s-prose js-post-body
 text
+http://en.wikipedia.org/wiki/Google_platform
+nofollow noreferrer
+nofollow noreferrer
+nofollow noreferrer
+http://research.google.com/archive/gfs-sosp2003.pdf
+nofollow noreferrer
+mt24
+d-flex fw-wrap ai-start jc-end gs8 gsy
 dateCreated
+2009-01-06T10:44:22
 flex--item mr16
+flex: 1 1 100px;
 js-post-menu pt2
+416076
 d-flex gs8 s-anchors s-anchors__muted fw-wrap
 flex--item
-/a/19782093
+/a/416076
 nofollow
 url
 js-share-link js-gps-track
@@ -914,32 +1090,768 @@ se-share-sheet
 Share a link to this answer
 ""
 answer
-facebook twitter 
-CC BY-SA 3.0
-bottom-start
-flex--item
-/posts/19782093/edit
-js-suggest-edit-post js-gps-track
-"post.click({ item: 6, priv: 0, post_type: 2 })"
+2
+CC BY-SA 2.5
+js-menu-popup-container
+post-signature owner flex--item fl0
+user-info user-hover
+user-action-time
+2009-01-06 10:44:22Z
+relativetime
+user-gravatar32
+/users/6508/jorge-ferreira
+gravatar-wrapper-32
+user avatar
+32
+32
+user-details
+author
+None
+http://schema.org/Person
+/users/6508/jorge-ferreira
+d-none
+name
+-flair
+reputation-score
+"reputation score 93,075"
+ltr
+true
+true
+true
+d-none
+commentCount
+post-layout--right js-post-comments-component
+comments-416076
+416076
+15
+comments-list js-comments-list
+0
+false
+true
+false
+true
+comments-link-416076
+50
+true
+Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
+#
+js-link-separator dno
+js-show-link comments-link dno
+Expand to show all comments on this post
+#
 ""
+132380
+answer-132380
+answer js-answer
+132380
+132359
+4
+5
+0
+0
+suggestedAnswer
+None
+https://schema.org/Answer
+post-layout
+votecell post-layout--left
+132380
+upvoteCount
+4
+fs-caption
+js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
+right
+Loading when this answer was accepted…
+0
+note
+Accepted
+ta-center
+true
+svg-icon iconCheckmarkLg
+36
+36
+0 0 36 36
+m6 14 8 8L30 6v8L14 30l-8-8v-8Z
+/posts/132380/timeline
+T
+timeline
+s-tooltip
+right
+Show activity on this post.
+Timeline
+true
+mln2 mr0 svg-icon iconHistory
+19
+18
+0 0 19 18
+M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
+answercell post-layout--right
+text
+mt24
+d-flex fw-wrap ai-start jc-end gs8 gsy
+dateCreated
+2008-09-25T09:49:21
+flex--item mr16
+flex: 1 1 100px;
+js-post-menu pt2
+132380
+d-flex gs8 s-anchors s-anchors__muted fw-wrap
 flex--item
-button
-btnFollowPost-19782093
-s-btn s-btn__link js-follow-post js-follow-answer js-gps-track
-"post.click({ item: 14, priv: 0, post_type: 2 })"
-s-tooltip 
-bottom
-bottom
+/a/132380
+nofollow
+url
+js-share-link js-gps-track
+Short permalink to this answer
+"post.click({ item: 2, priv: 0, post_type: 2 })"
+se-share-sheet
+Share a link to this answer
 ""
-Follow this answer to receive notifications
+answer
+2
+CC BY-SA 2.5
 js-menu-popup-container
 post-signature flex--item fl0
 user-info 
 user-action-time
-/posts/19782093/revisions
+2008-09-25 09:49:21Z
+relativetime
+user-gravatar32
+/users/1709/anders-sandvig
+gravatar-wrapper-32
+user avatar
+32
+32
+user-details
+author
+None
+http://schema.org/Person
+/users/1709/anders-sandvig
+d-none
+name
+-flair
+reputation-score
+"reputation score 20,342"
+ltr
+true
+true
+true
+d-none
+commentCount
+post-layout--right js-post-comments-component
+comments-132380
+132380
+15
+comments-list js-comments-list
+0
+false
+true
+false
+true
+comments-link-132380
+50
+true
+Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
+#
+js-link-separator dno
+js-show-link comments-link dno
+Expand to show all comments on this post
+#
+""
+132398
+answer-132398
+answer js-answer
+132398
+132359
+4
+6
+0
+0
+suggestedAnswer
+None
+https://schema.org/Answer
+post-layout
+votecell post-layout--left
+132398
+upvoteCount
+4
+fs-caption
+js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
+right
+Loading when this answer was accepted…
+0
+note
+Accepted
+ta-center
+true
+svg-icon iconCheckmarkLg
+36
+36
+0 0 36 36
+m6 14 8 8L30 6v8L14 30l-8-8v-8Z
+/posts/132398/timeline
+T
+timeline
+s-tooltip
+right
+Show activity on this post.
+Timeline
+true
+mln2 mr0 svg-icon iconHistory
+19
+18
+0 0 19 18
+M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
+answercell post-layout--right
+text
+mt24
+d-flex fw-wrap ai-start jc-end gs8 gsy
+dateCreated
+2008-09-25T09:53:27
+flex--item mr16
+flex: 1 1 100px;
+js-post-menu pt2
+132398
+d-flex gs8 s-anchors s-anchors__muted fw-wrap
+flex--item
+/a/132398
+nofollow
+url
+js-share-link js-gps-track
+Short permalink to this answer
+"post.click({ item: 2, priv: 0, post_type: 2 })"
+se-share-sheet
+Share a link to this answer
+""
+answer
+2
+CC BY-SA 2.5
+js-menu-popup-container
+post-signature flex--item fl0
+user-info user-hover
+user-action-time
+2008-09-25 09:53:27Z
+relativetime
+user-gravatar32
+/users/15416/msalters
+gravatar-wrapper-32
+user avatar
+32
+32
+user-details
+author
+None
+http://schema.org/Person
+/users/15416/msalters
+d-none
+name
+-flair
+reputation-score
+"reputation score 168,055"
+ltr
+true
+true
+true
+d-none
+commentCount
+post-layout--right js-post-comments-component
+comments-132398
+132398
+15
+comments-list js-comments-list
+0
+false
+true
+false
+true
+comments-link-132398
+50
+true
+Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
+#
+js-link-separator dno
+js-show-link comments-link dno
+Expand to show all comments on this post
+#
+""
+255119
+answer-255119
+answer js-answer
+255119
+132359
+4
+7
+0
+0
+suggestedAnswer
+None
+https://schema.org/Answer
+post-layout
+votecell post-layout--left
+255119
+upvoteCount
+4
+fs-caption
+js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
+right
+Loading when this answer was accepted…
+0
+note
+Accepted
+ta-center
+true
+svg-icon iconCheckmarkLg
+36
+36
+0 0 36 36
+m6 14 8 8L30 6v8L14 30l-8-8v-8Z
+/posts/255119/timeline
+T
+timeline
+s-tooltip
+right
+Show activity on this post.
+Timeline
+true
+mln2 mr0 svg-icon iconHistory
+19
+18
+0 0 19 18
+M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
+answercell post-layout--right
+text
+http://www.google.com/technology/pigeonrank.html
+nofollow noreferrer
+mt24
+d-flex fw-wrap ai-start jc-end gs8 gsy
+dateCreated
+2008-10-31T22:18:52
+flex--item mr16
+flex: 1 1 100px;
+js-post-menu pt2
+255119
+d-flex gs8 s-anchors s-anchors__muted fw-wrap
+flex--item
+/a/255119
+nofollow
+url
+js-share-link js-gps-track
+Short permalink to this answer
+"post.click({ item: 2, priv: 0, post_type: 2 })"
+se-share-sheet
+Share a link to this answer
+""
+answer
+2
+CC BY-SA 2.5
+js-menu-popup-container
+post-signature flex--item fl0
+user-info 
+user-action-time
+2008-10-31 22:18:52Z
+relativetime
+user-gravatar32
+/users/26933/hanclinto
+gravatar-wrapper-32
+user avatar
+32
+32
+user-details
+author
+None
+http://schema.org/Person
+/users/26933/hanclinto
+d-none
+name
+-flair
+reputation-score
+reputation score 
+ltr
+true
+true
+true
+d-none
+commentCount
+post-layout--right js-post-comments-component
+comments-255119
+255119
+15
+comments-list js-comments-list
+0
+false
+true
+false
+true
+comment-616364
+comment js-comment 
+616364
+42475
+0
+js-comment-actions comment-actions
+comment-score js-comment-edit-hide
+comment-text  js-comment-text-and-form
+comment-copy
+d-inline-flex ai-center
+/users/42475/xn0vv3r
+"17,360 reputation"
+comment-user
+comment-date
+ltr
+"2009-04-30 10:59:26Z, License: CC BY-SA 2.5"
+relativetime-clean
+comment-1063192
+comment js-comment 
+1063192
+96326
+0
+js-comment-actions comment-actions
+comment-score js-comment-edit-hide
+comment-text  js-comment-text-and-form
+comment-copy
+d-inline-flex ai-center
+/users/96326/victrnava
+"1,104 reputation"
+comment-user
+comment-date
+ltr
+"2009-08-06 06:24:07Z, License: CC BY-SA 2.5"
+relativetime-clean
+comments-link-255119
+50
+true
+Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
+#
+js-link-separator dno
+js-show-link comments-link dno
+Expand to show all comments on this post
+#
+""
+132381
+answer-132381
+answer js-answer
+132381
+132359
+3
+8
+0
+0
+suggestedAnswer
+None
+https://schema.org/Answer
+post-layout
+votecell post-layout--left
+132381
+upvoteCount
+3
+fs-caption
+js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
+right
+Loading when this answer was accepted…
+0
+note
+Accepted
+ta-center
+true
+svg-icon iconCheckmarkLg
+36
+36
+0 0 36 36
+m6 14 8 8L30 6v8L14 30l-8-8v-8Z
+/posts/132381/timeline
+T
+timeline
+s-tooltip
+right
+Show activity on this post.
+Timeline
+true
+mln2 mr0 svg-icon iconHistory
+19
+18
+0 0 19 18
+M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
+answercell post-layout--right
+text
+mt24
+d-flex fw-wrap ai-start jc-end gs8 gsy
+dateCreated
+2008-09-25T09:49:45
+flex--item mr16
+flex: 1 1 100px;
+js-post-menu pt2
+132381
+d-flex gs8 s-anchors s-anchors__muted fw-wrap
+flex--item
+/a/132381
+nofollow
+url
+js-share-link js-gps-track
+Short permalink to this answer
+"post.click({ item: 2, priv: 0, post_type: 2 })"
+se-share-sheet
+Share a link to this answer
+""
+answer
+2
+CC BY-SA 2.5
+js-menu-popup-container
+post-signature flex--item fl0
+user-info user-hover
+user-action-time
+2008-09-25 09:49:45Z
+relativetime
+user-gravatar32
+/users/15075/richard-walton
+gravatar-wrapper-32
+https://i.stack.imgur.com/ZEyei.jpg?s=64&g=1
+user avatar
+32
+32
+user-details
+author
+None
+http://schema.org/Person
+/users/15075/richard-walton
+d-none
+name
+-flair
+reputation-score
+reputation score 
+ltr
+true
+true
+true
+d-none
+commentCount
+post-layout--right js-post-comments-component
+comments-132381
+132381
+15
+comments-list js-comments-list
+0
+false
+true
+false
+true
+comment-33016
+comment js-comment 
+33016
+2827
+0
+js-comment-actions comment-actions
+comment-score js-comment-edit-hide
+comment-text  js-comment-text-and-form
+comment-copy
+d-inline-flex ai-center
+/users/2827/henryr
+"7,779 reputation"
+comment-user
+comment-date
+ltr
+"2008-09-25 10:12:51Z, License: CC BY-SA 2.5"
+relativetime-clean
+comments-link-132381
+50
+true
+Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
+#
+js-link-separator dno
+js-show-link comments-link dno
+Expand to show all comments on this post
+#
+""
+132388
+answer-132388
+answer js-answer
+132388
+132359
+3
+9
+0
+0
+suggestedAnswer
+None
+https://schema.org/Answer
+post-layout
+votecell post-layout--left
+132388
+upvoteCount
+3
+fs-caption
+js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
+right
+Loading when this answer was accepted…
+0
+note
+Accepted
+ta-center
+true
+svg-icon iconCheckmarkLg
+36
+36
+0 0 36 36
+m6 14 8 8L30 6v8L14 30l-8-8v-8Z
+/posts/132388/timeline
+T
+timeline
+s-tooltip
+right
+Show activity on this post.
+Timeline
+true
+mln2 mr0 svg-icon iconHistory
+19
+18
+0 0 19 18
+M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
+answercell post-layout--right
+text
+mt24
+d-flex fw-wrap ai-start jc-end gs8 gsy
+dateCreated
+2008-09-25T09:50:31
+flex--item mr16
+flex: 1 1 100px;
+js-post-menu pt2
+132388
+d-flex gs8 s-anchors s-anchors__muted fw-wrap
+flex--item
+/a/132388
+nofollow
+url
+js-share-link js-gps-track
+Short permalink to this answer
+"post.click({ item: 2, priv: 0, post_type: 2 })"
+se-share-sheet
+Share a link to this answer
+""
+answer
+2
+CC BY-SA 2.5
+js-menu-popup-container
+post-signature flex--item fl0
+user-info user-hover
+user-action-time
+2008-09-25 09:50:31Z
+relativetime
+user-gravatar32
+/users/3839/matthew-watson
+gravatar-wrapper-32
+https://www.gravatar.com/avatar/d36d13c416d215a90fdd4a00a8808414?s=64&d=identicon&r=PG
+user avatar
+32
+32
+user-details
+author
+None
+http://schema.org/Person
+/users/3839/matthew-watson
+d-none
+name
+-flair
+reputation-score
+"reputation score 13,951"
+ltr
+true
+true
+true
+d-none
+commentCount
+post-layout--right js-post-comments-component
+comments-132388
+132388
+15
+comments-list js-comments-list
+0
+false
+true
+false
+true
+comments-link-132388
+50
+true
+Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
+#
+js-link-separator dno
+js-show-link comments-link dno
+Expand to show all comments on this post
+#
+""
+254537
+answer-254537
+answer js-answer
+254537
+132359
+3
+10
+0
+0
+suggestedAnswer
+None
+https://schema.org/Answer
+post-layout
+votecell post-layout--left
+254537
+upvoteCount
+3
+fs-caption
+js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
+right
+Loading when this answer was accepted…
+0
+note
+Accepted
+ta-center
+true
+svg-icon iconCheckmarkLg
+36
+36
+0 0 36 36
+m6 14 8 8L30 6v8L14 30l-8-8v-8Z
+/posts/254537/timeline
+T
+timeline
+s-tooltip
+right
+Show activity on this post.
+Timeline
+true
+mln2 mr0 svg-icon iconHistory
+19
+18
+0 0 19 18
+M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
+answercell post-layout--right
+text
+mt24
+d-flex fw-wrap ai-start jc-end gs8 gsy
+dateCreated
+2008-10-31T18:58:07
+flex--item mr16
+flex: 1 1 100px;
+js-post-menu pt2
+254537
+d-flex gs8 s-anchors s-anchors__muted fw-wrap
+flex--item
+/a/254537
+nofollow
+url
+js-share-link js-gps-track
+Short permalink to this answer
+"post.click({ item: 2, priv: 0, post_type: 2 })"
+se-share-sheet
+Share a link to this answer
+""
+answer
+2
+CC BY-SA 2.5
+js-menu-popup-container
+post-signature flex--item fl0
+user-info 
+user-action-time
+/posts/254537/revisions
 show all edits to this post
 js-gps-track
 "post.click({ item: 4, priv: 0, post_type: 2 })"
+2008-10-31 22:13:43Z
 relativetime
 user-gravatar32
 user-details
@@ -947,172 +1859,83 @@ user-details
 post-signature flex--item fl0
 user-info user-hover
 user-action-time
+2008-10-31 18:58:07Z
 relativetime
 user-gravatar32
-/users/2670792/christian-tapia
+/users/13864/jilles
 gravatar-wrapper-32
+https://www.gravatar.com/avatar/577f8703aaa0f715ca8fcd728656fcff?s=64&d=identicon&r=PG
 user avatar
-bar-sm
+32
+32
 user-details
 author
 None
 http://schema.org/Person
-/users/2670792/christian-tapia
+/users/13864/jilles
 d-none
 name
 -flair
 reputation-score
-"reputation score 32,710"
-6 gold badges
+reputation score 
+ltr
 true
-badge1
-badgecount
-v-visible-sr
-50 silver badges
 true
-badge2
-badgecount
-v-visible-sr
-72 bronze badges
-true
-badge3
-badgecount
-v-visible-sr
 d-none
 commentCount
 post-layout--right js-post-comments-component
-comments-19782093
-comments js-comments-container bt bc-black-075 mt12 
+comments-254537
+254537
+15
 comments-list js-comments-list
+0
 false
 true
 false
 true
-comment-55726530
-comment js-comment 
-js-comment-actions comment-actions
-comment-score js-comment-edit-hide
-number of 'useful comment' votes received
-supernova
-comment-text  js-comment-text-and-form
-comment-body js-comment-edit-hide
-comment-copy
-d-inline-flex ai-center
-/users/3768495/user3768495
-"3,471 reputation"
-comment-user
-comment-date
-"2015-11-29 17:15:32Z, License: CC BY-SA 3.0"
-relativetime-clean
-comment-91393102
-comment js-comment 
-js-comment-actions comment-actions
-comment-score js-comment-edit-hide
-number of 'useful comment' votes received
-cool
-comment-text  js-comment-text-and-form
-comment-body js-comment-edit-hide
-comment-copy
-d-inline-flex ai-center
-/users/5400773/gathide
-603 reputation
-comment-user
-comment-date
-"2018-09-07 12:09:20Z, License: CC BY-SA 4.0"
-relativetime-clean
-comment-99444900
-comment js-comment 
-js-comment-actions comment-actions
-comment-score js-comment-edit-hide
-number of 'useful comment' votes received
-hot
-comment-text  js-comment-text-and-form
-comment-body js-comment-edit-hide
-comment-copy
-d-inline-flex ai-center
-/users/4216654/cluxter
-304 reputation
-comment-user
-comment-date
-"2019-06-03 10:04:38Z, License: CC BY-SA 4.0"
-relativetime-clean
-comment-112159655
-comment js-comment 
-js-comment-actions comment-actions
-comment-score js-comment-edit-hide
-number of 'useful comment' votes received
-cool
-comment-text  js-comment-text-and-form
-comment-body js-comment-edit-hide
-comment-copy
-d-inline-flex ai-center
-/users/841457/dragonlord
-"5,901 reputation"
-comment-user
-comment-date
-"2020-08-15 17:27:00Z, License: CC BY-SA 4.0"
-relativetime-clean
-comment-115399312
-comment js-comment 
-js-comment-actions comment-actions
-comment-score js-comment-edit-hide
-comment-text  js-comment-text-and-form
-comment-body js-comment-edit-hide
-comment-copy
-d-inline-flex ai-center
-/users/5510930/pere
-616 reputation
-comment-user
-comment-date
-"2020-12-13 11:24:22Z, License: CC BY-SA 4.0"
-relativetime-clean
-comments-link-19782093
+comments-link-254537
+50
 true
-js-add-link comments-link disabled-link
 Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
-button
+#
 js-link-separator dno
 js-show-link comments-link dno
 Expand to show all comments on this post
+#
 ""
-button
-answer-53211247
+132392
+answer-132392
 answer js-answer
+132392
+132359
+2
+11
+0
+0
 suggestedAnswer
 None
+https://schema.org/Answer
 post-layout
 votecell post-layout--left
-js-vote-up-btn flex--item s-btn s-btn__unset c-pointer 
-s-tooltip
-right
-This answer is useful
-false
-Up vote
-fc-theme-primary
-""
-true
-svg-icon iconArrowUpLg
-js-vote-count flex--item d-flex fd-column ai-center fc-black-500 fs-title
+132392
 upvoteCount
-js-vote-down-btn flex--item s-btn s-btn__unset c-pointer 
-s-tooltip
-right
-This answer is not useful
-false
-Down vote
-fc-theme-primary
-""
-true
-svg-icon iconArrowDownLg
+2
+fs-caption
 js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
 right
 Loading when this answer was accepted…
+0
 note
 Accepted
 ta-center
 true
 svg-icon iconCheckmarkLg
-/posts/53211247/timeline
+36
+36
+0 0 36 36
+m6 14 8 8L30 6v8L14 30l-8-8v-8Z
+/posts/132392/timeline
+T
 timeline
 s-tooltip
 right
@@ -1120,16 +1943,28 @@ Show activity on this post.
 Timeline
 true
 mln2 mr0 svg-icon iconHistory
+19
+18
+0 0 19 18
 M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
 answercell post-layout--right
-s-prose js-post-body
 text
+nofollow noreferrer
+http://research.google.com/archive/gfs-sosp2003.pdf
+nofollow noreferrer
+http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=MapReduce%3A+Simplified+Data+Processing+on+Large+Clusters+Dean+Ghemawat
+nofollow noreferrer
+mt24
+d-flex fw-wrap ai-start jc-end gs8 gsy
 dateCreated
+2008-09-25T09:51:14
 flex--item mr16
+flex: 1 1 100px;
 js-post-menu pt2
+132392
 d-flex gs8 s-anchors s-anchors__muted fw-wrap
 flex--item
-/a/53211247
+/a/132392
 nofollow
 url
 js-share-link js-gps-track
@@ -1139,119 +1974,89 @@ se-share-sheet
 Share a link to this answer
 ""
 answer
-facebook twitter 
-CC BY-SA 4.0
-bottom-start
-flex--item
-/posts/53211247/edit
-js-suggest-edit-post js-gps-track
-"post.click({ item: 6, priv: 0, post_type: 2 })"
-""
-flex--item
-button
-btnFollowPost-53211247
-s-btn s-btn__link js-follow-post js-follow-answer js-gps-track
-"post.click({ item: 14, priv: 0, post_type: 2 })"
-s-tooltip 
-bottom
-bottom
-""
-Follow this answer to receive notifications
+2
+CC BY-SA 2.5
 js-menu-popup-container
 post-signature flex--item fl0
 user-info user-hover
 user-action-time
+2008-09-25 09:51:14Z
 relativetime
 user-gravatar32
-/users/128397/daniel-pryden
+/users/1730/nicolas
 gravatar-wrapper-32
 user avatar
-bar-sm
+32
+32
 user-details
 author
 None
 http://schema.org/Person
-/users/128397/daniel-pryden
+/users/1730/nicolas
 d-none
 name
 -flair
 reputation-score
-"reputation score 57,372"
-15 gold badges
+"reputation score 24,171"
+ltr
 true
-badge1
-badgecount
-v-visible-sr
-96 silver badges
 true
-badge2
-badgecount
-v-visible-sr
-133 bronze badges
 true
-badge3
-badgecount
-v-visible-sr
 d-none
 commentCount
 post-layout--right js-post-comments-component
-comments-53211247
-comments js-comments-container bt bc-black-075 mt12  dno
+comments-132392
+132392
+15
 comments-list js-comments-list
+0
 false
 true
 false
 true
-comments-link-53211247
+comments-link-132392
+50
 true
-js-add-link comments-link disabled-link
 Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
-button
+#
 js-link-separator dno
 js-show-link comments-link dno
 Expand to show all comments on this post
+#
 ""
-button
-js-zone-container zone-container-main
-everyonelovesstackoverflow everyoneloves__mid-second-leaderboard everyoneloves__leaderboard
-js-report-ad-button-container 
-answer-44786454
+257271
+answer-257271
 answer js-answer
+257271
+132359
+2
+12
+0
+0
 suggestedAnswer
 None
+https://schema.org/Answer
 post-layout
 votecell post-layout--left
-js-vote-up-btn flex--item s-btn s-btn__unset c-pointer 
-s-tooltip
-right
-This answer is useful
-false
-Up vote
-fc-theme-primary
-""
-true
-svg-icon iconArrowUpLg
-js-vote-count flex--item d-flex fd-column ai-center fc-black-500 fs-title
+257271
 upvoteCount
-js-vote-down-btn flex--item s-btn s-btn__unset c-pointer 
-s-tooltip
-right
-This answer is not useful
-false
-Down vote
-fc-theme-primary
-""
-true
-svg-icon iconArrowDownLg
+2
+fs-caption
 js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
 right
 Loading when this answer was accepted…
+0
 note
 Accepted
 ta-center
 true
 svg-icon iconCheckmarkLg
-/posts/44786454/timeline
+36
+36
+0 0 36 36
+m6 14 8 8L30 6v8L14 30l-8-8v-8Z
+/posts/257271/timeline
+T
 timeline
 s-tooltip
 right
@@ -1259,16 +2064,24 @@ Show activity on this post.
 Timeline
 true
 mln2 mr0 svg-icon iconHistory
+19
+18
+0 0 19 18
 M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
 answercell post-layout--right
-s-prose js-post-body
 text
+nofollow noreferrer
+mt24
+d-flex fw-wrap ai-start jc-end gs8 gsy
 dateCreated
+2008-11-02T19:52:27
 flex--item mr16
+flex: 1 1 100px;
 js-post-menu pt2
+257271
 d-flex gs8 s-anchors s-anchors__muted fw-wrap
 flex--item
-/a/44786454
+/a/257271
 nofollow
 url
 js-share-link js-gps-track
@@ -1278,163 +2091,89 @@ se-share-sheet
 Share a link to this answer
 ""
 answer
-facebook twitter 
-CC BY-SA 4.0
-bottom-start
-flex--item
-/posts/44786454/edit
-js-suggest-edit-post js-gps-track
-"post.click({ item: 6, priv: 0, post_type: 2 })"
-""
-flex--item
-button
-btnFollowPost-44786454
-s-btn s-btn__link js-follow-post js-follow-answer js-gps-track
-"post.click({ item: 14, priv: 0, post_type: 2 })"
-s-tooltip 
-bottom
-bottom
-""
-Follow this answer to receive notifications
+2
+CC BY-SA 2.5
 js-menu-popup-container
 post-signature flex--item fl0
 user-info 
 user-action-time
-/posts/44786454/revisions
-show all edits to this post
-js-gps-track
-"post.click({ item: 4, priv: 0, post_type: 2 })"
+2008-11-02 19:52:27Z
 relativetime
 user-gravatar32
-/users/9454010/aem
+/users/20804/user20804
 gravatar-wrapper-32
+https://www.gravatar.com/avatar/cd29ad3d00e1205d0edd401f28951dd9?s=64&d=identicon&r=PG
 user avatar
-bar-sm
-user-details
-/users/9454010/aem
--flair
-reputation-score
-reputation score 
-7 gold badges
-true
-badge1
-badgecount
-v-visible-sr
-17 silver badges
-true
-badge2
-badgecount
-v-visible-sr
-27 bronze badges
-true
-badge3
-badgecount
-v-visible-sr
-post-signature flex--item fl0
-user-info user-hover
-user-action-time
-relativetime
-user-gravatar32
-/users/1959965/wpp
-gravatar-wrapper-32
-user avatar
-bar-sm
+32
+32
 user-details
 author
 None
 http://schema.org/Person
-/users/1959965/wpp
+/users/20804/user20804
 d-none
 name
 -flair
 reputation-score
 reputation score 
-6 silver badges
+ltr
 true
-badge2
-badgecount
-v-visible-sr
-8 bronze badges
 true
-badge3
-badgecount
-v-visible-sr
 d-none
 commentCount
 post-layout--right js-post-comments-component
-comments-44786454
-comments js-comments-container bt bc-black-075 mt12 
+comments-257271
+257271
+15
 comments-list js-comments-list
+0
 false
 true
 false
 true
-comment-112426277
-comment js-comment 
-js-comment-actions comment-actions
-comment-score js-comment-edit-hide
-number of 'useful comment' votes received
-cool
-comment-text  js-comment-text-and-form
-comment-body js-comment-edit-hide
-comment-copy
-d-inline-flex ai-center
-/users/2114873/richar8086
-169 reputation
-comment-user
-comment-date
-"2020-08-25 11:49:59Z, License: CC BY-SA 4.0"
-relativetime-clean
-this comment was edited 2 times
+comments-link-257271
+50
 true
-va-text-bottom o50 svg-icon iconPencilSm
-comments-link-44786454
-true
-js-add-link comments-link disabled-link
 Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
-button
+#
 js-link-separator dno
 js-show-link comments-link dno
 Expand to show all comments on this post
+#
 ""
-button
-answer-58426865
+132362
+answer-132362
 answer js-answer
+132362
+132359
+1
+13
+0
+0
 suggestedAnswer
 None
+https://schema.org/Answer
 post-layout
 votecell post-layout--left
-js-vote-up-btn flex--item s-btn s-btn__unset c-pointer 
-s-tooltip
-right
-This answer is useful
-false
-Up vote
-fc-theme-primary
-""
-true
-svg-icon iconArrowUpLg
-js-vote-count flex--item d-flex fd-column ai-center fc-black-500 fs-title
+132362
 upvoteCount
-js-vote-down-btn flex--item s-btn s-btn__unset c-pointer 
-s-tooltip
-right
-This answer is not useful
-false
-Down vote
-fc-theme-primary
-""
-true
-svg-icon iconArrowDownLg
+1
+fs-caption
 js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
 right
 Loading when this answer was accepted…
+0
 note
 Accepted
 ta-center
 true
 svg-icon iconCheckmarkLg
-/posts/58426865/timeline
+36
+36
+0 0 36 36
+m6 14 8 8L30 6v8L14 30l-8-8v-8Z
+/posts/132362/timeline
+T
 timeline
 s-tooltip
 right
@@ -1442,16 +2181,23 @@ Show activity on this post.
 Timeline
 true
 mln2 mr0 svg-icon iconHistory
+19
+18
+0 0 19 18
 M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
 answercell post-layout--right
-s-prose js-post-body
 text
+mt24
+d-flex fw-wrap ai-start jc-end gs8 gsy
 dateCreated
+2008-09-25T09:44:34
 flex--item mr16
+flex: 1 1 100px;
 js-post-menu pt2
+132362
 d-flex gs8 s-anchors s-anchors__muted fw-wrap
 flex--item
-/a/58426865
+/a/132362
 nofollow
 url
 js-share-link js-gps-track
@@ -1461,1943 +2207,106 @@ se-share-sheet
 Share a link to this answer
 ""
 answer
-facebook twitter 
-CC BY-SA 4.0
-bottom-start
-flex--item
-/posts/58426865/edit
-js-suggest-edit-post js-gps-track
-"post.click({ item: 6, priv: 0, post_type: 2 })"
-""
-flex--item
-button
-btnFollowPost-58426865
-s-btn s-btn__link js-follow-post js-follow-answer js-gps-track
-"post.click({ item: 14, priv: 0, post_type: 2 })"
-s-tooltip 
-bottom
-bottom
-""
-Follow this answer to receive notifications
-js-menu-popup-container
-post-signature flex--item fl0
-user-info 
-user-action-time
-/posts/58426865/revisions
-show all edits to this post
-js-gps-track
-"post.click({ item: 4, priv: 0, post_type: 2 })"
-relativetime
-user-gravatar32
-/users/9454010/aem
-gravatar-wrapper-32
-user avatar
-bar-sm
-user-details
-/users/9454010/aem
--flair
-reputation-score
-reputation score 
-7 gold badges
-true
-badge1
-badgecount
-v-visible-sr
-17 silver badges
-true
-badge2
-badgecount
-v-visible-sr
-27 bronze badges
-true
-badge3
-badgecount
-v-visible-sr
-post-signature flex--item fl0
-user-info user-hover
-user-action-time
-relativetime
-user-gravatar32
-/users/6278133/firzok-nadeem
-gravatar-wrapper-32
-user avatar
-bar-sm
-user-details
-author
-None
-http://schema.org/Person
-/users/6278133/firzok-nadeem
-d-none
-name
--flair
-reputation-score
-reputation score 
-5 silver badges
-true
-badge2
-badgecount
-v-visible-sr
-14 bronze badges
-true
-badge3
-badgecount
-v-visible-sr
-d-none
-commentCount
-post-layout--right js-post-comments-component
-comments-58426865
-comments js-comments-container bt bc-black-075 mt12 
-comments-list js-comments-list
-false
-true
-false
-true
-comment-119792848
-comment js-comment 
-js-comment-actions comment-actions
-comment-score js-comment-edit-hide
-comment-text  js-comment-text-and-form
-comment-body js-comment-edit-hide
-comment-copy
-d-inline-flex ai-center
-/users/107301/dark-star1
-"6,530 reputation"
-comment-user
-comment-date
-"2021-05-31 12:25:51Z, License: CC BY-SA 4.0"
-relativetime-clean
-comment-121391177
-comment js-comment 
-js-comment-actions comment-actions
-comment-score js-comment-edit-hide
-number of 'useful comment' votes received
-cool
-comment-text  js-comment-text-and-form
-comment-body js-comment-edit-hide
-comment-copy
-d-inline-flex ai-center
-/users/16371101/shavow
-82 reputation
-comment-user
-comment-date
-"2021-08-07 02:37:37Z, License: CC BY-SA 4.0"
-relativetime-clean
-comments-link-58426865
-true
-js-add-link comments-link disabled-link
-Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
-button
-js-link-separator dno
-js-show-link comments-link dno
-Expand to show all comments on this post
-""
-button
-answer-52020169
-answer js-answer
-suggestedAnswer
-None
-post-layout
-votecell post-layout--left
-js-vote-up-btn flex--item s-btn s-btn__unset c-pointer 
-s-tooltip
-right
-This answer is useful
-false
-Up vote
-fc-theme-primary
-""
-true
-svg-icon iconArrowUpLg
-js-vote-count flex--item d-flex fd-column ai-center fc-black-500 fs-title
-upvoteCount
-js-vote-down-btn flex--item s-btn s-btn__unset c-pointer 
-s-tooltip
-right
-This answer is not useful
-false
-Down vote
-fc-theme-primary
-""
-true
-svg-icon iconArrowDownLg
-js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
-right
-Loading when this answer was accepted…
-note
-Accepted
-ta-center
-true
-svg-icon iconCheckmarkLg
-/posts/52020169/timeline
-timeline
-s-tooltip
-right
-Show activity on this post.
-Timeline
-true
-mln2 mr0 svg-icon iconHistory
-M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
-answercell post-layout--right
-s-prose js-post-body
-text
-dateCreated
-flex--item mr16
-js-post-menu pt2
-d-flex gs8 s-anchors s-anchors__muted fw-wrap
-flex--item
-/a/52020169
-nofollow
-url
-js-share-link js-gps-track
-Short permalink to this answer
-"post.click({ item: 2, priv: 0, post_type: 2 })"
-se-share-sheet
-Share a link to this answer
-""
-answer
-facebook twitter 
-CC BY-SA 4.0
-bottom-start
-flex--item
-/posts/52020169/edit
-js-suggest-edit-post js-gps-track
-"post.click({ item: 6, priv: 0, post_type: 2 })"
-""
-flex--item
-button
-btnFollowPost-52020169
-s-btn s-btn__link js-follow-post js-follow-answer js-gps-track
-"post.click({ item: 14, priv: 0, post_type: 2 })"
-s-tooltip 
-bottom
-bottom
-""
-Follow this answer to receive notifications
-js-menu-popup-container
-post-signature flex--item fl0
-user-info 
-user-action-time
-/posts/52020169/revisions
-show all edits to this post
-js-gps-track
-"post.click({ item: 4, priv: 0, post_type: 2 })"
-relativetime
-user-gravatar32
-user-details
--flair
-post-signature flex--item fl0
-user-info 
-user-action-time
-relativetime
-user-gravatar32
-/users/7400128/chandella07
-gravatar-wrapper-32
-user avatar
-bar-sm
-user-details
-author
-None
-http://schema.org/Person
-/users/7400128/chandella07
-d-none
-name
--flair
-reputation-score
-reputation score 
-13 silver badges
-true
-badge2
-badgecount
-v-visible-sr
-21 bronze badges
-true
-badge3
-badgecount
-v-visible-sr
-d-none
-commentCount
-post-layout--right js-post-comments-component
-comments-52020169
-comments js-comments-container bt bc-black-075 mt12 
-comments-list js-comments-list
-false
-true
-false
-true
-comment-120851187
-comment js-comment 
-js-comment-actions comment-actions
-comment-score js-comment-edit-hide
-number of 'useful comment' votes received
-cool
-comment-text  js-comment-text-and-form
-comment-body js-comment-edit-hide
-comment-copy
-d-inline-flex ai-center
-/users/857731/michael-litvin
-"3,694 reputation"
-comment-user
-comment-date
-"2021-07-14 15:33:12Z, License: CC BY-SA 4.0"
-relativetime-clean
-comments-link-52020169
-true
-js-add-link comments-link disabled-link
-Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
-button
-js-link-separator dno
-js-show-link comments-link dno
-Expand to show all comments on this post
-""
-button
-answer-46964691
-answer js-answer
-suggestedAnswer
-None
-post-layout
-votecell post-layout--left
-js-vote-up-btn flex--item s-btn s-btn__unset c-pointer 
-s-tooltip
-right
-This answer is useful
-false
-Up vote
-fc-theme-primary
-""
-true
-svg-icon iconArrowUpLg
-js-vote-count flex--item d-flex fd-column ai-center fc-black-500 fs-title
-upvoteCount
-js-vote-down-btn flex--item s-btn s-btn__unset c-pointer 
-s-tooltip
-right
-This answer is not useful
-false
-Down vote
-fc-theme-primary
-""
-true
-svg-icon iconArrowDownLg
-js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
-right
-Loading when this answer was accepted…
-note
-Accepted
-ta-center
-true
-svg-icon iconCheckmarkLg
-/posts/46964691/timeline
-timeline
-s-tooltip
-right
-Show activity on this post.
-Timeline
-true
-mln2 mr0 svg-icon iconHistory
-M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
-answercell post-layout--right
-s-prose js-post-body
-text
-dateCreated
-flex--item mr16
-js-post-menu pt2
-d-flex gs8 s-anchors s-anchors__muted fw-wrap
-flex--item
-/a/46964691
-nofollow
-url
-js-share-link js-gps-track
-Short permalink to this answer
-"post.click({ item: 2, priv: 0, post_type: 2 })"
-se-share-sheet
-Share a link to this answer
-""
-answer
-facebook twitter 
-CC BY-SA 4.0
-bottom-start
-flex--item
-/posts/46964691/edit
-js-suggest-edit-post js-gps-track
-"post.click({ item: 6, priv: 0, post_type: 2 })"
-""
-flex--item
-button
-btnFollowPost-46964691
-s-btn s-btn__link js-follow-post js-follow-answer js-gps-track
-"post.click({ item: 14, priv: 0, post_type: 2 })"
-s-tooltip 
-bottom
-bottom
-""
-Follow this answer to receive notifications
-js-menu-popup-container
-post-signature flex--item fl0
-user-info 
-user-action-time
-/posts/46964691/revisions
-show all edits to this post
-js-gps-track
-"post.click({ item: 4, priv: 0, post_type: 2 })"
-relativetime
-user-gravatar32
-/users/9454010/aem
-gravatar-wrapper-32
-user avatar
-bar-sm
-user-details
-/users/9454010/aem
--flair
-reputation-score
-reputation score 
-7 gold badges
-true
-badge1
-badgecount
-v-visible-sr
-17 silver badges
-true
-badge2
-badgecount
-v-visible-sr
-27 bronze badges
-true
-badge3
-badgecount
-v-visible-sr
-post-signature flex--item fl0
-user-info user-hover
-user-action-time
-relativetime
-user-gravatar32
-/users/3846121/scott-p
-gravatar-wrapper-32
-user avatar
-bar-sm
-user-details
-author
-None
-http://schema.org/Person
-/users/3846121/scott-p
-d-none
-name
--flair
-reputation-score
-reputation score 
-10 silver badges
-true
-badge2
-badgecount
-v-visible-sr
-11 bronze badges
-true
-badge3
-badgecount
-v-visible-sr
-d-none
-commentCount
-post-layout--right js-post-comments-component
-comments-46964691
-comments js-comments-container bt bc-black-075 mt12 
-comments-list js-comments-list
-false
-true
-false
-true
-comment-95886049
-comment js-comment 
-js-comment-actions comment-actions
-comment-score js-comment-edit-hide
-number of 'useful comment' votes received
-warm
-comment-text  js-comment-text-and-form
-comment-body js-comment-edit-hide
-comment-copy
-d-inline-flex ai-center
-/users/5899931/jakestrang
-167 reputation
-comment-user
-comment-date
-"2019-02-05 20:23:16Z, License: CC BY-SA 4.0"
-relativetime-clean
-comments-link-46964691
-true
-js-add-link comments-link disabled-link
-Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
-button
-js-link-separator dno
-js-show-link comments-link dno
-Expand to show all comments on this post
-""
-button
-answer-51932807
-answer js-answer
-suggestedAnswer
-None
-post-layout
-votecell post-layout--left
-js-vote-up-btn flex--item s-btn s-btn__unset c-pointer 
-s-tooltip
-right
-This answer is useful
-false
-Up vote
-fc-theme-primary
-""
-true
-svg-icon iconArrowUpLg
-js-vote-count flex--item d-flex fd-column ai-center fc-black-500 fs-title
-upvoteCount
-js-vote-down-btn flex--item s-btn s-btn__unset c-pointer 
-s-tooltip
-right
-This answer is not useful
-false
-Down vote
-fc-theme-primary
-""
-true
-svg-icon iconArrowDownLg
-js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
-right
-Loading when this answer was accepted…
-note
-Accepted
-ta-center
-true
-svg-icon iconCheckmarkLg
-/posts/51932807/timeline
-timeline
-s-tooltip
-right
-Show activity on this post.
-Timeline
-true
-mln2 mr0 svg-icon iconHistory
-M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
-answercell post-layout--right
-s-prose js-post-body
-text
-dateCreated
-flex--item mr16
-js-post-menu pt2
-d-flex gs8 s-anchors s-anchors__muted fw-wrap
-flex--item
-/a/51932807
-nofollow
-url
-js-share-link js-gps-track
-Short permalink to this answer
-"post.click({ item: 2, priv: 0, post_type: 2 })"
-se-share-sheet
-Share a link to this answer
-""
-answer
-facebook twitter 
-CC BY-SA 4.0
-bottom-start
-flex--item
-/posts/51932807/edit
-js-suggest-edit-post js-gps-track
-"post.click({ item: 6, priv: 0, post_type: 2 })"
-""
-flex--item
-button
-btnFollowPost-51932807
-s-btn s-btn__link js-follow-post js-follow-answer js-gps-track
-"post.click({ item: 14, priv: 0, post_type: 2 })"
-s-tooltip 
-bottom
-bottom
-""
-Follow this answer to receive notifications
-js-menu-popup-container
-post-signature flex--item fl0
-user-info 
-user-action-time
-/posts/51932807/revisions
-show all edits to this post
-js-gps-track
-"post.click({ item: 4, priv: 0, post_type: 2 })"
-relativetime
-user-gravatar32
-/users/9454010/aem
-gravatar-wrapper-32
-user avatar
-bar-sm
-user-details
-/users/9454010/aem
--flair
-reputation-score
-reputation score 
-7 gold badges
-true
-badge1
-badgecount
-v-visible-sr
-17 silver badges
-true
-badge2
-badgecount
-v-visible-sr
-27 bronze badges
-true
-badge3
-badgecount
-v-visible-sr
-post-signature flex--item fl0
-user-info 
-user-action-time
-relativetime
-user-gravatar32
-/users/1125449/juke
-gravatar-wrapper-32
-user avatar
-bar-sm
-user-details
-author
-None
-http://schema.org/Person
-/users/1125449/juke
-d-none
-name
--flair
-reputation-score
-reputation score 
-1 gold badge
-true
-badge1
-badgecount
-v-visible-sr
-8 silver badges
-true
-badge2
-badgecount
-v-visible-sr
-13 bronze badges
-true
-badge3
-badgecount
-v-visible-sr
-d-none
-commentCount
-post-layout--right js-post-comments-component
-comments-51932807
-comments js-comments-container bt bc-black-075 mt12 
-comments-list js-comments-list
-false
-true
-false
-true
-comment-103776969
-comment js-comment 
-js-comment-actions comment-actions
-comment-score js-comment-edit-hide
-comment-text  js-comment-text-and-form
-comment-body js-comment-edit-hide
-comment-copy
-d-inline-flex ai-center
-/users/3217870/paul
-"3,332 reputation"
-comment-user
-comment-date
-"2019-11-07 07:40:45Z, License: CC BY-SA 4.0"
-relativetime-clean
-comments-link-51932807
-true
-js-add-link comments-link disabled-link
-Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
-button
-js-link-separator dno
-js-show-link comments-link dno
-Expand to show all comments on this post
-""
-button
-answer-53210260
-answer js-answer
-suggestedAnswer
-None
-post-layout
-votecell post-layout--left
-js-vote-up-btn flex--item s-btn s-btn__unset c-pointer 
-s-tooltip
-right
-This answer is useful
-false
-Up vote
-fc-theme-primary
-""
-true
-svg-icon iconArrowUpLg
-js-vote-count flex--item d-flex fd-column ai-center fc-black-500 fs-title
-upvoteCount
-js-vote-down-btn flex--item s-btn s-btn__unset c-pointer 
-s-tooltip
-right
-This answer is not useful
-false
-Down vote
-fc-theme-primary
-""
-true
-svg-icon iconArrowDownLg
-js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
-right
-Loading when this answer was accepted…
-note
-Accepted
-ta-center
-true
-svg-icon iconCheckmarkLg
-/posts/53210260/timeline
-timeline
-s-tooltip
-right
-Show activity on this post.
-Timeline
-true
-mln2 mr0 svg-icon iconHistory
-M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
-answercell post-layout--right
-s-prose js-post-body
-text
-dateCreated
-flex--item mr16
-js-post-menu pt2
-d-flex gs8 s-anchors s-anchors__muted fw-wrap
-flex--item
-/a/53210260
-nofollow
-url
-js-share-link js-gps-track
-Short permalink to this answer
-"post.click({ item: 2, priv: 0, post_type: 2 })"
-se-share-sheet
-Share a link to this answer
-""
-answer
-facebook twitter 
-CC BY-SA 4.0
-bottom-start
-flex--item
-/posts/53210260/edit
-js-suggest-edit-post js-gps-track
-"post.click({ item: 6, priv: 0, post_type: 2 })"
-""
-flex--item
-button
-btnFollowPost-53210260
-s-btn s-btn__link js-follow-post js-follow-answer js-gps-track
-"post.click({ item: 14, priv: 0, post_type: 2 })"
-s-tooltip 
-bottom
-bottom
-""
-Follow this answer to receive notifications
-js-menu-popup-container
-post-signature flex--item fl0
-user-info 
-user-action-time
-/posts/53210260/revisions
-show all edits to this post
-js-gps-track
-"post.click({ item: 4, priv: 0, post_type: 2 })"
-relativetime
-user-gravatar32
-/users/9454010/aem
-gravatar-wrapper-32
-user avatar
-bar-sm
-user-details
-/users/9454010/aem
--flair
-reputation-score
-reputation score 
-7 gold badges
-true
-badge1
-badgecount
-v-visible-sr
-17 silver badges
-true
-badge2
-badgecount
-v-visible-sr
-27 bronze badges
-true
-badge3
-badgecount
-v-visible-sr
-post-signature flex--item fl0
-user-info 
-user-action-time
-relativetime
-user-gravatar32
-/users/8018259/stefun06
-gravatar-wrapper-32
-user avatar
-bar-sm
-user-details
-author
-None
-http://schema.org/Person
-/users/8018259/stefun06
-d-none
-name
--flair
-reputation-score
-reputation score 
-1 silver badge
-true
-badge2
-badgecount
-v-visible-sr
-3 bronze badges
-true
-badge3
-badgecount
-v-visible-sr
-d-none
-commentCount
-post-layout--right js-post-comments-component
-comments-53210260
-comments js-comments-container bt bc-black-075 mt12  dno
-comments-list js-comments-list
-false
-true
-false
-true
-comments-link-53210260
-true
-js-add-link comments-link disabled-link
-Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
-button
-js-link-separator dno
-js-show-link comments-link dno
-Expand to show all comments on this post
-""
-button
-answer-59539599
-answer js-answer
-suggestedAnswer
-None
-post-layout
-votecell post-layout--left
-js-vote-up-btn flex--item s-btn s-btn__unset c-pointer 
-s-tooltip
-right
-This answer is useful
-false
-Up vote
-fc-theme-primary
-""
-true
-svg-icon iconArrowUpLg
-js-vote-count flex--item d-flex fd-column ai-center fc-black-500 fs-title
-upvoteCount
-js-vote-down-btn flex--item s-btn s-btn__unset c-pointer 
-s-tooltip
-right
-This answer is not useful
-false
-Down vote
-fc-theme-primary
-""
-true
-svg-icon iconArrowDownLg
-js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
-right
-Loading when this answer was accepted…
-note
-Accepted
-ta-center
-true
-svg-icon iconCheckmarkLg
-/posts/59539599/timeline
-timeline
-s-tooltip
-right
-Show activity on this post.
-Timeline
-true
-mln2 mr0 svg-icon iconHistory
-M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
-answercell post-layout--right
-s-prose js-post-body
-text
-dateCreated
-flex--item mr16
-js-post-menu pt2
-d-flex gs8 s-anchors s-anchors__muted fw-wrap
-flex--item
-/a/59539599
-nofollow
-url
-js-share-link js-gps-track
-Short permalink to this answer
-"post.click({ item: 2, priv: 0, post_type: 2 })"
-se-share-sheet
-Share a link to this answer
-""
-answer
-facebook twitter 
-CC BY-SA 4.0
-bottom-start
-flex--item
-/posts/59539599/edit
-js-suggest-edit-post js-gps-track
-"post.click({ item: 6, priv: 0, post_type: 2 })"
-""
-flex--item
-button
-btnFollowPost-59539599
-s-btn s-btn__link js-follow-post js-follow-answer js-gps-track
-"post.click({ item: 14, priv: 0, post_type: 2 })"
-s-tooltip 
-bottom
-bottom
-""
-Follow this answer to receive notifications
-js-menu-popup-container
-post-signature flex--item fl0
-user-info 
-user-action-time
-/posts/59539599/revisions
-show all edits to this post
-js-gps-track
-"post.click({ item: 4, priv: 0, post_type: 2 })"
-relativetime
-user-gravatar32
-user-details
--flair
-post-signature flex--item fl0
-user-info 
-user-action-time
-relativetime
-user-gravatar32
-/users/6548223/chadee-fouad
-gravatar-wrapper-32
-user avatar
-bar-sm
-user-details
-author
-None
-http://schema.org/Person
-/users/6548223/chadee-fouad
-d-none
-name
--flair
-reputation-score
-reputation score 
-2 gold badges
-true
-badge1
-badgecount
-v-visible-sr
-19 silver badges
-true
-badge2
-badgecount
-v-visible-sr
-22 bronze badges
-true
-badge3
-badgecount
-v-visible-sr
-d-none
-commentCount
-post-layout--right js-post-comments-component
-comments-59539599
-comments js-comments-container bt bc-black-075 mt12  dno
-comments-list js-comments-list
-false
-true
-false
-true
-comments-link-59539599
-true
-js-add-link comments-link disabled-link
-Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
-button
-js-link-separator dno
-js-show-link comments-link dno
-Expand to show all comments on this post
-""
-button
-answer-51491746
-answer js-answer
-suggestedAnswer
-None
-post-layout
-votecell post-layout--left
-js-vote-up-btn flex--item s-btn s-btn__unset c-pointer 
-s-tooltip
-right
-This answer is useful
-false
-Up vote
-fc-theme-primary
-""
-true
-svg-icon iconArrowUpLg
-js-vote-count flex--item d-flex fd-column ai-center fc-black-500 fs-title
-upvoteCount
-js-vote-down-btn flex--item s-btn s-btn__unset c-pointer 
-s-tooltip
-right
-This answer is not useful
-false
-Down vote
-fc-theme-primary
-""
-true
-svg-icon iconArrowDownLg
-js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
-right
-Loading when this answer was accepted…
-note
-Accepted
-ta-center
-true
-svg-icon iconCheckmarkLg
-/posts/51491746/timeline
-timeline
-s-tooltip
-right
-Show activity on this post.
-Timeline
-true
-mln2 mr0 svg-icon iconHistory
-M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
-answercell post-layout--right
-s-prose js-post-body
-text
-dateCreated
-flex--item mr16
-js-post-menu pt2
-d-flex gs8 s-anchors s-anchors__muted fw-wrap
-flex--item
-/a/51491746
-nofollow
-url
-js-share-link js-gps-track
-Short permalink to this answer
-"post.click({ item: 2, priv: 0, post_type: 2 })"
-se-share-sheet
-Share a link to this answer
-""
-answer
-facebook twitter 
-CC BY-SA 4.0
-bottom-start
-flex--item
-/posts/51491746/edit
-js-suggest-edit-post js-gps-track
-"post.click({ item: 6, priv: 0, post_type: 2 })"
-""
-flex--item
-button
-btnFollowPost-51491746
-s-btn s-btn__link js-follow-post js-follow-answer js-gps-track
-"post.click({ item: 14, priv: 0, post_type: 2 })"
-s-tooltip 
-bottom
-bottom
-""
-Follow this answer to receive notifications
-js-menu-popup-container
-post-signature flex--item fl0
-user-info 
-user-action-time
-/posts/51491746/revisions
-show all edits to this post
-js-gps-track
-"post.click({ item: 4, priv: 0, post_type: 2 })"
-relativetime
-user-gravatar32
-/users/965146/4b0
-gravatar-wrapper-32
-user avatar
-bar-sm
-user-details
-/users/965146/4b0
--flair
-reputation-score
-"reputation score 20,651"
-30 gold badges
-true
-badge1
-badgecount
-v-visible-sr
-92 silver badges
-true
-badge2
-badgecount
-v-visible-sr
-137 bronze badges
-true
-badge3
-badgecount
-v-visible-sr
-post-signature flex--item fl0
-user-info user-hover
-user-action-time
-relativetime
-user-gravatar32
-/users/4419785/vivek-parmar
-gravatar-wrapper-32
-user avatar
-bar-sm
-user-details
-author
-None
-http://schema.org/Person
-/users/4419785/vivek-parmar
-d-none
-name
--flair
-reputation-score
-reputation score 
-1 gold badge
-true
-badge1
-badgecount
-v-visible-sr
-10 silver badges
-true
-badge2
-badgecount
-v-visible-sr
-26 bronze badges
-true
-badge3
-badgecount
-v-visible-sr
-d-none
-commentCount
-post-layout--right js-post-comments-component
-comments-51491746
-comments js-comments-container bt bc-black-075 mt12  dno
-comments-list js-comments-list
-false
-true
-false
-true
-comments-link-51491746
-true
-js-add-link comments-link disabled-link
-Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
-button
-js-link-separator dno
-js-show-link comments-link dno
-Expand to show all comments on this post
-""
-button
-answer-33560303
-answer js-answer
-suggestedAnswer
-None
-post-layout
-votecell post-layout--left
-js-vote-up-btn flex--item s-btn s-btn__unset c-pointer 
-s-tooltip
-right
-This answer is useful
-false
-Up vote
-fc-theme-primary
-""
-true
-svg-icon iconArrowUpLg
-js-vote-count flex--item d-flex fd-column ai-center fc-black-500 fs-title
-upvoteCount
-js-vote-down-btn flex--item s-btn s-btn__unset c-pointer 
-s-tooltip
-right
-This answer is not useful
-false
-Down vote
-fc-theme-primary
-""
-true
-svg-icon iconArrowDownLg
-js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
-right
-Loading when this answer was accepted…
-note
-Accepted
-ta-center
-true
-svg-icon iconCheckmarkLg
-/posts/33560303/timeline
-timeline
-s-tooltip
-right
-Show activity on this post.
-Timeline
-true
-mln2 mr0 svg-icon iconHistory
-M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
-answercell post-layout--right
-s-prose js-post-body
-text
-dateCreated
-flex--item mr16
-js-post-menu pt2
-d-flex gs8 s-anchors s-anchors__muted fw-wrap
-flex--item
-/a/33560303
-nofollow
-url
-js-share-link js-gps-track
-Short permalink to this answer
-"post.click({ item: 2, priv: 0, post_type: 2 })"
-se-share-sheet
-Share a link to this answer
-""
-answer
-facebook twitter 
-CC BY-SA 3.0
-bottom-start
-flex--item
-/posts/33560303/edit
-js-suggest-edit-post js-gps-track
-"post.click({ item: 6, priv: 0, post_type: 2 })"
-""
-flex--item
-button
-btnFollowPost-33560303
-s-btn s-btn__link js-follow-post js-follow-answer js-gps-track
-"post.click({ item: 14, priv: 0, post_type: 2 })"
-s-tooltip 
-bottom
-bottom
-""
-Follow this answer to receive notifications
+2
+CC BY-SA 2.5
 js-menu-popup-container
 post-signature flex--item fl0
 user-info user-hover
 user-action-time
+2008-09-25 09:44:34Z
 relativetime
 user-gravatar32
-/users/2593764/dennis
+/users/18658/traumapony
 gravatar-wrapper-32
 user avatar
-bar-sm
+32
+32
 user-details
 author
 None
 http://schema.org/Person
-/users/2593764/dennis
+/users/18658/traumapony
 d-none
 name
 -flair
 reputation-score
-reputation score 
-1 gold badge
+"reputation score 10,674"
+ltr
 true
-badge1
-badgecount
-v-visible-sr
-6 silver badges
 true
-badge2
-badgecount
-v-visible-sr
-14 bronze badges
 true
-badge3
-badgecount
-v-visible-sr
 d-none
 commentCount
 post-layout--right js-post-comments-component
-comments-33560303
-comments js-comments-container bt bc-black-075 mt12  dno
+comments-132362
+132362
+15
 comments-list js-comments-list
+0
 false
 true
 false
 true
-comments-link-33560303
-true
-js-add-link comments-link disabled-link
-Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
-button
-js-link-separator dno
-js-show-link comments-link dno
-Expand to show all comments on this post
-""
-button
-answer-53984398
-answer js-answer
-suggestedAnswer
-None
-post-layout
-votecell post-layout--left
-js-vote-up-btn flex--item s-btn s-btn__unset c-pointer 
-s-tooltip
-right
-This answer is useful
-false
-Up vote
-fc-theme-primary
-""
-true
-svg-icon iconArrowUpLg
-js-vote-count flex--item d-flex fd-column ai-center fc-black-500 fs-title
-upvoteCount
-js-vote-down-btn flex--item s-btn s-btn__unset c-pointer 
-s-tooltip
-right
-This answer is not useful
-false
-Down vote
-fc-theme-primary
-""
-true
-svg-icon iconArrowDownLg
-js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
-right
-Loading when this answer was accepted…
-note
-Accepted
-ta-center
-true
-svg-icon iconCheckmarkLg
-/posts/53984398/timeline
-timeline
-s-tooltip
-right
-Show activity on this post.
-Timeline
-true
-mln2 mr0 svg-icon iconHistory
-M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
-answercell post-layout--right
-s-prose js-post-body
-text
-dateCreated
-flex--item mr16
-js-post-menu pt2
-d-flex gs8 s-anchors s-anchors__muted fw-wrap
-flex--item
-/a/53984398
-nofollow
-url
-js-share-link js-gps-track
-Short permalink to this answer
-"post.click({ item: 2, priv: 0, post_type: 2 })"
-se-share-sheet
-Share a link to this answer
-""
-answer
-facebook twitter 
-CC BY-SA 4.0
-bottom-start
-flex--item
-/posts/53984398/edit
-js-suggest-edit-post js-gps-track
-"post.click({ item: 6, priv: 0, post_type: 2 })"
-""
-flex--item
-button
-btnFollowPost-53984398
-s-btn s-btn__link js-follow-post js-follow-answer js-gps-track
-"post.click({ item: 14, priv: 0, post_type: 2 })"
-s-tooltip 
-bottom
-bottom
-""
-Follow this answer to receive notifications
-js-menu-popup-container
-post-signature flex--item fl0
-user-info 
-user-action-time
-/posts/53984398/revisions
-show all edits to this post
-js-gps-track
-"post.click({ item: 4, priv: 0, post_type: 2 })"
-relativetime
-user-gravatar32
-/users/1364007/wai-ha-lee
-gravatar-wrapper-32
-user avatar
-bar-sm
-user-details
-/users/1364007/wai-ha-lee
--flair
-reputation-score
-reputation score 
-69 gold badges
-true
-badge1
-badgecount
-v-visible-sr
-59 silver badges
-true
-badge2
-badgecount
-v-visible-sr
-86 bronze badges
-true
-badge3
-badgecount
-v-visible-sr
-post-signature flex--item fl0
-user-info user-hover
-user-action-time
-relativetime
-user-gravatar32
-/users/10602533/chess-lover-6
-gravatar-wrapper-32
-user avatar
-bar-sm
-user-details
-author
-None
-http://schema.org/Person
-/users/10602533/chess-lover-6
-d-none
-name
--flair
-reputation-score
-reputation score 
-8 silver badges
-true
-badge2
-badgecount
-v-visible-sr
-21 bronze badges
-true
-badge3
-badgecount
-v-visible-sr
-d-none
-commentCount
-post-layout--right js-post-comments-component
-comments-53984398
-comments js-comments-container bt bc-black-075 mt12  dno
-comments-list js-comments-list
-false
-true
-false
-true
-comments-link-53984398
-true
-js-add-link comments-link disabled-link
-Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
-button
-js-link-separator dno
-js-show-link comments-link dno
-Expand to show all comments on this post
-""
-button
-answer-61886193
-answer js-answer
-suggestedAnswer
-None
-post-layout
-votecell post-layout--left
-js-vote-up-btn flex--item s-btn s-btn__unset c-pointer 
-s-tooltip
-right
-This answer is useful
-false
-Up vote
-fc-theme-primary
-""
-true
-svg-icon iconArrowUpLg
-js-vote-count flex--item d-flex fd-column ai-center fc-black-500 fs-title
-upvoteCount
-js-vote-down-btn flex--item s-btn s-btn__unset c-pointer 
-s-tooltip
-right
-This answer is not useful
-false
-Down vote
-fc-theme-primary
-""
-true
-svg-icon iconArrowDownLg
-js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
-right
-Loading when this answer was accepted…
-note
-Accepted
-ta-center
-true
-svg-icon iconCheckmarkLg
-/posts/61886193/timeline
-timeline
-s-tooltip
-right
-Show activity on this post.
-Timeline
-true
-mln2 mr0 svg-icon iconHistory
-M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
-answercell post-layout--right
-s-prose js-post-body
-text
-dateCreated
-flex--item mr16
-js-post-menu pt2
-d-flex gs8 s-anchors s-anchors__muted fw-wrap
-flex--item
-/a/61886193
-nofollow
-url
-js-share-link js-gps-track
-Short permalink to this answer
-"post.click({ item: 2, priv: 0, post_type: 2 })"
-se-share-sheet
-Share a link to this answer
-""
-answer
-facebook twitter 
-CC BY-SA 4.0
-bottom-start
-flex--item
-/posts/61886193/edit
-js-suggest-edit-post js-gps-track
-"post.click({ item: 6, priv: 0, post_type: 2 })"
-""
-flex--item
-button
-btnFollowPost-61886193
-s-btn s-btn__link js-follow-post js-follow-answer js-gps-track
-"post.click({ item: 14, priv: 0, post_type: 2 })"
-s-tooltip 
-bottom
-bottom
-""
-Follow this answer to receive notifications
-js-menu-popup-container
-post-signature flex--item fl0
-user-info user-hover
-user-action-time
-relativetime
-user-gravatar32
-/users/5025009/seralouk
-gravatar-wrapper-32
-user avatar
-bar-sm
-user-details
-author
-None
-http://schema.org/Person
-/users/5025009/seralouk
-d-none
-name
--flair
-reputation-score
-"reputation score 27,486"
-8 gold badges
-true
-badge1
-badgecount
-v-visible-sr
-100 silver badges
-true
-badge2
-badgecount
-v-visible-sr
-118 bronze badges
-true
-badge3
-badgecount
-v-visible-sr
-d-none
-commentCount
-post-layout--right js-post-comments-component
-comments-61886193
-comments js-comments-container bt bc-black-075 mt12  dno
-comments-list js-comments-list
-false
-true
-false
-true
-comments-link-61886193
-true
-js-add-link comments-link disabled-link
-Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
-button
-js-link-separator dno
-js-show-link comments-link dno
-Expand to show all comments on this post
-""
-button
-answer-55071056
-answer js-answer
-suggestedAnswer
-None
-post-layout
-votecell post-layout--left
-js-vote-up-btn flex--item s-btn s-btn__unset c-pointer 
-s-tooltip
-right
-This answer is useful
-false
-Up vote
-fc-theme-primary
-""
-true
-svg-icon iconArrowUpLg
-js-vote-count flex--item d-flex fd-column ai-center fc-black-500 fs-title
-upvoteCount
-js-vote-down-btn flex--item s-btn s-btn__unset c-pointer 
-s-tooltip
-right
-This answer is not useful
-false
-Down vote
-fc-theme-primary
-""
-true
-svg-icon iconArrowDownLg
-js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
-right
-Loading when this answer was accepted…
-note
-Accepted
-ta-center
-true
-svg-icon iconCheckmarkLg
-/posts/55071056/timeline
-timeline
-s-tooltip
-right
-Show activity on this post.
-Timeline
-true
-mln2 mr0 svg-icon iconHistory
-M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
-answercell post-layout--right
-s-prose js-post-body
-text
-dateCreated
-flex--item mr16
-js-post-menu pt2
-d-flex gs8 s-anchors s-anchors__muted fw-wrap
-flex--item
-/a/55071056
-nofollow
-url
-js-share-link js-gps-track
-Short permalink to this answer
-"post.click({ item: 2, priv: 0, post_type: 2 })"
-se-share-sheet
-Share a link to this answer
-""
-answer
-facebook twitter 
-CC BY-SA 4.0
-bottom-start
-flex--item
-/posts/55071056/edit
-js-suggest-edit-post js-gps-track
-"post.click({ item: 6, priv: 0, post_type: 2 })"
-""
-flex--item
-button
-btnFollowPost-55071056
-s-btn s-btn__link js-follow-post js-follow-answer js-gps-track
-"post.click({ item: 14, priv: 0, post_type: 2 })"
-s-tooltip 
-bottom
-bottom
-""
-Follow this answer to receive notifications
-js-menu-popup-container
-post-signature flex--item fl0
-user-info 
-user-action-time
-/posts/55071056/revisions
-show all edits to this post
-js-gps-track
-"post.click({ item: 4, priv: 0, post_type: 2 })"
-relativetime
-user-gravatar32
-/users/9454010/aem
-gravatar-wrapper-32
-user avatar
-bar-sm
-user-details
-/users/9454010/aem
--flair
-reputation-score
-reputation score 
-7 gold badges
-true
-badge1
-badgecount
-v-visible-sr
-17 silver badges
-true
-badge2
-badgecount
-v-visible-sr
-27 bronze badges
-true
-badge3
-badgecount
-v-visible-sr
-post-signature flex--item fl0
-user-info 
-user-action-time
-relativetime
-user-gravatar32
-/users/7150228/l1den
-gravatar-wrapper-32
-user avatar
-bar-sm
-user-details
-author
-None
-http://schema.org/Person
-/users/7150228/l1den
-d-none
-name
--flair
-reputation-score
-reputation score 
-9 bronze badges
-true
-badge3
-badgecount
-v-visible-sr
-d-none
-commentCount
-post-layout--right js-post-comments-component
-comments-55071056
-comments js-comments-container bt bc-black-075 mt12  dno
-comments-list js-comments-list
-false
-true
-false
-true
-comments-link-55071056
-true
-js-add-link comments-link disabled-link
-Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
-button
-js-link-separator dno
-js-show-link comments-link dno
-Expand to show all comments on this post
-""
-button
-answer-67751184
-answer js-answer
-suggestedAnswer
-None
-post-layout
-votecell post-layout--left
-js-vote-up-btn flex--item s-btn s-btn__unset c-pointer 
-s-tooltip
-right
-This answer is useful
-false
-Up vote
-fc-theme-primary
-""
-true
-svg-icon iconArrowUpLg
-js-vote-count flex--item d-flex fd-column ai-center fc-black-500 fs-title
-upvoteCount
-js-vote-down-btn flex--item s-btn s-btn__unset c-pointer 
-s-tooltip
-right
-This answer is not useful
-false
-Down vote
-fc-theme-primary
-""
-true
-svg-icon iconArrowDownLg
-js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
-right
-Loading when this answer was accepted…
-note
-Accepted
-ta-center
-true
-svg-icon iconCheckmarkLg
-/posts/67751184/timeline
-timeline
-s-tooltip
-right
-Show activity on this post.
-Timeline
-true
-mln2 mr0 svg-icon iconHistory
-M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
-answercell post-layout--right
-s-prose js-post-body
-text
-dateCreated
-flex--item mr16
-js-post-menu pt2
-d-flex gs8 s-anchors s-anchors__muted fw-wrap
-flex--item
-/a/67751184
-nofollow
-url
-js-share-link js-gps-track
-Short permalink to this answer
-"post.click({ item: 2, priv: 0, post_type: 2 })"
-se-share-sheet
-Share a link to this answer
-""
-answer
-facebook twitter 
-CC BY-SA 4.0
-bottom-start
-flex--item
-/posts/67751184/edit
-js-suggest-edit-post js-gps-track
-"post.click({ item: 6, priv: 0, post_type: 2 })"
-""
-flex--item
-button
-btnFollowPost-67751184
-s-btn s-btn__link js-follow-post js-follow-answer js-gps-track
-"post.click({ item: 14, priv: 0, post_type: 2 })"
-s-tooltip 
-bottom
-bottom
-""
-Follow this answer to receive notifications
-js-menu-popup-container
-post-signature flex--item fl0
-user-info 
-user-action-time
-/posts/67751184/revisions
-show all edits to this post
-js-gps-track
-"post.click({ item: 4, priv: 0, post_type: 2 })"
-relativetime
-user-gravatar32
-user-details
--flair
-post-signature flex--item fl0
-user-info 
-user-action-time
-relativetime
-user-gravatar32
-/users/8254422/voldemort
-gravatar-wrapper-32
-user avatar
-bar-sm
-user-details
-author
-None
-http://schema.org/Person
-/users/8254422/voldemort
-d-none
-name
--flair
-reputation-score
-reputation score 
-3 silver badges
-true
-badge2
-badgecount
-v-visible-sr
-16 bronze badges
-true
-badge3
-badgecount
-v-visible-sr
-d-none
-commentCount
-post-layout--right js-post-comments-component
-comments-67751184
-comments js-comments-container bt bc-black-075 mt12 
-comments-list js-comments-list
-false
-true
-false
-true
-comment-124693623
+comment-32979
 comment js-comment 
+32979
+2954
+0
 js-comment-actions comment-actions
 comment-score js-comment-edit-hide
 comment-text  js-comment-text-and-form
-comment-body js-comment-edit-hide
 comment-copy
 d-inline-flex ai-center
-/users/7755797/rhoitjadhav
-529 reputation
+/users/2954/sergio-acosta
+"11,268 reputation"
 comment-user
 comment-date
-"2021-12-31 07:14:46Z, License: CC BY-SA 4.0"
+ltr
+"2008-09-25 09:51:32Z, License: CC BY-SA 2.5"
 relativetime-clean
-comment-124696172
-comment js-comment 
-js-comment-actions comment-actions
-comment-score js-comment-edit-hide
-comment-text  js-comment-text-and-form
-comment-body js-comment-edit-hide
-comment-copy
-d-inline-flex ai-center
-/users/8254422/voldemort
-253 reputation
-comment-user
-comment-date
-"2021-12-31 10:34:37Z, License: CC BY-SA 4.0"
-relativetime-clean
-this comment was edited 1 time
+comments-link-132362
+50
 true
-va-text-bottom o50 svg-icon iconPencilSm
-comments-link-67751184
-true
-js-add-link comments-link disabled-link
 Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
-button
+#
 js-link-separator dno
 js-show-link comments-link dno
 Expand to show all comments on this post
+#
 ""
-button
-answer-52684880
+132373
+answer-132373
 answer js-answer
+132373
+132359
+1
+14
+0
+0
 suggestedAnswer
 None
+https://schema.org/Answer
 post-layout
 votecell post-layout--left
-js-vote-up-btn flex--item s-btn s-btn__unset c-pointer 
-s-tooltip
-right
-This answer is useful
-false
-Up vote
-fc-theme-primary
-""
-true
-svg-icon iconArrowUpLg
-js-vote-count flex--item d-flex fd-column ai-center fc-black-500 fs-title
+132373
 upvoteCount
-js-vote-down-btn flex--item s-btn s-btn__unset c-pointer 
-s-tooltip
-right
-This answer is not useful
-false
-Down vote
-fc-theme-primary
-""
-true
-svg-icon iconArrowDownLg
+1
+fs-caption
 js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
 right
 Loading when this answer was accepted…
+0
 note
 Accepted
 ta-center
 true
 svg-icon iconCheckmarkLg
-/posts/52684880/timeline
+36
+36
+0 0 36 36
+m6 14 8 8L30 6v8L14 30l-8-8v-8Z
+/posts/132373/timeline
+T
 timeline
 s-tooltip
 right
@@ -3405,16 +2314,23 @@ Show activity on this post.
 Timeline
 true
 mln2 mr0 svg-icon iconHistory
+19
+18
+0 0 19 18
 M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
 answercell post-layout--right
-s-prose js-post-body
 text
+mt24
+d-flex fw-wrap ai-start jc-end gs8 gsy
 dateCreated
+2008-09-25T09:47:43
 flex--item mr16
+flex: 1 1 100px;
 js-post-menu pt2
+132373
 d-flex gs8 s-anchors s-anchors__muted fw-wrap
 flex--item
-/a/52684880
+/a/132373
 nofollow
 url
 js-share-link js-gps-track
@@ -3424,467 +2340,1022 @@ se-share-sheet
 Share a link to this answer
 ""
 answer
-facebook twitter 
-CC BY-SA 4.0
-bottom-start
-flex--item
-/posts/52684880/edit
-js-suggest-edit-post js-gps-track
-"post.click({ item: 6, priv: 0, post_type: 2 })"
+2
+CC BY-SA 2.5
+js-menu-popup-container
+post-signature flex--item fl0
+user-info 
+user-action-time
+/posts/132373/revisions
+show all edits to this post
+js-gps-track
+"post.click({ item: 4, priv: 0, post_type: 2 })"
+2008-09-25 10:10:31Z
+relativetime
+user-gravatar32
+user-details
+-flair
+post-signature flex--item fl0
+user-info user-hover
+user-action-time
+2008-09-25 09:47:43Z
+relativetime
+user-gravatar32
+/users/1196/aku
+gravatar-wrapper-32
+https://i.stack.imgur.com/iQcva.jpg?s=64&g=1
+user avatar
+32
+32
+user-details
+author
+None
+http://schema.org/Person
+/users/1196/aku
+d-none
+name
+-flair
+reputation-score
+"reputation score 119,502"
+ltr
+true
+true
+true
+d-none
+commentCount
+post-layout--right js-post-comments-component
+comments-132373
+132373
+15
+comments-list js-comments-list
+0
+false
+true
+false
+true
+comments-link-132373
+50
+true
+Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
+#
+js-link-separator dno
+js-show-link comments-link dno
+Expand to show all comments on this post
+#
 ""
+183453
+answer-183453
+answer js-answer
+183453
+132359
+1
+15
+0
+0
+suggestedAnswer
+None
+https://schema.org/Answer
+post-layout
+votecell post-layout--left
+183453
+upvoteCount
+1
+fs-caption
+js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
+right
+Loading when this answer was accepted…
+0
+note
+Accepted
+ta-center
+true
+svg-icon iconCheckmarkLg
+36
+36
+0 0 36 36
+m6 14 8 8L30 6v8L14 30l-8-8v-8Z
+/posts/183453/timeline
+T
+timeline
+s-tooltip
+right
+Show activity on this post.
+Timeline
+true
+mln2 mr0 svg-icon iconHistory
+19
+18
+0 0 19 18
+M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
+answercell post-layout--right
+text
+nofollow noreferrer
+mt24
+d-flex fw-wrap ai-start jc-end gs8 gsy
+dateCreated
+2008-10-08T15:44:32
+flex--item mr16
+flex: 1 1 100px;
+js-post-menu pt2
+183453
+d-flex gs8 s-anchors s-anchors__muted fw-wrap
 flex--item
-button
-btnFollowPost-52684880
-s-btn s-btn__link js-follow-post js-follow-answer js-gps-track
-"post.click({ item: 14, priv: 0, post_type: 2 })"
-s-tooltip 
-bottom
-bottom
+/a/183453
+nofollow
+url
+js-share-link js-gps-track
+Short permalink to this answer
+"post.click({ item: 2, priv: 0, post_type: 2 })"
+se-share-sheet
+Share a link to this answer
 ""
-Follow this answer to receive notifications
+answer
+2
+CC BY-SA 2.5
+js-menu-popup-container
+post-signature flex--item fl0
+user-info 
+user-action-time
+2008-10-08 15:44:32Z
+relativetime
+user-gravatar32
+/users/26056/kohlerm
+gravatar-wrapper-32
+https://www.gravatar.com/avatar/?s=64&d=identicon&r=PG&f=1
+user avatar
+32
+32
+user-details
+author
+None
+http://schema.org/Person
+/users/26056/kohlerm
+d-none
+name
+-flair
+reputation-score
+reputation score 
+ltr
+true
+true
+true
+d-none
+commentCount
+post-layout--right js-post-comments-component
+comments-183453
+183453
+15
+comments-list js-comments-list
+0
+false
+true
+false
+true
+comments-link-183453
+50
+true
+Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
+#
+js-link-separator dno
+js-show-link comments-link dno
+Expand to show all comments on this post
+#
+""
+4287726
+answer-4287726
+answer js-answer
+4287726
+132359
+1
+16
+0
+0
+suggestedAnswer
+None
+https://schema.org/Answer
+post-layout
+votecell post-layout--left
+4287726
+upvoteCount
+1
+fs-caption
+js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
+right
+Loading when this answer was accepted…
+0
+note
+Accepted
+ta-center
+true
+svg-icon iconCheckmarkLg
+36
+36
+0 0 36 36
+m6 14 8 8L30 6v8L14 30l-8-8v-8Z
+/posts/4287726/timeline
+T
+timeline
+s-tooltip
+right
+Show activity on this post.
+Timeline
+true
+mln2 mr0 svg-icon iconHistory
+19
+18
+0 0 19 18
+M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
+answercell post-layout--right
+text
+nofollow
+mt24
+d-flex fw-wrap ai-start jc-end gs8 gsy
+dateCreated
+2010-11-26T18:29:42
+flex--item mr16
+flex: 1 1 100px;
+js-post-menu pt2
+4287726
+d-flex gs8 s-anchors s-anchors__muted fw-wrap
+flex--item
+/a/4287726
+nofollow
+url
+js-share-link js-gps-track
+Short permalink to this answer
+"post.click({ item: 2, priv: 0, post_type: 2 })"
+se-share-sheet
+Share a link to this answer
+""
+answer
+2
+CC BY-SA 2.5
 js-menu-popup-container
 post-signature flex--item fl0
 user-info user-hover
 user-action-time
-/posts/52684880/revisions
-show all edits to this post
-js-gps-track
-"post.click({ item: 4, priv: 0, post_type: 2 })"
+2010-11-26 18:29:42Z
 relativetime
 user-gravatar32
-/users/7311767/stephen-rauch
+/users/409875/thomas-langston
 gravatar-wrapper-32
 user avatar
-bar-sm
+32
+32
 user-details
-/users/7311767/stephen-rauch
+author
+None
+http://schema.org/Person
+/users/409875/thomas-langston
+d-none
+name
+-flair
+reputation-score
+reputation score 
+ltr
+true
+true
+true
+d-none
+commentCount
+post-layout--right js-post-comments-component
+comments-4287726
+4287726
+15
+comments-list js-comments-list
+0
+false
+true
+false
+true
+comments-link-4287726
+50
+true
+Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
+#
+js-link-separator dno
+js-show-link comments-link dno
+Expand to show all comments on this post
+#
+""
+132375
+answer-132375
+answer js-answer
+132375
+132359
+0
+17
+0
+0
+suggestedAnswer
+None
+https://schema.org/Answer
+post-layout
+votecell post-layout--left
+132375
+upvoteCount
+0
+fs-caption
+js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
+right
+Loading when this answer was accepted…
+0
+note
+Accepted
+ta-center
+true
+svg-icon iconCheckmarkLg
+36
+36
+0 0 36 36
+m6 14 8 8L30 6v8L14 30l-8-8v-8Z
+/posts/132375/timeline
+T
+timeline
+s-tooltip
+right
+Show activity on this post.
+Timeline
+true
+mln2 mr0 svg-icon iconHistory
+19
+18
+0 0 19 18
+M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
+answercell post-layout--right
+text
+nofollow noreferrer
+nofollow noreferrer
+mt24
+d-flex fw-wrap ai-start jc-end gs8 gsy
+dateCreated
+2008-09-25T09:48:24
+flex--item mr16
+flex: 1 1 100px;
+js-post-menu pt2
+132375
+d-flex gs8 s-anchors s-anchors__muted fw-wrap
+flex--item
+/a/132375
+nofollow
+url
+js-share-link js-gps-track
+Short permalink to this answer
+"post.click({ item: 2, priv: 0, post_type: 2 })"
+se-share-sheet
+Share a link to this answer
+""
+answer
+2
+CC BY-SA 2.5
+js-menu-popup-container
+post-signature flex--item fl0
+user-info user-hover
+user-action-time
+2008-09-25 09:48:24Z
+relativetime
+user-gravatar32
+/users/5190/vinko-vrsalovic
+gravatar-wrapper-32
+https://i.stack.imgur.com/WWHqF.jpg?s=64&g=1
+user avatar
+32
+32
+user-details
+author
+None
+http://schema.org/Person
+/users/5190/vinko-vrsalovic
 mod-flair mtn2
 Moderator
+d-none
+name
 -flair
 reputation-score
-"reputation score 44,886"
-30 gold badges
+"reputation score 253,874"
+ltr
 true
-badge1
-badgecount
-v-visible-sr
-102 silver badges
 true
-badge2
-badgecount
-v-visible-sr
-125 bronze badges
 true
-badge3
-badgecount
-v-visible-sr
+d-none
+commentCount
+post-layout--right js-post-comments-component
+comments-132375
+132375
+15
+comments-list js-comments-list
+0
+false
+true
+false
+true
+comment-32975
+comment js-comment 
+32975
+15416
+0
+js-comment-actions comment-actions
+comment-score js-comment-edit-hide
+comment-text  js-comment-text-and-form
+comment-copy
+d-inline-flex ai-center
+/users/15416/msalters
+"168,055 reputation"
+comment-user
+comment-date
+ltr
+"2008-09-25 09:50:45Z, License: CC BY-SA 2.5"
+relativetime-clean
+comment-32981
+comment js-comment 
+32981
+5190
+0
+js-comment-actions comment-actions
+comment-score js-comment-edit-hide
+comment-text  js-comment-text-and-form
+comment-copy
+d-inline-flex ai-center
+/users/5190/vinko-vrsalovic
+"253,874 reputation"
+comment-user
+mod-flair 
+Moderator
+comment-date
+ltr
+"2008-09-25 09:56:01Z, License: CC BY-SA 2.5"
+relativetime-clean
+comment-33013
+comment js-comment 
+33013
+2827
+0
+js-comment-actions comment-actions
+comment-score js-comment-edit-hide
+comment-text  js-comment-text-and-form
+comment-copy
+d-inline-flex ai-center
+/users/2827/henryr
+"7,779 reputation"
+comment-user
+comment-date
+ltr
+"2008-09-25 10:11:28Z, License: CC BY-SA 2.5"
+relativetime-clean
+comment-114359
+comment js-comment 
+114359
+15962
+0
+js-comment-actions comment-actions
+comment-score js-comment-edit-hide
+comment-text  js-comment-text-and-form
+comment-copy
+d-inline-flex ai-center
+/users/15962/squarecog
+"19,091 reputation"
+comment-user
+comment-date
+ltr
+"2008-10-31 22:34:51Z, License: CC BY-SA 2.5"
+relativetime-clean
+comments-link-132375
+50
+true
+Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
+#
+js-link-separator dno
+js-show-link comments-link dno
+Expand to show all comments on this post
+#
+""
+132386
+answer-132386
+answer js-answer
+132386
+132359
+0
+18
+0
+0
+suggestedAnswer
+None
+https://schema.org/Answer
+post-layout
+votecell post-layout--left
+132386
+upvoteCount
+0
+fs-caption
+js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
+right
+Loading when this answer was accepted…
+0
+note
+Accepted
+ta-center
+true
+svg-icon iconCheckmarkLg
+36
+36
+0 0 36 36
+m6 14 8 8L30 6v8L14 30l-8-8v-8Z
+/posts/132386/timeline
+T
+timeline
+s-tooltip
+right
+Show activity on this post.
+Timeline
+true
+mln2 mr0 svg-icon iconHistory
+19
+18
+0 0 19 18
+M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
+answercell post-layout--right
+text
+http://hadoop.apache.org/core/
+nofollow noreferrer
+nofollow noreferrer
+mt24
+d-flex fw-wrap ai-start jc-end gs8 gsy
+dateCreated
+2008-09-25T09:50:25
+flex--item mr16
+flex: 1 1 100px;
+js-post-menu pt2
+132386
+d-flex gs8 s-anchors s-anchors__muted fw-wrap
+flex--item
+/a/132386
+nofollow
+url
+js-share-link js-gps-track
+Short permalink to this answer
+"post.click({ item: 2, priv: 0, post_type: 2 })"
+se-share-sheet
+Share a link to this answer
+""
+answer
+2
+CC BY-SA 2.5
+js-menu-popup-container
 post-signature flex--item fl0
 user-info 
 user-action-time
+2008-09-25 09:50:25Z
 relativetime
 user-gravatar32
-/users/10467533/andrew-hyder
+/users/15780/yann-kmm
 gravatar-wrapper-32
 user avatar
-bar-sm
+32
+32
 user-details
 author
 None
 http://schema.org/Person
-/users/10467533/andrew-hyder
+/users/15780/yann-kmm
 d-none
 name
 -flair
 reputation-score
 reputation score 
-3 bronze badges
+ltr
 true
-badge3
-badgecount
-v-visible-sr
+true
 d-none
 commentCount
 post-layout--right js-post-comments-component
-comments-52684880
-comments js-comments-container bt bc-black-075 mt12  dno
+comments-132386
+132386
+15
 comments-list js-comments-list
+0
 false
 true
 false
 true
-comments-link-52684880
+comment-114344
+comment js-comment 
+114344
+15962
+0
+js-comment-actions comment-actions
+comment-score js-comment-edit-hide
+comment-text  js-comment-text-and-form
+comment-copy
+d-inline-flex ai-center
+/users/15962/squarecog
+"19,091 reputation"
+comment-user
+comment-date
+ltr
+"2008-10-31 22:22:54Z, License: CC BY-SA 2.5"
+relativetime-clean
+comments-link-132386
+50
 true
-js-add-link comments-link disabled-link
 Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
-button
+#
 js-link-separator dno
 js-show-link comments-link dno
 Expand to show all comments on this post
+#
 ""
-button
-s-notice s-notice__info post-notice js-post-notice mb16
-status
-d-flex fd-column fw-nowrap
-d-flex fw-nowrap
-flex--item mr8
+134522
+answer-134522
+answer js-answer
+134522
+132359
+0
+19
+0
+0
+suggestedAnswer
+None
+https://schema.org/Answer
+post-layout
+votecell post-layout--left
+134522
+upvoteCount
+0
+fs-caption
+js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
+right
+Loading when this answer was accepted…
+0
+note
+Accepted
+ta-center
 true
-svg-icon iconFire
-M13.18 9c-.8.33-1.46.6-1.97 1.3A9.21 9.21 0 0 0 10 13.89a10 10 0 0 0 1.32-.8 2.53 2.53 0 0 1-.63 2.91h.78a3 3 0 0 0 1.66-.5 4.15 4.15 0 0 0 1.26-1.61c.4-.96.47-1.7.55-2.73.05-1.24-.1-2.49-.46-3.68a2 2 0 0 1-.4.91 2.1 2.1 0 0 1-.9.62Z
-M10.4 12.11a7.1 7.1 0 0 1 .78-1.76c.3-.47.81-.8 1.37-1.08 0 0-.05-3.27-1.55-5.27-1.5-2-3.37-2.75-4.95-2.61 0 0 4.19 2.94 1.18 5.67-2.14 1.92-3.64 3.81-3.1 5.94a4.14 4.14 0 0 0 3.1 3 4.05 4.05 0 0 1 1.08-3.89C9.42 10.92 8 9.79 8 9.79c.67.02 1.3.28 1.81.72a2 2 0 0 1 .58 1.6Z
-#EF2E2E
-flex--item wmn0 fl1 lh-lg
-flex--item fl1 lh-lg
-/help/privileges/protect-questions
-bottom-notice
-/questions/tagged/python
+svg-icon iconCheckmarkLg
+36
+36
+0 0 36 36
+m6 14 8 8L30 6v8L14 30l-8-8v-8Z
+/posts/134522/timeline
+T
+timeline
+s-tooltip
+right
+Show activity on this post.
+Timeline
+true
+mln2 mr0 svg-icon iconHistory
+19
+18
+0 0 19 18
+M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
+answercell post-layout--right
+text
+mt24
+d-flex fw-wrap ai-start jc-end gs8 gsy
+dateCreated
+2008-09-25T16:57:55
+flex--item mr16
+flex: 1 1 100px;
+js-post-menu pt2
+134522
+d-flex gs8 s-anchors s-anchors__muted fw-wrap
+flex--item
+/a/134522
+nofollow
+url
+js-share-link js-gps-track
+Short permalink to this answer
+"post.click({ item: 2, priv: 0, post_type: 2 })"
+se-share-sheet
+Share a link to this answer
+""
+answer
+2
+CC BY-SA 2.5
+js-menu-popup-container
+post-signature flex--item fl0
+user-info 
+user-action-time
+2008-09-25 16:57:55Z
+relativetime
+user-gravatar32
+/users/17224/computinglife
+gravatar-wrapper-32
+user avatar
+32
+32
+user-details
+author
+None
+http://schema.org/Person
+/users/17224/computinglife
+d-none
+name
+-flair
+reputation-score
+reputation score 
+ltr
+true
+true
+true
+d-none
+commentCount
+post-layout--right js-post-comments-component
+comments-134522
+134522
+15
+comments-list js-comments-list
+0
+false
+true
+false
+true
+comments-link-134522
+50
+true
+Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
+#
+js-link-separator dno
+js-show-link comments-link dno
+Expand to show all comments on this post
+#
+""
+1
+/questions/tagged/performance
 post-tag
-show questions tagged 'python'
+show questions tagged 'performance'
 tag
-/questions/tagged/execution
+/questions/tagged/algorithm
 post-tag
-show questions tagged 'execution'
-tag
-/questions/tagged/terminate
-post-tag
-show questions tagged 'terminate'
-tag
-/questions/tagged/termination
-post-tag
-show questions tagged 'termination'
+show questions tagged 'algorithm'
 tag
 /questions/ask
-sidebar
 show-votes
 complementary
-sidebar
-s-sidebarwidget s-sidebarwidget__yellow s-anchors s-anchors__grayscale mb16
-d-block p0 m0
-s-sidebarwidget--header s-sidebarwidget__small-bold-text fc-light d:fc-black-900 bb bbw1
 flex--item1 fl-shrink0
 true
 va-text-top svg-icon iconPencilSm
-flex--item wmn0 ow-break-word
+14
+14
+0 0 14 14
+m11.1 1.71 1.13 1.12c.2.2.2.51 0 .71L11.1 4.7 9.21 2.86l1.17-1.15c.2-.2.51-.2.71 0ZM2 10.12l6.37-6.43 1.88 1.88L3.88 12H2v-1.88Z
 js-gps-track
-"communitybulletin.click({ priority: 1, position: 0 })"
 flex--item1 fl-shrink0
 true
 va-text-top svg-icon iconPencilSm
-flex--item wmn0 ow-break-word
+14
+14
+0 0 14 14
+m11.1 1.71 1.13 1.12c.2.2.2.51 0 .71L11.1 4.7 9.21 2.86l1.17-1.15c.2-.2.51-.2.71 0ZM2 10.12l6.37-6.43 1.88 1.88L3.88 12H2v-1.88Z
 js-gps-track
-"communitybulletin.click({ priority: 1, position: 1 })"
-s-sidebarwidget--header s-sidebarwidget__small-bold-text fc-light d:fc-black-900 bb bbw1
 flex--item1 fl-shrink0
 favicon favicon-stackexchangemeta
 Meta Stack Exchange
-flex--item wmn0 ow-break-word
+https://meta.stackexchange.com/questions/379561/testing-new-traffic-management-tool
 js-gps-track
-"communitybulletin.click({ priority: 3, position: 2 })"
 flex--item1 fl-shrink0
 favicon favicon-stackexchangemeta
 Meta Stack Exchange
-flex--item wmn0 ow-break-word
 js-gps-track
-"communitybulletin.click({ priority: 3, position: 3 })"
 flex--item1 fl-shrink0
 favicon favicon-stackoverflowmeta
 Meta Stack Overflow
-flex--item wmn0 ow-break-word
+https://meta.stackoverflow.com/questions/418767/trending-a-new-answer-sorting-option
 js-gps-track
-"communitybulletin.click({ priority: 6, position: 4 })"
 flex--item1 fl-shrink0
 favicon favicon-stackoverflowmeta
 Meta Stack Overflow
-flex--item wmn0 ow-break-word
+https://meta.stackoverflow.com/questions/418491/ask-wizard-test-results-and-next-steps
 js-gps-track
-"communitybulletin.click({ priority: 6, position: 5 })"
 flex--item1 fl-shrink0
 favicon favicon-stackoverflowmeta
 Meta Stack Overflow
-flex--item wmn0 ow-break-word
 js-gps-track
-"communitybulletin.click({ priority: 6, position: 6 })"
 flex--item1 fl-shrink0
 favicon favicon-stackoverflowmeta
 Meta Stack Overflow
-flex--item wmn0 ow-break-word
 js-gps-track
-"communitybulletin.click({ priority: 6, position: 7 })"
-js-zone-container zone-container-sidebar
-everyonelovesstackoverflow everyoneloves__top-sidebar
-js-report-ad-button-container 
-js-zone-container zone-container-sidebar
-everyonelovesstackoverflow everyoneloves__mid-sidebar
-js-report-ad-button-container 
+width: 300px
+width: 300px
 hireme
-module sidebar-linked
 h-linked
 linked
+lq=1
 spacer js-gps-track
-"linkedquestion.click({ source_post_id: 19782075, target_question_id: 57590672, position: 0 })"
+"linkedquestion.click({ source_post_id: 132359, target_question_id: 1298860, position: 0 })"
+/q/1298860
 Question score (upvotes - downvotes)
 answer-votes answered-accepted default
-/questions/57590672/how-do-i-stop-a-python-script-from-running-in-my-command-line?noredirect=1
+/questions/1298860/how-does-google-serve-results-so-fast?noredirect=1
 question-hyperlink
 spacer js-gps-track
-"linkedquestion.click({ source_post_id: 19782075, target_question_id: 59379272, position: 1 })"
+"linkedquestion.click({ source_post_id: 132359, target_question_id: 23973489, position: 1 })"
+/q/23973489
 Question score (upvotes - downvotes)
 answer-votes  default
-/questions/59379272/how-to-stop-terminate-a-python-script-from-running-once-again?noredirect=1
+/questions/23973489/strategies-in-reducing-network-delay-from-500-milliseconds-to-60-100-millisecond?noredirect=1
 question-hyperlink
 spacer js-gps-track
-"linkedquestion.click({ source_post_id: 19782075, target_question_id: 58314878, position: 2 })"
+"linkedquestion.click({ source_post_id: 132359, target_question_id: 34447970, position: 2 })"
+/q/34447970
+Question score (upvotes - downvotes)
+answer-votes  default
+question-hyperlink
+spacer js-gps-track
+"linkedquestion.click({ source_post_id: 132359, target_question_id: 11377435, position: 3 })"
+/q/11377435
+Question score (upvotes - downvotes)
+answer-votes  default
+/questions/11377435/how-does-map-reduce-work-for-searched-string?noredirect=1
+question-hyperlink
+spacer js-gps-track
+"linkedquestion.click({ source_post_id: 132359, target_question_id: 6905393, position: 4 })"
+/q/6905393
 Question score (upvotes - downvotes)
 answer-votes answered-accepted default
-/questions/58314878/windows-environment-variables-troubling-accessing-updated-environment-variable?noredirect=1
 question-hyperlink
 spacer js-gps-track
-"linkedquestion.click({ source_post_id: 19782075, target_question_id: 57299897, position: 3 })"
-Question score (upvotes - downvotes)
-answer-votes answered-accepted default
-question-hyperlink
-spacer js-gps-track
-"linkedquestion.click({ source_post_id: 19782075, target_question_id: 71320568, position: 4 })"
+"linkedquestion.click({ source_post_id: 132359, target_question_id: 2400770, position: 5 })"
+/q/2400770
 Question score (upvotes - downvotes)
 answer-votes  default
-/questions/71320568/python-exit-at-unspecified-point-in-script?noredirect=1
+/questions/2400770/in-what-way-is-googles-index-stored?noredirect=1
 question-hyperlink
-spacer js-gps-track
-"linkedquestion.click({ source_post_id: 19782075, target_question_id: 70509265, position: 5 })"
-Question score (upvotes - downvotes)
-answer-votes answered-accepted default
-/questions/70509265/is-it-possible-to-create-a-custom-keyboard-interrupt-key-in-python?noredirect=1
-question-hyperlink
-spacer js-gps-track
-"linkedquestion.click({ source_post_id: 19782075, target_question_id: 66766130, position: 6 })"
-Question score (upvotes - downvotes)
-answer-votes  default
-/questions/66766130/script-stop-running-button?noredirect=1
-question-hyperlink
-spacer js-gps-track
-"linkedquestion.click({ source_post_id: 19782075, target_question_id: 56358674, position: 7 })"
-Question score (upvotes - downvotes)
-answer-votes  default
-/questions/56358674/how-to-stop-python-script?noredirect=1
-question-hyperlink
-module sidebar-related
 h-related
 related js-gps-related-questions
+rq=1
 spacer
+/q/126100
 Question score (upvotes - downvotes)
 answer-votes answered-accepted extra-large
-/questions/38987/how-do-i-merge-two-dictionaries-in-a-single-expression
 question-hyperlink
 spacer
+/q/237104
 Question score (upvotes - downvotes)
 answer-votes answered-accepted extra-large
-/questions/73663/how-do-i-terminate-a-script
+/questions/237104/how-do-i-check-if-an-array-includes-a-value-in-javascript
 question-hyperlink
 spacer
-Question score (upvotes - downvotes)
-answer-votes extra-large
-/questions/287871/how-do-i-print-colored-text-to-the-terminal
-question-hyperlink
-spacer
+/q/316265
 Question score (upvotes - downvotes)
 answer-votes answered-accepted extra-large
-/questions/379906/how-do-i-parse-a-string-to-a-float-or-int
+/questions/316265/how-can-you-speed-up-eclipse
 question-hyperlink
 spacer
-Question score (upvotes - downvotes)
-answer-votes answered-accepted extra-large
-/questions/415511/how-do-i-get-the-current-time
-question-hyperlink
-spacer
+/q/582336
 Question score (upvotes - downvotes)
 answer-votes answered-accepted extra-large
 /questions/582336/how-do-i-profile-a-python-script
 question-hyperlink
 spacer
-Question score (upvotes - downvotes)
-answer-votes answered-accepted extra-large
-/questions/606191/convert-bytes-to-a-string
-question-hyperlink
-spacer
-Question score (upvotes - downvotes)
-answer-votes answered-accepted extra-large
-/questions/739654/how-to-make-function-decorators-and-chain-them-together
-question-hyperlink
-spacer
+/q/7370801
 Question score (upvotes - downvotes)
 answer-votes extra-large
-/questions/3207219/how-do-i-list-all-files-of-a-directory
+/questions/7370801/how-do-i-measure-elapsed-time-in-python
+question-hyperlink
+spacer
+/q/10168686
+Question score (upvotes - downvotes)
+answer-votes answered-accepted extra-large
+/questions/10168686/image-processing-algorithm-improvement-for-coca-cola-can-recognition
+question-hyperlink
+spacer
+/q/14415881
+Question score (upvotes - downvotes)
+answer-votes answered-accepted extra-large
+/questions/14415881/how-can-i-pair-socks-from-a-pile-efficiently
+question-hyperlink
+spacer
+/q/30081275
+Question score (upvotes - downvotes)
+answer-votes answered-accepted extra-large
+/questions/30081275/why-is-1000000000000000-in-range1000000000000001-so-fast-in-python-3
 question-hyperlink
 hot-network-questions
 module tex2jax_ignore
 js-gps-track s-link s-link__inherit
 "posts_hot_network.click({ item_type:1, location:11 })"
-favicon favicon-mathoverflow
-MathOverflow
-js-gps-track question-hyperlink mb0
-"site.switch({ item_type:11, target_site:504 }); posts_hot_network.click({ item_type:2, location:11 })"
-favicon favicon-electronics
-Electrical Engineering Stack Exchange
-js-gps-track question-hyperlink mb0
-"site.switch({ item_type:11, target_site:135 }); posts_hot_network.click({ item_type:2, location:11 })"
-favicon favicon-history
-History Stack Exchange
-js-gps-track question-hyperlink mb0
-"site.switch({ item_type:11, target_site:324 }); posts_hot_network.click({ item_type:2, location:11 })"
-favicon favicon-travel
-Travel Stack Exchange
-js-gps-track question-hyperlink mb0
-"site.switch({ item_type:11, target_site:273 }); posts_hot_network.click({ item_type:2, location:11 })"
-favicon favicon-skeptics
-Skeptics Stack Exchange
-js-gps-track question-hyperlink mb0
-"site.switch({ item_type:11, target_site:212 }); posts_hot_network.click({ item_type:2, location:11 })"
-dno js-hidden
+favicon favicon-rpg
+Role-playing Games Stack Exchange
+"site.switch({ item_type:11, target_site:122 }); posts_hot_network.click({ item_type:2, location:11 })"
+favicon favicon-puzzling
+Puzzling Stack Exchange
+"site.switch({ item_type:11, target_site:559 }); posts_hot_network.click({ item_type:2, location:11 })"
+favicon favicon-politics
+Politics Stack Exchange
+"site.switch({ item_type:11, target_site:475 }); posts_hot_network.click({ item_type:2, location:11 })"
 favicon favicon-chemistry
 Chemistry Stack Exchange
-js-gps-track question-hyperlink mb0
 "site.switch({ item_type:11, target_site:431 }); posts_hot_network.click({ item_type:2, location:11 })"
+favicon favicon-space
+Space Exploration Stack Exchange
+https://space.stackexchange.com/questions/59567/whats-the-typical-temperature-of-a-reactor-core-in-a-nuclear-thermal-rocket
+"site.switch({ item_type:11, target_site:508 }); posts_hot_network.click({ item_type:2, location:11 })"
 dno js-hidden
-favicon favicon-retrocomputing
-Retrocomputing Stack Exchange
-js-gps-track question-hyperlink mb0
-"site.switch({ item_type:11, target_site:648 }); posts_hot_network.click({ item_type:2, location:11 })"
+favicon favicon-rpg
+Role-playing Games Stack Exchange
+"site.switch({ item_type:11, target_site:122 }); posts_hot_network.click({ item_type:2, location:11 })"
 dno js-hidden
-favicon favicon-scifi
-Science Fiction & Fantasy Stack Exchange
-js-gps-track question-hyperlink mb0
-"site.switch({ item_type:11, target_site:186 }); posts_hot_network.click({ item_type:2, location:11 })"
+favicon favicon-stats
+Cross Validated
+https://stats.stackexchange.com/questions/580095/how-do-survival-models-account-for-censoring-do-they
+"site.switch({ item_type:11, target_site:65 }); posts_hot_network.click({ item_type:2, location:11 })"
+dno js-hidden
+"site.switch({ item_type:11, target_site:579 }); posts_hot_network.click({ item_type:2, location:11 })"
+dno js-hidden
+"site.switch({ item_type:11, target_site:579 }); posts_hot_network.click({ item_type:2, location:11 })"
+dno js-hidden
+favicon favicon-politics
+Politics Stack Exchange
+https://politics.stackexchange.com/questions/73909/why-dont-politicians-appoint-young-and-healthy-ideological-fresh-graduates-as-s
+"site.switch({ item_type:11, target_site:475 }); posts_hot_network.click({ item_type:2, location:11 })"
+dno js-hidden
+favicon favicon-aviation
+Aviation Stack Exchange
+https://aviation.stackexchange.com/questions/93765/who-controls-mood-lighting-on-a-commercial-airplane
+"site.switch({ item_type:11, target_site:528 }); posts_hot_network.click({ item_type:2, location:11 })"
+dno js-hidden
+favicon favicon-electronics
+Electrical Engineering Stack Exchange
+"site.switch({ item_type:11, target_site:135 }); posts_hot_network.click({ item_type:2, location:11 })"
 dno js-hidden
 favicon favicon-workplace
 The Workplace Stack Exchange
-js-gps-track question-hyperlink mb0
 "site.switch({ item_type:11, target_site:423 }); posts_hot_network.click({ item_type:2, location:11 })"
 dno js-hidden
-favicon favicon-worldbuilding
-Worldbuilding Stack Exchange
-js-gps-track question-hyperlink mb0
-"site.switch({ item_type:11, target_site:579 }); posts_hot_network.click({ item_type:2, location:11 })"
-dno js-hidden
-favicon favicon-math
-Mathematics Stack Exchange
-js-gps-track question-hyperlink mb0
-"site.switch({ item_type:11, target_site:69 }); posts_hot_network.click({ item_type:2, location:11 })"
+favicon favicon-music
+Music: Practice & Theory Stack Exchange
+https://music.stackexchange.com/questions/123613/is-there-a-recorder-analog-for-the-flute
+"site.switch({ item_type:11, target_site:240 }); posts_hot_network.click({ item_type:2, location:11 })"
 dno js-hidden
 favicon favicon-electronics
 Electrical Engineering Stack Exchange
-js-gps-track question-hyperlink mb0
 "site.switch({ item_type:11, target_site:135 }); posts_hot_network.click({ item_type:2, location:11 })"
 dno js-hidden
-favicon favicon-photo
-Photography Stack Exchange
-js-gps-track question-hyperlink mb0
-"site.switch({ item_type:11, target_site:61 }); posts_hot_network.click({ item_type:2, location:11 })"
+favicon favicon-math
+Mathematics Stack Exchange
+"site.switch({ item_type:11, target_site:69 }); posts_hot_network.click({ item_type:2, location:11 })"
 dno js-hidden
-favicon favicon-scifi
-Science Fiction & Fantasy Stack Exchange
-js-gps-track question-hyperlink mb0
-"site.switch({ item_type:11, target_site:186 }); posts_hot_network.click({ item_type:2, location:11 })"
-dno js-hidden
-favicon favicon-tex
-TeX - LaTeX Stack Exchange
-js-gps-track question-hyperlink mb0
-"site.switch({ item_type:11, target_site:85 }); posts_hot_network.click({ item_type:2, location:11 })"
-dno js-hidden
-favicon favicon-codegolf
-Code Golf Stack Exchange
-js-gps-track question-hyperlink mb0
-"site.switch({ item_type:11, target_site:200 }); posts_hot_network.click({ item_type:2, location:11 })"
-dno js-hidden
-favicon favicon-skeptics
-Skeptics Stack Exchange
-js-gps-track question-hyperlink mb0
-"site.switch({ item_type:11, target_site:212 }); posts_hot_network.click({ item_type:2, location:11 })"
-dno js-hidden
-favicon favicon-worldbuilding
-Worldbuilding Stack Exchange
-js-gps-track question-hyperlink mb0
-"site.switch({ item_type:11, target_site:579 }); posts_hot_network.click({ item_type:2, location:11 })"
+favicon favicon-money
+Personal Finance & Money Stack Exchange
+"site.switch({ item_type:11, target_site:93 }); posts_hot_network.click({ item_type:2, location:11 })"
 dno js-hidden
 favicon favicon-academia
 Academia Stack Exchange
-js-gps-track question-hyperlink mb0
+https://academia.stackexchange.com/questions/186387/how-can-i-recover-the-lost-time-in-my-career
 "site.switch({ item_type:11, target_site:415 }); posts_hot_network.click({ item_type:2, location:11 })"
 dno js-hidden
-favicon favicon-chinese
-Chinese Language Stack Exchange
-js-gps-track question-hyperlink mb0
-"site.switch({ item_type:11, target_site:371 }); posts_hot_network.click({ item_type:2, location:11 })"
+favicon favicon-cs
+Computer Science Stack Exchange
+"site.switch({ item_type:11, target_site:419 }); posts_hot_network.click({ item_type:2, location:11 })"
 dno js-hidden
-favicon favicon-mathoverflow
-MathOverflow
-js-gps-track question-hyperlink mb0
-"site.switch({ item_type:11, target_site:504 }); posts_hot_network.click({ item_type:2, location:11 })"
+favicon favicon-gamedev
+Game Development Stack Exchange
+"site.switch({ item_type:11, target_site:53 }); posts_hot_network.click({ item_type:2, location:11 })"
 dno js-hidden
-favicon favicon-german
-German Language Stack Exchange
-js-gps-track question-hyperlink mb0
-"site.switch({ item_type:11, target_site:253 }); posts_hot_network.click({ item_type:2, location:11 })"
-dno js-hidden
-favicon favicon-law
-Law Stack Exchange
-js-gps-track question-hyperlink mb0
-"site.switch({ item_type:11, target_site:617 }); posts_hot_network.click({ item_type:2, location:11 })"
-dno js-hidden
-favicon favicon-bicycles
 Bicycles Stack Exchange
-js-gps-track question-hyperlink mb0
 "site.switch({ item_type:11, target_site:126 }); posts_hot_network.click({ item_type:2, location:11 })"
+dno js-hidden
+favicon favicon-superuser
+Super User
+https://superuser.com/questions/1728949/suppress-zsh-command-not-found
+"site.switch({ item_type:11, target_site:3 }); posts_hot_network.click({ item_type:2, location:11 })"
+dno js-hidden
+favicon favicon-scifi
+Science Fiction & Fantasy Stack Exchange
+"site.switch({ item_type:11, target_site:186 }); posts_hot_network.click({ item_type:2, location:11 })"
+dno js-hidden
+favicon favicon-scifi
+Science Fiction & Fantasy Stack Exchange
+https://scifi.stackexchange.com/questions/264921/whose-statue-fell-on-this-character
+"site.switch({ item_type:11, target_site:186 }); posts_hot_network.click({ item_type:2, location:11 })"
+#
 show-more js-show-more js-gps-track
 "posts_hot_network.click({ item_type:3, location:11 })"
-feed-link
-js-feed-link
-/feeds/question/19782075
-Feed of this question and its answers
-true
-fc-orange-400 svg-icon iconRss
-M3 1a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H3Zm0 1.5c6.9 0 12.5 5.6 12.5 12.5H13C13 9.55 8.45 5 3 5V2.5Zm0 5c4.08 0 7.5 3.41 7.5 7.5H8c0-2.72-2.28-5-5-5V7.5Zm0 5c1.36 0 2.5 1.14 2.5 2.5H3v-2.5Z
-s-modal js-feed-link-modal
-dialog
-feed-modal-title
-feed-modal-description
-true
-document
-se-draggable
-s-modal--header fw-bold js-first-tabbable
-feed-modal-title
-handle
-d-flex gs4 gsy fd-column
-flex--item
-d-block s-label c-default
-feed-url
-s-description mt2
-feed-modal-description
-d-flex ps-relative
-s-input
-text
-feed-url
-feed-url
-readonly
-true
-s-input-icon fc-orange-400 svg-icon iconRss
-M3 1a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H3Zm0 1.5c6.9 0 12.5 5.6 12.5 12.5H13C13 9.55 8.45 5 3 5V2.5Zm0 5c4.08 0 7.5 3.41 7.5 7.5H8c0-2.72-2.28-5-5-5V7.5Zm0 5c1.36 0 2.5 1.14 2.5 2.5H3v-2.5Z
-s-modal--close s-btn s-btn__muted js-modal-close js-last-tabbable
-Close
-true
-svg-icon iconClearSm
-/posts/19782075/ivc/d588
 dno
 ""
+0
+0
 display:none
-js-codeblock-lang
 footer
 site-footer js-footer
 contentinfo
 site-footer--container
 site-footer--logo
+https://stackoverflow.com
 true
+native svg-icon iconLogoGlyphMd
+32
+37
+0 0 32 37
+M26 33v-9h4v13H0V24h4v9h22Z
+#BCBBBB
+m21.5 0-2.7 2 9.9 13.3 2.7-2L21.5 0ZM26 18.4 13.3 7.8l2.1-2.5 12.7 10.6-2.1 2.5ZM9.1 15.2l15 7 1.4-3-15-7-1.4 3Zm14 10.79.68-2.95-16.1-3.35L7 23l16.1 2.99ZM23 30H7v-3h16v3Z
+#F48024
 site-footer--nav
 site-footer--col
 -title
+https://stackoverflow.com
 js-gps-track
 "footer.click({ location: 2, link: 15})"
 -list js-primary-footer-links
@@ -3896,96 +3367,117 @@ js-gps-track -link
 "footer.click({ location: 2, link: 3 })"
 site-footer--col
 -title
+https://stackoverflow.com/?products
 js-gps-track
 "footer.click({ location: 2, link: 19 })"
 -list
+https://stackoverflow.co/teams
 js-gps-track -link
 "[""teams traffic"",""footer - site nav"",""stackoverflow.com/teams"",null,{""dimension4"":""teams""}]"
 "footer.click({ location: 2, link: 29 })"
+https://stackoverflow.co/advertising
 js-gps-track -link
 "footer.click({ location: 2, link: 21 })"
+https://stackoverflow.co/collectives
 js-gps-track -link
 "footer.click({ location: 2, link: 40 })"
+https://stackoverflow.co/talent
 js-gps-track -link
 "footer.click({ location: 2, link: 20 })"
 site-footer--col
 -title
 js-gps-track
 "footer.click({ location: 2, link: 1 })"
+https://stackoverflow.co/
 -list
 js-gps-track -link
 "footer.click({ location: 2, link: 1 })"
+https://stackoverflow.co/
 js-gps-track -link
 "footer.click({ location: 2, link: 27 })"
+https://stackoverflow.co/company/press
 js-gps-track -link
 "footer.click({ location: 2, link: 9 })"
+https://stackoverflow.co/company/work-here
 js-gps-track -link
 "footer.click({ location: 2, link: 7 })"
+https://stackoverflow.com/legal
 js-gps-track -link
 "footer.click({ location: 2, link: 8 })"
+https://stackoverflow.com/legal/privacy-policy
 js-gps-track -link
 "footer.click({ location: 2, link: 37 })"
+https://stackoverflow.com/legal/terms-of-service
 js-gps-track -link
 "footer.click({ location: 2, link: 13 })"
+https://stackoverflow.co/company/contact
 ""
 consent-footer-link
 js-gps-track -link js-cookie-settings
 "footer.click({ location: 2, link: 38 })"
+#
 footer
 js-gps-track -link
 "footer.click({ location: 2, link: 39 })"
+https://stackoverflow.com/legal/cookie-policy
 site-footer--col site-footer--categories-nav
 -title
+https://stackexchange.com
 "footer.click({ location: 2, link: 30 })"
 -list
+https://stackexchange.com/sites#technology
+-link js-gps-track
+"footer.click({ location: 2, link: 24 })"
+https://stackexchange.com/sites#culturerecreation
+-link js-gps-track
+"footer.click({ location: 2, link: 24 })"
+https://stackexchange.com/sites#lifearts
+-link js-gps-track
+"footer.click({ location: 2, link: 24 })"
+https://stackexchange.com/sites#science
+-link js-gps-track
+"footer.click({ location: 2, link: 24 })"
+https://stackexchange.com/sites#professional
 -link js-gps-track
 "footer.click({ location: 2, link: 24 })"
 -link js-gps-track
 "footer.click({ location: 2, link: 24 })"
+mt16 md:mt0
+https://api.stackexchange.com/
 -link js-gps-track
 "footer.click({ location: 2, link: 24 })"
--link js-gps-track
-"footer.click({ location: 2, link: 24 })"
--link js-gps-track
-"footer.click({ location: 2, link: 24 })"
--link js-gps-track
-"footer.click({ location: 2, link: 24 })"
--link js-gps-track
-"footer.click({ location: 2, link: 24 })"
+https://data.stackexchange.com/
 -link js-gps-track
 "footer.click({ location: 2, link: 24 })"
 site-footer--copyright fs-fine md:mt24
--list -social md:mb8
 js-gps-track -link
 "footer.click({ location: 2, link:4 })"
 -link js-gps-track
 "footer.click({ location: 2, link: 31 })"
+https://twitter.com/stackoverflow
 -link js-gps-track
 "footer.click({ location: 2, link: 32 })"
+https://linkedin.com/company/stack-overflow
 -link js-gps-track
 "footer.click({ location: 2, link: 33 })"
+https://www.instagram.com/thestackoverflow
 -link js-gps-track
 "footer.click({ location: 2, link: 36 })"
+https://stackoverflow.com/help/licensing
 svnrev
-ff-sans ps-fixed z-nav-fixed ws4 sm:w-auto p32 sm:p16 bg-black-750 fc-white bar-lg b16 l16 r16 js-consent-banner
 true
-mln4 mb24 sm:d-none svg-spot spotCookieLg
-color: var(--theme-button-filled-background-color)
+96
+96
+0 0 96 96
 M35 45.5a7.5 7.5 0 11-15 0 7.5 7.5 0 0115 0zM63.5 63a7.5 7.5 0 100-15 7.5 7.5 0 000 15zm-19 19a7.5 7.5 0 100-15 7.5 7.5 0 000 15z
+.2
 M56.99 2.53a23.1 23.1 0 0114.66 6.15h.01l.01.02c.57.55.61 1.27.5 1.74v.07a10.95 10.95 0 01-3.07 4.77 9 9 0 01-6.9 2.5 10.34 10.34 0 01-9.72-10.44v-.08a10 10 0 011.03-3.74l.01-.03.02-.02c.28-.5.82-.92 1.52-.95.63-.02 1.27-.02 1.93.01zm12.04 7.83a20.1 20.1 0 00-12.2-4.83l-.92-.03c-.23.6-.38 1.25-.43 1.94a7.34 7.34 0 006.95 7.34 6 6 0 004.64-1.7c.94-.88 1.6-1.9 1.96-2.72zm15.3 8.76a6.84 6.84 0 00-5.09-.24 7.9 7.9 0 00-3.28 2.05 1.8 1.8 0 00-.3 1.95l.02.02v.02a15.16 15.16 0 008.74 7.47c.64.23 1.32.08 1.8-.33a6.63 6.63 0 001.63-1.97l.01-.03.01-.03c1.67-3.5-.12-7.32-3.54-8.91zm-5.5 3.28c.36-.25.82-.5 1.35-.67.92-.3 1.92-.35 2.89.1 2.14 1 2.92 3.14 2.11 4.88-.12.21-.26.41-.43.6l-.26-.1a12.29 12.29 0 01-5.66-4.81zM32 24a2 2 0 11-4 0 2 2 0 014 0zm12 21a2 2 0 11-4 0 2 2 0 014 0zm36 4a2 2 0 11-4 0 2 2 0 014 0zm-7 21a2 2 0 11-4 0 2 2 0 014 0zM59 81a2 2 0 11-4 0 2 2 0 014 0zM22 63a2 2 0 11-4 0 2 2 0 014 0zm27 7a9 9 0 11-18 0 9 9 0 0118 0zm-3 0a6 6 0 10-12 0 6 6 0 0012 0zM33 41a9 9 0 11-18 0 9 9 0 0118 0zm-15 0a6 6 0 1012 0 6 6 0 00-12 0zm50 11a9 9 0 11-18 0 9 9 0 0118 0zm-3 0a6 6 0 10-12 0 6 6 0 0012 0zM44.08 4.24c.31.48.33 1.09.05 1.58a17.46 17.46 0 00-2.36 8.8c0 9.55 7.58 17.24 16.85 17.24 2.97 0 5.75-.78 8.16-2.15a1.5 1.5 0 012.1.66 12.08 12.08 0 0011 6.74 12.4 12.4 0 007.85-2.75 1.5 1.5 0 012.38.74A45.76 45.76 0 0192 48.16c0 24.77-19.67 44.9-44 44.9S4 72.93 4 48.16C4 25.23 20.84 6.28 42.64 3.58a1.5 1.5 0 011.44.66zM40.22 7C21.32 10.71 7 27.7 7 48.16c0 23.17 18.39 41.9 41 41.9s41-18.73 41-41.9c0-3.52-.42-6.93-1.22-10.2a15.5 15.5 0 01-7.9 2.15c-5.5 0-10.36-2.83-12.97-7.1a19.46 19.46 0 01-8.28 1.85c-11 0-19.86-9.1-19.86-20.24 0-2.7.52-5.26 1.45-7.62zM92 91a2 2 0 100-4 2 2 0 000 4zM7 8.5a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zM82.5 90a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm9.5-7.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM13.5 8a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM80 14.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM53.5 20a1.5 1.5 0 100-3 1.5 1.5 0 000 3z
-fs-body2 fw-bold mb4
-mb16 s-anchors s-anchors__inherit s-anchors__underlined
+https://stackoverflow.com/legal/cookie-policy
 d-flex gs8 ai-stretch fd-column sm:fd-row
-flex--item s-btn s-btn__primary js-accept-cookies js-consent-banner-hide
-flex--item s-btn s-btn__filled js-cookie-settings
-banner
 onetrust-consent-sdk
 d-none
-onetrust-banner-sdk
 s-modal
 ot-pc-content
 d-none
 onetrust-style
 d-none
-d-none js-consent-banner-version
-baseline
