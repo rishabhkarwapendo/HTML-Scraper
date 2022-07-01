@@ -1,34 +1,34 @@
 Non-matches
 utf-8
-viewport
 "width=device-width, initial-scale=1.0"
-stylesheet
+viewport
 _static/classic.css
-text/css
 stylesheet
-_static/pygments.css
 text/css
-documentation_options
+_static/pygments.css
+stylesheet
+text/css
 ./
+documentation_options
 _static/documentation_options.js
 _static/jquery.js
 _static/underscore.js
 _static/doctools.js
 _static/language_data.js
+genindex.html
 index
 Index
-genindex.html
+search.html
 search
 Search
-search.html
+related navigation
 related
 navigation
-related navigation
 right
 margin-right: 10px
+I
 genindex.html
 General Index
-I
 nav-item nav-item-0
 #
 nav-item nav-item-this
@@ -6724,8 +6724,8 @@ pre
 docutils literal notranslate
 pre
 clearer
-navigation
 main navigation
+navigation
 #
 reference internal
 #
@@ -7021,24 +7021,24 @@ reference internal
 #entities
 reference internal
 #id19
-note
 source link
+note
 this-page-menu
 _sources/index.rst.txt
 nofollow
+search
 display: none
-search
 searchformwrapper
-search
 search.html
+search
 get
-text
 q
+text
 Go
 clearer
+related navigation
 related
 navigation
-related navigation
 right
 margin-right: 10px
 genindex.html

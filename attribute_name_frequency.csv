@@ -69,8 +69,8 @@ row-odd,3
 stylesheet,2
 text/css,2
 search.html,2
-related,2
 related navigation,2
+related,2
 clearer,2
 searchlabel,2
 right,2
@@ -166,15 +166,15 @@ https://facelessuser.github.io/soupsieve/,2
 #id19,2
 row-even,2
 utf-8,1
-viewport,1
 "width=device-width, initial-scale=1.0",1
+viewport,1
 _static/classic.css,1
 _static/pygments.css,1
 index,1
 Index,1
 Search,1
-documentation_options,1
 ./,1
+documentation_options,1
 _static/documentation_options.js,1
 _static/jquery.js,1
 _static/underscore.js,1
@@ -290,11 +290,11 @@ generators,1
 xml,1
 entities,1
 id19,1
-sphinxsidebar,1
 main navigation,1
+sphinxsidebar,1
 sphinxsidebarwrapper,1
-note,1
 source link,1
+note,1
 searchbox,1
 display: none,1
 searchformwrapper,1
@@ -360,7 +360,7 @@ width: 26%,1
 width: 21%,1
 arabic simple,1
 get,1
-text,1
 q,1
+text,1
 submit,1
 Go,1
