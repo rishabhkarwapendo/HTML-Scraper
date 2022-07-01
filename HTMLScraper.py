@@ -295,6 +295,7 @@ plt.cla()
 plt.close()
 
 
+
 #graphing the total number of times an attribute occurs
 attributesToFrequency = {}
 for value in tagsToAttributes.values():
