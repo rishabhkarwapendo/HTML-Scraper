@@ -46,6 +46,7 @@ idsToClasses = defaultdict(list)
 classesToAttributes = defaultdict(list)
 
 
+
 #gets the depth, attributes, text, and location of all elements and creates maps
 class MyHTMLParser(HTMLParser):
     def __init__(self):
