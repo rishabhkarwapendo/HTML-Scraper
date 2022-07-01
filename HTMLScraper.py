@@ -14,6 +14,7 @@ import collections
 from matplotlib import rcParams
 
 
+
 #get the input and convert to html soup
 inp = input("Type file name or enter URL for HTML input: ")
 if validators.url(inp):
