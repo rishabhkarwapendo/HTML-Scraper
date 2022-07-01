@@ -11,15 +11,11 @@ import SearchFilters
 import validators
 import re
 import collections
-from anytree import Node, RenderTree
 from matplotlib import rcParams
-from anytree.exporter import DotExporter
 
 
-
-#get the input and convert the html soup
+#get the input and convert to html soup
 inp = input("Type file name or enter URL for HTML input: ")
-url = True
 if validators.url(inp):
     inp = req.get(inp)
     soup = BeautifulSoup(inp.text, 'lxml')
@@ -27,8 +23,8 @@ else:
     with open(inp, 'r') as file:
         inp = file.read()
     soup = BeautifulSoup(inp, 'lxml')
-    url = False
-
+#ensure the document is formatted correctly (to get depths and text correctly)
+inp = soup.prettify()
 
 #gets the depths at which each tag appears
 tagsToDepth = defaultdict(list)
@@ -68,11 +64,7 @@ class MyHTMLParser(HTMLParser):
         self.depth -= 1
 
 if __name__ == '__main__':
-    if url: 
-        MyHTMLParser().feed(inp.text)
-    else:
-        MyHTMLParser().feed(inp)
-#TODO: https://www.crummy.com/software/BeautifulSoup/bs4/doc/#next-sibling-and-previous-sibling figure out how to get the correct depths for head and other tags. soup.prettify()?
+    MyHTMLParser().feed(inp)
 
 
 #gets inner text of all tags without children
