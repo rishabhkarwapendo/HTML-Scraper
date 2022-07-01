@@ -12,6 +12,7 @@ import validators
 import re
 import collections
 from anytree import Node, RenderTree
+from matplotlib import rcParams
 from anytree.exporter import DotExporter
 
 
@@ -23,7 +24,7 @@ if validators.url(inp):
     inp = req.get(inp)
     soup = BeautifulSoup(inp.text, 'lxml')
 else:
-    with open('file.txt', 'r') as file:
+    with open(inp, 'r') as file:
         inp = file.read()
     soup = BeautifulSoup(inp, 'lxml')
     url = False
@@ -47,10 +48,9 @@ classesToIds = defaultdict(list)
 idsToClasses = defaultdict(list)
 #gets classes of recently opeend tag mapped to all its attributes (except IDs)
 classesToAttributes = defaultdict(list)
-#create node for the DOM tree visualization
-root = Node('html')
 
-#gets the depth of all elements and creates maps
+
+#gets the depth, attributes, text, and location of all elements and creates maps
 class MyHTMLParser(HTMLParser):
     def __init__(self):
         HTMLParser.__init__(self)
@@ -72,46 +72,7 @@ if __name__ == '__main__':
         MyHTMLParser().feed(inp.text)
     else:
         MyHTMLParser().feed(inp)
-
-#TODO: creating tree of DOM structure for visualization
-# nodes = []
-# for key, value in tagsToDepth:
-#     if key == 'html':
-#         root = Node((key + ' ' + str(1)))
-#     tags = soup.find_all(key, recursive=False)
-#     for tag in tags:
-#         print((type(tag)))
-#         node = Node(str(tag), parent=key)
-
-#will need to map tags to tags and their locations
-
-# soup = BeautifulSoup(inp, "html.parser")
-# def dfs(name, par):
-#     tagHolder = []
-#     tags = soup.find_all(name, recursive=False)
-#     for tags.name in tags:
-#         tagHolder.append(tags.name)
-#     print(tagHolder)
-#     root = Node(name, parent=par, children=tagHolder)
-#     tags = soup.find_all(name, recursive=False)
-#     for t in tags:
-#         dfs(t.name, name)
-
-# #DFS to get all the children routed to the parent
-# dfs('html', None)
-# for key in tagsToDepth:
-#         tags = soup.find_all(key)
-#         print(key)
-#         for t in tags:
-#             node = Node(key)
-#             if key == 'html':
-#                 root = node
-#             children = t.find_all(recursive=False)
-#             for c in children:
-#                 node.children.append(c)
-#                # print(key + ' ' + c.name)
-# for pre, fill, node in RenderTree(root):
-#  print("%s%s" % (pre, node.name))
+#TODO: https://www.crummy.com/software/BeautifulSoup/bs4/doc/#next-sibling-and-previous-sibling figure out how to get the correct depths for head and other tags. soup.prettify()?
 
 
 #gets inner text of all tags without children
@@ -123,8 +84,9 @@ for key in tagsToDepth:
            tagsToInnerText[key].append(tag.getText())
         else:
             tagsToInnerText[key].append(None)
+                
 
-    
+
 #mapping classes to IDs, IDs to classes, and classes to the all other attributes
 for value in tagsToAttributes.values():
     classes = []
@@ -163,8 +125,29 @@ while True:
         SearchFilters.findAttribute(regex, tagsDepthLineToAttributes, matchFind.lower())
 
 
-
-
+#getting the previous sibling of each tag to see its depth
+tagName = []
+tagDepth = []
+previousSiblingName = []
+previousSiblingChildren = []
+fullTag = []
+fullPreviousTag = []
+for key in tagsToDepth:
+        tags = soup.find_all(key)
+        for i, tag in enumerate(tags):
+            prev = tag.find_previous_sibling()
+            if prev:
+                tagName.append(tag.name)
+                tagDepth.append(tagsToDepth[key][i])
+                previousSiblingName.append(prev.name)
+                previousSiblingChildren.append(len(prev.find_all()))
+                fullTag.append(tag)
+                fullPreviousTag.append(prev)
+#export to csv file
+matched_data = {'Tag': tagName, 'Depth': tagDepth, 'Previous Sibling': previousSiblingName, 'Number of Children': previousSiblingChildren, 'Full Tag': fullTag, 'Full Previous Tag': fullPreviousTag}
+df = pd.DataFrame(matched_data)
+header = True
+df.to_csv('previous_sibling_info.csv', encoding='utf-8', header=header, index=False)
 
 
 #returning all the classes that passed regex, mapped to their IDs in a csv files (assuming regex is being entered to match dynamic classes)
@@ -269,30 +252,83 @@ for key, value in tagsToInnerText.items():
 #export to csv file
 matched_data = {'Tag': tags, 'Number': numbers, 'Depth': depths, 'Inner Text': texts}
 df = pd.DataFrame.from_dict(matched_data)
-#df = df.transpose()
 df.to_csv('inner_text_data.csv', encoding='utf-8', header=True, index=False)
 
 
-# for key, value in tagsToInnerText.items():
+# for key, value in tagsToAttributes.items():
 #     print(key)
 #     print(value)
 
 
+#creating a csv for the attribute names to how frequently they appear
+attributeNamesToFrequency = {}
+for value in tagsToAttributes.values():
+    for pair in value:
+        if len(pair) > 0:
+            for p in pair:
+                if str(p[1]) not in attributeNamesToFrequency:
+                    attributeNamesToFrequency[str(p[1])] = 1
+                else:
+                    attributeNamesToFrequency[str(p[1])] +=1
+attributeNamesToFrequency = collections.OrderedDict(sorted(attributeNamesToFrequency.items(), key=lambda x: x[1], reverse=True))
+#export to csv file
+matched_data = {'Attribute': attributeNamesToFrequency.keys(), 'Frequency': attributeNamesToFrequency.values()}
+df = pd.DataFrame.from_dict(matched_data)
+df.to_csv('attribute_name_frequency.csv', encoding='utf-8', header=True, index=False)
+
+
 #graphing the total number of times each tag appears
 tags = []
-depth = []
+frequency = []
 for key, value in tagsToDepth.items():
     tags.append(key)
-    depth.append(len(value))
+    frequency.append(len(value))
 tags = np.array(tags)
-depth = np.array(depth)
+frequency = np.array(frequency)
 plt.rcParams.update({'font.size': 7})
-plt.bar(tags, depth, color = "red")
+plt.bar(tags, frequency, color = "red")
 font1 = {'family':'serif','color':'blue','size':20}
 font2 = {'family':'serif','color':'darkred','size':15}
 plt.title("Tags VS Frequency", fontdict = font1)
 plt.xlabel("Tags", fontdict = font2)
 plt.ylabel("Frequency", fontdict = font2)
-for index,data in enumerate(depth):
+plt.xticks(rotation = 90)
+for index,data in enumerate(frequency):
     plt.text(x=index, y =data+1 , s=f"{data}" , fontdict=dict(fontsize=12), ha='center')
-plt.show()
+plt.tight_layout()
+plt.savefig('tag_frequency.png')
+plt.clf()
+plt.cla()
+plt.close()
+
+
+#graphing the total number of times an attribute occurs
+attributesToFrequency = {}
+for value in tagsToAttributes.values():
+    for pair in value:
+        if len(pair) > 0:
+            for p in pair:
+                if str(p[0]) not in attributesToFrequency:
+                    attributesToFrequency[str(p[0])] = 1
+                else:
+                    attributesToFrequency[str(p[0])] +=1
+attributes = []
+frequency = []
+attributesToFrequency = collections.OrderedDict(sorted(attributesToFrequency.items()))
+for key, value in attributesToFrequency.items():
+    attributes.append(key)
+    frequency.append(value)
+attributes = np.array(attributes)
+frequency = np.array(frequency)
+plt.rcParams.update({'font.size': 6})
+plt.bar(attributes, frequency, color = "red")
+font1 = {'family':'serif','color':'blue','size':20}
+font2 = {'family':'serif','color':'darkred','size':15}
+plt.title("Attributes VS Frequency", fontdict = font1)
+plt.xlabel("Attributes", fontdict = font2)
+plt.ylabel("Frequency", fontdict = font2)
+plt.xticks(rotation = 90)
+for index,data in enumerate(frequency):
+    plt.text(x=index, y =data+1 , s=f"{data}" , fontdict=dict(fontsize=10), ha='center')
+plt.tight_layout()
+plt.savefig('attribute_frequency.png')

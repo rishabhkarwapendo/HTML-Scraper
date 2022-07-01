@@ -1,3483 +1,7052 @@
 Non-matches
-None
-https://schema.org/QAPage
-html__responsive 
-en
-shortcut icon
-https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196
-apple-touch-icon
-image_src
-search
-application/opensearchdescription+xml
-Stack Overflow
-/opensearch.xml
-canonical
+utf-8
 viewport
-"width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0"
-og:type
-og:url
-og:site_name
-Stack Overflow
-og:image
-image primaryImageOfPage
-twitter:card
-summary
-twitter:domain
-stackoverflow.com
-twitter:title
-og:title
-name
-twitter:description
-og:description
-description
-text/uri-list
-None
-https://cdn.sstatic.net/Js/third-party/npm/@stackoverflow/stacks/dist/js/stacks.min.js?v=6cc27826a5fd
+"width=device-width, initial-scale=1.0"
 stylesheet
+_static/classic.css
 text/css
 stylesheet
+_static/pygments.css
 text/css
-https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=259d42f3fd03
-twitter:app:country
-US
-twitter:app:name:iphone
-Stack Exchange iOS
-twitter:app:id:iphone
-871299723
-twitter:app:url:iphone
-twitter:app:name:ipad
-Stack Exchange iOS
-twitter:app:id:ipad
-871299723
-twitter:app:url:ipad
-twitter:app:name:googleplay
-Stack Exchange Android
-twitter:app:url:googleplay
-twitter:app:id:googleplay
-com.stackexchange.marvin
-stylesheet
-text/css
-application/json
-module-args
-Shared/options.mod
-application/json
-module-args
-Shared/settings.mod
-noscript-css
-question-page unified-theme
-notify-container
-custom-header
-#
-menuitem
-true
-false
-sm
-https://stackoverflow.com
-"top_nav.click({is_current:false, location:2, destination:8})"
--img _glyph
-s-navigation
-presentation
-md:d-none
-https://stackoverflow.co/
-s-navigation--item js-gps-track
-"top_nav.products.click({location:2, destination:7})"
-#
-s-navigation--item js-gps-track js-products-menu
-products-popover
-s-popover
-s-popover#toggle
-is-selected
-"top_nav.products.click({location:2, destination:1})"
-"[""top navigation"",""products menu click"",null,null,null]"
-md:d-none
-/teams
-s-navigation--item js-gps-track
-"top_nav.products.click({location:2, destination:7})"
-"[""top navigation"",""learn more - teams"",null,null,null]"
-s-popover ws2 mtn2 p0
-products-popover
-menu
-true
-s-popover--arrow
-list-reset s-anchors s-anchors__inherit
-m6
-/questions
-"top_nav.products.click({location:2, destination:2})"
-m6
-/teams
-"top_nav.products.click({location:2, destination:3})"
-m6
-https://stackoverflow.co/talent
-"top_nav.products.click({location:2, destination:5})"
-m6
-https://stackoverflow.co/advertising
-"top_nav.products.click({location:2, destination:6})"
-https://stackoverflow.co/
-"top_nav.products.click({location:2, destination:7})"
+documentation_options
+./
+_static/documentation_options.js
+_static/jquery.js
+_static/underscore.js
+_static/doctools.js
+_static/language_data.js
+index
+Index
+genindex.html
 search
-search
-/search
-off
-q
-text
-Search…
-""
-off
-240
-s-input s-input__search js-search-field 
 Search
-top-search
-s-popover
-focus->s-popover#show
-true
-s-input-icon s-input-icon__search svg-icon iconSearch
-18
-18
-0 0 18 18
-m18 16.5-5.14-5.18h-.35a7 7 0 1 0-1.19 1.19v.35L16.5 18l1.5-1.5ZM12 7A5 5 0 1 1 2 7a5 5 0 0 1 10 0Z
-s-popover p0 wmx100 wmn4 sm:wmn-initial js-top-search-popover
-top-search
-menu
-s-popover--arrow
-js-spinner p24 d-flex ai-center jc-center d-none
-s-spinner s-spinner__sm fc-orange-400
-js-ac-results overflow-y-auto hmx3 d-none
-js-search-hints
-Tips for searching
-presentation
-presentation
-menu
-header fw-wrap
-flex--item
-https://stackoverflow.com
-flex--item fl1
-ai-center d-flex jc-end
-Close
-true
-svg-icon iconClear
-18
-18
-0 0 18 18
-M15 4.41 13.59 3 9 7.59 4.41 3 3 4.41 7.59 9 3 13.59 4.41 15 9 10.41 13.59 15 15 13.59 10.41 9 15 4.41Z
-current-site 
-d-flex
-fl1
-https://stackoverflow.com
-current-site-link site-link js-gps-track d-flex gs8 gsx
-1
-site_switcher.click({ item_type:3 })
-favicon favicon-stackoverflow site-icon flex--item
-Stack Overflow
-flex--item fl1
-related-links
-https://stackoverflow.com/help
-js-gps-track
-site_switcher.click({ item_type:14 })
-js-gps-track
-site_switcher.click({ item_type:6 })
-related-site d-flex
-L-shaped-icon-container
-L-shaped-icon
-https://meta.stackoverflow.com
- site-link js-gps-track d-flex gs8 gsx
-552
-"site.switch({ target_site:552, item_type:3 }),site_switcher.click({ item_type:4 })"
-favicon favicon-stackoverflowmeta site-icon flex--item
-Meta Stack Overflow
-flex--item fl1
-header
-your-communities-header
-modal-content
-your-communities-section
-call-to-login
-login-link js-gps-track
-site_switcher.click({ item_type:10 })
-login-link js-gps-track
-site_switcher.click({ item_type:11 })
-header
-https://stackexchange.com/sites
-float-right
-modal-content
-child-content
-#
-Search
-true
-search
-Click to show search
-true
-svg-icon iconSearch
-18
-18
-0 0 18 18
-m18 16.5-5.14-5.18h-.35a7 7 0 1 0-1.19 1.19v.35L16.5 18l1.5-1.5ZM12 7A5 5 0 1 1 2 7a5 5 0 0 1 10 0Z
-nofollow
-login.click
-nofollow
-"[""sign up"",""Sign Up Navigation"",""Header"",null,null]"
-container
-md lg
+search.html
+related
 navigation
-nav-links
-ps-relative
-/
-pl8 js-gps-track nav-links--link
-"top_nav.click({is_current: false, location:2, destination:8})"
-""
-""
+related navigation
 right
-true
-never
-d-flex ai-center
-flex--item truncate
-nav-links
-ps-relative  youarehere
-nav-questions
-/questions
-pl8 js-gps-track nav-links--link -link__with-icon
-"top_nav.click({is_current: true, location:2, destination:1})"
+margin-right: 10px
+genindex.html
+General Index
+I
+nav-item nav-item-0
+#
+nav-item nav-item-this
 ""
-""
-right
-true
-never
-true
-18
-18
-0 0 18 18
-M9 1C4.64 1 1 4.64 1 9c0 4.36 3.64 8 8 8 4.36 0 8-3.64 8-8 0-4.36-3.64-8-8-8ZM8 15.32a6.46 6.46 0 0 1-4.3-2.74 6.46 6.46 0 0 1-.93-5.01L7 11.68v.8c0 .88.12 1.32 1 1.32v1.52Zm5.72-2c-.2-.66-1-1.32-1.72-1.32h-1v-2c0-.44-.56-1-1-1H6V7h1c.44 0 1-.56 1-1V5h2c.88 0 1.4-.72 1.4-1.6v-.33a6.45 6.45 0 0 1 3.83 4.51 6.45 6.45 0 0 1-1.51 5.73v.01Z
--link--channel-name
-ps-relative
-nav-tags
-/tags
- js-gps-track nav-links--link
-"top_nav.click({is_current: false, location:2, destination:2})"
-""
-""
-right
-true
-never
-d-flex ai-center
-flex--item truncate
-ps-relative
-nav-users
-/users
- js-gps-track nav-links--link
-"top_nav.click({is_current: false, location:2, destination:3})"
-""
-""
-right
-true
-never
-d-flex ai-center
-flex--item truncate
-ps-relative
-nav-companies
- js-gps-track nav-links--link
-"top_nav.click({is_current: false, location:2, destination:12})"
-""
-""
-right
-true
-never
-d-flex ai-center
-flex--item truncate
-flex--item tt-uppercase tt-uppercase fs-fine fc-light
-flex--item fs-fine fc-light
-javascript:void(0)
-s-link s-link__inherit mr8 js-gps-track js-collectives-navcta-toggle
-popover-discover-collectives
-s-popover
-s-popover#toggle
-top
-is-selected
-"top_nav.click({is_current:false, location:2, destination:17})"
-true
-svg-icon iconInfoSm
-14
-14
-0 0 14 14
-M7 1a6 6 0 1 1 0 12A6 6 0 0 1 7 1Zm1 10V6H6v5h2Zm0-6V3H6v2h2Z
-ps-relative
-nav-collective-discover
-/collectives
-pl8 ai-center js-collectives-navcta-toggle js-gps-track nav-links--link -link__with-icon
-"top_nav.click({is_current: false, location:2, destination:18})"
-""
-""
-right
-true
-never
-true
-mt-auto fc-orange-400 svg-icon iconStarVerified
-18
-18
-0 0 18 18
-M9.86.89a1.14 1.14 0 0 0-1.72 0l-.5.58c-.3.35-.79.48-1.23.33l-.72-.25a1.14 1.14 0 0 0-1.49.85l-.14.76c-.1.45-.45.8-.9.9l-.76.14c-.67.14-1.08.83-.85 1.49l.25.72c.15.44.02.92-.33 1.23l-.58.5a1.14 1.14 0 0 0 0 1.72l.58.5c.35.3.48.79.33 1.23l-.25.72c-.23.66.18 1.35.85 1.49l.76.14c.45.1.8.45.9.9l.14.76c.14.67.83 1.08 1.49.85l.72-.25c.44-.15.92-.02 1.23.33l.5.58c.46.52 1.26.52 1.72 0l.5-.58c.3-.35.79-.48 1.23-.33l.72.25c.66.23 1.35-.18 1.49-.85l.14-.76c.1-.45.45-.8.9-.9l.76-.14c.67-.14 1.08-.83.85-1.49l-.25-.72c-.15-.44-.02-.92.33-1.23l.58-.5c.52-.46.52-1.26 0-1.72l-.58-.5c-.35-.3-.48-.79-.33-1.23l.25-.72a1.14 1.14 0 0 0-.85-1.49l-.76-.14c-.45-.1-.8-.45-.9-.9l-.14-.76a1.14 1.14 0 0 0-1.49-.85l-.72.25c-.44.15-.92.02-1.23-.33l-.5-.58Zm-.49 2.67L10.6 6.6c.05.15.19.24.34.25l3.26.22c.36.03.5.48.23.71l-2.5 2.1a.4.4 0 0 0-.14.4l.8 3.16a.4.4 0 0 1-.6.44L9.2 12.13a.4.4 0 0 0-.42 0l-2.77 1.74a.4.4 0 0 1-.6-.44l.8-3.16a.4.4 0 0 0-.13-.4l-2.5-2.1a.4.4 0 0 1 .22-.7l3.26-.23a.4.4 0 0 0 .34-.25l1.22-3.03a.4.4 0 0 1 .74 0Z
--link--channel-name
-nav-links
-js-freemium-cta ps-relative
-139
-114
-""
-teams.create.left-sidenav.click({ Action: 6 })
-"[""teams left navigation - anonymous"",""left nav free cta"",""stackoverflow.com/teams/create/free"",null,null]"
-https://stackoverflow.co/teams
-teams.create.left-sidenav.click({ Action: 5 })
-"[""teams left navigation - anonymous"",""left nav free cta"",""stackoverflow.com/teams"",null,null]"
-flex--item tt-uppercase fs-fine fc-light
-flex--item
-javascript:void(0)
-popover-teams-create-cta
-s-popover
-s-popover#toggle
-is-selected
-teams.create.left-sidenav.click({ Action: ShowInfo })
-"[""teams left navigation - anonymous"",""left nav show teams info"",null,null,null]"
-true
-svg-icon iconInfoSm
-14
-14
-0 0 14 14
-M7 1a6 6 0 1 1 0 12A6 6 0 0 1 7 1Zm1 10V6H6v5h2Zm0-6V3H6v2h2Z
-ps-relative js-create-team-cta d-none
-pl8 js-gps-track nav-links--link
-"Stack Overflow for Teams is a private, secure spot for your organization's questions and answers."
-teams.create.left-sidenav.click({ Action: FreemiumTeamsCreateClick })
-"[""teams left navigation - anonymous"",""left nav team click"",""stackoverflow.com/teams/create/free"",null,null]"
-d-flex ai-center
-s-avatar--letter mtn1
-true
-svg-icon iconBriefcaseSm
-14
-14
-0 0 14 14
-M4 3a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1h.5c.83 0 1.5.67 1.5 1.5v5c0 .83-.67 1.5-1.5 1.5h-7A1.5 1.5 0 0 1 2 10.5v-5C2 4.67 2.67 4 3.5 4H4V3Zm5 1V3H5v1h4Z
-true
-9
-10
-0 0 9 10
-M0 1.84 4.5 0 9 1.84v3.17C9 7.53 6.3 10 4.5 10 2.7 10 0 7.53 0 5.01V1.84Z
-var(--white)
-M1 2.5 4.5 1 8 2.5v2.51C8 7.34 5.34 9 4.5 9 3.65 9 1 7.34 1 5.01V2.5Zm2.98 3.02L3.2 7h2.6l-.78-1.48a.4.4 0 0 1 .15-.38c.34-.24.73-.7.73-1.14 0-.71-.5-1.23-1.41-1.23-.92 0-1.39.52-1.39 1.23 0 .44.4.9.73 1.14.12.08.18.23.15.38Z
-flex--item pl6
-s-popover ws2
-popover-discover-collectives
-menu
-s-popover--arrow
-true
-fc-orange-500 float-right ml24 svg-spot spotCollective
-48
-48
-0 0 48 48
-M25.5 7a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM14 18.25c0-.69.56-1.25 1.25-1.25h22.5c.69 0 1.25.56 1.25 1.25V37.5a1 1 0 0 1-1.6.8l-4.07-3.05a1.25 1.25 0 0 0-.75-.25H15.25c-.69 0-1.25-.56-1.25-1.25v-15.5ZM7 24.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0ZM25.5 48a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM48 24.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Z
-.2
-M21 3.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0ZM24.5 2a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3ZM0 23.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0ZM3.5 22a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3ZM21 44.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0Zm3.5-1.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Zm20-23a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7ZM43 23.5a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Zm-23.23-3.14a1 1 0 0 1-.13 1.4l-2.08 1.74 2.08 1.73a1 1 0 1 1-1.28 1.54l-2.42-2.02a1.63 1.63 0 0 1 0-2.5l2.42-2.02a1 1 0 0 1 1.4.13Zm7.59 1.41a1 1 0 1 1 1.28-1.54l2.42 2.02c.78.65.78 1.85 0 2.5l-2.42 2.02a1 1 0 1 1-1.28-1.54l2.08-1.73-2.08-1.73ZM24.12 18a1 1 0 0 1 .87 1.12l-1 8a1 1 0 1 1-1.98-.24l1-8a1 1 0 0 1 1.11-.87Zm-11.87-5C11.01 13 10 14 10 15.25v15.5c0 1.24 1 2.25 2.25 2.25h17.33c.06 0 .11.02.15.05l4.07 3.05a2 2 0 0 0 3.2-1.6V15.25c0-1.24-1-2.25-2.25-2.25h-22.5ZM12 15.25c0-.14.11-.25.25-.25h22.5c.14 0 .25.11.25.25V34.5l-4.07-3.05a2.2 2.2 0 0 0-1.35-.45H12.25a.25.25 0 0 1-.25-.25v-15.5Zm7.24-10.68a1 1 0 1 0-.48-1.94A22.04 22.04 0 0 0 2.91 17.7a1 1 0 1 0 1.92.58 20.04 20.04 0 0 1 14.4-13.72Zm11.05-1.66a1 1 0 0 0-.58 1.92c6.45 1.92 11.54 7 13.46 13.46a1 1 0 1 0 1.92-.58 22.05 22.05 0 0 0-14.8-14.8ZM4.57 28.76a1 1 0 0 0-1.94.48 22.03 22.03 0 0 0 16.13 16.13 1 1 0 1 0 .48-1.94A20.03 20.03 0 0 1 4.57 28.76Zm40.8.48a1 1 0 1 0-1.94-.48 20.04 20.04 0 0 1-13.72 14.41 1 1 0 0 0 .58 1.92 22.04 22.04 0 0 0 15.08-15.85Z
-my16 fs-caption fc-medium
-/collectives
-"top_nav.click({is_current:false, location:2, destination:18})"
-s-popover
-popover-teams-create-cta
-menu
-true
-s-popover--arrow
-ps-relative overflow-hidden
-https://stackoverflow.co/teams
-teams.create.left-sidenav.click({ Action: CtaClick })
-"[""teams left navigation - anonymous"",""left nav cta"",""stackoverflow.com/teams"",null,null]"
-true
-fc-orange-500 svg-spot spotPeople
-48
-48
-0 0 48 48
-M13.5 28a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9ZM7 30a1 1 0 0 1 1-1h11a1 1 0 0 1 1 1v5h11v-5a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v10a2 2 0 0 1-2 2H33v5a1 1 0 0 1-1 1H20a1 1 0 0 1-1-1v-5H8a1 1 0 0 1-1-1V30Zm25-6.5a4.5 4.5 0 1 0 9 0 4.5 4.5 0 0 0-9 0ZM24.5 34a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9Z
-.2
-M16.4 26.08A6 6 0 1 0 7.53 26C5.64 26.06 4 27.52 4 29.45V40a1 1 0 0 0 1 1h9a1 1 0 1 0 0-2h-4v-7a1 1 0 1 0-2 0v7H6v-9.55c0-.73.67-1.45 1.64-1.45H16a1 1 0 0 0 .4-1.92ZM12 18a4 4 0 1 1 0 8 4 4 0 0 1 0-8Zm16.47 14a6 6 0 1 0-8.94 0A3.6 3.6 0 0 0 16 35.5V46a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V35.5c0-1.94-1.64-3.42-3.53-3.5ZM20 28a4 4 0 1 1 8 0 4 4 0 0 1-8 0Zm-.3 6h8.6c1 0 1.7.75 1.7 1.5V45h-2v-7a1 1 0 1 0-2 0v7h-4v-7a1 1 0 1 0-2 0v7h-2v-9.5c0-.75.7-1.5 1.7-1.5ZM42 22c0 1.54-.58 2.94-1.53 4A3.5 3.5 0 0 1 44 29.45V40a1 1 0 0 1-1 1h-9a1 1 0 1 1 0-2h4v-7a1 1 0 1 1 2 0v7h2v-9.55A1.5 1.5 0 0 0 40.48 28H32a1 1 0 0 1-.4-1.92A6 6 0 1 1 42 22Zm-2 0a4 4 0 1 0-8 0 4 4 0 0 0 8 0Z
-.35
-M17 10a1 1 0 011-1h12a1 1 0 110 2H18a1 1 0 01-1-1Zm1-5a1 1 0 100 2h12a1 1 0 100-2H18ZM14 1a1 1 0 00-1 1v12a1 1 0 001 1h5.09l4.2 4.2a1 1 0 001.46-.04l3.7-4.16H34a1 1 0 001-1V2a1 1 0 00-1-1H14Zm1 12V3h18v10h-5a1 1 0 00-.75.34l-3.3 3.7-3.74-3.75a1 1 0 00-.71-.29H15Z
-content
-snippet-hidden
-mainEntity
-None
-https://schema.org/Question
-image
-inner-content clearfix
-question-header
-d-flex sm:fd-column
-name
-question-hyperlink
-/questions/ask
-2008-09-25 09:42:55Z
-fc-light mr2
-dateCreated
-2008-09-25T09:42:55
-fc-light mr2
-?lastactivity
-s-link s-link__inherit
-2010-12-20 04:51:02Z
-"Viewed 78,623 times"
-fc-light mr2
+document
+documentwrapper
 main
-question and answers
-question js-question
-132359
-0
-89
-question
-js-zone-container zone-container-main
-width: 728px
-post-layout
-votecell post-layout--left
-132359
-upvoteCount
-89
-fs-caption
-s-tooltip
-right
-Bookmark this question.
-false
-Bookmark (127)
-fc-yellow-600
-"post.click({ item: 1, priv: 0, post_type: 1 })"
-true
-svg-icon iconBookmark
-18
-18
-0 0 18 18
-M6 1a2 2 0 0 0-2 2v14l5-4 5 4V3a2 2 0 0 0-2-2H6Zm3.9 3.83h2.9l-2.35 1.7.9 2.77L9 7.59l-2.35 1.7.9-2.76-2.35-1.7h2.9L9 2.06l.9 2.77Z
-127
-/posts/132359/timeline
-T
-timeline
-s-tooltip
-right
-Show activity on this post.
-Timeline
-true
-mln2 mr0 svg-icon iconHistory
-19
-18
-0 0 19 18
-M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
-postcell post-layout--right
-text
-status
-d-flex fd-column fw-nowrap
-d-flex fw-nowrap
-flex--item mr8
-true
-svg-icon iconLock
-18
-18
-0 0 18 18
-M16 9a2 2 0 0 0-2-2V6A5 5 0 0 0 4 6v1a2 2 0 0 0-2 2v6c0 1.1.9 2 2 2h10a2 2 0 0 0 2-2V9Zm-7 5a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm3.1-7H5.9V6a3.1 3.1 0 0 1 6.2 0v1Z
-flex--item wmn0 fl1 lh-lg
-flex--item fl1 lh-lg
-/help/locked-posts
-http://en.wikipedia.org/wiki/Google_platform
-nofollow noreferrer
-nofollow noreferrer
-nofollow noreferrer
-http://research.google.com/archive/gfs-sosp2003.pdf
-nofollow noreferrer
-post-taglist d-flex gs4 gsy fd-column
-d-flex ps-relative fw-wrap
-/questions/tagged/performance
-post-tag
-show questions tagged 'performance'
+section
+manual
+headerlink
+Permalink to this headline
+align-right
+_images/6.1.jpg
+reference external
+http://www.crummy.com/software/BeautifulSoup/
+reference external
+reference internal
+simple
+reference external
+reference external
+http://kondou.com/BS4/
+reference external
+reference external
+reference external
+section
+getting-help
+headerlink
+#getting-help
+Permalink to this headline
+reference external
+reference internal
+#diagnose
+std std-ref
+section
+quick-start
+headerlink
+#quick-start
+Permalink to this headline
+highlight-default notranslate
+highlight
+n
+o
+s2
+s2
+s2
+s2
+s2
+s2
+s2
+s2
+s2
+s2
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+kn
+nn
+kn
+n
+n
+o
+n
+p
+n
+p
+s1
+p
+p
+n
+o
+n
+p
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+highlight-default notranslate
+highlight
+n
+o
+n
+c1
+n
+o
+n
+o
+n
+c1
+n
+o
+n
+o
+n
+c1
+n
+o
+n
+o
+n
+o
+n
+c1
+n
+o
+n
+c1
+n
+o
+n
+p
+s1
+p
+c1
+n
+o
+n
+c1
+n
+o
+n
+p
+s1
+p
+c1
+c1
+c1
+n
+o
+n
+p
+o
+s2
+p
+c1
+highlight-default notranslate
+highlight
+k
+n
+ow
+n
+o
+n
+p
+s1
+p
+p
+n
+o
+n
+p
+s1
+p
+c1
+c1
+c1
+highlight-default notranslate
+highlight
+p
+n
+o
+n
+p
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+section
+headerlink
+Permalink to this headline
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+reference external
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+reference external
+http://www.crummy.com/software/BeautifulSoup/download/4.x/
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+section
+installing-a-parser
+parser-installation
+headerlink
+#installing-a-parser
+Permalink to this headline
+reference external
+http://lxml.de/
+reference external
+docutils align-default
+width: 18%
+width: 35%
+width: 26%
+width: 21%
+row-odd
+row-even
+docutils literal notranslate
+pre
+pre
+simple
+simple
+row-odd
+docutils literal notranslate
+pre
+pre
+simple
+simple
+row-even
+docutils literal notranslate
+pre
+pre
+docutils literal notranslate
+pre
+pre
+simple
+simple
+row-odd
+docutils literal notranslate
+pre
+pre
+simple
+simple
+reference internal
+section
+making-the-soup
+headerlink
+#making-the-soup
+Permalink to this headline
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+kn
+nn
+kn
+n
+k
+p
+s2
+p
+k
+n
+p
+n
+o
+n
+p
+n
+p
+s1
+p
+n
+o
+n
+p
+s2
+p
+s1
+p
+highlight-default notranslate
+highlight
+p
+n
+p
+s2
+p
+s2
+p
+c1
+reference internal
+#id17
+section
+headerlink
+Permalink to this headline
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+section
 tag
-/questions/tagged/algorithm
-post-tag
-show questions tagged 'algorithm'
-tag
-flex--item mr16 fl1 w96
-js-post-menu pt2
-132359
-d-flex gs8 s-anchors s-anchors__muted fw-wrap
-flex--item
-/q/132359
-nofollow
-url
-js-share-link js-gps-track
-Short permalink to this question
-"post.click({ item: 2, priv: 0, post_type: 1 })"
-se-share-sheet
-Share a link to this question
-""
-question
-1
-CC BY-SA 2.5
-js-menu-popup-container
-post-signature flex--item
-user-info user-hover
-user-action-time
-/posts/132359/revisions
-show all edits to this post
-js-gps-track
-"post.click({ item: 4, priv: 0, post_type: 1 })"
-2009-12-12 21:14:30Z
-relativetime
-user-gravatar32
-/users/63550/peter-mortensen
-gravatar-wrapper-32
-https://i.stack.imgur.com/RIZKi.png?s=64&g=1
-user avatar
-32
-32
-user-details
-/users/63550/peter-mortensen
--flair
-reputation-score
-"reputation score 29,988"
-ltr
-true
-true
-true
-post-signature owner flex--item
-user-info user-hover
-user-action-time
-2008-09-25 09:42:55Z
-relativetime
-user-gravatar32
-/users/6508/jorge-ferreira
-gravatar-wrapper-32
-user avatar
-32
-32
-user-details
-author
-None
-http://schema.org/Person
-/users/6508/jorge-ferreira
-d-none
+id5
+docutils literal notranslate
+pre
+headerlink
+#tag
+Permalink to this headline
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s1
+p
+s1
+p
+n
+o
+n
+o
+n
+p
+n
+p
+c1
+reference internal
+#navigating-the-tree
+reference internal
+#searching-the-tree
+section
 name
--flair
-reputation-score
-"reputation score 93,075"
-ltr
+headerlink
+#name
+Permalink to this headline
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+c1
+highlight-default notranslate
+highlight
+n
+o
+n
+o
+s2
+n
+c1
+section
+headerlink
+Permalink to this headline
+docutils literal notranslate
+pre
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s1
+p
+s1
+p
+o
+n
+n
+p
+s1
+p
+c1
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+c1
+highlight-default notranslate
+highlight
+n
+p
+s1
+p
+o
+s1
+n
+p
+s1
+p
+o
+mi
+n
+c1
+k
+n
+p
+s1
+p
+k
+n
+p
+s1
+p
+n
+c1
+n
+p
+s1
+p
+c1
+n
+o
+n
+p
+s1
+p
+c1
+section
+multivalue
+headerlink
+Permalink to this headline
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s1
+p
+s1
+p
+n
+o
+n
+p
+s1
+p
+c1
+n
+o
+n
+p
+s1
+p
+s1
+p
+n
+o
+n
+p
+s1
+p
+c1
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s1
+p
+s1
+p
+n
+o
+n
+p
+s1
+p
+c1
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s1
+p
+s1
+p
+n
+o
+n
+p
+s1
+p
+c1
+n
+o
+n
+p
+s1
+p
+o
+p
+s1
+p
+s1
+p
+p
+n
+o
+n
+p
+c1
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s1
+p
+s1
+p
+n
+o
+kc
+p
+n
+o
+n
+p
+s1
+p
+c1
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+o
+n
+p
+s1
+p
+c1
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s1
+p
+s1
+p
+n
+o
+n
+p
+s1
+p
+c1
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+p
+s1
+p
+s1
+p
+n
+o
+n
+p
+s1
+p
+s1
+p
+n
+o
+n
+p
+n
+o
+n
+p
+s1
+p
+c1
+highlight-default notranslate
+highlight
+kn
+nn
+kn
+n
+n
+o
+n
+p
+s1
+p
+o
+n
+section
+docutils literal notranslate
+pre
+headerlink
+Permalink to this headline
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s1
+p
+s1
+p
+n
+o
+n
+o
+n
+n
+o
+n
+c1
+p
+n
+o
+n
+p
+c1
+docutils literal notranslate
+pre
+reference internal
+#navigating-the-tree
+reference internal
+#searching-the-tree
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+p
+n
+o
+n
+p
+n
+c1
+p
+n
+p
+c1
+reference internal
+#replace-with
+std std-ref
+highlight-default notranslate
+highlight
+n
+o
+n
+o
+n
+p
+s2
+p
+n
+c1
+docutils literal notranslate
+pre
+reference internal
+#navigating-the-tree
+reference internal
+#searching-the-tree
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+section
+docutils literal notranslate
+pre
+headerlink
+Permalink to this headline
+docutils literal notranslate
+pre
+reference internal
+#tag
+std std-ref
+reference internal
+#navigating-the-tree
+reference internal
+#searching-the-tree
+docutils literal notranslate
+pre
+reference internal
+#modifying-the-tree
+reference internal
+#tag
+std std-ref
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s2
+p
+s2
+p
+n
+o
+n
+p
+s2
+p
+s2
+p
+n
+o
+n
+p
+n
+o
+s2
+p
+o
+n
+p
+n
+p
+c1
+p
+n
+p
+c1
+c1
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+c1
+section
+comments-and-other-special-strings
+headerlink
+#comments-and-other-special-strings
+Permalink to this headline
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+s2
+n
+o
+n
+p
+n
+p
+s1
+p
+n
+o
+n
+o
+n
+o
+n
+p
+n
+p
+c1
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+c1
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+p
+n
+o
+n
+o
+n
+p
+c1
+c1
+c1
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+kn
+nn
+kn
+n
+n
+o
+n
+p
+s2
+p
+n
+o
+n
+p
+n
+p
+p
+n
+o
+n
+o
+n
+p
+c1
+c1
+c1
+section
+navigating-the-tree
+headerlink
+#navigating-the-tree
+Permalink to this headline
+highlight-default notranslate
+highlight
+n
+o
+s2
+s2
+s2
+s2
+s2
+s2
+s2
+s2
+s2
+s2
+s2
+kn
+nn
+kn
+n
+n
+o
+n
+p
+n
+p
+s1
+p
+section
+going-down
+headerlink
+#going-down
+Permalink to this headline
+section
+navigating-using-tag-names
+headerlink
+#navigating-using-tag-names
+Permalink to this headline
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+c1
+n
+o
+n
+c1
+highlight-default notranslate
+highlight
+n
+o
+n
+o
+n
+c1
+highlight-default notranslate
+highlight
+n
+o
+n
+c1
+reference internal
+#searching-the-tree
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s1
+p
+c1
+c1
+c1
+section
+contents-and-children
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+headerlink
+#contents-and-children
+Permalink to this headline
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+o
+n
+n
+c1
+n
+o
+n
+c1
+n
+o
+n
+o
+n
+p
+mi
+p
+n
+c1
+n
+o
+n
+c1
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+p
+n
+o
+n
+p
+c1
+n
+o
+n
+p
+mi
+p
+o
+n
+c1
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+o
+n
+p
+mi
+p
+n
+o
+n
+c1
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+k
+n
+ow
+n
+o
+n
+p
+p
+n
+p
+c1
+reference internal
+#modifying-the-tree
+docutils literal notranslate
+pre
+section
+descendants
+docutils literal notranslate
+pre
+headerlink
+#descendants
+Permalink to this headline
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+c1
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+k
+n
+ow
+n
+o
+n
+p
+p
+n
+p
+c1
+c1
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+p
+p
+n
+o
+n
+p
+c1
+p
+p
+n
+o
+n
+p
+c1
+section
+string
+id6
+docutils literal notranslate
+pre
+headerlink
+#string
+Permalink to this headline
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+c1
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+c1
+n
+o
+n
+c1
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+p
+n
+o
+n
+o
+n
+p
+c1
+section
+strings-and-stripped-strings
+string-generators
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+headerlink
+#strings-and-stripped-strings
+Permalink to this headline
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+k
+n
+ow
+n
+o
+n
+p
+p
+p
+n
+p
+s1
+se
+s1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+k
+n
+ow
+n
+o
+n
+p
+p
+p
+n
+p
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+section
+going-up
+headerlink
+#going-up
+Permalink to this headline
+section
+parent
+id7
+docutils literal notranslate
+pre
+headerlink
+#parent
+Permalink to this headline
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+o
+n
+n
+c1
+n
+o
+n
+c1
+highlight-default notranslate
+highlight
+n
+o
+n
+o
+n
+c1
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+o
+n
+p
+n
+o
+n
+p
+c1
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+p
+n
+o
+n
+p
+c1
+section
+parents
+id8
+docutils literal notranslate
+pre
+headerlink
+#parents
+Permalink to this headline
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+o
+n
+n
+c1
+k
+n
+ow
+n
+o
+n
+p
+p
+n
+o
+n
+p
+c1
+c1
+c1
+c1
+section
+going-sideways
+headerlink
+#going-sideways
+Permalink to this headline
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s2
+p
+s1
+p
+p
+n
+o
+n
+p
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+section
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+headerlink
+Permalink to this headline
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+o
+n
+c1
+n
+o
+n
+o
+n
+c1
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+p
+n
+o
+n
+o
+n
+p
+c1
+p
+n
+o
+n
+o
+n
+p
+c1
+highlight-default notranslate
+highlight
+n
+o
+n
+o
+n
+c1
+p
+n
+o
+n
+o
+n
+o
+n
+p
+c1
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+c1
+c1
+c1
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+o
+n
+n
+c1
+n
+o
+n
+c1
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+o
+n
+c1
+section
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+headerlink
+Permalink to this headline
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+k
+n
+ow
+n
+o
+n
+o
+n
+p
+p
+p
+n
+p
+c1
+c1
+c1
+c1
+c1
+k
+n
+ow
+n
+o
+n
+p
+o
+s2
+p
+o
+n
+p
+p
+p
+n
+p
+c1
+c1
+c1
+c1
+c1
+section
+headerlink
+Permalink to this headline
+highlight-default notranslate
+highlight
+c1
+c1
+section
+next-element-and-previous-element
+element-generators
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+headerlink
+#next-element-and-previous-element
+Permalink to this headline
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+o
+n
+p
+s2
+p
+o
+s2
+p
+n
+c1
+n
+o
+n
+c1
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+c1
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+c1
+n
+o
+n
+o
+n
+c1
+section
+next-elements-and-previous-elements
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+headerlink
+#next-elements-and-previous-elements
+Permalink to this headline
+highlight-default notranslate
+highlight
+k
+n
+ow
+n
+o
+n
+p
+p
+p
+n
+p
+c1
+c1
+c1
+c1
+c1
+c1
+section
+searching-the-tree
+headerlink
+#searching-the-tree
+Permalink to this headline
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+s2
+s2
+s2
+s2
+s2
+s2
+s2
+s2
+s2
+s2
+s2
+kn
+nn
+kn
+n
+n
+o
+n
+p
+n
+p
+s1
+p
+docutils literal notranslate
+pre
+section
+kinds-of-filters
+headerlink
+#kinds-of-filters
+Permalink to this headline
+docutils literal notranslate
+pre
+section
+a-string
+id9
+headerlink
+#a-string
+Permalink to this headline
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s1
+p
+c1
+section
+a-regular-expression
+id10
+headerlink
+#a-regular-expression
+Permalink to this headline
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+kn
+nn
+k
+n
+ow
+n
+o
+n
+p
+n
+o
+n
+p
+s2
+p
+p
+n
+o
+n
+p
+c1
+c1
+highlight-default notranslate
+highlight
+k
+n
+ow
+n
+o
+n
+p
+n
+o
+n
+p
+s2
+p
+p
+n
+o
+n
+p
+c1
+c1
+section
+a-list
+id11
+headerlink
+#a-list
+Permalink to this headline
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s2
+p
+s2
+p
+c1
+c1
+c1
+c1
+section
 true
-true
-true
-d-none
-commentCount
-post-layout--right js-post-comments-component
-comments-132359
-132359
-15
-comments-list js-comments-list
-0
-false
-false
-true
-true
-comments-link-132359
-50
-true
-js-link-separator dno
-js-show-link comments-link dno
-Expand to show all comments on this post
+the-value-true
+docutils literal notranslate
+pre
+headerlink
+#true
+Permalink to this headline
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+k
+n
+ow
+n
+o
+n
+p
+kc
+p
+p
+n
+o
+n
+p
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+section
+a-function
+headerlink
+#a-function
+Permalink to this headline
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+k
+nf
+p
+n
+p
+k
+n
+o
+n
+p
+s1
+p
+ow
+ow
+n
+o
+n
+p
+s1
+p
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+n
+p
+c1
+c1
+c1
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+kn
+nn
+k
+nf
+p
+n
+p
+k
+n
+ow
+ow
+n
+o
+n
+p
+s2
+p
+o
+n
+p
+n
+p
+n
+o
+n
+p
+n
+o
+n
+p
+c1
+c1
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+kn
+nn
+kn
+n
+k
+nf
+p
+n
+p
+k
+p
+p
+n
+o
+n
+p
+n
+p
+ow
+p
+n
+o
+n
+p
+n
+p
+k
+n
+ow
+n
+o
+n
+p
+n
+p
+p
+n
+o
+n
+p
+c1
+c1
+c1
+c1
+c1
+c1
+section
+find-all
+docutils literal notranslate
+pre
+headerlink
+#find-all
+Permalink to this headline
+reference internal
+#id12
+std std-ref
+reference internal
+#attrs
+std std-ref
+reference internal
+#recursive
+std std-ref
+reference internal
+#id13
+std std-ref
+reference internal
+#limit
+std std-ref
+reference internal
+#kwargs
+std std-ref
+docutils literal notranslate
+pre
+reference internal
+#kinds-of-filters
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s2
+p
+c1
+n
+o
+n
+p
+s2
+p
+s2
+p
+c1
+n
+o
+n
+p
+s2
+p
+c1
+c1
+c1
+n
+o
+n
+p
+o
+s2
+p
+c1
+kn
+nn
+n
+o
+n
+p
+n
+o
+n
+o
+n
+p
+s2
+p
+c1
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+pre
+docutils literal notranslate
+pre
+section
+the-name-argument
+id12
+docutils literal notranslate
+pre
+headerlink
+#the-name-argument
+Permalink to this headline
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s2
+p
+c1
+reference internal
+#kinds-of-filters
+docutils literal notranslate
+pre
+reference internal
+#a-string
+reference internal
+#a-regular-expression
+reference internal
+#a-list
+reference internal
+#a-function
+reference internal
+#the-value-true
+section
+the-keyword-arguments
+kwargs
+headerlink
+#the-keyword-arguments
+Permalink to this headline
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+o
+s1
+p
+c1
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+n
+o
+n
+o
+n
+p
+s2
+p
+c1
+reference internal
+#a-string
+reference internal
+#a-regular-expression
+reference internal
+#a-list
+reference internal
+#a-function
+reference internal
+#the-value-true
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+o
+kc
+p
+c1
+c1
+c1
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+n
+o
+n
+o
+n
+p
+s2
+p
+o
+s1
+p
+c1
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s1
+p
+s1
+p
+n
+o
+n
+p
+n
+o
+n
+o
+s2
+p
+c1
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+n
+o
+p
+s2
+p
+s2
+p
+c1
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s1
+p
+s1
+p
+n
+o
+n
+p
+n
+o
+s2
+p
+c1
+n
+o
+n
+p
+n
+o
+p
+s2
+p
+s2
+p
+c1
+section
+attrs
+headerlink
+Permalink to this headline
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s2
+p
+n
+o
+s2
+p
+c1
+c1
+c1
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+n
+o
+n
+o
+n
+p
+s2
+p
+c1
+k
+nf
+p
+n
+p
+k
+n
+ow
+ow
+kc
+ow
+p
+n
+p
+o
+mi
+n
+o
+n
+p
+n
+o
+n
+p
+c1
+c1
+c1
+reference internal
+#multivalue
+std std-ref
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s1
+p
+s1
+p
+n
+o
+n
+p
+s2
+p
+n
+o
+s2
+p
+c1
+n
+o
+n
+p
+s2
+p
+n
+o
+s2
+p
+c1
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s2
+p
+n
+o
+s2
+p
+c1
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s2
+p
+n
+o
+s2
+p
+c1
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s2
+p
+c1
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s2
+p
+n
+o
+p
+s2
+p
+s2
+p
+c1
+c1
+c1
+section
+the-string-argument
+id13
+docutils literal notranslate
+pre
+headerlink
+#the-string-argument
+Permalink to this headline
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+reference internal
+#a-string
+reference internal
+#a-regular-expression
+reference internal
+#a-list
+reference internal
+#a-function
+reference internal
+#the-value-true
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+n
+o
+s2
+p
+c1
+n
+o
+n
+p
+n
+o
+p
+s2
+p
+s2
+p
+s2
+p
+c1
+n
+o
+n
+p
+n
+o
+n
+o
+n
+p
+s2
+p
+c1
+k
+nf
+p
+n
+p
+sd
+k
+p
+n
+o
+n
+o
+n
+o
+n
+p
+n
+o
+n
+p
+n
+o
+n
+p
+c1
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s2
+p
+n
+o
+s2
+p
+c1
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s2
+p
+n
+o
+s2
+p
+c1
+section
+the-limit-argument
+limit
+docutils literal notranslate
+pre
+headerlink
+#the-limit-argument
+Permalink to this headline
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s2
+p
+n
+o
+mi
+p
+c1
+c1
+section
+the-recursive-argument
+recursive
+docutils literal notranslate
+pre
+headerlink
+#the-recursive-argument
+Permalink to this headline
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+o
+n
+p
+s2
+p
+c1
+n
+o
+n
+o
+n
+p
+s2
+p
+n
+o
+kc
+p
+c1
+highlight-default notranslate
+highlight
+o
+n
+o
+o
+n
+o
+o
+n
+o
+n
+n
+s1
+o
+n
+o
+o
+n
+o
+o
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+section
+calling-a-tag-is-like-calling-find-all
+docutils literal notranslate
+pre
+headerlink
+#calling-a-tag-is-like-calling-find-all
+Permalink to this headline
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s2
+p
+n
+p
+s2
+p
+highlight-default notranslate
+highlight
+n
+o
+n
+o
+n
+p
+n
+o
+kc
+p
+n
+o
+n
+p
+n
+o
+kc
+p
+section
+find
+docutils literal notranslate
+pre
+headerlink
+#find
+Permalink to this headline
+reference internal
+#id12
+std std-ref
+reference internal
+#attrs
+std std-ref
+reference internal
+#recursive
+std std-ref
+reference internal
+#id13
+std std-ref
+reference internal
+#kwargs
+std std-ref
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s1
+p
+n
+o
+mi
+p
+c1
+n
+o
+n
+p
+s1
+p
+c1
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+p
+n
+o
+n
+p
+s2
+p
+c1
+docutils literal notranslate
+pre
+reference internal
+#navigating-using-tag-names
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+o
+n
+c1
+n
+o
+n
+p
+s2
+p
+o
+n
+p
+s2
+p
+c1
+section
+find-parents-and-find-parent
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+headerlink
+#find-parents-and-find-parent
+Permalink to this headline
+reference internal
+#id12
+std std-ref
+reference internal
+#attrs
+std std-ref
+reference internal
+#id13
+std std-ref
+reference internal
+#limit
+std std-ref
+reference internal
+#kwargs
+std std-ref
+reference internal
+#id12
+std std-ref
+reference internal
+#attrs
+std std-ref
+reference internal
+#id13
+std std-ref
+reference internal
+#kwargs
+std std-ref
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+o
+n
+p
+n
+o
+s2
+p
+n
+c1
+n
+o
+n
+p
+s2
+p
+c1
+n
+o
+n
+p
+s2
+p
+c1
+c1
+c1
+c1
+c1
+n
+o
+n
+p
+s2
+p
+n
+o
+s2
+p
+c1
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+reference internal
+#parent
+reference internal
+#parents
+docutils literal notranslate
+pre
+section
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+headerlink
+Permalink to this headline
+reference internal
+#id12
+std std-ref
+reference internal
+#attrs
+std std-ref
+reference internal
+#id13
+std std-ref
+reference internal
+#limit
+std std-ref
+reference internal
+#kwargs
+std std-ref
+reference internal
+#id12
+std std-ref
+reference internal
+#attrs
+std std-ref
+reference internal
+#id13
+std std-ref
+reference internal
+#kwargs
+std std-ref
+reference internal
+std std-ref
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+o
+n
+n
+c1
+n
+o
+n
+p
+s2
+p
+c1
+c1
+n
+o
+n
+o
+n
+p
+s2
+p
+s2
+p
+n
+o
+n
+p
+s2
+p
+c1
+section
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+headerlink
+Permalink to this headline
+reference internal
+#id12
+std std-ref
+reference internal
+#attrs
+std std-ref
+reference internal
+#id13
+std std-ref
+reference internal
+#limit
+std std-ref
+reference internal
+#kwargs
+std std-ref
+reference internal
+#id12
+std std-ref
+reference internal
+#attrs
+std std-ref
+reference internal
+#id13
+std std-ref
+reference internal
+#kwargs
+std std-ref
+reference internal
+std std-ref
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+o
+n
+p
+s2
+p
+o
+s2
+p
+n
+c1
+n
+o
+n
+p
+s2
+p
+c1
+c1
+n
+o
+n
+o
+n
+p
+s2
+p
+s2
+p
+n
+o
+n
+p
+s2
+p
+c1
+section
+find-all-next-and-find-next
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+headerlink
+#find-all-next-and-find-next
+Permalink to this headline
+reference internal
+#id12
+std std-ref
+reference internal
+#attrs
+std std-ref
+reference internal
+#id13
+std std-ref
+reference internal
+#limit
+std std-ref
+reference internal
+#kwargs
+std std-ref
+reference internal
+#id12
+std std-ref
+reference internal
+#attrs
+std std-ref
+reference internal
+#id13
+std std-ref
+reference internal
+#kwargs
+std std-ref
+reference internal
+#element-generators
+std std-ref
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+o
+n
+n
+c1
+n
+o
+n
+p
+n
+o
+kc
+p
+c1
+c1
+n
+o
+n
+p
+s2
+p
+c1
+section
+find-all-previous-and-find-previous
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+headerlink
+#find-all-previous-and-find-previous
+Permalink to this headline
+reference internal
+#id12
+std std-ref
+reference internal
+#attrs
+std std-ref
+reference internal
+#id13
+std std-ref
+reference internal
+#limit
+std std-ref
+reference internal
+#kwargs
+std std-ref
+reference internal
+#id12
+std std-ref
+reference internal
+#attrs
+std std-ref
+reference internal
+#id13
+std std-ref
+reference internal
+#kwargs
+std std-ref
+reference internal
+#element-generators
+std std-ref
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+o
+n
+n
+c1
+n
+o
+n
+p
+s2
+p
+c1
+c1
+n
+o
+n
+p
+s2
+p
+c1
+docutils literal notranslate
+pre
+section
+css-selectors
+headerlink
+#css-selectors
+Permalink to this headline
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+reference external
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+reference external
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s2
+p
+c1
+n
+o
+n
+p
+s2
+p
+c1
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s2
+p
+c1
+c1
+c1
+n
+o
+n
+p
+s2
+p
+c1
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s2
+p
+c1
+n
+o
+n
+p
+s2
+p
+c1
+c1
+c1
+n
+o
+n
+p
+s2
+p
+c1
+n
+o
+n
+p
+s2
+p
+c1
+n
+o
+n
+p
+s2
+p
+c1
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s2
+p
+c1
+c1
+n
+o
+n
+p
+s2
+p
+c1
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s2
+p
+c1
+c1
+c1
+n
+o
+n
+p
+s2
+p
+c1
+c1
+c1
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s2
+p
+c1
+n
+o
+n
+p
+s2
+p
+c1
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s2
+p
+c1
+c1
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s1
+p
+c1
+c1
+c1
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s1
+p
+c1
+n
+o
+n
+p
+s1
+p
+c1
+c1
+c1
+n
+o
+n
+p
+s1
+p
+c1
+n
+o
+n
+p
+s1
+p
+c1
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s2
+p
+c1
+highlight-default notranslate
+highlight
+kn
+nn
+kn
+n
+n
+o
+s2
+s2
+s2
+s2
+n
+o
+n
+p
+n
+p
+s2
+p
+n
+o
+n
+p
+s2
+p
+c1
+n
+o
+n
+p
+s2
+p
+c1
+highlight-default notranslate
+highlight
+n
+o
+p
+n
+o
+s2
+p
+n
+o
+s2
+p
+n
+o
+n
+p
+s2
+p
+n
+o
+n
+p
+c1
+section
+modifying-the-tree
+headerlink
+#modifying-the-tree
+Permalink to this headline
+section
+headerlink
+Permalink to this headline
+reference internal
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s1
+p
+s1
+p
+n
+o
+n
+o
+n
+n
+o
+n
+o
+s2
+n
+p
+s1
+p
+o
+s1
+n
+p
+s1
+p
+o
+mi
+n
+c1
+k
+n
+p
+s1
+p
+k
+n
+p
+s1
+p
+n
+c1
+section
+modifying-string
+docutils literal notranslate
+pre
+headerlink
+#modifying-string
+Permalink to this headline
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+s1
+n
+o
+n
+p
+n
+p
+s1
+p
+n
+o
+n
+o
+n
+n
+o
+n
+o
+s2
+n
+c1
+section
+append
+docutils literal notranslate
+pre
+headerlink
+#append
+Permalink to this headline
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s2
+p
+s1
+p
+n
+o
+n
+o
+n
+p
+s2
+p
+n
+c1
+n
+o
+n
+o
+n
+c1
+section
+extend
+docutils literal notranslate
+pre
+headerlink
+#extend
+Permalink to this headline
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s2
+p
+s1
+p
+n
+o
+n
+o
+n
+p
+s2
+p
+s2
+p
+s2
+p
+n
+c1
+n
+o
+n
+o
+n
+c1
+section
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+headerlink
+Permalink to this headline
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s2
+p
+s1
+p
+n
+o
+n
+o
+n
+n
+o
+n
+p
+s2
+p
+n
+o
+n
+p
+s2
+p
+n
+o
+n
+p
+n
+p
+n
+c1
+n
+o
+n
+c1
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+kn
+nn
+kn
+n
+n
+o
+n
+p
+s2
+p
+n
+o
+n
+p
+n
+p
+n
+c1
+n
+o
+n
+c1
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s2
+p
+s1
+p
+n
+o
+n
+o
+n
+n
+o
+n
+o
+n
+p
+s2
+p
+n
+o
+s2
+p
+n
+o
+n
+p
+n
+p
+n
+c1
+n
+o
+n
+o
+s2
+n
+c1
+section
+insert
+docutils literal notranslate
+pre
+headerlink
+#insert
+Permalink to this headline
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+s1
+n
+o
+n
+p
+n
+p
+s1
+p
+n
+o
+n
+o
+n
+n
+o
+n
+p
+mi
+p
+s2
+p
+n
+c1
+n
+o
+n
+c1
+section
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+headerlink
+Permalink to this headline
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s2
+p
+s1
+p
+n
+o
+n
+o
+n
+p
+s2
+p
+n
+o
+n
+o
+s2
+n
+o
+n
+o
+n
+o
+n
+p
+n
+p
+n
+o
+n
+c1
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+o
+n
+p
+s1
+p
+n
+o
+n
+o
+s1
+n
+o
+n
+o
+n
+o
+n
+p
+s2
+p
+n
+p
+n
+o
+n
+c1
+n
+o
+n
+o
+n
+c1
+section
+clear
+docutils literal notranslate
+pre
+headerlink
+#clear
+Permalink to this headline
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+s1
+n
+o
+n
+p
+n
+p
+s1
+p
+n
+o
+n
+o
+n
+n
+o
+n
+p
+n
+c1
+section
+extract
+docutils literal notranslate
+pre
+headerlink
+#extract
+Permalink to this headline
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+s1
+n
+o
+n
+p
+n
+p
+s1
+p
+n
+o
+n
+o
+n
+n
+o
+n
+o
+n
+o
+n
+p
+n
+c1
+n
+c1
+p
+n
+o
+n
+p
+c1
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+o
+n
+o
+n
+p
+n
+c1
+p
+n
+o
+n
+p
+c1
+n
+c1
+section
+decompose
+docutils literal notranslate
+pre
+headerlink
+#decompose
+Permalink to this headline
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+s1
+n
+o
+n
+p
+n
+p
+s1
+p
+n
+o
+n
+o
+n
+n
+o
+n
+o
+n
+n
+o
+n
+p
+n
+c1
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+c1
+n
+o
+n
+c1
+section
+replace-with
+id14
+docutils literal notranslate
+pre
+headerlink
+#replace-with
+Permalink to this headline
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+s1
+n
+o
+n
+p
+n
+p
+s1
+p
+n
+o
+n
+o
+n
+n
+o
+n
+o
+n
+p
+s2
+p
+n
+o
+n
+o
+s2
+n
+o
+n
+o
+n
+p
+n
+p
+n
+c1
+n
+o
+n
+o
+n
+p
+s2
+p
+n
+o
+n
+o
+s2
+n
+o
+n
+o
+n
+p
+s2
+p
+n
+o
+n
+o
+s2
+n
+o
+n
+o
+n
+p
+n
+p
+s2
+p
+n
+p
+n
+c1
+docutils literal notranslate
+pre
+section
+wrap
+docutils literal notranslate
+pre
+headerlink
+#wrap
+Permalink to this headline
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s2
+p
+s1
+p
+n
+o
+n
+o
+n
+o
+n
+p
+n
+o
+n
+p
+s2
+p
+c1
+n
+o
+n
+o
+n
+p
+n
+o
+n
+p
+s2
+p
+c1
+section
+unwrap
+docutils literal notranslate
+pre
+headerlink
+#unwrap
+Permalink to this headline
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+s1
+n
+o
+n
+p
+n
+p
+s1
+p
+n
+o
+n
+o
+n
+n
+o
+n
+o
+n
+p
+n
+c1
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+section
+smooth
+docutils literal notranslate
+pre
+headerlink
+#smooth
+Permalink to this headline
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s2
+p
+s1
+p
+n
+o
+n
+o
+n
+p
+s2
+p
+n
+o
+n
+o
+n
+c1
+p
+n
+o
+n
+o
+n
+p
+c1
+p
+n
+o
+n
+o
+n
+p
+c1
+c1
+c1
+c1
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+n
+o
+n
+o
+n
+c1
+p
+n
+o
+n
+o
+n
+p
+c1
+c1
+c1
+section
+output
+headerlink
+#output
+Permalink to this headline
+section
+pretty-printing
+prettyprinting
+headerlink
+#pretty-printing
+Permalink to this headline
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+s1
+n
+o
+n
+p
+n
+p
+s1
+p
+n
+o
+n
+p
+c1
+p
+n
+o
+n
+p
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+p
+n
+o
+n
+o
+n
+p
+c1
+c1
+c1
+c1
+c1
+c1
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+section
+non-pretty-printing
+headerlink
+#non-pretty-printing
+Permalink to this headline
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+p
+n
+p
+c1
+p
+n
+o
+n
+p
+c1
+docutils literal notranslate
+pre
+reference internal
+#encodings
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+section
+output-formatters
+id15
+headerlink
+#output-formatters
+Permalink to this headline
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s2
+p
+s1
+p
+p
+n
+p
+c1
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s2
+p
+c1
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s2
+p
+s1
+p
+n
+o
+n
+c1
+n
+o
+n
+p
+s1
+p
+s1
+p
+n
+o
+n
+c1
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+s2
+n
+o
+n
+p
+n
+p
+s1
+p
+p
+n
+o
+n
+p
+n
+o
+s2
+p
+c1
+c1
+c1
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+p
+n
+o
+n
+p
+n
+o
+s2
+p
+c1
+c1
+c1
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s2
+p
+s1
+p
+o
+n
+p
+n
+o
+n
+p
+n
+o
+s2
+p
+c1
+p
+n
+o
+n
+p
+n
+o
+s2
+p
+c1
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s1
+p
+o
+n
+p
+n
+o
+n
+p
+n
+o
+s2
+p
+c1
+p
+n
+o
+n
+p
+n
+o
+s2
+p
+c1
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+p
+n
+o
+n
+p
+n
+o
+kc
+p
+c1
+c1
+c1
+n
+o
+n
+p
+s1
+p
+s1
+p
+p
+n
+o
+n
+o
+n
+p
+n
+o
+kc
+p
+c1
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+kn
+nn
+kn
+n
+k
+nf
+p
+p
+k
+o
+n
+p
+n
+o
+n
+p
+n
+p
+p
+n
+o
+n
+p
+n
+o
+n
+p
+c1
+c1
+c1
+p
+n
+o
+n
+o
+n
+p
+n
+o
+n
+p
+c1
+c1
+c1
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+n
+o
+mi
+p
+p
+n
+o
+n
+o
+n
+p
+n
+o
+n
+p
+c1
+c1
+c1
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+sa
+s1
+p
+s1
+p
+p
+n
+o
+n
+o
+n
+p
+c1
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+k
+nc
+p
+n
+p
+k
+nf
+p
+p
+n
+p
+k
+n
+p
+n
+ow
+n
+o
+n
+o
+n
+p
+k
+n
+o
+s1
+p
+k
+k
+n
+p
+n
+p
+n
+o
+n
+o
+n
+p
+n
+o
+n
+p
+c1
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+kn
+nn
+kn
+n
+n
+o
+n
+p
+s2
+p
+s1
+p
+n
+o
+n
+o
+n
+o
+n
+p
+s2
+p
+p
+n
+o
+n
+o
+n
+p
+n
+o
+s2
+p
+c1
+c1
+c1
+section
+get-text
+docutils literal notranslate
+pre
+headerlink
+#get-text
+Permalink to this headline
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+s1
+se
+s1
+se
+s1
+n
+o
+n
+p
+n
+p
+s1
+p
+n
+o
+n
+p
+s1
+se
+s1
+se
+s1
+n
+o
+n
+o
+n
+p
+s1
+highlight-default notranslate
+highlight
+c1
+s1
+se
+s1
+se
+s1
+highlight-default notranslate
+highlight
+c1
+s1
+reference internal
+#string-generators
+std std-ref
+highlight-default notranslate
+highlight
+p
+n
+k
+n
+ow
+n
+o
+n
+p
+c1
+section
+specifying-the-parser-to-use
+headerlink
+#specifying-the-parser-to-use
+Permalink to this headline
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+simple
+reference internal
+#installing-a-parser
+section
+headerlink
+Permalink to this headline
+highlight-default notranslate
+highlight
+n
+p
+s2
+p
+s2
+p
+c1
+highlight-default notranslate
+highlight
+p
+n
+p
+s2
+p
+s2
+p
+c1
+c1
+highlight-default notranslate
+highlight
+n
+p
+s2
+p
+s2
+p
+c1
+highlight-default notranslate
+highlight
+n
+p
+s2
+p
+s2
+p
+c1
+highlight-default notranslate
+highlight
+n
+p
+s2
+p
+s2
+p
+c1
+docutils literal notranslate
+pre
+section
+encodings
+headerlink
+#encodings
+Permalink to this headline
+highlight-default notranslate
+highlight
+n
+o
+s2
+se
+s2
+n
+o
+n
+p
+n
+p
+s1
+p
+n
+o
+n
+c1
+n
+o
+n
+o
+n
+c1
+reference internal
+#unicode-dammit
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+s1
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+sa
+s2
+se
+s2
+n
+o
+n
+p
+n
+p
+s1
+p
+p
+n
+o
+n
+p
+c1
+p
+n
+o
+n
+p
+c1
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+n
+p
+s1
+p
+n
+o
+s2
+p
+p
+n
+o
+n
+p
+c1
+p
+n
+o
+n
+p
+c1
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+n
+p
+s1
+p
+n
+o
+p
+s2
+p
+p
+n
+o
+n
+p
+c1
+p
+n
+o
+n
+p
+c1
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+section
+output-encoding
+headerlink
+#output-encoding
+Permalink to this headline
+highlight-default notranslate
+highlight
+n
+o
+sa
+s1
+s1
+s1
+s1
+s1
+s1
+s1
+se
+s1
+s1
+s1
+s1
+n
+o
+n
+p
+n
+p
+s1
+p
+p
+n
+o
+n
+p
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+p
+n
+o
+n
+p
+s2
+p
+c1
+c1
+c1
+c1
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+o
+n
+p
+s2
+p
+c1
+n
+o
+n
+o
+n
+p
+s2
+p
+c1
+highlight-default notranslate
+highlight
+n
+o
+sa
+s2
+se
+s2
+n
+o
+n
+p
+n
+p
+s1
+p
+n
+o
+n
+o
+n
+highlight-default notranslate
+highlight
+p
+n
+o
+n
+p
+s2
+p
+c1
+p
+n
+o
+n
+p
+s2
+p
+c1
+p
+n
+o
+n
+p
+s2
+p
+c1
+section
+unicode-dammit
+headerlink
+#unicode-dammit
+Permalink to this headline
+highlight-default notranslate
+highlight
+kn
+nn
+kn
+n
+n
+o
+n
+p
+s2
+se
+s2
+p
+p
+n
+o
+n
+p
+c1
+n
+o
+n
+c1
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+s2
+se
+s2
+p
+p
+s2
+p
+s2
+p
+p
+n
+o
+n
+p
+c1
+n
+o
+n
+c1
+section
+smart-quotes
+headerlink
+#smart-quotes
+Permalink to this headline
+highlight-default notranslate
+highlight
+n
+o
+sa
+s2
+se
+s2
+se
+s2
+se
+s2
+n
+p
+n
+p
+p
+s2
+p
+n
+o
+s2
+p
+o
+n
+c1
+n
+p
+n
+p
+p
+s2
+p
+n
+o
+s2
+p
+o
+n
+c1
+highlight-default notranslate
+highlight
+n
+p
+n
+p
+p
+s2
+p
+n
+o
+s2
+p
+o
+n
+c1
+highlight-default notranslate
+highlight
+n
+p
+n
+p
+p
+s2
+p
+o
+n
+c1
+section
+inconsistent-encodings
+headerlink
+#inconsistent-encodings
+Permalink to this headline
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+p
+sa
+s2
+se
+s2
+o
+mi
+p
+n
+o
+p
+sa
+s2
+se
+s2
+se
+s2
+p
+n
+o
+n
+o
+n
+p
+s2
+p
+o
+n
+o
+n
+p
+s2
+p
+highlight-default notranslate
+highlight
+p
+n
+p
+c1
+p
+n
+o
+n
+p
+s2
+p
+c1
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+o
+n
+p
+n
+p
+p
+n
+o
+n
+p
+s2
+p
+c1
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+pre
+pre
+docutils literal notranslate
+pre
+section
+headerlink
+Permalink to this headline
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+s2
+se
+s2
+se
+s2
+n
+o
+n
+p
+n
+p
+s1
+p
+k
+n
+ow
+n
+o
+n
+p
+s1
+p
+p
+p
+n
+o
+n
+p
+n
+o
+n
+p
+n
+o
+n
+p
+c1
+c1
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+n
+p
+s1
+p
+k
+n
+ow
+n
+o
+n
+p
+s1
+p
+p
+p
+n
+o
+n
+p
+n
+o
+n
+p
+n
+o
+n
+p
+c1
+c1
+docutils literal notranslate
+pre
+pre
+pre
+pre
+highlight-default notranslate
+highlight
+n
+o
+s2
+se
+s2
+se
+s2
+n
+o
+n
+p
+n
+p
+s1
+p
+n
+o
+kc
+p
+p
+n
+o
+n
+o
+n
+p
+c1
+section
+headerlink
+Permalink to this headline
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+s2
+n
+o
+n
+p
+n
+p
+s1
+p
+n
+p
+n
+o
+n
+o
+n
+p
+s1
+p
+p
+n
+o
+n
+p
+c1
+p
+n
+o
+n
+o
+n
+o
+n
+p
+c1
+highlight-default notranslate
+highlight
+p
+n
+ow
+n
+p
+c1
+section
+headerlink
+Permalink to this headline
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+kn
+nn
+n
+o
+n
+o
+n
+p
+n
+o
+n
+p
+p
+n
+p
+c1
+highlight-default notranslate
+highlight
+p
+n
+o
+n
+o
+n
+p
+c1
+p
+n
+o
+n
+ow
+n
+p
+c1
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+p
+n
+o
+n
+p
+c1
+docutils literal notranslate
+pre
+section
+advanced-parser-customization
+headerlink
+#advanced-parser-customization
+Permalink to this headline
+section
+parsing-only-part-of-a-document
+headerlink
+#parsing-only-part-of-a-document
+Permalink to this headline
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+section
+soupstrainer
+docutils literal notranslate
+pre
+headerlink
+#soupstrainer
+Permalink to this headline
+docutils literal notranslate
+pre
+reference internal
+#searching-the-tree
+reference internal
+#id12
+std std-ref
+reference internal
+#attrs
+std std-ref
+reference internal
+#id13
+std std-ref
+reference internal
+#kwargs
+std std-ref
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+kn
+nn
+kn
+n
+n
+o
+n
+p
+s2
+p
+n
+o
+n
+p
+o
+s2
+p
+k
+nf
+p
+n
+p
+k
+n
+ow
+ow
+kc
+ow
+p
+n
+p
+o
+mi
+n
+o
+n
+p
+n
+o
+n
+p
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+s2
+s2
+s2
+s2
+s2
+s2
+s2
+s2
+s2
+s2
+p
+n
+p
+n
+p
+s2
+p
+n
+o
+n
+p
+o
+n
+p
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+p
+n
+p
+n
+p
+s2
+p
+n
+o
+n
+p
+o
+n
+p
+c1
+c1
+c1
+p
+n
+p
+n
+p
+s2
+p
+n
+o
+n
+p
+o
+n
+p
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+docutils literal notranslate
+pre
+reference internal
+#searching-the-tree
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+n
+p
+s1
+p
+n
+o
+n
+p
+n
+p
+c1
+c1
+section
+headerlink
+Permalink to this headline
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+s1
+n
+o
+n
+p
+n
+p
+s1
+p
+n
+o
+n
+p
+s1
+p
+c1
+n
+o
+n
+p
+s1
+p
+c1
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+n
+p
+s1
+p
+n
+o
+kc
+p
+n
+o
+n
+p
+s1
+p
+c1
+n
+o
+n
+p
+s1
+p
+c1
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+section
+headerlink
+Permalink to this headline
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+s1
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+n
+p
+s1
+p
+n
+o
+n
+p
+s1
+p
+c1
+n
+o
+n
+p
+n
+p
+s1
+p
+n
+o
+s1
+p
+n
+o
+n
+p
+s1
+p
+c1
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+n
+p
+s1
+p
+n
+o
+s1
+p
+n
+o
+n
+p
+s1
+p
+c1
+highlight-default notranslate
+highlight
+k
+nf
+p
+n
+p
+n
+p
+n
+p
+k
+ow
+p
+n
+p
+n
+p
+p
+n
+p
+n
+p
+o
+p
+n
+p
+n
+p
+n
+p
+n
+p
+o
+n
+p
+n
+p
+n
+o
+n
+p
+n
+p
+s1
+p
+n
+o
+n
+p
+n
+o
+n
+p
+s1
+p
+c1
+section
+headerlink
+Permalink to this headline
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+kn
+nn
+kn
+n
+p
+n
+k
+nc
+p
+n
+p
+k
+k
+nc
+p
+n
+p
+k
+n
+o
+s2
+n
+o
+n
+p
+n
+p
+s1
+p
+p
+n
+o
+n
+p
+n
+p
+c1
+p
+n
+o
+n
+o
+n
+p
+n
+p
+c1
+n
+o
+p
+n
+p
+n
+p
+n
+p
+n
+p
+n
+o
+n
+p
+n
+p
+s1
+p
+n
+o
+n
+p
+p
+n
+o
+n
+p
+n
+p
+c1
+p
+n
+o
+n
+o
+n
+p
+n
+p
+c1
+section
+headerlink
+Permalink to this headline
+section
+diagnose
+id16
+docutils literal notranslate
+pre
+headerlink
+#diagnose
+Permalink to this headline
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+kn
+nn
+kn
+n
+k
+p
+s2
+p
+k
+n
+p
+n
+o
+n
+o
+n
+p
+n
+p
+n
+p
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+c1
+docutils literal notranslate
+pre
+section
+errors-when-parsing-a-document
+headerlink
+#errors-when-parsing-a-document
+Permalink to this headline
+docutils literal notranslate
+pre
+reference internal
+#installing-a-parser
+docutils literal notranslate
+pre
+pre
+pre
+pre
+docutils literal notranslate
+pre
+pre
+pre
+pre
+reference internal
+#parser-installation
+std std-ref
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+reference internal
+#parser-installation
+std std-ref
+section
+headerlink
+Permalink to this headline
+simple
+docutils literal notranslate
+pre
+pre
+pre
+docutils literal notranslate
+pre
+pre
+pre
+docutils literal notranslate
+pre
+pre
+pre
+pre
+pre
+docutils literal notranslate
+pre
+pre
+pre
+pre
+pre
+docutils literal notranslate
+pre
+pre
+pre
+pre
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+pre
+pre
+pre
+pre
+section
+parsing-xml
+id17
+headerlink
+#parsing-xml
+Permalink to this headline
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+n
+o
+n
+p
+n
+p
+s2
+p
+reference internal
+#parser-installation
+std std-ref
+section
+headerlink
+Permalink to this headline
+simple
+reference internal
+docutils literal notranslate
+pre
+reference external
+http://www.w3.org/TR/html5/syntax.html#syntax
+reference internal
+#parsing-xml
+std std-ref
+section
+miscellaneous
+misc
+headerlink
+#miscellaneous
+Permalink to this headline
+simple
+docutils literal notranslate
+pre
+pre
+pre
+pre
+pre
+pre
+pre
+pre
+pre
+pre
+docutils literal notranslate
+pre
+reference external
+http://wiki.python.org/moin/PrintFails
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+pre
+docutils literal notranslate
+pre
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+pre
+pre
+pre
+pre
+pre
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+pre
+pre
+pre
+pre
+pre
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+pre
+pre
+pre
+pre
+pre
+pre
+section
+improving-performance
+headerlink
+#improving-performance
+Permalink to this headline
+reference external
+http://lxml.de/
+reference internal
+#parser-installation
+std std-ref
+reference external
+http://pypi.python.org/pypi/cchardet/
+reference internal
+#parsing-only-part-of-a-document
+section
+translating-this-documentation
+headerlink
+#translating-this-documentation
+Permalink to this headline
+docutils literal notranslate
+pre
+section
+id18
+headerlink
+#id18
+Permalink to this headline
+docutils literal notranslate
+pre
+reference external
+docutils literal notranslate
+pre
+pre
+docutils literal notranslate
+pre
+pre
+docutils literal notranslate
+pre
+pre
+reference external
+section
+headerlink
+Permalink to this headline
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+kn
+nn
+kn
+n
+highlight-default notranslate
+highlight
+kn
+nn
+kn
+n
+simple
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+reference external
+http://www.python.org/dev/peps/pep-0008/
+section
+you-need-a-parser
+headerlink
+#you-need-a-parser
+Permalink to this headline
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+reference internal
+#installing-a-parser
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+section
+method-names
+headerlink
+#method-names
+Permalink to this headline
+simple
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+simple
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+simple
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+simple
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+simple
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+simple
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+section
+generators
+headerlink
+#generators
+Permalink to this headline
+simple
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+highlight-default notranslate
+highlight
+k
+n
+ow
+n
+o
+n
+p
+o
+highlight-default notranslate
+highlight
+k
+n
+ow
+n
+o
+n
+p
+o
+docutils literal notranslate
+pre
+reference internal
+#string-generators
+std std-ref
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+section
+xml
+headerlink
+#xml
+Permalink to this headline
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+section
+entities
+headerlink
+#entities
+Permalink to this headline
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+reference internal
+#unicode-dammit
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+reference internal
+#output-formatters
+std std-ref
+section
+id19
+headerlink
+#id19
+Permalink to this headline
+reference internal
+#string
+std std-ref
+reference internal
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+reference internal
+#id13
+std std-ref
+reference internal
+#id12
+std std-ref
+reference internal
+#string
+std std-ref
+reference internal
+#id13
+std std-ref
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+clearer
+navigation
+main navigation
 #
-""
-js-zone-container zone-container-responsive
-width: 300px
-answers
-answers-header
-flex--item fl1
-19
-display:none;
-answerCount
-flex--item
-d-flex g4 gsx ai-center sm:fd-column sm:ai-start
-d-flex fd-column ai-end sm:ai-start
-flex--item fs-caption
-answer-sort-dropdown-select-menu
-js-sort-preference-change s-link flex--item fs-fine d-none
-ScoreDesc
-flex--item s-select
-answer-sort-dropdown-select-menu
-scoredesc
-selected
-trending
-modifieddesc
-createdasc
-132448
-answer-132448
-answer js-answer
-132448
-132359
-47
-1
-1
-0
-acceptedAnswer
-None
-https://schema.org/Answer
-post-layout
-votecell post-layout--left
-132448
-upvoteCount
-47
-fs-caption
-js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
-right
-Loading when this answer was accepted…
-0
+reference internal
+#
+reference internal
+#getting-help
+reference internal
+#quick-start
+reference internal
+reference internal
+#installing-a-parser
+reference internal
+#making-the-soup
+reference internal
+reference internal
+#tag
+docutils literal notranslate
+pre
+reference internal
+#name
+reference internal
+reference internal
+reference internal
+docutils literal notranslate
+pre
+reference internal
+docutils literal notranslate
+pre
+reference internal
+#comments-and-other-special-strings
+reference internal
+#navigating-the-tree
+reference internal
+#going-down
+reference internal
+#navigating-using-tag-names
+reference internal
+#contents-and-children
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+reference internal
+#descendants
+docutils literal notranslate
+pre
+reference internal
+#string
+docutils literal notranslate
+pre
+reference internal
+#strings-and-stripped-strings
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+reference internal
+#going-up
+reference internal
+#parent
+docutils literal notranslate
+pre
+reference internal
+#parents
+docutils literal notranslate
+pre
+reference internal
+#going-sideways
+reference internal
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+reference internal
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+reference internal
+reference internal
+#next-element-and-previous-element
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+reference internal
+#next-elements-and-previous-elements
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+reference internal
+#searching-the-tree
+reference internal
+#kinds-of-filters
+reference internal
+#a-string
+reference internal
+#a-regular-expression
+reference internal
+#a-list
+reference internal
+#true
+docutils literal notranslate
+pre
+reference internal
+#a-function
+reference internal
+#find-all
+docutils literal notranslate
+pre
+reference internal
+#the-name-argument
+docutils literal notranslate
+pre
+reference internal
+#the-keyword-arguments
+reference internal
+reference internal
+#the-string-argument
+docutils literal notranslate
+pre
+reference internal
+#the-limit-argument
+docutils literal notranslate
+pre
+reference internal
+#the-recursive-argument
+docutils literal notranslate
+pre
+reference internal
+#calling-a-tag-is-like-calling-find-all
+docutils literal notranslate
+pre
+reference internal
+#find
+docutils literal notranslate
+pre
+reference internal
+#find-parents-and-find-parent
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+reference internal
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+reference internal
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+reference internal
+#find-all-next-and-find-next
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+reference internal
+#find-all-previous-and-find-previous
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+reference internal
+#css-selectors
+reference internal
+#modifying-the-tree
+reference internal
+reference internal
+#modifying-string
+docutils literal notranslate
+pre
+reference internal
+#append
+docutils literal notranslate
+pre
+reference internal
+#extend
+docutils literal notranslate
+pre
+reference internal
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+reference internal
+#insert
+docutils literal notranslate
+pre
+reference internal
+docutils literal notranslate
+pre
+docutils literal notranslate
+pre
+reference internal
+#clear
+docutils literal notranslate
+pre
+reference internal
+#extract
+docutils literal notranslate
+pre
+reference internal
+#decompose
+docutils literal notranslate
+pre
+reference internal
+#replace-with
+docutils literal notranslate
+pre
+reference internal
+#wrap
+docutils literal notranslate
+pre
+reference internal
+#unwrap
+docutils literal notranslate
+pre
+reference internal
+#smooth
+docutils literal notranslate
+pre
+reference internal
+#output
+reference internal
+#pretty-printing
+reference internal
+#non-pretty-printing
+reference internal
+#output-formatters
+reference internal
+#get-text
+docutils literal notranslate
+pre
+reference internal
+#specifying-the-parser-to-use
+reference internal
+reference internal
+#encodings
+reference internal
+#output-encoding
+reference internal
+#unicode-dammit
+reference internal
+#smart-quotes
+reference internal
+#inconsistent-encodings
+reference internal
+reference internal
+reference internal
+reference internal
+#advanced-parser-customization
+reference internal
+#parsing-only-part-of-a-document
+reference internal
+#soupstrainer
+docutils literal notranslate
+pre
+reference internal
+reference internal
+reference internal
+reference internal
+reference internal
+#diagnose
+docutils literal notranslate
+pre
+reference internal
+#errors-when-parsing-a-document
+reference internal
+reference internal
+#parsing-xml
+reference internal
+reference internal
+#miscellaneous
+reference internal
+#improving-performance
+reference internal
+#translating-this-documentation
+reference internal
+#id18
+reference internal
+reference internal
+#you-need-a-parser
+reference internal
+#method-names
+reference internal
+#generators
+reference internal
+#xml
+reference internal
+#entities
+reference internal
+#id19
 note
-Accepted
-ta-center
-true
-svg-icon iconCheckmarkLg
-36
-36
-0 0 36 36
-m6 14 8 8L30 6v8L14 30l-8-8v-8Z
-/posts/132448/timeline
-T
-timeline
-s-tooltip
-right
-Show activity on this post.
-Timeline
-true
-mln2 mr0 svg-icon iconHistory
-19
-18
-0 0 19 18
-M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
-answercell post-layout--right
+source link
+this-page-menu
+_sources/index.rst.txt
+nofollow
+display: none
+search
+searchformwrapper
+search
+search.html
+get
 text
-mt24
-d-flex fw-wrap ai-start jc-end gs8 gsy
-dateCreated
-2008-09-25T10:09:41
-flex--item mr16
-flex: 1 1 100px;
-js-post-menu pt2
-132448
-d-flex gs8 s-anchors s-anchors__muted fw-wrap
-flex--item
-/a/132448
-nofollow
-url
-js-share-link js-gps-track
-Short permalink to this answer
-"post.click({ item: 2, priv: 0, post_type: 2 })"
-se-share-sheet
-Share a link to this answer
-""
-answer
-2
-CC BY-SA 2.5
-js-menu-popup-container
-post-signature flex--item fl0
-user-info 
-user-action-time
-/posts/132448/revisions
-show all edits to this post
-js-gps-track
-"post.click({ item: 4, priv: 0, post_type: 2 })"
-2008-09-28 14:54:51Z
-relativetime
-user-gravatar32
-user-details
--flair
-post-signature flex--item fl0
-user-info user-hover
-user-action-time
-2008-09-25 10:09:41Z
-relativetime
-user-gravatar32
-/users/2827/henryr
-gravatar-wrapper-32
-user avatar
-32
-32
-user-details
-author
-None
-http://schema.org/Person
-/users/2827/henryr
-d-none
-name
--flair
-reputation-score
-reputation score 
-ltr
-true
-true
-true
-d-none
-commentCount
-post-layout--right js-post-comments-component
-comments-132448
-132448
-15
-comments-list js-comments-list
-0
-false
-true
-false
-true
-comments-link-132448
-50
-true
-Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
-#
-js-link-separator dno
-js-show-link comments-link dno
-Expand to show all comments on this post
-#
-""
-js-zone-container zone-container-main
-width: 728px
-132370
-answer-132370
-answer js-answer
-132370
-132359
-26
-2
-0
-0
-suggestedAnswer
-None
-https://schema.org/Answer
-post-layout
-votecell post-layout--left
-132370
-upvoteCount
-26
-fs-caption
-js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
+q
+Go
+clearer
+related
+navigation
+related navigation
 right
-Loading when this answer was accepted…
-0
-note
-Accepted
-ta-center
-true
-svg-icon iconCheckmarkLg
-36
-36
-0 0 36 36
-m6 14 8 8L30 6v8L14 30l-8-8v-8Z
-/posts/132370/timeline
-T
-timeline
-s-tooltip
-right
-Show activity on this post.
-Timeline
-true
-mln2 mr0 svg-icon iconHistory
-19
-18
-0 0 19 18
-M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
-answercell post-layout--right
-text
-http://en.wikipedia.org/wiki/Google_platform
-nofollow noreferrer
-mt24
-d-flex fw-wrap ai-start jc-end gs8 gsy
-dateCreated
-2008-09-25T09:47:22
-flex--item mr16
-flex: 1 1 100px;
-js-post-menu pt2
-132370
-d-flex gs8 s-anchors s-anchors__muted fw-wrap
-flex--item
-/a/132370
-nofollow
-url
-js-share-link js-gps-track
-Short permalink to this answer
-"post.click({ item: 2, priv: 0, post_type: 2 })"
-se-share-sheet
-Share a link to this answer
-""
-answer
-2
-CC BY-SA 2.5
-js-menu-popup-container
-post-signature flex--item fl0
-user-info 
-user-action-time
-2008-09-25 09:47:22Z
-relativetime
-user-gravatar32
-/users/7883/vasil
-gravatar-wrapper-32
-user avatar
-32
-32
-user-details
-author
-None
-http://schema.org/Person
-/users/7883/vasil
-d-none
-name
--flair
-reputation-score
-"reputation score 34,714"
-ltr
-true
-true
-true
-d-none
-commentCount
-post-layout--right js-post-comments-component
-comments-132370
-132370
-15
-comments-list js-comments-list
-0
-false
-true
-false
-true
-comments-link-132370
-50
-true
-Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
+margin-right: 10px
+genindex.html
+General Index
+nav-item nav-item-0
 #
-js-link-separator dno
-js-show-link comments-link dno
-Expand to show all comments on this post
-#
+nav-item nav-item-this
 ""
-133586
-answer-133586
-answer js-answer
-133586
-132359
-22
-3
-0
-0
-suggestedAnswer
-None
-https://schema.org/Answer
-post-layout
-votecell post-layout--left
-133586
-upvoteCount
-22
-fs-caption
-js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
-right
-Loading when this answer was accepted…
-0
-note
-Accepted
-ta-center
-true
-svg-icon iconCheckmarkLg
-36
-36
-0 0 36 36
-m6 14 8 8L30 6v8L14 30l-8-8v-8Z
-/posts/133586/timeline
-T
-timeline
-s-tooltip
-right
-Show activity on this post.
-Timeline
-true
-mln2 mr0 svg-icon iconHistory
-19
-18
-0 0 19 18
-M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
-answercell post-layout--right
-text
-nofollow noreferrer
-mt24
-d-flex fw-wrap ai-start jc-end gs8 gsy
-dateCreated
-2008-09-25T14:14:29
-flex--item mr16
-flex: 1 1 100px;
-js-post-menu pt2
-133586
-d-flex gs8 s-anchors s-anchors__muted fw-wrap
-flex--item
-/a/133586
-nofollow
-url
-js-share-link js-gps-track
-Short permalink to this answer
-"post.click({ item: 2, priv: 0, post_type: 2 })"
-se-share-sheet
-Share a link to this answer
-""
-answer
-2
-CC BY-SA 2.5
-js-menu-popup-container
-post-signature flex--item fl0
-user-info user-hover
-user-action-time
-2008-09-25 14:14:29Z
-relativetime
-user-gravatar32
-/users/1968/konrad-rudolph
-gravatar-wrapper-32
-user avatar
-32
-32
-user-details
-author
-None
-http://schema.org/Person
-/users/1968/konrad-rudolph
-d-none
-name
--flair
-reputation-score
-"reputation score 507,914"
-ltr
-true
-true
-true
-d-none
-commentCount
-post-layout--right js-post-comments-component
-comments-133586
-133586
-15
-comments-list js-comments-list
-0
-false
-true
-false
-true
-comment-114353
-comment js-comment 
-114353
-15962
-4
-js-comment-actions comment-actions
-comment-score js-comment-edit-hide
-cool
-comment-text  js-comment-text-and-form
-comment-copy
-d-inline-flex ai-center
-/users/15962/squarecog
-"19,091 reputation"
-comment-user
-comment-date
-ltr
-"2008-10-31 22:31:18Z, License: CC BY-SA 2.5"
-relativetime-clean
-comment-5397855
-comment js-comment 
-5397855
-178436
-0
-js-comment-actions comment-actions
-comment-score js-comment-edit-hide
-comment-text  js-comment-text-and-form
-comment-copy
-d-inline-flex ai-center
-/users/178436/stefan-savev
-"1,279 reputation"
-comment-user
-comment-date
-ltr
-"2011-02-01 01:37:10Z, License: CC BY-SA 2.5"
-relativetime-clean
-comment-5400294
-comment js-comment 
-5400294
-1968
-0
-js-comment-actions comment-actions
-comment-score js-comment-edit-hide
-comment-text  js-comment-text-and-form
-comment-copy
-d-inline-flex ai-center
-/users/1968/konrad-rudolph
-"507,914 reputation"
-comment-user
-comment-date
-ltr
-"2011-02-01 07:48:03Z, License: CC BY-SA 2.5"
-relativetime-clean
-comments-link-133586
-50
-true
-Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
-#
-js-link-separator dno
-js-show-link comments-link dno
-Expand to show all comments on this post
-#
-""
-js-zone-container zone-container-main
-width: 728px
-416076
-answer-416076
-answer js-answer accepted-answer js-accepted-answer
-416076
-132359
-5
-4
-0
-0
-suggestedAnswer
-None
-https://schema.org/Answer
-post-layout
-votecell post-layout--left
-416076
-upvoteCount
-5
-fs-caption
-js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8
-right
-Loading when this answer was accepted…
-0
-note
-Accepted
-ta-center
-true
-svg-icon iconCheckmarkLg
-36
-36
-0 0 36 36
-m6 14 8 8L30 6v8L14 30l-8-8v-8Z
-/posts/416076/timeline
-T
-timeline
-s-tooltip
-right
-Show activity on this post.
-Timeline
-true
-mln2 mr0 svg-icon iconHistory
-19
-18
-0 0 19 18
-M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
-answercell post-layout--right
-text
-http://en.wikipedia.org/wiki/Google_platform
-nofollow noreferrer
-nofollow noreferrer
-nofollow noreferrer
-http://research.google.com/archive/gfs-sosp2003.pdf
-nofollow noreferrer
-mt24
-d-flex fw-wrap ai-start jc-end gs8 gsy
-dateCreated
-2009-01-06T10:44:22
-flex--item mr16
-flex: 1 1 100px;
-js-post-menu pt2
-416076
-d-flex gs8 s-anchors s-anchors__muted fw-wrap
-flex--item
-/a/416076
-nofollow
-url
-js-share-link js-gps-track
-Short permalink to this answer
-"post.click({ item: 2, priv: 0, post_type: 2 })"
-se-share-sheet
-Share a link to this answer
-""
-answer
-2
-CC BY-SA 2.5
-js-menu-popup-container
-post-signature owner flex--item fl0
-user-info user-hover
-user-action-time
-2009-01-06 10:44:22Z
-relativetime
-user-gravatar32
-/users/6508/jorge-ferreira
-gravatar-wrapper-32
-user avatar
-32
-32
-user-details
-author
-None
-http://schema.org/Person
-/users/6508/jorge-ferreira
-d-none
-name
--flair
-reputation-score
-"reputation score 93,075"
-ltr
-true
-true
-true
-d-none
-commentCount
-post-layout--right js-post-comments-component
-comments-416076
-416076
-15
-comments-list js-comments-list
-0
-false
-true
-false
-true
-comments-link-416076
-50
-true
-Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
-#
-js-link-separator dno
-js-show-link comments-link dno
-Expand to show all comments on this post
-#
-""
-132380
-answer-132380
-answer js-answer
-132380
-132359
-4
-5
-0
-0
-suggestedAnswer
-None
-https://schema.org/Answer
-post-layout
-votecell post-layout--left
-132380
-upvoteCount
-4
-fs-caption
-js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
-right
-Loading when this answer was accepted…
-0
-note
-Accepted
-ta-center
-true
-svg-icon iconCheckmarkLg
-36
-36
-0 0 36 36
-m6 14 8 8L30 6v8L14 30l-8-8v-8Z
-/posts/132380/timeline
-T
-timeline
-s-tooltip
-right
-Show activity on this post.
-Timeline
-true
-mln2 mr0 svg-icon iconHistory
-19
-18
-0 0 19 18
-M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
-answercell post-layout--right
-text
-mt24
-d-flex fw-wrap ai-start jc-end gs8 gsy
-dateCreated
-2008-09-25T09:49:21
-flex--item mr16
-flex: 1 1 100px;
-js-post-menu pt2
-132380
-d-flex gs8 s-anchors s-anchors__muted fw-wrap
-flex--item
-/a/132380
-nofollow
-url
-js-share-link js-gps-track
-Short permalink to this answer
-"post.click({ item: 2, priv: 0, post_type: 2 })"
-se-share-sheet
-Share a link to this answer
-""
-answer
-2
-CC BY-SA 2.5
-js-menu-popup-container
-post-signature flex--item fl0
-user-info 
-user-action-time
-2008-09-25 09:49:21Z
-relativetime
-user-gravatar32
-/users/1709/anders-sandvig
-gravatar-wrapper-32
-user avatar
-32
-32
-user-details
-author
-None
-http://schema.org/Person
-/users/1709/anders-sandvig
-d-none
-name
--flair
-reputation-score
-"reputation score 20,342"
-ltr
-true
-true
-true
-d-none
-commentCount
-post-layout--right js-post-comments-component
-comments-132380
-132380
-15
-comments-list js-comments-list
-0
-false
-true
-false
-true
-comments-link-132380
-50
-true
-Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
-#
-js-link-separator dno
-js-show-link comments-link dno
-Expand to show all comments on this post
-#
-""
-132398
-answer-132398
-answer js-answer
-132398
-132359
-4
-6
-0
-0
-suggestedAnswer
-None
-https://schema.org/Answer
-post-layout
-votecell post-layout--left
-132398
-upvoteCount
-4
-fs-caption
-js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
-right
-Loading when this answer was accepted…
-0
-note
-Accepted
-ta-center
-true
-svg-icon iconCheckmarkLg
-36
-36
-0 0 36 36
-m6 14 8 8L30 6v8L14 30l-8-8v-8Z
-/posts/132398/timeline
-T
-timeline
-s-tooltip
-right
-Show activity on this post.
-Timeline
-true
-mln2 mr0 svg-icon iconHistory
-19
-18
-0 0 19 18
-M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
-answercell post-layout--right
-text
-mt24
-d-flex fw-wrap ai-start jc-end gs8 gsy
-dateCreated
-2008-09-25T09:53:27
-flex--item mr16
-flex: 1 1 100px;
-js-post-menu pt2
-132398
-d-flex gs8 s-anchors s-anchors__muted fw-wrap
-flex--item
-/a/132398
-nofollow
-url
-js-share-link js-gps-track
-Short permalink to this answer
-"post.click({ item: 2, priv: 0, post_type: 2 })"
-se-share-sheet
-Share a link to this answer
-""
-answer
-2
-CC BY-SA 2.5
-js-menu-popup-container
-post-signature flex--item fl0
-user-info user-hover
-user-action-time
-2008-09-25 09:53:27Z
-relativetime
-user-gravatar32
-/users/15416/msalters
-gravatar-wrapper-32
-user avatar
-32
-32
-user-details
-author
-None
-http://schema.org/Person
-/users/15416/msalters
-d-none
-name
--flair
-reputation-score
-"reputation score 168,055"
-ltr
-true
-true
-true
-d-none
-commentCount
-post-layout--right js-post-comments-component
-comments-132398
-132398
-15
-comments-list js-comments-list
-0
-false
-true
-false
-true
-comments-link-132398
-50
-true
-Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
-#
-js-link-separator dno
-js-show-link comments-link dno
-Expand to show all comments on this post
-#
-""
-255119
-answer-255119
-answer js-answer
-255119
-132359
-4
-7
-0
-0
-suggestedAnswer
-None
-https://schema.org/Answer
-post-layout
-votecell post-layout--left
-255119
-upvoteCount
-4
-fs-caption
-js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
-right
-Loading when this answer was accepted…
-0
-note
-Accepted
-ta-center
-true
-svg-icon iconCheckmarkLg
-36
-36
-0 0 36 36
-m6 14 8 8L30 6v8L14 30l-8-8v-8Z
-/posts/255119/timeline
-T
-timeline
-s-tooltip
-right
-Show activity on this post.
-Timeline
-true
-mln2 mr0 svg-icon iconHistory
-19
-18
-0 0 19 18
-M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
-answercell post-layout--right
-text
-http://www.google.com/technology/pigeonrank.html
-nofollow noreferrer
-mt24
-d-flex fw-wrap ai-start jc-end gs8 gsy
-dateCreated
-2008-10-31T22:18:52
-flex--item mr16
-flex: 1 1 100px;
-js-post-menu pt2
-255119
-d-flex gs8 s-anchors s-anchors__muted fw-wrap
-flex--item
-/a/255119
-nofollow
-url
-js-share-link js-gps-track
-Short permalink to this answer
-"post.click({ item: 2, priv: 0, post_type: 2 })"
-se-share-sheet
-Share a link to this answer
-""
-answer
-2
-CC BY-SA 2.5
-js-menu-popup-container
-post-signature flex--item fl0
-user-info 
-user-action-time
-2008-10-31 22:18:52Z
-relativetime
-user-gravatar32
-/users/26933/hanclinto
-gravatar-wrapper-32
-user avatar
-32
-32
-user-details
-author
-None
-http://schema.org/Person
-/users/26933/hanclinto
-d-none
-name
--flair
-reputation-score
-reputation score 
-ltr
-true
-true
-true
-d-none
-commentCount
-post-layout--right js-post-comments-component
-comments-255119
-255119
-15
-comments-list js-comments-list
-0
-false
-true
-false
-true
-comment-616364
-comment js-comment 
-616364
-42475
-0
-js-comment-actions comment-actions
-comment-score js-comment-edit-hide
-comment-text  js-comment-text-and-form
-comment-copy
-d-inline-flex ai-center
-/users/42475/xn0vv3r
-"17,360 reputation"
-comment-user
-comment-date
-ltr
-"2009-04-30 10:59:26Z, License: CC BY-SA 2.5"
-relativetime-clean
-comment-1063192
-comment js-comment 
-1063192
-96326
-0
-js-comment-actions comment-actions
-comment-score js-comment-edit-hide
-comment-text  js-comment-text-and-form
-comment-copy
-d-inline-flex ai-center
-/users/96326/victrnava
-"1,104 reputation"
-comment-user
-comment-date
-ltr
-"2009-08-06 06:24:07Z, License: CC BY-SA 2.5"
-relativetime-clean
-comments-link-255119
-50
-true
-Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
-#
-js-link-separator dno
-js-show-link comments-link dno
-Expand to show all comments on this post
-#
-""
-132381
-answer-132381
-answer js-answer
-132381
-132359
-3
-8
-0
-0
-suggestedAnswer
-None
-https://schema.org/Answer
-post-layout
-votecell post-layout--left
-132381
-upvoteCount
-3
-fs-caption
-js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
-right
-Loading when this answer was accepted…
-0
-note
-Accepted
-ta-center
-true
-svg-icon iconCheckmarkLg
-36
-36
-0 0 36 36
-m6 14 8 8L30 6v8L14 30l-8-8v-8Z
-/posts/132381/timeline
-T
-timeline
-s-tooltip
-right
-Show activity on this post.
-Timeline
-true
-mln2 mr0 svg-icon iconHistory
-19
-18
-0 0 19 18
-M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
-answercell post-layout--right
-text
-mt24
-d-flex fw-wrap ai-start jc-end gs8 gsy
-dateCreated
-2008-09-25T09:49:45
-flex--item mr16
-flex: 1 1 100px;
-js-post-menu pt2
-132381
-d-flex gs8 s-anchors s-anchors__muted fw-wrap
-flex--item
-/a/132381
-nofollow
-url
-js-share-link js-gps-track
-Short permalink to this answer
-"post.click({ item: 2, priv: 0, post_type: 2 })"
-se-share-sheet
-Share a link to this answer
-""
-answer
-2
-CC BY-SA 2.5
-js-menu-popup-container
-post-signature flex--item fl0
-user-info user-hover
-user-action-time
-2008-09-25 09:49:45Z
-relativetime
-user-gravatar32
-/users/15075/richard-walton
-gravatar-wrapper-32
-https://i.stack.imgur.com/ZEyei.jpg?s=64&g=1
-user avatar
-32
-32
-user-details
-author
-None
-http://schema.org/Person
-/users/15075/richard-walton
-d-none
-name
--flair
-reputation-score
-reputation score 
-ltr
-true
-true
-true
-d-none
-commentCount
-post-layout--right js-post-comments-component
-comments-132381
-132381
-15
-comments-list js-comments-list
-0
-false
-true
-false
-true
-comment-33016
-comment js-comment 
-33016
-2827
-0
-js-comment-actions comment-actions
-comment-score js-comment-edit-hide
-comment-text  js-comment-text-and-form
-comment-copy
-d-inline-flex ai-center
-/users/2827/henryr
-"7,779 reputation"
-comment-user
-comment-date
-ltr
-"2008-09-25 10:12:51Z, License: CC BY-SA 2.5"
-relativetime-clean
-comments-link-132381
-50
-true
-Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
-#
-js-link-separator dno
-js-show-link comments-link dno
-Expand to show all comments on this post
-#
-""
-132388
-answer-132388
-answer js-answer
-132388
-132359
-3
-9
-0
-0
-suggestedAnswer
-None
-https://schema.org/Answer
-post-layout
-votecell post-layout--left
-132388
-upvoteCount
-3
-fs-caption
-js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
-right
-Loading when this answer was accepted…
-0
-note
-Accepted
-ta-center
-true
-svg-icon iconCheckmarkLg
-36
-36
-0 0 36 36
-m6 14 8 8L30 6v8L14 30l-8-8v-8Z
-/posts/132388/timeline
-T
-timeline
-s-tooltip
-right
-Show activity on this post.
-Timeline
-true
-mln2 mr0 svg-icon iconHistory
-19
-18
-0 0 19 18
-M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
-answercell post-layout--right
-text
-mt24
-d-flex fw-wrap ai-start jc-end gs8 gsy
-dateCreated
-2008-09-25T09:50:31
-flex--item mr16
-flex: 1 1 100px;
-js-post-menu pt2
-132388
-d-flex gs8 s-anchors s-anchors__muted fw-wrap
-flex--item
-/a/132388
-nofollow
-url
-js-share-link js-gps-track
-Short permalink to this answer
-"post.click({ item: 2, priv: 0, post_type: 2 })"
-se-share-sheet
-Share a link to this answer
-""
-answer
-2
-CC BY-SA 2.5
-js-menu-popup-container
-post-signature flex--item fl0
-user-info user-hover
-user-action-time
-2008-09-25 09:50:31Z
-relativetime
-user-gravatar32
-/users/3839/matthew-watson
-gravatar-wrapper-32
-https://www.gravatar.com/avatar/d36d13c416d215a90fdd4a00a8808414?s=64&d=identicon&r=PG
-user avatar
-32
-32
-user-details
-author
-None
-http://schema.org/Person
-/users/3839/matthew-watson
-d-none
-name
--flair
-reputation-score
-"reputation score 13,951"
-ltr
-true
-true
-true
-d-none
-commentCount
-post-layout--right js-post-comments-component
-comments-132388
-132388
-15
-comments-list js-comments-list
-0
-false
-true
-false
-true
-comments-link-132388
-50
-true
-Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
-#
-js-link-separator dno
-js-show-link comments-link dno
-Expand to show all comments on this post
-#
-""
-254537
-answer-254537
-answer js-answer
-254537
-132359
-3
-10
-0
-0
-suggestedAnswer
-None
-https://schema.org/Answer
-post-layout
-votecell post-layout--left
-254537
-upvoteCount
-3
-fs-caption
-js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
-right
-Loading when this answer was accepted…
-0
-note
-Accepted
-ta-center
-true
-svg-icon iconCheckmarkLg
-36
-36
-0 0 36 36
-m6 14 8 8L30 6v8L14 30l-8-8v-8Z
-/posts/254537/timeline
-T
-timeline
-s-tooltip
-right
-Show activity on this post.
-Timeline
-true
-mln2 mr0 svg-icon iconHistory
-19
-18
-0 0 19 18
-M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
-answercell post-layout--right
-text
-mt24
-d-flex fw-wrap ai-start jc-end gs8 gsy
-dateCreated
-2008-10-31T18:58:07
-flex--item mr16
-flex: 1 1 100px;
-js-post-menu pt2
-254537
-d-flex gs8 s-anchors s-anchors__muted fw-wrap
-flex--item
-/a/254537
-nofollow
-url
-js-share-link js-gps-track
-Short permalink to this answer
-"post.click({ item: 2, priv: 0, post_type: 2 })"
-se-share-sheet
-Share a link to this answer
-""
-answer
-2
-CC BY-SA 2.5
-js-menu-popup-container
-post-signature flex--item fl0
-user-info 
-user-action-time
-/posts/254537/revisions
-show all edits to this post
-js-gps-track
-"post.click({ item: 4, priv: 0, post_type: 2 })"
-2008-10-31 22:13:43Z
-relativetime
-user-gravatar32
-user-details
--flair
-post-signature flex--item fl0
-user-info user-hover
-user-action-time
-2008-10-31 18:58:07Z
-relativetime
-user-gravatar32
-/users/13864/jilles
-gravatar-wrapper-32
-https://www.gravatar.com/avatar/577f8703aaa0f715ca8fcd728656fcff?s=64&d=identicon&r=PG
-user avatar
-32
-32
-user-details
-author
-None
-http://schema.org/Person
-/users/13864/jilles
-d-none
-name
--flair
-reputation-score
-reputation score 
-ltr
-true
-true
-d-none
-commentCount
-post-layout--right js-post-comments-component
-comments-254537
-254537
-15
-comments-list js-comments-list
-0
-false
-true
-false
-true
-comments-link-254537
-50
-true
-Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
-#
-js-link-separator dno
-js-show-link comments-link dno
-Expand to show all comments on this post
-#
-""
-132392
-answer-132392
-answer js-answer
-132392
-132359
-2
-11
-0
-0
-suggestedAnswer
-None
-https://schema.org/Answer
-post-layout
-votecell post-layout--left
-132392
-upvoteCount
-2
-fs-caption
-js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
-right
-Loading when this answer was accepted…
-0
-note
-Accepted
-ta-center
-true
-svg-icon iconCheckmarkLg
-36
-36
-0 0 36 36
-m6 14 8 8L30 6v8L14 30l-8-8v-8Z
-/posts/132392/timeline
-T
-timeline
-s-tooltip
-right
-Show activity on this post.
-Timeline
-true
-mln2 mr0 svg-icon iconHistory
-19
-18
-0 0 19 18
-M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
-answercell post-layout--right
-text
-nofollow noreferrer
-http://research.google.com/archive/gfs-sosp2003.pdf
-nofollow noreferrer
-http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=MapReduce%3A+Simplified+Data+Processing+on+Large+Clusters+Dean+Ghemawat
-nofollow noreferrer
-mt24
-d-flex fw-wrap ai-start jc-end gs8 gsy
-dateCreated
-2008-09-25T09:51:14
-flex--item mr16
-flex: 1 1 100px;
-js-post-menu pt2
-132392
-d-flex gs8 s-anchors s-anchors__muted fw-wrap
-flex--item
-/a/132392
-nofollow
-url
-js-share-link js-gps-track
-Short permalink to this answer
-"post.click({ item: 2, priv: 0, post_type: 2 })"
-se-share-sheet
-Share a link to this answer
-""
-answer
-2
-CC BY-SA 2.5
-js-menu-popup-container
-post-signature flex--item fl0
-user-info user-hover
-user-action-time
-2008-09-25 09:51:14Z
-relativetime
-user-gravatar32
-/users/1730/nicolas
-gravatar-wrapper-32
-user avatar
-32
-32
-user-details
-author
-None
-http://schema.org/Person
-/users/1730/nicolas
-d-none
-name
--flair
-reputation-score
-"reputation score 24,171"
-ltr
-true
-true
-true
-d-none
-commentCount
-post-layout--right js-post-comments-component
-comments-132392
-132392
-15
-comments-list js-comments-list
-0
-false
-true
-false
-true
-comments-link-132392
-50
-true
-Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
-#
-js-link-separator dno
-js-show-link comments-link dno
-Expand to show all comments on this post
-#
-""
-257271
-answer-257271
-answer js-answer
-257271
-132359
-2
-12
-0
-0
-suggestedAnswer
-None
-https://schema.org/Answer
-post-layout
-votecell post-layout--left
-257271
-upvoteCount
-2
-fs-caption
-js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
-right
-Loading when this answer was accepted…
-0
-note
-Accepted
-ta-center
-true
-svg-icon iconCheckmarkLg
-36
-36
-0 0 36 36
-m6 14 8 8L30 6v8L14 30l-8-8v-8Z
-/posts/257271/timeline
-T
-timeline
-s-tooltip
-right
-Show activity on this post.
-Timeline
-true
-mln2 mr0 svg-icon iconHistory
-19
-18
-0 0 19 18
-M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
-answercell post-layout--right
-text
-nofollow noreferrer
-mt24
-d-flex fw-wrap ai-start jc-end gs8 gsy
-dateCreated
-2008-11-02T19:52:27
-flex--item mr16
-flex: 1 1 100px;
-js-post-menu pt2
-257271
-d-flex gs8 s-anchors s-anchors__muted fw-wrap
-flex--item
-/a/257271
-nofollow
-url
-js-share-link js-gps-track
-Short permalink to this answer
-"post.click({ item: 2, priv: 0, post_type: 2 })"
-se-share-sheet
-Share a link to this answer
-""
-answer
-2
-CC BY-SA 2.5
-js-menu-popup-container
-post-signature flex--item fl0
-user-info 
-user-action-time
-2008-11-02 19:52:27Z
-relativetime
-user-gravatar32
-/users/20804/user20804
-gravatar-wrapper-32
-https://www.gravatar.com/avatar/cd29ad3d00e1205d0edd401f28951dd9?s=64&d=identicon&r=PG
-user avatar
-32
-32
-user-details
-author
-None
-http://schema.org/Person
-/users/20804/user20804
-d-none
-name
--flair
-reputation-score
-reputation score 
-ltr
-true
-true
-d-none
-commentCount
-post-layout--right js-post-comments-component
-comments-257271
-257271
-15
-comments-list js-comments-list
-0
-false
-true
-false
-true
-comments-link-257271
-50
-true
-Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
-#
-js-link-separator dno
-js-show-link comments-link dno
-Expand to show all comments on this post
-#
-""
-132362
-answer-132362
-answer js-answer
-132362
-132359
-1
-13
-0
-0
-suggestedAnswer
-None
-https://schema.org/Answer
-post-layout
-votecell post-layout--left
-132362
-upvoteCount
-1
-fs-caption
-js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
-right
-Loading when this answer was accepted…
-0
-note
-Accepted
-ta-center
-true
-svg-icon iconCheckmarkLg
-36
-36
-0 0 36 36
-m6 14 8 8L30 6v8L14 30l-8-8v-8Z
-/posts/132362/timeline
-T
-timeline
-s-tooltip
-right
-Show activity on this post.
-Timeline
-true
-mln2 mr0 svg-icon iconHistory
-19
-18
-0 0 19 18
-M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
-answercell post-layout--right
-text
-mt24
-d-flex fw-wrap ai-start jc-end gs8 gsy
-dateCreated
-2008-09-25T09:44:34
-flex--item mr16
-flex: 1 1 100px;
-js-post-menu pt2
-132362
-d-flex gs8 s-anchors s-anchors__muted fw-wrap
-flex--item
-/a/132362
-nofollow
-url
-js-share-link js-gps-track
-Short permalink to this answer
-"post.click({ item: 2, priv: 0, post_type: 2 })"
-se-share-sheet
-Share a link to this answer
-""
-answer
-2
-CC BY-SA 2.5
-js-menu-popup-container
-post-signature flex--item fl0
-user-info user-hover
-user-action-time
-2008-09-25 09:44:34Z
-relativetime
-user-gravatar32
-/users/18658/traumapony
-gravatar-wrapper-32
-user avatar
-32
-32
-user-details
-author
-None
-http://schema.org/Person
-/users/18658/traumapony
-d-none
-name
--flair
-reputation-score
-"reputation score 10,674"
-ltr
-true
-true
-true
-d-none
-commentCount
-post-layout--right js-post-comments-component
-comments-132362
-132362
-15
-comments-list js-comments-list
-0
-false
-true
-false
-true
-comment-32979
-comment js-comment 
-32979
-2954
-0
-js-comment-actions comment-actions
-comment-score js-comment-edit-hide
-comment-text  js-comment-text-and-form
-comment-copy
-d-inline-flex ai-center
-/users/2954/sergio-acosta
-"11,268 reputation"
-comment-user
-comment-date
-ltr
-"2008-09-25 09:51:32Z, License: CC BY-SA 2.5"
-relativetime-clean
-comments-link-132362
-50
-true
-Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
-#
-js-link-separator dno
-js-show-link comments-link dno
-Expand to show all comments on this post
-#
-""
-132373
-answer-132373
-answer js-answer
-132373
-132359
-1
-14
-0
-0
-suggestedAnswer
-None
-https://schema.org/Answer
-post-layout
-votecell post-layout--left
-132373
-upvoteCount
-1
-fs-caption
-js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
-right
-Loading when this answer was accepted…
-0
-note
-Accepted
-ta-center
-true
-svg-icon iconCheckmarkLg
-36
-36
-0 0 36 36
-m6 14 8 8L30 6v8L14 30l-8-8v-8Z
-/posts/132373/timeline
-T
-timeline
-s-tooltip
-right
-Show activity on this post.
-Timeline
-true
-mln2 mr0 svg-icon iconHistory
-19
-18
-0 0 19 18
-M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
-answercell post-layout--right
-text
-mt24
-d-flex fw-wrap ai-start jc-end gs8 gsy
-dateCreated
-2008-09-25T09:47:43
-flex--item mr16
-flex: 1 1 100px;
-js-post-menu pt2
-132373
-d-flex gs8 s-anchors s-anchors__muted fw-wrap
-flex--item
-/a/132373
-nofollow
-url
-js-share-link js-gps-track
-Short permalink to this answer
-"post.click({ item: 2, priv: 0, post_type: 2 })"
-se-share-sheet
-Share a link to this answer
-""
-answer
-2
-CC BY-SA 2.5
-js-menu-popup-container
-post-signature flex--item fl0
-user-info 
-user-action-time
-/posts/132373/revisions
-show all edits to this post
-js-gps-track
-"post.click({ item: 4, priv: 0, post_type: 2 })"
-2008-09-25 10:10:31Z
-relativetime
-user-gravatar32
-user-details
--flair
-post-signature flex--item fl0
-user-info user-hover
-user-action-time
-2008-09-25 09:47:43Z
-relativetime
-user-gravatar32
-/users/1196/aku
-gravatar-wrapper-32
-https://i.stack.imgur.com/iQcva.jpg?s=64&g=1
-user avatar
-32
-32
-user-details
-author
-None
-http://schema.org/Person
-/users/1196/aku
-d-none
-name
--flair
-reputation-score
-"reputation score 119,502"
-ltr
-true
-true
-true
-d-none
-commentCount
-post-layout--right js-post-comments-component
-comments-132373
-132373
-15
-comments-list js-comments-list
-0
-false
-true
-false
-true
-comments-link-132373
-50
-true
-Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
-#
-js-link-separator dno
-js-show-link comments-link dno
-Expand to show all comments on this post
-#
-""
-183453
-answer-183453
-answer js-answer
-183453
-132359
-1
-15
-0
-0
-suggestedAnswer
-None
-https://schema.org/Answer
-post-layout
-votecell post-layout--left
-183453
-upvoteCount
-1
-fs-caption
-js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
-right
-Loading when this answer was accepted…
-0
-note
-Accepted
-ta-center
-true
-svg-icon iconCheckmarkLg
-36
-36
-0 0 36 36
-m6 14 8 8L30 6v8L14 30l-8-8v-8Z
-/posts/183453/timeline
-T
-timeline
-s-tooltip
-right
-Show activity on this post.
-Timeline
-true
-mln2 mr0 svg-icon iconHistory
-19
-18
-0 0 19 18
-M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
-answercell post-layout--right
-text
-nofollow noreferrer
-mt24
-d-flex fw-wrap ai-start jc-end gs8 gsy
-dateCreated
-2008-10-08T15:44:32
-flex--item mr16
-flex: 1 1 100px;
-js-post-menu pt2
-183453
-d-flex gs8 s-anchors s-anchors__muted fw-wrap
-flex--item
-/a/183453
-nofollow
-url
-js-share-link js-gps-track
-Short permalink to this answer
-"post.click({ item: 2, priv: 0, post_type: 2 })"
-se-share-sheet
-Share a link to this answer
-""
-answer
-2
-CC BY-SA 2.5
-js-menu-popup-container
-post-signature flex--item fl0
-user-info 
-user-action-time
-2008-10-08 15:44:32Z
-relativetime
-user-gravatar32
-/users/26056/kohlerm
-gravatar-wrapper-32
-https://www.gravatar.com/avatar/?s=64&d=identicon&r=PG&f=1
-user avatar
-32
-32
-user-details
-author
-None
-http://schema.org/Person
-/users/26056/kohlerm
-d-none
-name
--flair
-reputation-score
-reputation score 
-ltr
-true
-true
-true
-d-none
-commentCount
-post-layout--right js-post-comments-component
-comments-183453
-183453
-15
-comments-list js-comments-list
-0
-false
-true
-false
-true
-comments-link-183453
-50
-true
-Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
-#
-js-link-separator dno
-js-show-link comments-link dno
-Expand to show all comments on this post
-#
-""
-4287726
-answer-4287726
-answer js-answer
-4287726
-132359
-1
-16
-0
-0
-suggestedAnswer
-None
-https://schema.org/Answer
-post-layout
-votecell post-layout--left
-4287726
-upvoteCount
-1
-fs-caption
-js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
-right
-Loading when this answer was accepted…
-0
-note
-Accepted
-ta-center
-true
-svg-icon iconCheckmarkLg
-36
-36
-0 0 36 36
-m6 14 8 8L30 6v8L14 30l-8-8v-8Z
-/posts/4287726/timeline
-T
-timeline
-s-tooltip
-right
-Show activity on this post.
-Timeline
-true
-mln2 mr0 svg-icon iconHistory
-19
-18
-0 0 19 18
-M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
-answercell post-layout--right
-text
-nofollow
-mt24
-d-flex fw-wrap ai-start jc-end gs8 gsy
-dateCreated
-2010-11-26T18:29:42
-flex--item mr16
-flex: 1 1 100px;
-js-post-menu pt2
-4287726
-d-flex gs8 s-anchors s-anchors__muted fw-wrap
-flex--item
-/a/4287726
-nofollow
-url
-js-share-link js-gps-track
-Short permalink to this answer
-"post.click({ item: 2, priv: 0, post_type: 2 })"
-se-share-sheet
-Share a link to this answer
-""
-answer
-2
-CC BY-SA 2.5
-js-menu-popup-container
-post-signature flex--item fl0
-user-info user-hover
-user-action-time
-2010-11-26 18:29:42Z
-relativetime
-user-gravatar32
-/users/409875/thomas-langston
-gravatar-wrapper-32
-user avatar
-32
-32
-user-details
-author
-None
-http://schema.org/Person
-/users/409875/thomas-langston
-d-none
-name
--flair
-reputation-score
-reputation score 
-ltr
-true
-true
-true
-d-none
-commentCount
-post-layout--right js-post-comments-component
-comments-4287726
-4287726
-15
-comments-list js-comments-list
-0
-false
-true
-false
-true
-comments-link-4287726
-50
-true
-Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
-#
-js-link-separator dno
-js-show-link comments-link dno
-Expand to show all comments on this post
-#
-""
-132375
-answer-132375
-answer js-answer
-132375
-132359
-0
-17
-0
-0
-suggestedAnswer
-None
-https://schema.org/Answer
-post-layout
-votecell post-layout--left
-132375
-upvoteCount
-0
-fs-caption
-js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
-right
-Loading when this answer was accepted…
-0
-note
-Accepted
-ta-center
-true
-svg-icon iconCheckmarkLg
-36
-36
-0 0 36 36
-m6 14 8 8L30 6v8L14 30l-8-8v-8Z
-/posts/132375/timeline
-T
-timeline
-s-tooltip
-right
-Show activity on this post.
-Timeline
-true
-mln2 mr0 svg-icon iconHistory
-19
-18
-0 0 19 18
-M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
-answercell post-layout--right
-text
-nofollow noreferrer
-nofollow noreferrer
-mt24
-d-flex fw-wrap ai-start jc-end gs8 gsy
-dateCreated
-2008-09-25T09:48:24
-flex--item mr16
-flex: 1 1 100px;
-js-post-menu pt2
-132375
-d-flex gs8 s-anchors s-anchors__muted fw-wrap
-flex--item
-/a/132375
-nofollow
-url
-js-share-link js-gps-track
-Short permalink to this answer
-"post.click({ item: 2, priv: 0, post_type: 2 })"
-se-share-sheet
-Share a link to this answer
-""
-answer
-2
-CC BY-SA 2.5
-js-menu-popup-container
-post-signature flex--item fl0
-user-info user-hover
-user-action-time
-2008-09-25 09:48:24Z
-relativetime
-user-gravatar32
-/users/5190/vinko-vrsalovic
-gravatar-wrapper-32
-https://i.stack.imgur.com/WWHqF.jpg?s=64&g=1
-user avatar
-32
-32
-user-details
-author
-None
-http://schema.org/Person
-/users/5190/vinko-vrsalovic
-mod-flair mtn2
-Moderator
-d-none
-name
--flair
-reputation-score
-"reputation score 253,874"
-ltr
-true
-true
-true
-d-none
-commentCount
-post-layout--right js-post-comments-component
-comments-132375
-132375
-15
-comments-list js-comments-list
-0
-false
-true
-false
-true
-comment-32975
-comment js-comment 
-32975
-15416
-0
-js-comment-actions comment-actions
-comment-score js-comment-edit-hide
-comment-text  js-comment-text-and-form
-comment-copy
-d-inline-flex ai-center
-/users/15416/msalters
-"168,055 reputation"
-comment-user
-comment-date
-ltr
-"2008-09-25 09:50:45Z, License: CC BY-SA 2.5"
-relativetime-clean
-comment-32981
-comment js-comment 
-32981
-5190
-0
-js-comment-actions comment-actions
-comment-score js-comment-edit-hide
-comment-text  js-comment-text-and-form
-comment-copy
-d-inline-flex ai-center
-/users/5190/vinko-vrsalovic
-"253,874 reputation"
-comment-user
-mod-flair 
-Moderator
-comment-date
-ltr
-"2008-09-25 09:56:01Z, License: CC BY-SA 2.5"
-relativetime-clean
-comment-33013
-comment js-comment 
-33013
-2827
-0
-js-comment-actions comment-actions
-comment-score js-comment-edit-hide
-comment-text  js-comment-text-and-form
-comment-copy
-d-inline-flex ai-center
-/users/2827/henryr
-"7,779 reputation"
-comment-user
-comment-date
-ltr
-"2008-09-25 10:11:28Z, License: CC BY-SA 2.5"
-relativetime-clean
-comment-114359
-comment js-comment 
-114359
-15962
-0
-js-comment-actions comment-actions
-comment-score js-comment-edit-hide
-comment-text  js-comment-text-and-form
-comment-copy
-d-inline-flex ai-center
-/users/15962/squarecog
-"19,091 reputation"
-comment-user
-comment-date
-ltr
-"2008-10-31 22:34:51Z, License: CC BY-SA 2.5"
-relativetime-clean
-comments-link-132375
-50
-true
-Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
-#
-js-link-separator dno
-js-show-link comments-link dno
-Expand to show all comments on this post
-#
-""
-132386
-answer-132386
-answer js-answer
-132386
-132359
-0
-18
-0
-0
-suggestedAnswer
-None
-https://schema.org/Answer
-post-layout
-votecell post-layout--left
-132386
-upvoteCount
-0
-fs-caption
-js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
-right
-Loading when this answer was accepted…
-0
-note
-Accepted
-ta-center
-true
-svg-icon iconCheckmarkLg
-36
-36
-0 0 36 36
-m6 14 8 8L30 6v8L14 30l-8-8v-8Z
-/posts/132386/timeline
-T
-timeline
-s-tooltip
-right
-Show activity on this post.
-Timeline
-true
-mln2 mr0 svg-icon iconHistory
-19
-18
-0 0 19 18
-M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
-answercell post-layout--right
-text
-http://hadoop.apache.org/core/
-nofollow noreferrer
-nofollow noreferrer
-mt24
-d-flex fw-wrap ai-start jc-end gs8 gsy
-dateCreated
-2008-09-25T09:50:25
-flex--item mr16
-flex: 1 1 100px;
-js-post-menu pt2
-132386
-d-flex gs8 s-anchors s-anchors__muted fw-wrap
-flex--item
-/a/132386
-nofollow
-url
-js-share-link js-gps-track
-Short permalink to this answer
-"post.click({ item: 2, priv: 0, post_type: 2 })"
-se-share-sheet
-Share a link to this answer
-""
-answer
-2
-CC BY-SA 2.5
-js-menu-popup-container
-post-signature flex--item fl0
-user-info 
-user-action-time
-2008-09-25 09:50:25Z
-relativetime
-user-gravatar32
-/users/15780/yann-kmm
-gravatar-wrapper-32
-user avatar
-32
-32
-user-details
-author
-None
-http://schema.org/Person
-/users/15780/yann-kmm
-d-none
-name
--flair
-reputation-score
-reputation score 
-ltr
-true
-true
-d-none
-commentCount
-post-layout--right js-post-comments-component
-comments-132386
-132386
-15
-comments-list js-comments-list
-0
-false
-true
-false
-true
-comment-114344
-comment js-comment 
-114344
-15962
-0
-js-comment-actions comment-actions
-comment-score js-comment-edit-hide
-comment-text  js-comment-text-and-form
-comment-copy
-d-inline-flex ai-center
-/users/15962/squarecog
-"19,091 reputation"
-comment-user
-comment-date
-ltr
-"2008-10-31 22:22:54Z, License: CC BY-SA 2.5"
-relativetime-clean
-comments-link-132386
-50
-true
-Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
-#
-js-link-separator dno
-js-show-link comments-link dno
-Expand to show all comments on this post
-#
-""
-134522
-answer-134522
-answer js-answer
-134522
-132359
-0
-19
-0
-0
-suggestedAnswer
-None
-https://schema.org/Answer
-post-layout
-votecell post-layout--left
-134522
-upvoteCount
-0
-fs-caption
-js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none
-right
-Loading when this answer was accepted…
-0
-note
-Accepted
-ta-center
-true
-svg-icon iconCheckmarkLg
-36
-36
-0 0 36 36
-m6 14 8 8L30 6v8L14 30l-8-8v-8Z
-/posts/134522/timeline
-T
-timeline
-s-tooltip
-right
-Show activity on this post.
-Timeline
-true
-mln2 mr0 svg-icon iconHistory
-19
-18
-0 0 19 18
-M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z
-answercell post-layout--right
-text
-mt24
-d-flex fw-wrap ai-start jc-end gs8 gsy
-dateCreated
-2008-09-25T16:57:55
-flex--item mr16
-flex: 1 1 100px;
-js-post-menu pt2
-134522
-d-flex gs8 s-anchors s-anchors__muted fw-wrap
-flex--item
-/a/134522
-nofollow
-url
-js-share-link js-gps-track
-Short permalink to this answer
-"post.click({ item: 2, priv: 0, post_type: 2 })"
-se-share-sheet
-Share a link to this answer
-""
-answer
-2
-CC BY-SA 2.5
-js-menu-popup-container
-post-signature flex--item fl0
-user-info 
-user-action-time
-2008-09-25 16:57:55Z
-relativetime
-user-gravatar32
-/users/17224/computinglife
-gravatar-wrapper-32
-user avatar
-32
-32
-user-details
-author
-None
-http://schema.org/Person
-/users/17224/computinglife
-d-none
-name
--flair
-reputation-score
-reputation score 
-ltr
-true
-true
-true
-d-none
-commentCount
-post-layout--right js-post-comments-component
-comments-134522
-134522
-15
-comments-list js-comments-list
-0
-false
-true
-false
-true
-comments-link-134522
-50
-true
-Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.
-#
-js-link-separator dno
-js-show-link comments-link dno
-Expand to show all comments on this post
-#
-""
-1
-/questions/tagged/performance
-post-tag
-show questions tagged 'performance'
-tag
-/questions/tagged/algorithm
-post-tag
-show questions tagged 'algorithm'
-tag
-/questions/ask
-show-votes
-complementary
-flex--item1 fl-shrink0
-true
-va-text-top svg-icon iconPencilSm
-14
-14
-0 0 14 14
-m11.1 1.71 1.13 1.12c.2.2.2.51 0 .71L11.1 4.7 9.21 2.86l1.17-1.15c.2-.2.51-.2.71 0ZM2 10.12l6.37-6.43 1.88 1.88L3.88 12H2v-1.88Z
-js-gps-track
-flex--item1 fl-shrink0
-true
-va-text-top svg-icon iconPencilSm
-14
-14
-0 0 14 14
-m11.1 1.71 1.13 1.12c.2.2.2.51 0 .71L11.1 4.7 9.21 2.86l1.17-1.15c.2-.2.51-.2.71 0ZM2 10.12l6.37-6.43 1.88 1.88L3.88 12H2v-1.88Z
-js-gps-track
-flex--item1 fl-shrink0
-favicon favicon-stackexchangemeta
-Meta Stack Exchange
-https://meta.stackexchange.com/questions/379561/testing-new-traffic-management-tool
-js-gps-track
-flex--item1 fl-shrink0
-favicon favicon-stackexchangemeta
-Meta Stack Exchange
-js-gps-track
-flex--item1 fl-shrink0
-favicon favicon-stackoverflowmeta
-Meta Stack Overflow
-https://meta.stackoverflow.com/questions/418767/trending-a-new-answer-sorting-option
-js-gps-track
-flex--item1 fl-shrink0
-favicon favicon-stackoverflowmeta
-Meta Stack Overflow
-https://meta.stackoverflow.com/questions/418491/ask-wizard-test-results-and-next-steps
-js-gps-track
-flex--item1 fl-shrink0
-favicon favicon-stackoverflowmeta
-Meta Stack Overflow
-js-gps-track
-flex--item1 fl-shrink0
-favicon favicon-stackoverflowmeta
-Meta Stack Overflow
-js-gps-track
-width: 300px
-width: 300px
-hireme
-h-linked
-linked
-lq=1
-spacer js-gps-track
-"linkedquestion.click({ source_post_id: 132359, target_question_id: 1298860, position: 0 })"
-/q/1298860
-Question score (upvotes - downvotes)
-answer-votes answered-accepted default
-/questions/1298860/how-does-google-serve-results-so-fast?noredirect=1
-question-hyperlink
-spacer js-gps-track
-"linkedquestion.click({ source_post_id: 132359, target_question_id: 23973489, position: 1 })"
-/q/23973489
-Question score (upvotes - downvotes)
-answer-votes  default
-/questions/23973489/strategies-in-reducing-network-delay-from-500-milliseconds-to-60-100-millisecond?noredirect=1
-question-hyperlink
-spacer js-gps-track
-"linkedquestion.click({ source_post_id: 132359, target_question_id: 34447970, position: 2 })"
-/q/34447970
-Question score (upvotes - downvotes)
-answer-votes  default
-question-hyperlink
-spacer js-gps-track
-"linkedquestion.click({ source_post_id: 132359, target_question_id: 11377435, position: 3 })"
-/q/11377435
-Question score (upvotes - downvotes)
-answer-votes  default
-/questions/11377435/how-does-map-reduce-work-for-searched-string?noredirect=1
-question-hyperlink
-spacer js-gps-track
-"linkedquestion.click({ source_post_id: 132359, target_question_id: 6905393, position: 4 })"
-/q/6905393
-Question score (upvotes - downvotes)
-answer-votes answered-accepted default
-question-hyperlink
-spacer js-gps-track
-"linkedquestion.click({ source_post_id: 132359, target_question_id: 2400770, position: 5 })"
-/q/2400770
-Question score (upvotes - downvotes)
-answer-votes  default
-/questions/2400770/in-what-way-is-googles-index-stored?noredirect=1
-question-hyperlink
-h-related
-related js-gps-related-questions
-rq=1
-spacer
-/q/126100
-Question score (upvotes - downvotes)
-answer-votes answered-accepted extra-large
-question-hyperlink
-spacer
-/q/237104
-Question score (upvotes - downvotes)
-answer-votes answered-accepted extra-large
-/questions/237104/how-do-i-check-if-an-array-includes-a-value-in-javascript
-question-hyperlink
-spacer
-/q/316265
-Question score (upvotes - downvotes)
-answer-votes answered-accepted extra-large
-/questions/316265/how-can-you-speed-up-eclipse
-question-hyperlink
-spacer
-/q/582336
-Question score (upvotes - downvotes)
-answer-votes answered-accepted extra-large
-/questions/582336/how-do-i-profile-a-python-script
-question-hyperlink
-spacer
-/q/7370801
-Question score (upvotes - downvotes)
-answer-votes extra-large
-/questions/7370801/how-do-i-measure-elapsed-time-in-python
-question-hyperlink
-spacer
-/q/10168686
-Question score (upvotes - downvotes)
-answer-votes answered-accepted extra-large
-/questions/10168686/image-processing-algorithm-improvement-for-coca-cola-can-recognition
-question-hyperlink
-spacer
-/q/14415881
-Question score (upvotes - downvotes)
-answer-votes answered-accepted extra-large
-/questions/14415881/how-can-i-pair-socks-from-a-pile-efficiently
-question-hyperlink
-spacer
-/q/30081275
-Question score (upvotes - downvotes)
-answer-votes answered-accepted extra-large
-/questions/30081275/why-is-1000000000000000-in-range1000000000000001-so-fast-in-python-3
-question-hyperlink
-hot-network-questions
-module tex2jax_ignore
-js-gps-track s-link s-link__inherit
-"posts_hot_network.click({ item_type:1, location:11 })"
-favicon favicon-rpg
-Role-playing Games Stack Exchange
-"site.switch({ item_type:11, target_site:122 }); posts_hot_network.click({ item_type:2, location:11 })"
-favicon favicon-puzzling
-Puzzling Stack Exchange
-"site.switch({ item_type:11, target_site:559 }); posts_hot_network.click({ item_type:2, location:11 })"
-favicon favicon-politics
-Politics Stack Exchange
-"site.switch({ item_type:11, target_site:475 }); posts_hot_network.click({ item_type:2, location:11 })"
-favicon favicon-chemistry
-Chemistry Stack Exchange
-"site.switch({ item_type:11, target_site:431 }); posts_hot_network.click({ item_type:2, location:11 })"
-favicon favicon-space
-Space Exploration Stack Exchange
-https://space.stackexchange.com/questions/59567/whats-the-typical-temperature-of-a-reactor-core-in-a-nuclear-thermal-rocket
-"site.switch({ item_type:11, target_site:508 }); posts_hot_network.click({ item_type:2, location:11 })"
-dno js-hidden
-favicon favicon-rpg
-Role-playing Games Stack Exchange
-"site.switch({ item_type:11, target_site:122 }); posts_hot_network.click({ item_type:2, location:11 })"
-dno js-hidden
-favicon favicon-stats
-Cross Validated
-https://stats.stackexchange.com/questions/580095/how-do-survival-models-account-for-censoring-do-they
-"site.switch({ item_type:11, target_site:65 }); posts_hot_network.click({ item_type:2, location:11 })"
-dno js-hidden
-"site.switch({ item_type:11, target_site:579 }); posts_hot_network.click({ item_type:2, location:11 })"
-dno js-hidden
-"site.switch({ item_type:11, target_site:579 }); posts_hot_network.click({ item_type:2, location:11 })"
-dno js-hidden
-favicon favicon-politics
-Politics Stack Exchange
-https://politics.stackexchange.com/questions/73909/why-dont-politicians-appoint-young-and-healthy-ideological-fresh-graduates-as-s
-"site.switch({ item_type:11, target_site:475 }); posts_hot_network.click({ item_type:2, location:11 })"
-dno js-hidden
-favicon favicon-aviation
-Aviation Stack Exchange
-https://aviation.stackexchange.com/questions/93765/who-controls-mood-lighting-on-a-commercial-airplane
-"site.switch({ item_type:11, target_site:528 }); posts_hot_network.click({ item_type:2, location:11 })"
-dno js-hidden
-favicon favicon-electronics
-Electrical Engineering Stack Exchange
-"site.switch({ item_type:11, target_site:135 }); posts_hot_network.click({ item_type:2, location:11 })"
-dno js-hidden
-favicon favicon-workplace
-The Workplace Stack Exchange
-"site.switch({ item_type:11, target_site:423 }); posts_hot_network.click({ item_type:2, location:11 })"
-dno js-hidden
-favicon favicon-music
-Music: Practice & Theory Stack Exchange
-https://music.stackexchange.com/questions/123613/is-there-a-recorder-analog-for-the-flute
-"site.switch({ item_type:11, target_site:240 }); posts_hot_network.click({ item_type:2, location:11 })"
-dno js-hidden
-favicon favicon-electronics
-Electrical Engineering Stack Exchange
-"site.switch({ item_type:11, target_site:135 }); posts_hot_network.click({ item_type:2, location:11 })"
-dno js-hidden
-favicon favicon-math
-Mathematics Stack Exchange
-"site.switch({ item_type:11, target_site:69 }); posts_hot_network.click({ item_type:2, location:11 })"
-dno js-hidden
-favicon favicon-money
-Personal Finance & Money Stack Exchange
-"site.switch({ item_type:11, target_site:93 }); posts_hot_network.click({ item_type:2, location:11 })"
-dno js-hidden
-favicon favicon-academia
-Academia Stack Exchange
-https://academia.stackexchange.com/questions/186387/how-can-i-recover-the-lost-time-in-my-career
-"site.switch({ item_type:11, target_site:415 }); posts_hot_network.click({ item_type:2, location:11 })"
-dno js-hidden
-favicon favicon-cs
-Computer Science Stack Exchange
-"site.switch({ item_type:11, target_site:419 }); posts_hot_network.click({ item_type:2, location:11 })"
-dno js-hidden
-favicon favicon-gamedev
-Game Development Stack Exchange
-"site.switch({ item_type:11, target_site:53 }); posts_hot_network.click({ item_type:2, location:11 })"
-dno js-hidden
-Bicycles Stack Exchange
-"site.switch({ item_type:11, target_site:126 }); posts_hot_network.click({ item_type:2, location:11 })"
-dno js-hidden
-favicon favicon-superuser
-Super User
-https://superuser.com/questions/1728949/suppress-zsh-command-not-found
-"site.switch({ item_type:11, target_site:3 }); posts_hot_network.click({ item_type:2, location:11 })"
-dno js-hidden
-favicon favicon-scifi
-Science Fiction & Fantasy Stack Exchange
-"site.switch({ item_type:11, target_site:186 }); posts_hot_network.click({ item_type:2, location:11 })"
-dno js-hidden
-favicon favicon-scifi
-Science Fiction & Fantasy Stack Exchange
-https://scifi.stackexchange.com/questions/264921/whose-statue-fell-on-this-character
-"site.switch({ item_type:11, target_site:186 }); posts_hot_network.click({ item_type:2, location:11 })"
-#
-show-more js-show-more js-gps-track
-"posts_hot_network.click({ item_type:3, location:11 })"
-dno
-""
-0
-0
-display:none
 footer
-site-footer js-footer
 contentinfo
-site-footer--container
-site-footer--logo
-https://stackoverflow.com
-true
-native svg-icon iconLogoGlyphMd
-32
-37
-0 0 32 37
-M26 33v-9h4v13H0V24h4v9h22Z
-#BCBBBB
-m21.5 0-2.7 2 9.9 13.3 2.7-2L21.5 0ZM26 18.4 13.3 7.8l2.1-2.5 12.7 10.6-2.1 2.5ZM9.1 15.2l15 7 1.4-3-15-7-1.4 3Zm14 10.79.68-2.95-16.1-3.35L7 23l16.1 2.99ZM23 30H7v-3h16v3Z
-#F48024
-site-footer--nav
-site-footer--col
--title
-https://stackoverflow.com
-js-gps-track
-"footer.click({ location: 2, link: 15})"
--list js-primary-footer-links
-/questions
-js-gps-track -link
-"footer.click({ location: 2, link: 16})"
-/help
-js-gps-track -link
-"footer.click({ location: 2, link: 3 })"
-site-footer--col
--title
-https://stackoverflow.com/?products
-js-gps-track
-"footer.click({ location: 2, link: 19 })"
--list
-https://stackoverflow.co/teams
-js-gps-track -link
-"[""teams traffic"",""footer - site nav"",""stackoverflow.com/teams"",null,{""dimension4"":""teams""}]"
-"footer.click({ location: 2, link: 29 })"
-https://stackoverflow.co/advertising
-js-gps-track -link
-"footer.click({ location: 2, link: 21 })"
-https://stackoverflow.co/collectives
-js-gps-track -link
-"footer.click({ location: 2, link: 40 })"
-https://stackoverflow.co/talent
-js-gps-track -link
-"footer.click({ location: 2, link: 20 })"
-site-footer--col
--title
-js-gps-track
-"footer.click({ location: 2, link: 1 })"
-https://stackoverflow.co/
--list
-js-gps-track -link
-"footer.click({ location: 2, link: 1 })"
-https://stackoverflow.co/
-js-gps-track -link
-"footer.click({ location: 2, link: 27 })"
-https://stackoverflow.co/company/press
-js-gps-track -link
-"footer.click({ location: 2, link: 9 })"
-https://stackoverflow.co/company/work-here
-js-gps-track -link
-"footer.click({ location: 2, link: 7 })"
-https://stackoverflow.com/legal
-js-gps-track -link
-"footer.click({ location: 2, link: 8 })"
-https://stackoverflow.com/legal/privacy-policy
-js-gps-track -link
-"footer.click({ location: 2, link: 37 })"
-https://stackoverflow.com/legal/terms-of-service
-js-gps-track -link
-"footer.click({ location: 2, link: 13 })"
-https://stackoverflow.co/company/contact
-""
-consent-footer-link
-js-gps-track -link js-cookie-settings
-"footer.click({ location: 2, link: 38 })"
-#
-footer
-js-gps-track -link
-"footer.click({ location: 2, link: 39 })"
-https://stackoverflow.com/legal/cookie-policy
-site-footer--col site-footer--categories-nav
--title
-https://stackexchange.com
-"footer.click({ location: 2, link: 30 })"
--list
-https://stackexchange.com/sites#technology
--link js-gps-track
-"footer.click({ location: 2, link: 24 })"
-https://stackexchange.com/sites#culturerecreation
--link js-gps-track
-"footer.click({ location: 2, link: 24 })"
-https://stackexchange.com/sites#lifearts
--link js-gps-track
-"footer.click({ location: 2, link: 24 })"
-https://stackexchange.com/sites#science
--link js-gps-track
-"footer.click({ location: 2, link: 24 })"
-https://stackexchange.com/sites#professional
--link js-gps-track
-"footer.click({ location: 2, link: 24 })"
--link js-gps-track
-"footer.click({ location: 2, link: 24 })"
-mt16 md:mt0
-https://api.stackexchange.com/
--link js-gps-track
-"footer.click({ location: 2, link: 24 })"
-https://data.stackexchange.com/
--link js-gps-track
-"footer.click({ location: 2, link: 24 })"
-site-footer--copyright fs-fine md:mt24
-js-gps-track -link
-"footer.click({ location: 2, link:4 })"
--link js-gps-track
-"footer.click({ location: 2, link: 31 })"
-https://twitter.com/stackoverflow
--link js-gps-track
-"footer.click({ location: 2, link: 32 })"
-https://linkedin.com/company/stack-overflow
--link js-gps-track
-"footer.click({ location: 2, link: 33 })"
-https://www.instagram.com/thestackoverflow
--link js-gps-track
-"footer.click({ location: 2, link: 36 })"
-https://stackoverflow.com/help/licensing
-svnrev
-true
-96
-96
-0 0 96 96
-M35 45.5a7.5 7.5 0 11-15 0 7.5 7.5 0 0115 0zM63.5 63a7.5 7.5 0 100-15 7.5 7.5 0 000 15zm-19 19a7.5 7.5 0 100-15 7.5 7.5 0 000 15z
-.2
-M56.99 2.53a23.1 23.1 0 0114.66 6.15h.01l.01.02c.57.55.61 1.27.5 1.74v.07a10.95 10.95 0 01-3.07 4.77 9 9 0 01-6.9 2.5 10.34 10.34 0 01-9.72-10.44v-.08a10 10 0 011.03-3.74l.01-.03.02-.02c.28-.5.82-.92 1.52-.95.63-.02 1.27-.02 1.93.01zm12.04 7.83a20.1 20.1 0 00-12.2-4.83l-.92-.03c-.23.6-.38 1.25-.43 1.94a7.34 7.34 0 006.95 7.34 6 6 0 004.64-1.7c.94-.88 1.6-1.9 1.96-2.72zm15.3 8.76a6.84 6.84 0 00-5.09-.24 7.9 7.9 0 00-3.28 2.05 1.8 1.8 0 00-.3 1.95l.02.02v.02a15.16 15.16 0 008.74 7.47c.64.23 1.32.08 1.8-.33a6.63 6.63 0 001.63-1.97l.01-.03.01-.03c1.67-3.5-.12-7.32-3.54-8.91zm-5.5 3.28c.36-.25.82-.5 1.35-.67.92-.3 1.92-.35 2.89.1 2.14 1 2.92 3.14 2.11 4.88-.12.21-.26.41-.43.6l-.26-.1a12.29 12.29 0 01-5.66-4.81zM32 24a2 2 0 11-4 0 2 2 0 014 0zm12 21a2 2 0 11-4 0 2 2 0 014 0zm36 4a2 2 0 11-4 0 2 2 0 014 0zm-7 21a2 2 0 11-4 0 2 2 0 014 0zM59 81a2 2 0 11-4 0 2 2 0 014 0zM22 63a2 2 0 11-4 0 2 2 0 014 0zm27 7a9 9 0 11-18 0 9 9 0 0118 0zm-3 0a6 6 0 10-12 0 6 6 0 0012 0zM33 41a9 9 0 11-18 0 9 9 0 0118 0zm-15 0a6 6 0 1012 0 6 6 0 00-12 0zm50 11a9 9 0 11-18 0 9 9 0 0118 0zm-3 0a6 6 0 10-12 0 6 6 0 0012 0zM44.08 4.24c.31.48.33 1.09.05 1.58a17.46 17.46 0 00-2.36 8.8c0 9.55 7.58 17.24 16.85 17.24 2.97 0 5.75-.78 8.16-2.15a1.5 1.5 0 012.1.66 12.08 12.08 0 0011 6.74 12.4 12.4 0 007.85-2.75 1.5 1.5 0 012.38.74A45.76 45.76 0 0192 48.16c0 24.77-19.67 44.9-44 44.9S4 72.93 4 48.16C4 25.23 20.84 6.28 42.64 3.58a1.5 1.5 0 011.44.66zM40.22 7C21.32 10.71 7 27.7 7 48.16c0 23.17 18.39 41.9 41 41.9s41-18.73 41-41.9c0-3.52-.42-6.93-1.22-10.2a15.5 15.5 0 01-7.9 2.15c-5.5 0-10.36-2.83-12.97-7.1a19.46 19.46 0 01-8.28 1.85c-11 0-19.86-9.1-19.86-20.24 0-2.7.52-5.26 1.45-7.62zM92 91a2 2 0 100-4 2 2 0 000 4zM7 8.5a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zM82.5 90a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm9.5-7.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM13.5 8a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM80 14.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM53.5 20a1.5 1.5 0 100-3 1.5 1.5 0 000 3z
-https://stackoverflow.com/legal/cookie-policy
-d-flex gs8 ai-stretch fd-column sm:fd-row
-onetrust-consent-sdk
-d-none
-s-modal
-ot-pc-content
-d-none
-onetrust-style
-d-none
+https://www.sphinx-doc.org/

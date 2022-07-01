@@ -1,793 +1,304 @@
 Matches
-https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a
-https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a
-https://stackoverflow.com/questions/132359/how-can-google-be-so-fast
-website
-https://stackoverflow.com/questions/132359/how-can-google-be-so-fast
-https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded
-How can Google be so fast?
-"What are the technologies and programming decisions that make Google able to serve a query so fast? 
-
-Every time I search something (one of the several times per day) it always amazes me how they s..."
-webpack-public-path
-https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js
-https://cdn.sstatic.net/Js/stub.en.js?v=e700279bb0cc
-https://cdn.sstatic.net/Shared/stacks.css?v=3bbf3c79def9
-se-zaphod://stackoverflow.com/questions/132359/how-can-google-be-so-fast
-se-zaphod://stackoverflow.com/questions/132359/how-can-google-be-so-fast
-https://stackoverflow.com/questions/132359/how-can-google-be-so-fast
-https://cdn.sstatic.net/Shared/Channels/channels.css?v=f039f0b977b7
-s-topbar ps-fixed t0 l0 js-top-bar
-s-topbar--container
-s-topbar--menu-btn js-left-sidebar-toggle
-left-sidebar
-topbar-dialog leftnav-dialog js-leftnav-dialog dno
-left-sidebar js-unpinned-left-sidebar
-left-sidebar
-s-topbar--logo js-gps-track
-"[""top navigation"",""about menu click"",null,null,null]"
-bottom
-bar-sm p6 d-block h:bg-black-100 js-gps-track
-"[""top navigation"",""public qa submenu click"",null,null,null]"
-fs-body1 d-block
-fs-caption d-block fc-light
-bar-sm p6 d-block h:bg-black-100 js-gps-track
-"[""top navigation"",""teams submenu click"",null,null,null]"
-fs-body1 d-block
-fs-caption d-block fc-light
-bar-sm p6 d-block h:bg-black-100 js-gps-track
-"[""top navigation"",""talent submenu click"",null,null,null]"
-fs-body1 d-block
-fs-caption d-block fc-light
-bar-sm p6 d-block h:bg-black-100 js-gps-track
-"[""top navigation"",""advertising submenu click"",null,null,null]"
-fs-body1 d-block
-fs-caption d-block fc-light
-bg-black-025 bt bc-black-075 py6 px6 bbr-md
-fc-light d-block py6 px6 h:fc-black-800 js-gps-track
-"[""top navigation"",""about submenu click"",null,null,null]"
-s-topbar--searchbar js-searchbar 
-s-topbar--searchbar--input-group
-bottom-start
-v-visible-sr
-v-visible-sr js-screen-reader-info
-s-topbar--content
-js-topbar-dialog-corral
-topbar-dialog siteSwitcher-dialog dno
-js-close-button s-btn s-btn__muted p0 ml8 d-none sm:d-block
-button
-modal-content bg-powder-050 current-site-container
-https://chat.stackoverflow.com/?tab=site&host=stackoverflow.com
-https://stackoverflow.com/users/signup?ssrc=site_switcher&returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f132359%2fhow-can-google-be-so-fast
-https://stackoverflow.com/users/login?ssrc=site_switcher&returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f132359%2fhow-can-google-be-so-fast
-https://stackoverflow.blog
-s-topbar--item s-btn s-btn__icon s-btn__muted d-none sm:d-inline-flex js-searchbar-trigger
-button
-https://stackoverflow.com/users/login?ssrc=head&returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f132359%2fhow-can-google-be-so-fast
-s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track
-"[""top navigation"",""login button click"",null,null,null]"
-https://stackoverflow.com/users/signup?ssrc=head&returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f132359%2fhow-can-google-be-so-fast
-s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap
-left-sidebar
-left-sidebar js-pinned-left-sidebar ps-relative
-left-sidebar--sticky-container js-sticky-leftnav
-fs-fine tt-uppercase ml8 mt16 mb4 fc-light
-svg-icon iconGlobe
-https://stackoverflow.com/jobs/companies?so_medium=stackoverflow&so_source=SiteNav
-d-flex ml8 mt16 jc-space-between
-button
-fs-fine tt-uppercase ml8 mt16 mb8 fc-light
-bt bl bb bc-black-075 p12 pb6 fc-black-600 blr-sm overflow-hidden
-fc-black-750 mb6
-wmx100 mx-auto my8 h-auto d-block
-https://cdn.sstatic.net/Img/teams/teams-illo-free-sidebar-promo.svg?v=47faa659a05e
-https://try.stackoverflow.co/why-teams/?utm_source=so-owned&utm_medium=side-bar&utm_campaign=campaign-38&utm_content=cta
-w100 s-btn s-btn__primary s-btn__xs bg-orange-400 js-gps-track
-w100 s-btn s-btn__muted s-btn__xs js-gps-track
-d-flex ai-center jc-space-between ml8 mt24 mb4 js-create-team-cta d-none
-s-link p12 fc-black-500 h:fc-black-800 js-gps-track
-button
-bottom-start
-https://stackoverflow.com/teams/create/free?utm_source=so-owned&utm_medium=side-bar&utm_campaign=campaign-38&utm_content=cta
-flex--item s-avatar va-middle bg-orange-400
-native s-avatar--badge svg-icon iconShieldXSm
-var(--black-500)
-pt4 fw-bold
-js-gps-track s-btn s-btn__primary s-btn__xs
-mb2
-mb12 fs-caption fc-black-400
-mb12 fs-caption fc-medium
-js-gps-track s-btn s-btn__primary s-btn__xs
-ps-absolute t8 r8
-https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a
-fs-headline1 ow-break-word mb8 flex--item fl1
-/questions/132359/how-can-google-be-so-fast
-ml12 aside-cta flex--item print:d-none sm:ml0 sm:mb12 sm:order-first sm:as-end
-ws-nowrap s-btn s-btn__primary
-d-flex fw-wrap pb8 mb16 bb bc-black-075
-flex--item ws-nowrap mr16 mb8
-flex--item ws-nowrap mr16 mb8
-flex--item ws-nowrap mb8
-mainbar
-dfp-tlb
-everyonelovesstackoverflow everyoneloves__top-leaderboard everyoneloves__leaderboard
-js-report-ad-button-container 
-js-voting-container d-flex jc-center fd-column ai-stretch gs4 fc-black-200
-flex--item fc-black-500
-js-vote-count fs-title lh-md mb8 ta-center
-js-bookmark-btn s-btn s-btn__unset c-pointer py4 js-gps-track
-js-bookmark-count mt4
-js-post-issue flex--item s-btn s-btn__unset c-pointer py6 mx-auto
-s-prose js-post-body
-s-notice s-notice__info post-notice js-post-notice mb16
-http://labs.google.com/papers/mapreduce.html
-http://research.google.com/pubs/papers.html
-mt24 mb12
-mb0 
-mt16 d-flex gs8 gsy fw-wrap jc-end ai-start pt4 mb16
-facebook twitter 
-https%3a%2f%2fcreativecommons.org%2flicenses%2fby-sa%2f2.5%2f
-bottom-start
-bar-sm
-21 gold badges
-badge1
-badgecount
-v-visible-sr
-100 silver badges
-badge2
-badgecount
-v-visible-sr
-124 bronze badges
-badge3
-badgecount
-v-visible-sr
-https://www.gravatar.com/avatar/6baa1023a5f700292f7e9791311e7f7a?s=64&d=identicon&r=PG
-bar-sm
-25 gold badges
-badge1
-badgecount
-v-visible-sr
-117 silver badges
-badge2
-badgecount
-v-visible-sr
-131 bronze badges
-badge3
-badgecount
-v-visible-sr
-comments js-comments-container bt bc-black-075 mt12  dno
-disabled-link
-button
-dfp-isb
-everyonelovesstackoverflow everyoneloves__inline-sidebar mx-auto
-js-report-ad-button-container mx-auto
-tab-top
-answers-subheader d-flex ai-center mb8
-mb0
-/questions/132359/how-can-google-be-so-fast?answertab=scoredesc#tab-top
-js-voting-container d-flex jc-center fd-column ai-stretch gs4 fc-black-200
-flex--item fc-black-500
-js-vote-count fs-title lh-md mb8 ta-center
-js-post-issue flex--item s-btn s-btn__unset c-pointer py6 mx-auto
-s-prose js-post-body
-facebook twitter 
-https%3a%2f%2fcreativecommons.org%2flicenses%2fby-sa%2f2.5%2f
-bottom-start
-https://www.gravatar.com/avatar/25bc77390deb15bc33773d523c33e2cf?s=64&d=identicon&r=PG
-bar-sm
-6 gold badges
-badge1
-badgecount
-v-visible-sr
-32 silver badges
-badge2
-badgecount
-v-visible-sr
-39 bronze badges
-badge3
-badgecount
-v-visible-sr
-comments js-comments-container bt bc-black-075 mt12  dno
-js-add-link comments-link disabled-link
-button
-button
-dfp-mlb
-everyonelovesstackoverflow everyoneloves__mid-leaderboard everyoneloves__leaderboard
-js-report-ad-button-container 
-js-voting-container d-flex jc-center fd-column ai-stretch gs4 fc-black-200
-flex--item fc-black-500
-js-vote-count fs-title lh-md mb8 ta-center
-js-post-issue flex--item s-btn s-btn__unset c-pointer py6 mx-auto
-s-prose js-post-body
-facebook twitter 
-https%3a%2f%2fcreativecommons.org%2flicenses%2fby-sa%2f2.5%2f
-bottom-start
-https://www.gravatar.com/avatar/e2e0b96391e9e1b741114fa507247995?s=64&d=identicon&r=PG
-bar-sm
-26 gold badges
-badge1
-badgecount
-v-visible-sr
-86 silver badges
-badge2
-badgecount
-v-visible-sr
-113 bronze badges
-badge3
-badgecount
-v-visible-sr
-comments js-comments-container bt bc-black-075 mt12  dno
-js-add-link comments-link disabled-link
-button
-button
-js-voting-container d-flex jc-center fd-column ai-stretch gs4 fc-black-200
-flex--item fc-black-500
-js-vote-count fs-title lh-md mb8 ta-center
-js-post-issue flex--item s-btn s-btn__unset c-pointer py6 mx-auto
-s-prose js-post-body
-http://madrat.net/my/bachelor/thesis.pdf
-facebook twitter 
-https%3a%2f%2fcreativecommons.org%2flicenses%2fby-sa%2f2.5%2f
-bottom-start
-https://www.gravatar.com/avatar/fdd630f72eef3790bfb4ef38d08c7f85?s=64&d=identicon&r=PG
-bar-sm
-124 gold badges
-badge1
-badgecount
-v-visible-sr
-909 silver badges
-badge2
-badgecount
-v-visible-sr
-1186 bronze badges
-badge3
-badgecount
-v-visible-sr
-comments js-comments-container bt bc-black-075 mt12 
-number of 'useful comment' votes received
-comment-body js-comment-edit-hide
-comment-body js-comment-edit-hide
-comment-body js-comment-edit-hide
-js-add-link comments-link disabled-link
-button
-button
-dfp-smlb
-everyonelovesstackoverflow everyoneloves__mid-second-leaderboard everyoneloves__leaderboard
-js-report-ad-button-container 
-js-voting-container d-flex jc-center fd-column ai-stretch gs4 fc-black-200
-flex--item fc-black-500
-js-vote-count fs-title lh-md mb8 ta-center
-js-post-issue flex--item s-btn s-btn__unset c-pointer py6 mx-auto
-s-prose js-post-body
-http://labs.google.com/papers/mapreduce.html
-http://research.google.com/pubs/papers.html
-facebook twitter 
-https%3a%2f%2fcreativecommons.org%2flicenses%2fby-sa%2f2.5%2f
-bottom-start
-https://www.gravatar.com/avatar/6baa1023a5f700292f7e9791311e7f7a?s=64&d=identicon&r=PG
-bar-sm
-25 gold badges
-badge1
-badgecount
-v-visible-sr
-117 silver badges
-badge2
-badgecount
-v-visible-sr
-131 bronze badges
-badge3
-badgecount
-v-visible-sr
-comments js-comments-container bt bc-black-075 mt12  dno
-js-add-link comments-link disabled-link
-button
-button
-js-voting-container d-flex jc-center fd-column ai-stretch gs4 fc-black-200
-flex--item fc-black-500
-js-vote-count fs-title lh-md mb8 ta-center
-js-post-issue flex--item s-btn s-btn__unset c-pointer py6 mx-auto
-s-prose js-post-body
-facebook twitter 
-https%3a%2f%2fcreativecommons.org%2flicenses%2fby-sa%2f2.5%2f
-bottom-start
-https://www.gravatar.com/avatar/d6223c8e4cf28dd5a28b6b8c24c9c6b5?s=64&d=identicon&r=PG
-bar-sm
-16 gold badges
-badge1
-badgecount
-v-visible-sr
-57 silver badges
-badge2
-badgecount
-v-visible-sr
-72 bronze badges
-badge3
-badgecount
-v-visible-sr
-comments js-comments-container bt bc-black-075 mt12  dno
-js-add-link comments-link disabled-link
-button
-button
-js-voting-container d-flex jc-center fd-column ai-stretch gs4 fc-black-200
-flex--item fc-black-500
-js-vote-count fs-title lh-md mb8 ta-center
-js-post-issue flex--item s-btn s-btn__unset c-pointer py6 mx-auto
-s-prose js-post-body
-facebook twitter 
-https%3a%2f%2fcreativecommons.org%2flicenses%2fby-sa%2f2.5%2f
-bottom-start
-https://www.gravatar.com/avatar/a2b11b9662b5155aada74191fbe7cb9e?s=64&d=identicon&r=PG
-bar-sm
-9 gold badges
-badge1
-badgecount
-v-visible-sr
-151 silver badges
-badge2
-badgecount
-v-visible-sr
-336 bronze badges
-badge3
-badgecount
-v-visible-sr
-comments js-comments-container bt bc-black-075 mt12  dno
-js-add-link comments-link disabled-link
-button
-button
-js-voting-container d-flex jc-center fd-column ai-stretch gs4 fc-black-200
-flex--item fc-black-500
-js-vote-count fs-title lh-md mb8 ta-center
-js-post-issue flex--item s-btn s-btn__unset c-pointer py6 mx-auto
-s-prose js-post-body
-facebook twitter 
-https%3a%2f%2fcreativecommons.org%2flicenses%2fby-sa%2f2.5%2f
-bottom-start
-https://www.gravatar.com/avatar/bc5651438b426a54d5a3b5d6c575c051?s=64&d=identicon&r=PG
-bar-sm
-3 gold badges
-badge1
-badgecount
-v-visible-sr
-29 silver badges
-badge2
-badgecount
-v-visible-sr
-31 bronze badges
-badge3
-badgecount
-v-visible-sr
-comments js-comments-container bt bc-black-075 mt12 
-comment-body js-comment-edit-hide
-comment-body js-comment-edit-hide
-js-add-link comments-link disabled-link
-button
-button
-js-voting-container d-flex jc-center fd-column ai-stretch gs4 fc-black-200
-flex--item fc-black-500
-js-vote-count fs-title lh-md mb8 ta-center
-js-post-issue flex--item s-btn s-btn__unset c-pointer py6 mx-auto
-s-prose js-post-body
-facebook twitter 
-https%3a%2f%2fcreativecommons.org%2flicenses%2fby-sa%2f2.5%2f
-bottom-start
-bar-sm
-3 gold badges
-badge1
-badgecount
-v-visible-sr
-37 silver badges
-badge2
-badgecount
-v-visible-sr
-48 bronze badges
-badge3
-badgecount
-v-visible-sr
-comments js-comments-container bt bc-black-075 mt12 
-comment-body js-comment-edit-hide
-js-add-link comments-link disabled-link
-button
-button
-js-voting-container d-flex jc-center fd-column ai-stretch gs4 fc-black-200
-flex--item fc-black-500
-js-vote-count fs-title lh-md mb8 ta-center
-js-post-issue flex--item s-btn s-btn__unset c-pointer py6 mx-auto
-s-prose js-post-body
-facebook twitter 
-https%3a%2f%2fcreativecommons.org%2flicenses%2fby-sa%2f2.5%2f
-bottom-start
-bar-sm
-9 gold badges
-badge1
-badgecount
-v-visible-sr
-60 silver badges
-badge2
-badgecount
-v-visible-sr
-82 bronze badges
-badge3
-badgecount
-v-visible-sr
-comments js-comments-container bt bc-black-075 mt12  dno
-js-add-link comments-link disabled-link
-button
-button
-js-voting-container d-flex jc-center fd-column ai-stretch gs4 fc-black-200
-flex--item fc-black-500
-js-vote-count fs-title lh-md mb8 ta-center
-js-post-issue flex--item s-btn s-btn__unset c-pointer py6 mx-auto
-s-prose js-post-body
-facebook twitter 
-https%3a%2f%2fcreativecommons.org%2flicenses%2fby-sa%2f2.5%2f
-bottom-start
-bar-sm
-4 silver badges
-badge2
-badgecount
-v-visible-sr
-11 bronze badges
-badge3
-badgecount
-v-visible-sr
-comments js-comments-container bt bc-black-075 mt12  dno
-js-add-link comments-link disabled-link
-button
-button
-js-voting-container d-flex jc-center fd-column ai-stretch gs4 fc-black-200
-flex--item fc-black-500
-js-vote-count fs-title lh-md mb8 ta-center
-js-post-issue flex--item s-btn s-btn__unset c-pointer py6 mx-auto
-s-prose js-post-body
-http://research.google.com/pubs/papers.html
-facebook twitter 
-https%3a%2f%2fcreativecommons.org%2flicenses%2fby-sa%2f2.5%2f
-bottom-start
-https://www.gravatar.com/avatar/07f21e679da438a4fb2935ee8836b9da?s=64&d=identicon&r=PG
-bar-sm
-4 gold badges
-badge1
-badgecount
-v-visible-sr
-58 silver badges
-badge2
-badgecount
-v-visible-sr
-66 bronze badges
-badge3
-badgecount
-v-visible-sr
-comments js-comments-container bt bc-black-075 mt12  dno
-js-add-link comments-link disabled-link
-button
-button
-js-voting-container d-flex jc-center fd-column ai-stretch gs4 fc-black-200
-flex--item fc-black-500
-js-vote-count fs-title lh-md mb8 ta-center
-js-post-issue flex--item s-btn s-btn__unset c-pointer py6 mx-auto
-s-prose js-post-body
-http://blogoscoped.com/archive/2008-07-08-n70.html
-facebook twitter 
-https%3a%2f%2fcreativecommons.org%2flicenses%2fby-sa%2f2.5%2f
-bottom-start
-bar-sm
-2 silver badges
-badge2
-badgecount
-v-visible-sr
-4 bronze badges
-badge3
-badgecount
-v-visible-sr
-comments js-comments-container bt bc-black-075 mt12  dno
-js-add-link comments-link disabled-link
-button
-button
-js-voting-container d-flex jc-center fd-column ai-stretch gs4 fc-black-200
-flex--item fc-black-500
-js-vote-count fs-title lh-md mb8 ta-center
-js-post-issue flex--item s-btn s-btn__unset c-pointer py6 mx-auto
-s-prose js-post-body
-facebook twitter 
-https%3a%2f%2fcreativecommons.org%2flicenses%2fby-sa%2f2.5%2f
-bottom-start
-https://www.gravatar.com/avatar/292735c946e23b74087633232f49c58d?s=64&d=identicon&r=PG
-bar-sm
-12 gold badges
-badge1
-badgecount
-v-visible-sr
-53 silver badges
-badge2
-badgecount
-v-visible-sr
-72 bronze badges
-badge3
-badgecount
-v-visible-sr
-comments js-comments-container bt bc-black-075 mt12 
-comment-body js-comment-edit-hide
-js-add-link comments-link disabled-link
-button
-button
-js-voting-container d-flex jc-center fd-column ai-stretch gs4 fc-black-200
-flex--item fc-black-500
-js-vote-count fs-title lh-md mb8 ta-center
-js-post-issue flex--item s-btn s-btn__unset c-pointer py6 mx-auto
-s-prose js-post-body
-facebook twitter 
-https%3a%2f%2fcreativecommons.org%2flicenses%2fby-sa%2f2.5%2f
-bottom-start
-bar-sm
-32 gold badges
-badge1
-badgecount
-v-visible-sr
-169 silver badges
-badge2
-badgecount
-v-visible-sr
-202 bronze badges
-badge3
-badgecount
-v-visible-sr
-comments js-comments-container bt bc-black-075 mt12  dno
-js-add-link comments-link disabled-link
-button
-button
-js-voting-container d-flex jc-center fd-column ai-stretch gs4 fc-black-200
-flex--item fc-black-500
-js-vote-count fs-title lh-md mb8 ta-center
-js-post-issue flex--item s-btn s-btn__unset c-pointer py6 mx-auto
-s-prose js-post-body
-http://research.google.com/roundtable/MR.html
-facebook twitter 
-https%3a%2f%2fcreativecommons.org%2flicenses%2fby-sa%2f2.5%2f
-bottom-start
-bar-sm
-1 gold badge
-badge1
-badgecount
-v-visible-sr
-17 silver badges
-badge2
-badgecount
-v-visible-sr
-20 bronze badges
-badge3
-badgecount
-v-visible-sr
-comments js-comments-container bt bc-black-075 mt12  dno
-js-add-link comments-link disabled-link
-button
-button
-js-voting-container d-flex jc-center fd-column ai-stretch gs4 fc-black-200
-flex--item fc-black-500
-js-vote-count fs-title lh-md mb8 ta-center
-js-post-issue flex--item s-btn s-btn__unset c-pointer py6 mx-auto
-s-prose js-post-body
-http://blog.benstrong.com/2010/11/google-and-microsoft-cheat-on-slow.html
-facebook twitter 
-https%3a%2f%2fcreativecommons.org%2flicenses%2fby-sa%2f2.5%2f
-bottom-start
-https://www.gravatar.com/avatar/f35b0006fe058959f389705a8a7029b4?s=64&d=identicon&r=PG
-bar-sm
-1 gold badge
-badge1
-badgecount
-v-visible-sr
-23 silver badges
-badge2
-badgecount
-v-visible-sr
-38 bronze badges
-badge3
-badgecount
-v-visible-sr
-comments js-comments-container bt bc-black-075 mt12  dno
-js-add-link comments-link disabled-link
-button
-button
-js-voting-container d-flex jc-center fd-column ai-stretch gs4 fc-black-200
-flex--item fc-black-500
-js-vote-count fs-title lh-md mb8 ta-center
-js-post-issue flex--item s-btn s-btn__unset c-pointer py6 mx-auto
-s-prose js-post-body
-http://research.google.com/pubs/papers.html
-http://labs.google.com/papers/mapreduce.html
-facebook twitter 
-https%3a%2f%2fcreativecommons.org%2flicenses%2fby-sa%2f2.5%2f
-bottom-start
-bar-sm
-52 gold badges
-badge1
-badgecount
-v-visible-sr
-327 silver badges
-badge2
-badgecount
-v-visible-sr
-367 bronze badges
-badge3
-badgecount
-v-visible-sr
-comments js-comments-container bt bc-black-075 mt12 
-comment-body js-comment-edit-hide
-comment-body js-comment-edit-hide
-comment-body js-comment-edit-hide
-comment-body js-comment-edit-hide
-js-add-link comments-link disabled-link
-button
-button
-js-voting-container d-flex jc-center fd-column ai-stretch gs4 fc-black-200
-flex--item fc-black-500
-js-vote-count fs-title lh-md mb8 ta-center
-js-post-issue flex--item s-btn s-btn__unset c-pointer py6 mx-auto
-s-prose js-post-body
-http://labs.google.com/papers/mapreduce.html
-facebook twitter 
-https%3a%2f%2fcreativecommons.org%2flicenses%2fby-sa%2f2.5%2f
-bottom-start
-https://www.gravatar.com/avatar/35147909e99bbc635e35e938f90d2bcb?s=64&d=identicon&r=PG
-bar-sm
-7 silver badges
-badge2
-badgecount
-v-visible-sr
-21 bronze badges
-badge3
-badgecount
-v-visible-sr
-comments js-comments-container bt bc-black-075 mt12 
-comment-body js-comment-edit-hide
-js-add-link comments-link disabled-link
-button
-button
-js-voting-container d-flex jc-center fd-column ai-stretch gs4 fc-black-200
-flex--item fc-black-500
-js-vote-count fs-title lh-md mb8 ta-center
-js-post-issue flex--item s-btn s-btn__unset c-pointer py6 mx-auto
-s-prose js-post-body
-facebook twitter 
-https%3a%2f%2fcreativecommons.org%2flicenses%2fby-sa%2f2.5%2f
-bottom-start
-https://www.gravatar.com/avatar/a67f0f89de2b37d0d109602affba8faa?s=64&d=identicon&r=PG
-bar-sm
-1 gold badge
-badge1
-badgecount
-v-visible-sr
-19 silver badges
-badge2
-badgecount
-v-visible-sr
-17 bronze badges
-badge3
-badgecount
-v-visible-sr
-comments js-comments-container bt bc-black-075 mt12  dno
-js-add-link comments-link disabled-link
-button
-button
-bottom-notice
-sidebar
-sidebar
-s-sidebarwidget s-sidebarwidget__yellow s-anchors s-anchors__grayscale mb16
-cb=1
-d-block p0 m0
-s-sidebarwidget--header s-sidebarwidget__small-bold-text fc-light d:fc-black-900 bb bbw1
-s-sidebarwidget--item d-flex px16
-flex--item wmn0 ow-break-word
-https://stackoverflow.blog/2022/06/27/celebrating-the-stack-exchange-sites-that-turned-ten-years-old-in-spring-2022/
-"[""community bulletin board"",""The Overflow Blog"",""https://stackoverflow.blog/2022/06/27/celebrating-the-stack-exchange-sites-that-turned-ten-years-old-in-spring-2022/"",null,null]"
-"communitybulletin.click({ priority: 1, position: 0 })"
-s-sidebarwidget--item d-flex px16
-flex--item wmn0 ow-break-word
-https://stackoverflow.blog/2022/06/28/github-copilot-is-here-but-whats-the-price-ep-457/
-"[""community bulletin board"",""The Overflow Blog"",""https://stackoverflow.blog/2022/06/28/github-copilot-is-here-but-whats-the-price-ep-457/"",null,null]"
-"communitybulletin.click({ priority: 1, position: 1 })"
-s-sidebarwidget--header s-sidebarwidget__small-bold-text fc-light d:fc-black-900 bb bbw1
-s-sidebarwidget--item d-flex px16
-flex--item wmn0 ow-break-word
-"[""community bulletin board"",""Featured on Meta"",""https://meta.stackexchange.com/questions/379561/testing-new-traffic-management-tool"",null,null]"
-"communitybulletin.click({ priority: 3, position: 2 })"
-s-sidebarwidget--item d-flex px16
-flex--item wmn0 ow-break-word
-https://meta.stackexchange.com/questions/379788/duplicated-votes-are-being-cleaned-up
-"[""community bulletin board"",""Featured on Meta"",""https://meta.stackexchange.com/questions/379788/duplicated-votes-are-being-cleaned-up"",null,null]"
-"communitybulletin.click({ priority: 3, position: 3 })"
-s-sidebarwidget--item d-flex px16
-flex--item wmn0 ow-break-word
-"[""community bulletin board"",""Featured on Meta"",""https://meta.stackoverflow.com/questions/418767/trending-a-new-answer-sorting-option"",null,null]"
-"communitybulletin.click({ priority: 6, position: 4 })"
-s-sidebarwidget--item d-flex px16
-flex--item wmn0 ow-break-word
-"[""community bulletin board"",""Featured on Meta"",""https://meta.stackoverflow.com/questions/418491/ask-wizard-test-results-and-next-steps"",null,null]"
-"communitybulletin.click({ priority: 6, position: 5 })"
-s-sidebarwidget--item d-flex px16
-flex--item wmn0 ow-break-word
-https://meta.stackoverflow.com/questions/408394/should-we-burninate-the-hyphen-tag
-"[""community bulletin board"",""Featured on Meta"",""https://meta.stackoverflow.com/questions/408394/should-we-burninate-the-hyphen-tag"",null,null]"
-"communitybulletin.click({ priority: 6, position: 6 })"
-s-sidebarwidget--item d-flex px16
-flex--item wmn0 ow-break-word
-https://meta.stackoverflow.com/questions/418851/updated-button-styling-for-vote-arrows-currently-in-a-b-testing
-"[""community bulletin board"",""Featured on Meta"",""https://meta.stackoverflow.com/questions/418851/updated-button-styling-for-vote-arrows-currently-in-a-b-testing"",null,null]"
-"communitybulletin.click({ priority: 6, position: 7 })"
-js-zone-container zone-container-sidebar
-dfp-tsb
-everyonelovesstackoverflow everyoneloves__top-sidebar
-js-report-ad-button-container 
-js-zone-container zone-container-sidebar
-dfp-msb
-everyonelovesstackoverflow everyoneloves__mid-sidebar
-js-report-ad-button-container 
-module sidebar-linked
-/questions/34447970/urllib-slower-than-browser-to-access-html?noredirect=1
-/questions/6905393/learning-about-mysql-for-large-database-tables?noredirect=1
-module sidebar-related
-/questions/126100/how-to-efficiently-count-the-number-of-keys-properties-of-an-object-in-javascrip
-https://stackexchange.com/questions?tab=hot
-https://rpg.stackexchange.com/questions/199544/can-i-stab-through-two-enemies-using-a-spear
-js-gps-track question-hyperlink mb0
-https://puzzling.stackexchange.com/questions/116835/turn-two-cubes-into-one
-js-gps-track question-hyperlink mb0
-https://politics.stackexchange.com/questions/73917/what-does-the-west-have-to-gain-by-not-allowing-russia-to-pay-its-debt
-js-gps-track question-hyperlink mb0
-https://chemistry.stackexchange.com/questions/166091/what-is-the-burette-solution-called-in-a-titration-when-its-concentration-is-un
-js-gps-track question-hyperlink mb0
-js-gps-track question-hyperlink mb0
-https://rpg.stackexchange.com/questions/199531/balancing-command-while-taking-into-account-languages
-js-gps-track question-hyperlink mb0
-js-gps-track question-hyperlink mb0
-favicon favicon-worldbuilding
-Worldbuilding Stack Exchange
-https://worldbuilding.stackexchange.com/questions/232004/why-would-a-nation-require-immigrants-to-fulfil-a-decade-of-military-service-to
-js-gps-track question-hyperlink mb0
-favicon favicon-worldbuilding
-Worldbuilding Stack Exchange
-https://worldbuilding.stackexchange.com/questions/232051/would-it-be-plausible-for-a-laser-weapon-to-pass-through-glass-and-retain-its-de
-js-gps-track question-hyperlink mb0
-js-gps-track question-hyperlink mb0
-js-gps-track question-hyperlink mb0
-https://electronics.stackexchange.com/questions/625404/is-the-bigger-wire-section-always-better-from-the-electrical-point-of-view
-js-gps-track question-hyperlink mb0
-https://workplace.stackexchange.com/questions/185879/how-can-i-tell-my-boss-that-my-productivity-is-low-due-to-a-conflict-with-a-cowo
-js-gps-track question-hyperlink mb0
-js-gps-track question-hyperlink mb0
-https://electronics.stackexchange.com/questions/625324/how-is-the-cqfp64-package-supposed-to-be-soldered
-js-gps-track question-hyperlink mb0
-https://math.stackexchange.com/questions/4482644/for-an-infinite-sequence-of-real-numbers-that-monotonically-grows-is-infinity-c
-js-gps-track question-hyperlink mb0
-https://money.stackexchange.com/questions/151534/how-to-stop-fraudulent-recurring-credit-card-transactions-being-forwarded-to-new
-js-gps-track question-hyperlink mb0
-js-gps-track question-hyperlink mb0
-https://cs.stackexchange.com/questions/152711/n-points-in-2d-plane-and-a-methoda-b-that-returns-all-points-closer-to-0-than
-js-gps-track question-hyperlink mb0
-https://gamedev.stackexchange.com/questions/201478/what-is-the-function-or-benefit-of-including-juggling-mechanics-in-a-fighting-ga
-js-gps-track question-hyperlink mb0
-favicon favicon-bicycles
-https://bicycles.stackexchange.com/questions/84609/video-format-for-strava
-js-gps-track question-hyperlink mb0
-js-gps-track question-hyperlink mb0
-https://scifi.stackexchange.com/questions/264911/story-about-a-mother-and-her-son-on-a-generation-ship-becoming-immortal
-js-gps-track question-hyperlink mb0
-js-gps-track question-hyperlink mb0
-/posts/132359/ivc/d75b
-js-codeblock-lang
-https://stackexchange.com/sites#business
--list -social md:mb8
-https://stackoverflow.blog?blb=1
-https://www.facebook.com/officialstackoverflow/
-md:mb0
-ff-sans ps-fixed z-nav-fixed ws4 sm:w-auto p32 sm:p16 bg-black-750 fc-white bar-lg b16 l16 r16 js-consent-banner
-mln4 mb24 sm:d-none svg-spot spotCookieLg
-color: var(--theme-button-filled-background-color)
-fs-body2 fw-bold mb4
-mb16 s-anchors s-anchors__inherit s-anchors__underlined
-flex--item s-btn s-btn__primary js-accept-cookies js-consent-banner-hide
-flex--item s-btn s-btn__filled js-cookie-settings
-banner
-onetrust-banner-sdk
-d-none js-consent-banner-version
-baseline
+bodywrapper
+body
+beautiful-soup-documentation
+#beautiful-soup-documentation
+"""The Fish-Footman began by producing from under his arm a great letter, nearly as large as himself."""
+http://www.crummy.com/software/BeautifulSoup/bs3/documentation.html
+#porting-code-to-bs4
+https://www.crummy.com/software/BeautifulSoup/bs4/doc.zh/
+https://www.crummy.com/software/BeautifulSoup/bs4/doc.ko/
+https://www.crummy.com/software/BeautifulSoup/bs4/doc.ptbr
+https://www.crummy.com/software/BeautifulSoup/bs4/doc.ru/
+https://groups.google.com/forum/?fromgroups#!forum/beautifulsoup
+nb
+nb
+nb
+nb
+installing-beautiful-soup
+#installing-beautiful-soup
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+http://www.crummy.com/software/BeautifulSoup/bs3/documentation.html
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+http://code.google.com/p/html5lib/
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+#differences-between-parsers
+nb
+nb
+kinds-of-objects
+#kinds-of-objects
+nb
+attributes
+#attributes
+multi-valued-attributes
+#multi-valued-attributes
+nb
+navigablestring
+#navigablestring
+nb
+nb
+nb
+beautifulsoup
+#beautifulsoup
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+next-sibling-and-previous-sibling
+#next-sibling-and-previous-sibling
+nb
+nb
+nb
+next-siblings-and-previous-siblings
+sibling-generators
+#next-siblings-and-previous-siblings
+nb
+nb
+nb
+nb
+nb
+going-back-and-forth
+#going-back-and-forth
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+searching-by-css-class
+#searching-by-css-class
+nb
+nb
+find-next-siblings-and-find-next-sibling
+#find-next-siblings-and-find-next-sibling
+#sibling-generators
+find-previous-siblings-and-find-previous-sibling
+#find-previous-siblings-and-find-previous-sibling
+#sibling-generators
+nb
+https://facelessuser.github.io/soupsieve/
+https://facelessuser.github.io/soupsieve/
+nb
+changing-tag-names-and-attributes
+#changing-tag-names-and-attributes
+#attributes
+navigablestring-and-new-tag
+#navigablestring-and-new-tag
+insert-before-and-insert-after
+#insert-before-and-insert-after
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+bp
+nb
+nb
+differences-between-parsers
+#differences-between-parsers
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+line-numbers
+#line-numbers
+nb
+nb
+nb
+nb
+nb
+comparing-objects-for-equality
+#comparing-objects-for-equality
+nb
+nb
+nb
+copying-beautiful-soup-objects
+#copying-beautiful-soup-objects
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+nb
+customizing-multi-valued-attributes
+#customizing-multi-valued-attributes
+handling-duplicate-attributes
+#handling-duplicate-attributes
+nb
+nb
+instantiating-custom-subclasses
+#instantiating-custom-subclasses
+nb
+nb
+nb
+nb
+troubleshooting
+#troubleshooting
+nb
+version-mismatch-problems
+#version-mismatch-problems
+other-parser-problems
+#other-parser-problems
+#differences-between-parsers
+arabic simple
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+kbd docutils literal notranslate
+http://www.crummy.com/software/BeautifulSoup/bs3/download/3.x/BeautifulSoup-3.2.0.tar.gz
+http://www.crummy.com/software/BeautifulSoup/bs3/documentation.html
+porting-code-to-bs4
+#porting-code-to-bs4
+#multi-valued-attributes
+sphinxsidebar
+sphinxsidebarwrapper
+#installing-beautiful-soup
+#kinds-of-objects
+#attributes
+#multi-valued-attributes
+#navigablestring
+#beautifulsoup
+#next-sibling-and-previous-sibling
+#next-siblings-and-previous-siblings
+#going-back-and-forth
+#searching-by-css-class
+#find-next-siblings-and-find-next-sibling
+#find-previous-siblings-and-find-previous-sibling
+#changing-tag-names-and-attributes
+#navigablestring-and-new-tag
+#insert-before-and-insert-after
+#differences-between-parsers
+#line-numbers
+#comparing-objects-for-equality
+#copying-beautiful-soup-objects
+#customizing-multi-valued-attributes
+#handling-duplicate-attributes
+#instantiating-custom-subclasses
+#troubleshooting
+#version-mismatch-problems
+#other-parser-problems
+#porting-code-to-bs4
+searchbox
+searchlabel
+searchlabel
+submit
