@@ -12,10 +12,16 @@ import validators
 import re
 import collections
 from matplotlib import rcParams
+import os
 
 
 #get the input and convert to html soup
 inp = input("Type file name or enter URL for HTML input: ")
+#create a folder to store all info relating to URL/file
+dir = os.getcwd() + "/" + "new"
+if not os.path.exists(dir):
+    os.mkdir(dir)
+#convert to soup based on input
 if validators.url(inp):
     inp = req.get(inp)
     soup = BeautifulSoup(inp.text, 'lxml')
@@ -25,6 +31,7 @@ else:
     soup = BeautifulSoup(inp, 'lxml')
 #ensure the document is formatted correctly (to get depths and text correctly)
 inp = soup.prettify()
+
 
 #gets the depths at which each tag appears
 tagsToDepth = defaultdict(list)
@@ -44,7 +51,6 @@ classesToIds = defaultdict(list)
 idsToClasses = defaultdict(list)
 #gets classes of recently opeend tag mapped to all its attributes (except IDs)
 classesToAttributes = defaultdict(list)
-
 
 
 #gets the depth, attributes, text, and location of all elements and creates maps
@@ -139,8 +145,9 @@ for key in tagsToDepth:
 #export to csv file
 matched_data = {'Tag': tagName, 'Depth': tagDepth, 'Previous Sibling': previousSiblingName, 'Number of Children': previousSiblingChildren, 'Full Tag': fullTag, 'Full Previous Tag': fullPreviousTag}
 df = pd.DataFrame(matched_data)
-header = True
-df.to_csv('previous_sibling_info.csv', encoding='utf-8', header=header, index=False)
+outname = 'previous_sibling_info.csv'
+fullname = os.path.join(dir, outname) 
+df.to_csv(fullname, encoding='utf-8', header=True, index=False)
 
 
 #returning all the classes that passed regex, mapped to their IDs in a csv files (assuming regex is being entered to match dynamic classes)
@@ -162,8 +169,9 @@ for key, value in classesToIds.items():
 #export to csv file
 matched_data = {'Class': classes, 'IDs Length': IdLength, 'IDs': IDs}
 df = pd.DataFrame(matched_data)
-header = True
-df.to_csv('classes_to_ids.csv', encoding='utf-8', header=header, index=False)
+outname = 'classes_to_ids.csv'
+fullname = os.path.join(dir, outname)
+df.to_csv(fullname, encoding='utf-8', header=True, index=False)
 
 
 #returning all the classes that passed regex, mapped to their attributes except IDs in a csv files (assuming regex is being entered to match dynamic classes)
@@ -185,8 +193,9 @@ for key, value in classesToAttributes.items():
 #export to csv file
 matched_data = {'Class': classes, 'Attribute Length': attributeLength, 'Attributes': atts}
 df = pd.DataFrame(matched_data)
-header = True
-df.to_csv('classes_to_attributes.csv', encoding='utf-8', header=header, index=False)
+outname = 'classes_to_attributes.csv'
+fullname = os.path.join(dir, outname)
+df.to_csv(fullname, encoding='utf-8', header=True, index=False)
 
 
 #returning all the IDs that passed regex, mapped to their classes in a csv files (assuming regex is being entered to match dynamic classes)
@@ -208,8 +217,9 @@ for key, value in idsToClasses.items():
 #export to csv file
 matched_data = {'ID': IDs, 'Class Length': classLength, 'Classes': classes}
 df = pd.DataFrame(matched_data)
-header = True
-df.to_csv('ids_to_classes.csv', encoding='utf-8', header=header, index=False)
+outname = 'ids_to_classes.csv'
+fullname = os.path.join(dir, outname)
+df.to_csv(fullname, encoding='utf-8', header=True, index=False)
 
 
 #returning a csv file with all tags listed at each depth that they occur at
@@ -224,8 +234,9 @@ for key, value in depthToTags.items():
 #export to csv file
 matched_data = {'Depth': depth, 'Number of Tags': tagNum, 'Tags': tags}
 df = pd.DataFrame(matched_data)
-header = True
-df.to_csv('depth_to_tags.csv', encoding='utf-8', header=header, index=False)
+outname = 'depth_to_tags.csv'
+fullname = os.path.join(dir, outname)
+df.to_csv(fullname, encoding='utf-8', header=True, index=False)
 
 
 #creating a csv for the tags and their inner-texts
@@ -245,7 +256,9 @@ for key, value in tagsToInnerText.items():
 #export to csv file
 matched_data = {'Tag': tags, 'Number': numbers, 'Depth': depths, 'Inner Text': texts}
 df = pd.DataFrame.from_dict(matched_data)
-df.to_csv('inner_text_data.csv', encoding='utf-8', header=True, index=False)
+outname = 'inner_text_data.csv'
+fullname = os.path.join(dir, outname)
+df.to_csv(fullname, encoding='utf-8', header=True, index=False)
 
 
 # for key, value in tagsToAttributes.items():
@@ -267,7 +280,9 @@ attributeNamesToFrequency = collections.OrderedDict(sorted(attributeNamesToFrequ
 #export to csv file
 matched_data = {'Attribute': attributeNamesToFrequency.keys(), 'Frequency': attributeNamesToFrequency.values()}
 df = pd.DataFrame.from_dict(matched_data)
-df.to_csv('attribute_name_frequency.csv', encoding='utf-8', header=True, index=False)
+outname = 'attribute_name_frequency.csv'
+fullname = os.path.join(dir, outname)
+df.to_csv(fullname, encoding='utf-8', header=True, index=False)
 
 
 #graphing the total number of times each tag appears
@@ -289,7 +304,9 @@ plt.xticks(rotation = 90)
 for index,data in enumerate(frequency):
     plt.text(x=index, y =data+1 , s=f"{data}" , fontdict=dict(fontsize=12), ha='center')
 plt.tight_layout()
-plt.savefig('tag_frequency.png')
+outname = 'tag_frequency.png'
+fullname = os.path.join(dir, outname)
+plt.savefig(fullname)
 plt.clf()
 plt.cla()
 plt.close()
@@ -324,4 +341,6 @@ plt.xticks(rotation = 90)
 for index,data in enumerate(frequency):
     plt.text(x=index, y =data+1 , s=f"{data}" , fontdict=dict(fontsize=10), ha='center')
 plt.tight_layout()
-plt.savefig('attribute_frequency.png')
+outname = 'attribute_frequency.png'
+fullname = os.path.join(dir, outname)
+plt.savefig(fullname)

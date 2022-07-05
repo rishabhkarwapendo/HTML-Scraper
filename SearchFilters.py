@@ -3,7 +3,7 @@ import re
 import pandas as pd
 from uuid import UUID
 import enchant
-
+import HTMLScraper
 
 
 #method to only filter only classes or all attributes
