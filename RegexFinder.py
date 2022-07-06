@@ -6,34 +6,33 @@ from unicodedata import name
 import pandas as pd
 from uuid import UUID
 import enchant
+import glob
+
 
 
 #method to only filter only classes or all attributes
-def findAttribute(dir, regex, tagsToAttributes, className):
+def findAttribute(dir, regex, types, names, className):
         matchedAttributes = []
         failedAttributes = []
         matchedType = []
         failedType = []
         totalCount, matchCount, failCount = 0, 0, 0
-        for value in tagsToAttributes.values():
-            for pair in value:
-                if len(pair) > 0:
-                    for p in pair:
-                        if (((str(p[0]) == className) or className == 'all')):
-                            #converting javascript regex to python 
-                            if regex[len(regex)-2:] == '/i':
-                                valid = re.search(regex, str(p[1]), re.IGNORECASE)
-                            else:
-                                valid = re.search(regex, str(p[1]))
-                            if valid: 
-                                matchCount += 1
-                                matchedType.append(str(p[0]))
-                                matchedAttributes.append(str(p[1]))
-                            else:
-                                failCount += 1
-                                failedType.append(str(p[0]))
-                                failedAttributes.append(str(p[1]))
-                            totalCount += 1
+        for i, n in enumerate(names):
+            if (((str(types[i]) == className) or className == 'all')):
+                #converting javascript regex to python 
+                if regex[len(regex)-2:] == '/i':
+                    valid = re.search(regex, str(names[i]), re.IGNORECASE)
+                else:
+                    valid = re.search(regex, str(names[i]))
+                if valid: 
+                    matchCount += 1
+                    matchedType.append(str(types[i]))
+                    matchedAttributes.append(str(names[i]))
+                else:
+                    failCount += 1
+                    failedType.append(str(types[i]))
+                    failedAttributes.append(str(names[i]))
+                totalCount += 1
      
         print("Total Attributes: " + str(totalCount))
         print("Matches : " + str(matchCount))
@@ -177,9 +176,18 @@ def goodFilters(dir, matchedType, failedType, matchedAttributes, failedAttribute
     fullname = os.path.join(dir, outname)
     df.to_csv(fullname, encoding='utf-8', header=True, index=False)
 
-# if __name__ == '__main__':
-#     regex = input("""Enter the regular expression that you want to search by ('q' to  quit): """)
-#         #if regex == 'q':
-#         #    break
-#     matchFind = input("Enter attribute you are checking, (ex:" + " 'class')" + " or type 'all' for all attributes: ")   
-#     findAttribute(dir, regex, HTMLScraper.tagsDepthLineToAttributes, matchFind.lower())
+
+#get the folder where the regex search needs to be done
+folder = input("Enter the folder name of your data: ")
+dir = os.getcwd() + "/" + folder
+attribute_file = glob.glob(os.path.join(dir, "all_attributes.csv"))
+df = pd.read_csv(attribute_file[0])
+att_types = df.Type
+att_names = df.Name
+#continue regex until user wants to quit
+while True:
+    regex = input("""Enter the regular expression that you want to search by ('q' to  quit): """)
+    if regex == 'q':
+        break
+    matchFind = input("Enter attribute you are checking, (ex:" + " 'class')" + " or type 'all' for all attributes: ")   
+    findAttribute(dir, regex, att_types, att_names , matchFind.lower())

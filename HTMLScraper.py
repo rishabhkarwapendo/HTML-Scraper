@@ -12,7 +12,7 @@ import re
 import collections
 from matplotlib import rcParams
 import os
-import RegexFinder
+#import RegexFinder
 
 
 
@@ -113,6 +113,21 @@ for value in tagsToAttributes.values():
             classesToAttributes[c].append(a)
 
 
+#mapping tags to attributes in a csv file to help with regex search
+attributeType = []
+attributeName = []
+for value in tagsToAttributes.values():
+    for pair in value:
+            if len(pair) > 0:
+                for p in pair:
+                    #if (len(str(p[0])) > 0 and len(str(p[1])) > 0):
+                        attributeType.append(str(p[0]))
+                        attributeName.append(str(p[1]))
+matched_data = {'Type': attributeType, 'Name': attributeName}
+df = pd.DataFrame(matched_data)
+outname = 'all_attributes.csv'
+fullname = os.path.join(dir, outname) 
+df.to_csv(fullname, encoding='utf-8', header=True, index=False)
 
 
 #getting the previous sibling of each tag to see its depth
@@ -277,12 +292,12 @@ df.to_csv(fullname, encoding='utf-8', header=True, index=False)
 
 
 #operations to find elements or do regex search
-while True:
-    regex = input("""Enter the regular expression that you want to search by ('q' to  quit): """)
-    if regex.lower() == 'q':
-        break
-    matchFind = input("Enter attribute you are checking, (ex:" + " 'class')" + " or type 'all' for all attributes: ")
-    RegexFinder.findAttribute(dir, regex, tagsToAttributes, matchFind.lower())
+# while True:
+#     regex = input("""Enter the regular expression that you want to search by ('q' to  quit): """)
+#     if regex.lower() == 'q':
+#         break
+#     matchFind = input("Enter attribute you are checking, (ex:" + " 'class')" + " or type 'all' for all attributes: ")
+#     RegexFinder.findAttribute(dir, regex, tagsToAttributes, matchFind.lower())
 #operation to find the elements through attributes
 
 
