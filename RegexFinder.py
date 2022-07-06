@@ -1,4 +1,4 @@
-#in order to run the regex search, run the HTMLScraper.py file which imports this class
+#run this file after you have run HTMLScraper
 from curses.ascii import isalpha, isdigit
 import os
 import re
