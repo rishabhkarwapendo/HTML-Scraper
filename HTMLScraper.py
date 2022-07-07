@@ -1,3 +1,4 @@
+#run this script before running your searches, in order to create the data files
 from html.parser import HTMLParser
 from threading import local
 from bs4 import BeautifulSoup
@@ -13,7 +14,6 @@ import re
 import collections
 from matplotlib import rcParams
 import os
-#import RegexFinder
 
 
 
@@ -110,7 +110,7 @@ for key in tagsToDepth:
 
 
 #create a large csv for all data
-matched_data = {'Name': tags, 'Number': numbers, 'Depth': depths, 'Text': texts, 'Attributes': attributes, 'Full Tag': fullTags, 'Location (Line and Offset)': locations}
+matched_data = {'Name': tags, 'Number': numbers, 'Depth': depths, 'Text': texts, 'Attributes': attributes, 'Full_Tag': fullTags, 'Location (Line and Offset)': locations}
 df = pd.DataFrame.from_dict(matched_data)
 outname = 'all_element_data.csv'
 fullname = os.path.join(dir, outname)
@@ -318,10 +318,10 @@ for value in tagsToAttributes.values():
     for pair in value:
         if len(pair) > 0:
             for p in pair:
-                if str(p[1]) not in attributeNamesToFrequency:
-                    attributeNamesToFrequency[str(p[1])] = 1
+                if (str(p[0]) + '=' + str(p[1])) not in attributeNamesToFrequency:
+                    attributeNamesToFrequency[str(p[0]) + '=' + str(p[1])] = 1
                 else:
-                    attributeNamesToFrequency[str(p[1])] +=1
+                    attributeNamesToFrequency[str(p[0]) + '=' + str(p[1])] +=1
 attributeNamesToFrequency = collections.OrderedDict(sorted(attributeNamesToFrequency.items(), key=lambda x: x[1], reverse=True))
 #export to csv file
 matched_data = {'Attribute': attributeNamesToFrequency.keys(), 'Frequency': attributeNamesToFrequency.values()}
