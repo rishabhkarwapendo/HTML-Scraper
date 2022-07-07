@@ -1,4 +1,5 @@
 from html.parser import HTMLParser
+from threading import local
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
 from collections import defaultdict
@@ -55,6 +56,8 @@ idsToClasses = defaultdict(list)
 #gets classes of recently opeend tag mapped to all its attributes (except IDs)
 classesToAttributes = defaultdict(list)
 
+#creating a larger, sequence of arrays for element searching
+tags, numbers, depths, texts, attributes, fullTags, locations = [], [], [], [], [], [], []
 
 
 #gets the depth, attributes, text, and location of all elements and creates maps
@@ -64,17 +67,54 @@ class MyHTMLParser(HTMLParser):
         self.depth = 1
 
     def handle_starttag(self, tag, attrs):
+        #appending to the maps
         depthToTags[self.depth].append(tag)
         tagsToDepth[tag].append(self.depth)
         tagsToText[tag].append(super().get_starttag_text())
         tagsToAttributes[tag].append(attrs)
         tagsToLocation[tag].append((self.depth, super().getpos()))
+        #appending to the arrays
+        tags.append(tag)
+        depths.append(self.depth)
+        locations.append(super().getpos())
+        numbers.append(len(tagsToDepth[tag]))
+        cur = ''
+        for att in attrs:
+                cur += (att[0] + '=' + att[1] + ' ')
+        cur = cur[:-1]
+        attributes.append(cur)
+        #append blank spot to inner text and full tag (will be filled later with soup library)
+        texts.append(None)
+        fullTags.append(None)
+        #increase depth
         self.depth += 1
 
     def handle_endtag(self, tag):
         self.depth -= 1
 MyHTMLParser().feed(inp)
 
+
+#append the inner text and the whole tag to the large element arrays
+for key in tagsToDepth:
+    all_tags = soup.find_all(key)
+    for t in all_tags:
+        for i in range(len(depths)):
+            if t.name == tags[i] and texts[i] == None:
+                has_child = len(t.find_all()) != 0
+                if not has_child:
+                    texts[i] = t.getText()
+                else:
+                    texts[i] = ''
+                fullTags[i] = t
+                break
+
+
+#create a large csv for all data
+matched_data = {'Name': tags, 'Number': numbers, 'Depth': depths, 'Text': texts, 'Attributes': attributes, 'Full Tag': fullTags, 'Location (Line and Offset)': locations}
+df = pd.DataFrame.from_dict(matched_data)
+outname = 'all_element_data.csv'
+fullname = os.path.join(dir, outname)
+df.to_csv(fullname, encoding='utf-8', header=True, index=False)
 
 #gets inner text of all tags without children
 for key in tagsToDepth:
@@ -290,15 +330,6 @@ outname = 'attribute_name_frequency.csv'
 fullname = os.path.join(dir, outname)
 df.to_csv(fullname, encoding='utf-8', header=True, index=False)
 
-
-#operations to find elements or do regex search
-# while True:
-#     regex = input("""Enter the regular expression that you want to search by ('q' to  quit): """)
-#     if regex.lower() == 'q':
-#         break
-#     matchFind = input("Enter attribute you are checking, (ex:" + " 'class')" + " or type 'all' for all attributes: ")
-#     RegexFinder.findAttribute(dir, regex, tagsToAttributes, matchFind.lower())
-#operation to find the elements through attributes
 
 
 #graphing the total number of times each tag appears (done at the end because graphing library has bugs causing other code to hang)
