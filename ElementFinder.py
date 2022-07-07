@@ -1,3 +1,4 @@
+#run this file after you have run HTMLScraper
 import glob
 import os
 import pandas as pd
