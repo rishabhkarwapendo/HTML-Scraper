@@ -21,10 +21,29 @@ ask = input("Type '1' if input is a file which will contain multiple URLs/files:
 #get the input and convert to html soup
 inp = input("Type file name or enter URL for HTML input: ")
 
-def dataCreate(inp):
+#total files
+total = 0
+#all common attributes between the html files that could help with tagging together
+allAttributesToCount = {}
+allAttributeToNameCount = {}
+allTagsToCount = {}
+allInnerTextToCount = {}
+#get the percent of URLs that have the specific attributes
+allAttributesToPercent = {}
+allAttributeToNameCountPercent = {}
+allTagsToCountPercent = {}
+allInnerTextToCountPercent = {}
+
+def dataCreate(inp, parent_folder):
     #create a folder to store all info relating to URL/file
     folder = input("Enter a folder name to store the data: ")
-    dir = os.getcwd() + "/" + folder
+    if parent_folder:
+        dir = os.getcwd() + "/" + parent_folder
+        if not os.path.exists(dir):
+            os.mkdir(dir)
+        dir = os.getcwd() + "/" + parent_folder + "/" + folder
+    else: 
+        dir = os.getcwd() + "/" + folder
     if not os.path.exists(dir):
         os.mkdir(dir)
     #convert to soup based on input
@@ -37,8 +56,7 @@ def dataCreate(inp):
         soup = BeautifulSoup(inp, 'lxml')
     #ensure the document is formatted correctly (to get depths and text correctly)
     inp = soup.prettify()
-
-
+    
 
     #gets the depths at which each tag appears
     tagsToDepth = defaultdict(list)
@@ -62,6 +80,8 @@ def dataCreate(inp):
     #creating a larger, sequence of arrays for element searching
     tags, numbers, depths, texts, attributes, fullTags, locations = [], [], [], [], [], [], []
 
+    #boolean to track whether tag/attribute/text exists within the url
+    attAdded, attNameAdded, tagAdded, textAdded = set(), set(), set(), set()
 
     #gets the depth, attributes, text, and location of all elements and creates maps
     class MyHTMLParser(HTMLParser):
@@ -126,6 +146,20 @@ def dataCreate(inp):
             has_child = len(tag.find_all()) != 0
             if not has_child:
                 tagsToInnerText[key].append(tag.getText())
+                if (str(ask) == '1'):
+                    text = tag.getText()
+                    #string_list = [string.strip() for string in text.splitlines()]
+                    #for s in string_list:
+                    if len(text) > 0:
+                        if text not in allInnerTextToCount:
+                            allInnerTextToCount[text] = 1
+                        else:
+                            allInnerTextToCount[text] += 1
+                        if text not in textAdded:
+                            if text not in allInnerTextToCountPercent:
+                                allInnerTextToCountPercent[text] = 1
+                            else:
+                                allInnerTextToCountPercent[text] += 1
             else:
                 tagsToInnerText[key].append(None)
                     
@@ -325,6 +359,18 @@ def dataCreate(inp):
                         attributeNamesToFrequency[str(p[0]) + '=' + str(p[1])] = 1
                     else:
                         attributeNamesToFrequency[str(p[0]) + '=' + str(p[1])] +=1
+                    #add to common attribute list
+                    if str(ask) == '1':
+                        if (str(p[0]) + '=' + str(p[1])) not in allAttributeToNameCount:
+                            allAttributeToNameCount[str(p[0]) + '=' + str(p[1])] = 1
+                        else:
+                            allAttributeToNameCount[str(p[0]) + '=' + str(p[1])] += 1
+                        if (str(p[0]) + '=' + str(p[1])) not in attNameAdded:
+                            if (str(p[0]) + '=' + str(p[1])) not in allAttributeToNameCountPercent:
+                                allAttributeToNameCountPercent[str(p[0]) + '=' + str(p[1])] = 1
+                            else:
+                                allAttributeToNameCountPercent[str(p[0]) + '=' + str(p[1])] += 1
+                            attNameAdded.add(str(p[0]) + '=' + str(p[1]))
     attributeNamesToFrequency = collections.OrderedDict(sorted(attributeNamesToFrequency.items(), key=lambda x: x[1], reverse=True))
     #export to csv file
     matched_data = {'Attribute': attributeNamesToFrequency.keys(), 'Frequency': attributeNamesToFrequency.values()}
@@ -339,29 +385,76 @@ def dataCreate(inp):
     plt.ion()
     tags = []
     frequency = []
+    count = 0
+    num = 1
     for key, value in tagsToDepth.items():
         tags.append(key)
         frequency.append(len(value))
-    tags = np.array(tags)
-    frequency = np.array(frequency)
-    plt.rcParams.update({'font.size': 7})
-    plt.bar(tags, frequency, color = "red")
-    font1 = {'family':'serif','color':'blue','size':20}
-    font2 = {'family':'serif','color':'darkred','size':15}
-    plt.title("Tags VS Frequency", fontdict = font1)
-    plt.xlabel("Tags", fontdict = font2)
-    plt.ylabel("Frequency", fontdict = font2)
-    plt.xticks(rotation = 90)
-    for index,data in enumerate(frequency):
-        plt.text(x=index, y =data+1 , s=f"{data}" , fontdict=dict(fontsize=12), ha='center')
-    plt.tight_layout()
-    outname = 'tag_frequency.png'
-    fullname = os.path.join(dir, outname)
-    plt.savefig(fullname)
-    plt.clf()
-    plt.cla()
-    plt.close()
-
+        #if multiple files have been inputted
+        if ((str(ask) == '1')):
+            if key not in allTagsToCount:
+                allTagsToCount[key] = len(value)
+            else:
+                allTagsToCount[key] += len(value)
+            if key not in tagAdded:
+                if key not in allTagsToCountPercent:
+                    allTagsToCountPercent[key] = 1
+                else:
+                    allTagsToCountPercent[key] += 1
+                tagAdded.add(key)
+        count += 1
+        #max a graph can hold
+        if count == 50:
+            tags = np.array(tags)
+            frequency = np.array(frequency)
+            plt.rcParams.update({'font.size': 7})
+            plt.bar(tags, frequency, color = "red")
+            font1 = {'family':'serif','color':'blue','size':20}
+            font2 = {'family':'serif','color':'darkred','size':15}
+            plt.title("Tags VS Frequency", fontdict = font1)
+            plt.xlabel("Tags", fontdict = font2)
+            plt.ylabel("Frequency", fontdict = font2)
+            plt.xticks(rotation = 90)
+            for index,data in enumerate(frequency):
+                plt.text(x=index, y =data+1 , s=f"{data}" , fontdict=dict(fontsize=12), ha='center')
+            plt.tight_layout()
+            outname = 'tag_frequency.png'
+            fullname = os.path.join(dir, outname)
+            plt.savefig(fullname)
+            plt.clf()
+            plt.cla()
+            plt.close()
+            #reset
+            tags = []
+            frequency = []
+            count = 0
+            num += 1
+    #leftover tags
+    if len(tags) > 0:
+        tags = np.array(tags)
+        frequency = np.array(frequency)
+        plt.rcParams.update({'font.size': 7})
+        plt.bar(tags, frequency, color = "red")
+        font1 = {'family':'serif','color':'blue','size':20}
+        font2 = {'family':'serif','color':'darkred','size':15}
+        plt.title("Tags VS Frequency", fontdict = font1)
+        plt.xlabel("Tags", fontdict = font2)
+        plt.ylabel("Frequency", fontdict = font2)
+        plt.xticks(rotation = 90)
+        for index,data in enumerate(frequency):
+            plt.text(x=index, y =data+1 , s=f"{data}" , fontdict=dict(fontsize=12), ha='center')
+        plt.tight_layout()
+        outname = 'tag_frequency.png'
+        fullname = os.path.join(dir, outname)
+        plt.savefig(fullname)
+        plt.clf()
+        plt.cla()
+        plt.close()
+        #reset
+        tags = []
+        frequency = []
+        count = 0
+        num += 1
 
     #graphing the total number of times an attribute occurs
     attributesToFrequency = {}
@@ -375,39 +468,152 @@ def dataCreate(inp):
                         attributesToFrequency[str(p[0])] +=1
     attributes = []
     frequency = []
+    count = 0
+    num = 1
     attributesToFrequency = collections.OrderedDict(sorted(attributesToFrequency.items()))
     for key, value in attributesToFrequency.items():
         attributes.append(key)
         frequency.append(value)
-    attributes = np.array(attributes)
-    frequency = np.array(frequency)
-    plt.rcParams.update({'font.size': 6})
-    plt.bar(attributes, frequency, color = "red")
-    font1 = {'family':'serif','color':'blue','size':20}
-    font2 = {'family':'serif','color':'darkred','size':15}
-    plt.title("Attributes VS Frequency", fontdict = font1)
-    plt.xlabel("Attributes", fontdict = font2)
-    plt.ylabel("Frequency", fontdict = font2)
-    plt.xticks(rotation = 90)
-    for index,data in enumerate(frequency):
-        plt.text(x=index, y =data+1 , s=f"{data}" , fontdict=dict(fontsize=10), ha='center')
-    plt.tight_layout()
-    outname = 'attribute_frequency.png'
+        count += 1
+        #if multiple files have been inputted
+        if str(ask) == '1':
+            if key not in allAttributesToCount:
+                allAttributesToCount[key] = value
+            else:
+                allAttributesToCount[key] += value
+            if key not in attAdded:
+                if key not in allAttributesToPercent:
+                    allAttributesToPercent[key] = 1
+                else:
+                    allAttributesToPercent[key] += 1
+                attAdded.add(key)
+        #max a graph can hold
+        if count == 50:
+            attributes = np.array(attributes)
+            frequency = np.array(frequency)
+            plt.rcParams.update({'font.size': 6})
+            plt.bar(attributes, frequency, color = "red")
+            font1 = {'family':'serif','color':'blue','size':20}
+            font2 = {'family':'serif','color':'darkred','size':15}
+            plt.title("Attributes VS Frequency", fontdict = font1)
+            plt.xlabel("Attributes", fontdict = font2)
+            plt.ylabel("Frequency", fontdict = font2)
+            plt.xticks(rotation = 90)
+            for index,data in enumerate(frequency):
+                plt.text(x=index, y =data+1 , s=f"{data}" , fontdict=dict(fontsize=8.5), ha='center')
+            plt.tight_layout()
+            outname = 'attribute_frequency_' + str(num) + '.png'
+            fullname = os.path.join(dir, outname)
+            plt.savefig(fullname)
+            plt.clf()
+            plt.cla()
+            plt.close()
+            #reset 
+            attributes = []
+            frequency = []
+            count = 0
+            num += 1
+    #leftover attributes
+    if len(attributes) > 0:
+        attributes = np.array(attributes)
+        frequency = np.array(frequency)
+        plt.rcParams.update({'font.size': 6})
+        plt.bar(attributes, frequency, color = "red")
+        font1 = {'family':'serif','color':'blue','size':20}
+        font2 = {'family':'serif','color':'darkred','size':15}
+        plt.title("Attributes VS Frequency", fontdict = font1)
+        plt.xlabel("Attributes", fontdict = font2)
+        plt.ylabel("Frequency", fontdict = font2)
+        plt.xticks(rotation = 90)
+        for index,data in enumerate(frequency):
+            plt.text(x=index, y =data+1 , s=f"{data}" , fontdict=dict(fontsize=8.5), ha='center')
+        plt.tight_layout()
+        outname = 'attribute_frequency_' + str(num) + '.png'
+        fullname = os.path.join(dir, outname)
+        plt.savefig(fullname)
+        plt.clf()
+        plt.cla()
+        plt.close()
+
+
+def commonData(lines, parent_folder):
+    #access variables globally
+    global allAttributesToCount
+    global allAttributeToNameCount
+    global allTagsToCount
+    global allInnerTextToCount
+    global allAttributesToPercent
+    global allAttributeToNameCountPercent
+    global allTagsToCountPercent
+    global allInnerTextToCountPercent
+    #create csv to store attribute similiarities
+    allAttributesToCount = collections.OrderedDict(sorted(allAttributesToCount.items(), key=lambda items: items[1]))
+    atts, count, percent = [], [], []
+    for key, value in allAttributesToCount.items():
+        atts.append(key)
+        count.append(value)
+        percent.append(str(allAttributesToPercent[key]) + '/' + str(lines))
+    matched_data = {'Attribute': atts, 'Count': count, 'Usage Fraction': percent}
+    df = pd.DataFrame.from_dict(matched_data)
+    outname = 'common_attributes.csv'
+    dir = os.getcwd() + "/" + parent_folder + "/" + 'commonalities'
+    if not os.path.exists(dir):
+        os.mkdir(dir)
     fullname = os.path.join(dir, outname)
-    plt.savefig(fullname)
-    plt.clf()
-    plt.cla()
-    plt.close()
+    df.to_csv(fullname, encoding='utf-8', header=True, index=False)
+    #create a csv to store attribute + name similiarities
+    allAttributeToNameCount = collections.OrderedDict(sorted(allAttributeToNameCount.items(), key=lambda items: items[1]))
+    atts, count, percent = [], [], []
+    for key, value in allAttributeToNameCount.items():
+        atts.append(key)
+        count.append(value)
+        percent.append(str(allAttributeToNameCountPercent[key]) + '/' + str(lines))
+    matched_data = {'Full Attribute': atts, 'Count': count, 'Usage Fraction': percent}
+    df = pd.DataFrame.from_dict(matched_data)
+    outname = 'common_attribute_names.csv'
+    dir = os.getcwd() + "/" + parent_folder + "/" + 'commonalities'
+    fullname = os.path.join(dir, outname)
+    df.to_csv(fullname, encoding='utf-8', header=True, index=False)
+    #create csv for tag similiarities
+    allTagsToCount = collections.OrderedDict(sorted(allTagsToCount.items(), key=lambda items: items[1]))
+    tags, count, percent = [], [], []
+    for key, value in allTagsToCount.items():
+        tags.append(key)
+        count.append(value)
+        percent.append(str(allTagsToCountPercent[key]) + '/' + str(lines))
+    matched_data = {'Tag': tags, 'Count': count, 'Usage Fraction': percent}
+    df = pd.DataFrame.from_dict(matched_data)
+    outname = 'common_tags.csv'
+    dir = os.getcwd() + "/" + parent_folder + "/" + 'commonalities'
+    fullname = os.path.join(dir, outname)
+    df.to_csv(fullname, encoding='utf-8', header=True, index=False)
+    #create csv for text similiarities
+    allInnerTextToCount = collections.OrderedDict(sorted(allInnerTextToCount.items(), key=lambda items: items[1]))
+    text, count, percent = [], [], []
+    for key, value in allInnerTextToCount.items():
+        text.append(key)
+        count.append(value)
+        percent.append(str(allInnerTextToCountPercent[key]) + '/' + str(lines))
+    matched_data = {'Text': text, 'Count': count, 'Usage Fraction': percent}
+    df = pd.DataFrame.from_dict(matched_data)
+    outname = 'common_inner_text.csv'
+    dir = os.getcwd() + "/" + parent_folder + "/" + 'commonalities'
+    fullname = os.path.join(dir, outname)
+    df.to_csv(fullname, encoding='utf-8', header=True, index=False)
 
 #file with combination of multiple URLs or files
 if (str(ask) == '1'):
+    parent_folder = input("Enter folder to hold all file information: ")
     with open(inp) as f:
         lines = f.readlines()
+        total = len(lines)
         for url in lines:
             url = url.rstrip()
             print()
             print('URL: ' + url)
-            dataCreate(url)
+            dataCreate(url, parent_folder)
+    commonData(total, parent_folder)
+#singular file or URL
 else:
     dataCreate(inp)
         
