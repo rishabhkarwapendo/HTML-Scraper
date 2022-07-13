@@ -1,4 +1,5 @@
 #run this script before running your searches, in order to create the data files
+from audioop import reverse
 from html.parser import HTMLParser
 from threading import local
 from bs4 import BeautifulSoup
@@ -538,7 +539,7 @@ def dataCreate(inp, parent_folder):
 
 def commonData(lines, parent_folder):
     #access variables globally
-    global allAttributesToCount
+    global allAttributesToCount 
     global allAttributeToNameCount
     global allTagsToCount
     global allInnerTextToCount
@@ -550,9 +551,10 @@ def commonData(lines, parent_folder):
     allAttributesToCount = collections.OrderedDict(sorted(allAttributesToCount.items(), key=lambda items: items[1]))
     atts, count, percent = [], [], []
     for key, value in allAttributesToCount.items():
-        atts.append(key)
-        count.append(value)
-        percent.append(str(allAttributesToPercent[key]) + '/' + str(lines))
+       if (int(allAttributesToPercent[key]) == int(lines)):
+            atts.append(key)
+            count.append(value)
+            percent.append(str(allAttributesToPercent[key]) + '/' + str(lines))
     matched_data = {'Attribute': atts, 'Count': count, 'Usage Fraction': percent}
     df = pd.DataFrame.from_dict(matched_data)
     outname = 'common_attributes.csv'
@@ -565,9 +567,10 @@ def commonData(lines, parent_folder):
     allAttributeToNameCount = collections.OrderedDict(sorted(allAttributeToNameCount.items(), key=lambda items: items[1]))
     atts, count, percent = [], [], []
     for key, value in allAttributeToNameCount.items():
-        atts.append(key)
-        count.append(value)
-        percent.append(str(allAttributeToNameCountPercent[key]) + '/' + str(lines))
+       if (int(allAttributeToNameCountPercent[key]) == int(lines)):
+            atts.append(key)
+            count.append(value)
+            percent.append(str(allAttributeToNameCountPercent[key]) + '/' + str(lines))
     matched_data = {'Full Attribute': atts, 'Count': count, 'Usage Fraction': percent}
     df = pd.DataFrame.from_dict(matched_data)
     outname = 'common_attribute_names.csv'
@@ -578,9 +581,10 @@ def commonData(lines, parent_folder):
     allTagsToCount = collections.OrderedDict(sorted(allTagsToCount.items(), key=lambda items: items[1]))
     tags, count, percent = [], [], []
     for key, value in allTagsToCount.items():
-        tags.append(key)
-        count.append(value)
-        percent.append(str(allTagsToCountPercent[key]) + '/' + str(lines))
+       if (int(allTagsToCountPercent[key]) == int(lines)):
+            tags.append(key)
+            count.append(value)
+            percent.append(str(allTagsToCountPercent[key]) + '/' + str(lines))
     matched_data = {'Tag': tags, 'Count': count, 'Usage Fraction': percent}
     df = pd.DataFrame.from_dict(matched_data)
     outname = 'common_tags.csv'
@@ -591,15 +595,54 @@ def commonData(lines, parent_folder):
     allInnerTextToCount = collections.OrderedDict(sorted(allInnerTextToCount.items(), key=lambda items: items[1]))
     text, count, percent = [], [], []
     for key, value in allInnerTextToCount.items():
-        text.append(key)
-        count.append(value)
-        percent.append(str(allInnerTextToCountPercent[key]) + '/' + str(lines))
+       if (int(allInnerTextToCountPercent[key]) == int(lines)):
+            text.append(key)
+            count.append(value)
+            percent.append(str(allInnerTextToCountPercent[key]) + '/' + str(lines))
     matched_data = {'Text': text, 'Count': count, 'Usage Fraction': percent}
     df = pd.DataFrame.from_dict(matched_data)
     outname = 'common_inner_text.csv'
     dir = os.getcwd() + "/" + parent_folder + "/" + 'commonalities'
     fullname = os.path.join(dir, outname)
     df.to_csv(fullname, encoding='utf-8', header=True, index=False)
+
+    #get the differences in the top 10 tags
+    ten_tags, ten_count, count = [], [], 0
+    allTagsToCount = collections.OrderedDict(sorted(allTagsToCount.items(), key=lambda items: items[1], reverse=True))
+    for key, value in allTagsToCount.items():
+        if count == 10:
+            break
+        ten_tags.append(key + ', ' + str(value))
+        ten_count.append(value)
+        count += 1
+    ten_tags = np.array(ten_tags)
+    ten_count = np.array(ten_count)
+    plt.pie(ten_count, labels = ten_tags)
+    outname = 'top_ten_tags.png'
+    fullname = os.path.join(dir, outname)
+    plt.savefig(fullname)
+    plt.clf()
+    plt.cla()
+    plt.close()
+
+    #get the differences in the top 10 attributes
+    ten_atts, ten_count, count = [], [], 0
+    allAttributesToCount = collections.OrderedDict(sorted(allAttributesToCount.items(), key=lambda items: items[1], reverse=True))
+    for key, value in allAttributesToCount.items():
+        if count == 10:
+            break
+        ten_atts.append(key + ', ' + str(value))
+        ten_count.append(value)
+        count += 1
+    ten_atts = np.array(ten_atts)
+    ten_count = np.array(ten_count)
+    plt.pie(ten_count, labels = ten_atts)
+    outname = 'top_ten_atts.png'
+    fullname = os.path.join(dir, outname)
+    plt.savefig(fullname)
+    plt.clf()
+    plt.cla()
+    plt.close()
 
 #file with combination of multiple URLs or files
 if (str(ask) == '1'):
@@ -615,5 +658,5 @@ if (str(ask) == '1'):
     commonData(total, parent_folder)
 #singular file or URL
 else:
-    dataCreate(inp)
+    dataCreate(inp, None)
         

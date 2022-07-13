@@ -1,3 +1,4 @@
+#separate script to check URLs and their info
 import logging
 from urllib.parse import urljoin
 import requests
@@ -13,20 +14,21 @@ urls = []
 urlKey = []
 urlValue = []
 def urlDepth(url):
-    slashes = [slash.start() for slash in re.finditer('/', url)]
+    slashes = [slash.start() for slash in re.finditer('/', url[:-1])]
     for s in slashes:
         if validators.url(url[0:s]):
             urls.append(url[0:s])
-   # print(urls)
+    urls.append(url)
+
 def urlKeyValuePairs(url):
     f = furl(url)
     for k in f.args.keys():
         urlKey.append(k)
     for v in f.args.values():
         urlValue.append(v)
-    # for key, value in urlKeyValues.items():
-    #     print(key)
-    #     print(value)
+
+def urlRegex(url, regex):
+    return re.search(regex, url)
 
 if __name__ == '__main__':
     inp = input("Type file name with URLs or enter single URL: ")
@@ -44,9 +46,9 @@ if __name__ == '__main__':
         with open(outname, "w") as file:
             file.write('URL: ' + inp + "\n")
             file.write('Depth: ' + str(len(urls)) + "\n")
-            file.write('Parent URLs: ')
+            file.write('URL Path:')
             for u in urls:
-                file.write('->' + u)
+                file.write(' -> ' + u)
             file.write("\n")
 
     else:
@@ -74,9 +76,9 @@ if __name__ == '__main__':
                 with open(fullname, "w") as file:
                     file.write('URL: ' + url + "\n")
                     file.write('Depth: ' + str(len(urls)) + "\n")
-                    file.write('Parent URLs: ')
+                    file.write('Parent URLs:')
                     for u in urls:
-                        file.write('->' + u)
+                        file.write(' -> ' + u)
                     file.write("\n")
                 #reset
                 urls = []
