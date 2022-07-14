@@ -1,4 +1,9 @@
 #run this script before running your searches, in order to create the data files
+"""
+This script will create the csv files and visuals to look at the structure of the DOM tree. 
+You can either input a file which contains a combination of URLs and names of files that contains an HTML page source
+or enter a URL or single file containing the HTML input
+"""
 from audioop import reverse
 from html.parser import HTMLParser
 from threading import local
@@ -17,23 +22,15 @@ from matplotlib import rcParams
 import os
 
 
+#all common attributes between the html files that could help with tagging together
+allAttributesToCount, allAttributeToNameCount, allTagsToCount,  allInnerTextToCount = {}, {}, {}, {}
+#get the percent of URLs that have the specific attributes
+allAttributesToPercent, allAttributeToNameCountPercent, allTagsToCountPercent, allInnerTextToCountPercent = {}, {}, {}, {}
+
 #ask whether multiple URLs/files are to be used
 ask = input("Type '1' if input is a file which will contain multiple URLs/files: ")
 #get the input and convert to html soup
 inp = input("Type file name or enter URL for HTML input: ")
-
-#total files
-total = 0
-#all common attributes between the html files that could help with tagging together
-allAttributesToCount = {}
-allAttributeToNameCount = {}
-allTagsToCount = {}
-allInnerTextToCount = {}
-#get the percent of URLs that have the specific attributes
-allAttributesToPercent = {}
-allAttributeToNameCountPercent = {}
-allTagsToCountPercent = {}
-allInnerTextToCountPercent = {}
 
 def dataCreate(inp, parent_folder):
     #create a folder to store all info relating to URL/file
@@ -81,7 +78,7 @@ def dataCreate(inp, parent_folder):
     #creating a larger, sequence of arrays for element searching
     tags, numbers, depths, texts, attributes, fullTags, locations = [], [], [], [], [], [], []
 
-    #boolean to track whether tag/attribute/text exists within the url
+    #sets to track whether tag/attribute/text exists within the url
     attAdded, attNameAdded, tagAdded, textAdded = set(), set(), set(), set()
 
     #gets the depth, attributes, text, and location of all elements and creates maps
@@ -606,38 +603,88 @@ def commonData(lines, parent_folder):
     fullname = os.path.join(dir, outname)
     df.to_csv(fullname, encoding='utf-8', header=True, index=False)
 
-    #get the differences in the top 10 tags
+    #get the top 10 tags
     ten_tags, ten_count, count = [], [], 0
     allTagsToCount = collections.OrderedDict(sorted(allTagsToCount.items(), key=lambda items: items[1], reverse=True))
     for key, value in allTagsToCount.items():
         if count == 10:
             break
-        ten_tags.append(key + ', ' + str(value))
-        ten_count.append(value)
-        count += 1
+        #only display the graph if the tags exists among all the URLs
+        if allTagsToCountPercent[key] == lines:
+            ten_tags.append(key + ', ' + str(value))
+            ten_count.append(value)
+            count += 1
     ten_tags = np.array(ten_tags)
     ten_count = np.array(ten_count)
     plt.pie(ten_count, labels = ten_tags)
+    font1 = {'family':'serif','color':'blue','size':20}
+    plt.title("Top 10 Common Tags", fontdict = font1)
     outname = 'top_ten_tags.png'
     fullname = os.path.join(dir, outname)
     plt.savefig(fullname)
     plt.clf()
     plt.cla()
     plt.close()
+    #get the bottom 10 tags
+    allTagsToCount = dict(reversed(list(allTagsToCount.items())))
+    ten_tags, ten_count, count = [], [], 0
+    for key, value in allTagsToCount.items():
+        if count == 10:
+            break
+        #only display the graph if the tags exists among all the URLs
+        if allTagsToCountPercent[key] == lines:
+            ten_tags.append(key + ', ' + str(value))
+            ten_count.append(value)
+            count += 1
+    ten_tags = np.array(ten_tags)
+    ten_count = np.array(ten_count)
+    plt.pie(ten_count, labels = ten_tags)
+    font1 = {'family':'serif','color':'blue','size':20}
+    plt.title("Bottom 10 Common Tags", fontdict = font1)
+    outname = 'bottom_ten_tags.png'
+    fullname = os.path.join(dir, outname)
+    plt.savefig(fullname)
+    plt.clf()
+    plt.cla()
+    plt.close()
 
-    #get the differences in the top 10 attributes
+    #get the top 10 attributes
     ten_atts, ten_count, count = [], [], 0
     allAttributesToCount = collections.OrderedDict(sorted(allAttributesToCount.items(), key=lambda items: items[1], reverse=True))
     for key, value in allAttributesToCount.items():
         if count == 10:
             break
-        ten_atts.append(key + ', ' + str(value))
-        ten_count.append(value)
-        count += 1
+        #only display the graph if the attribute exists among all the URLs
+        if allAttributesToPercent[key] == lines:
+            ten_atts.append(key + ', ' + str(value))
+            ten_count.append(value)
+            count += 1
     ten_atts = np.array(ten_atts)
     ten_count = np.array(ten_count)
     plt.pie(ten_count, labels = ten_atts)
+    plt.title("Top 10 Common Attributes", fontdict = font1)
     outname = 'top_ten_atts.png'
+    fullname = os.path.join(dir, outname)
+    plt.savefig(fullname)
+    plt.clf()
+    plt.cla()
+    plt.close()
+    #get the bottom 10 attributes
+    allAttributesToCount =dict(reversed(list(allAttributesToCount.items())))
+    ten_atts, ten_count, count = [], [], 0
+    for key, value in allAttributesToCount.items():
+        if count == 10:
+            break
+        #only display the graph if the attribute exists among all the URLs
+        if allAttributesToPercent[key] == lines:
+            ten_atts.append(key + ', ' + str(value))
+            ten_count.append(value)
+            count += 1
+    ten_atts = np.array(ten_atts)
+    ten_count = np.array(ten_count)
+    plt.pie(ten_count, labels = ten_atts)
+    plt.title("Bottom 10 Common Attributes", fontdict = font1)
+    outname = 'bottom_ten_atts.png'
     fullname = os.path.join(dir, outname)
     plt.savefig(fullname)
     plt.clf()
@@ -646,16 +693,15 @@ def commonData(lines, parent_folder):
 
 #file with combination of multiple URLs or files
 if (str(ask) == '1'):
-    parent_folder = input("Enter folder to hold all file information: ")
+    parent_folder = input("Enter folder to hold all URLs information: ")
     with open(inp) as f:
         lines = f.readlines()
-        total = len(lines)
         for url in lines:
             url = url.rstrip()
             print()
             print('URL: ' + url)
             dataCreate(url, parent_folder)
-    commonData(total, parent_folder)
+    commonData(len(lines), parent_folder)
 #singular file or URL
 else:
     dataCreate(inp, None)
