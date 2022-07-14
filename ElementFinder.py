@@ -5,10 +5,10 @@ import pandas as pd
 
 def findElement(dir, tag, depth, attributes_type, attributes_name, text, contains, tag_names, tag_depths, tag_texts, tag_attributes, tag_full_tag):
     tags_ret, depths_ret, texts_ret, attributes_ret, full_tags_ret = [], [], [], [], []
-    full_attribute = attributes_type + '=' + attributes_name
+    full_attribute = set([attributes_type + '=' + attributes_name, attributes_type, attributes_name])
     for i in range(len(tag_names)):
-        if ((tag == '' or tag == str(tag_names[i])) and (depth == '' or depth == str(tag_depths[i])) and ((attributes_type == '' and attributes_name == '') or (full_attribute in tag_attributes[i])) 
-            and (text == '' or text in str(tag_texts[i])) and (contains == '' or contains in str(tag_full_tag[i]))):
+        if ((tag == '' or tag == str(tag_names[i])) and (depth == '' or depth == str(tag_depths[i])) and ((attributes_type == '' and attributes_name == '') or (tag_attributes[i] in full_attribute)) 
+            and (text == '' or str(tag_texts[i]).find(text) != -1) and (contains == '' or contains in str(tag_full_tag[i]))):
             tags_ret.append(tag_names[i])
             depths_ret.append(tag_depths[i])
             texts_ret.append(tag_texts[i])
