@@ -47,7 +47,7 @@ def findAttribute(dir, regex, types, names, className):
         #export non-matches to csv file
         non_matched_data = {'Attribute': failedType, regex: failedAttributes}
         df = pd.DataFrame(non_matched_data)
-        outname = 'on_matched_attributes.csv'
+        outname = 'non_matched_attributes.csv'
         fullname = os.path.join(dir, outname)
         df.to_csv(fullname, encoding='utf-8', header=True, index=False)
         goodFilters(dir, matchedType, failedType, matchedAttributes, failedAttributes, className)
