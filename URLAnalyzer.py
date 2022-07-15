@@ -1,6 +1,7 @@
 #separate script to check URLs and their info
 import logging
 from urllib.parse import urljoin
+from matplotlib.cbook import index_of
 import requests
 from bs4 import BeautifulSoup
 import re
@@ -13,6 +14,12 @@ import pandas as pd
 urls = []
 urlKey = []
 urlValue = []
+specialChars = {'*' : 0, '\'' : 0, '(' : 0, ')': 0,  ';': 0, ':' : 0,  '@' :0,  '&' : 0,  '=' : 0,  '+': 0,  '$': 0,  ',' : 0,  '/': 0,  '?' : 0,  '%' : 0,  '#' : 0,  '[': 0,  ']': 0}
+query = 'False'
+fragment_identifier = ''
+port = ""
+
+#gets the depth of the url through validating substring urls
 def urlDepth(url):
     slashes = [slash.start() for slash in re.finditer('/', url[:-1])]
     for s in slashes:
@@ -20,6 +27,7 @@ def urlDepth(url):
             urls.append(url[0:s])
     urls.append(url)
 
+#gets all key value pairs that exists within the url
 def urlKeyValuePairs(url):
     f = furl(url)
     for k in f.args.keys():
@@ -27,14 +35,40 @@ def urlKeyValuePairs(url):
     for v in f.args.values():
         urlValue.append(v)
 
+#simple regex that can be run on a url
 def urlRegex(url, regex):
     return re.search(regex, url)
 
+#get number of special character in the url
+def urlSpecialCharacters(url):
+    global query
+    global fragment_identifier
+    global port
+    if (url.find('?') != -1):
+        query = 'True'
+    if (url.find('#') != -1):
+        fragment_identifier = url[url.index('#'):]
+    for i in range(len(url)):
+        if url[i] == ':' and port == '':
+            index = i + 1
+            while index < len(url):
+                if url[index].isdigit():
+                    port += url[index]
+                else: break
+                index += 1
+    for i in range(len(url)):
+        if url[i] in specialChars:
+            specialChars[url[i]] += 1
+    
+    
+
+#main method to check for a single url or a file of urls
 if __name__ == '__main__':
     inp = input("Type file name with URLs or enter single URL: ")
     if validators.url(inp):
         urlDepth(inp)
         urlKeyValuePairs(inp)
+        urlSpecialCharacters(inp)
         #put in 1 csv
         matched_data = {'URL Key for ' + inp: urlKey, 'URL Value': urlValue}
         df = pd.DataFrame.from_dict(matched_data)
@@ -50,6 +84,15 @@ if __name__ == '__main__':
             for u in urls:
                 file.write(' -> ' + u)
             file.write("\n")
+            file.write('Query: ' + query + '\n')
+            if fragment_identifier != '':
+                file.write('Fragment Identifier: ' + fragment_identifier + '\n')
+            if port != '':
+                file.write('Port: ' + port + '\n')
+            file.write('Special Characters:\n')
+            for key, value in specialChars.items():
+                if value != 0:
+                    file.write(key + ' -> ' + str(value) + '\n')
 
     else:
         folder = input("Enter a folder name to store the data: ")
@@ -60,10 +103,12 @@ if __name__ == '__main__':
         with open(inp) as f:
             lines = f.readlines()
         for url in lines:
+            #url was valid
+            count += 1
             if validators.url(url):
                 urlDepth(url)
                 urlKeyValuePairs(url)
-                count += 1
+                urlSpecialCharacters(url)
                 #put in a folder of csv with one common csv for each url
                 matched_data = {'URL Key for ' + url: urlKey, 'URL Value': urlValue}
                 df = pd.DataFrame(matched_data)
@@ -80,7 +125,27 @@ if __name__ == '__main__':
                     for u in urls:
                         file.write(' -> ' + u)
                     file.write("\n")
+                    file.write('Query: ' + query + '\n')
+                    if fragment_identifier != '':
+                        file.write('Fragment Identifier: ' + fragment_identifier + '\n')
+                    if port != '':
+                        file.write('Port: ' + port + '\n')
+                    file.write('Special Characters:\n')
+                    for key, value in specialChars.items():
+                        if value != 0:
+                            file.write(key + ' -> ' + str(value) + '\n')
                 #reset
                 urls = []
                 urlKey = []
                 urlValue = []
+                urls = []
+                specialChars = {'*' : 0, '\'' : 0, '(' : 0, ')': 0,  ';': 0, ':' : 0,  '@' :0,  '&' : 0,  '=' : 0,  '+': 0,  '$': 0,  ',' : 0,  '/': 0,  '?' : 0,  '%' : 0,  '#' : 0,  '[': 0,  ']': 0}
+                query = 'False'
+                fragment_identifier = ''
+                port = ""
+            #url was invalid in the file
+            else:
+                outname = 'url-' + str(count) + '.txt'
+                fullname = os.path.join(dir, outname)
+                with open(fullname, "w") as file:
+                    file.write('INVALID URL!')

@@ -4,19 +4,14 @@ This script will create the csv files and visuals to look at the structure of th
 You can either input a file which contains a combination of URLs and names of files that contains an HTML page source
 or enter a URL or single file containing the HTML input
 """
-from audioop import reverse
 from html.parser import HTMLParser
-from threading import local
 from bs4 import BeautifulSoup
-from urllib.request import urlopen
 from collections import defaultdict
 import requests as req
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-import pylab as pl
 import validators
-import re
 import collections
 from matplotlib import rcParams
 import os
@@ -603,7 +598,7 @@ def commonData(lines, parent_folder):
     fullname = os.path.join(dir, outname)
     df.to_csv(fullname, encoding='utf-8', header=True, index=False)
 
-    #get the top 10 tags
+    #get the top 10 common tags
     ten_tags, ten_count, count = [], [], 0
     allTagsToCount = collections.OrderedDict(sorted(allTagsToCount.items(), key=lambda items: items[1], reverse=True))
     for key, value in allTagsToCount.items():
@@ -625,7 +620,7 @@ def commonData(lines, parent_folder):
     plt.clf()
     plt.cla()
     plt.close()
-    #get the bottom 10 tags
+    #get the bottom 10 common tags
     allTagsToCount = dict(reversed(list(allTagsToCount.items())))
     ten_tags, ten_count, count = [], [], 0
     for key, value in allTagsToCount.items():
@@ -648,7 +643,7 @@ def commonData(lines, parent_folder):
     plt.cla()
     plt.close()
 
-    #get the top 10 attributes
+    #get the top 10 common attributes
     ten_atts, ten_count, count = [], [], 0
     allAttributesToCount = collections.OrderedDict(sorted(allAttributesToCount.items(), key=lambda items: items[1], reverse=True))
     for key, value in allAttributesToCount.items():
@@ -669,7 +664,7 @@ def commonData(lines, parent_folder):
     plt.clf()
     plt.cla()
     plt.close()
-    #get the bottom 10 attributes
+    #get the bottom 10 common attributes
     allAttributesToCount =dict(reversed(list(allAttributesToCount.items())))
     ten_atts, ten_count, count = [], [], 0
     for key, value in allAttributesToCount.items():
