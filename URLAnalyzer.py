@@ -1,15 +1,10 @@
 #separate script to check URLs and their info
-import logging
-from urllib.parse import urljoin
-from matplotlib.cbook import index_of
-import requests
-from bs4 import BeautifulSoup
 import re
 import validators
 from furl import furl
 import os
 import pandas as pd
-
+import sys
 
 urls = []
 urlKey = []
@@ -74,6 +69,9 @@ if __name__ == '__main__':
         df = pd.DataFrame.from_dict(matched_data)
         input = input("Enter a name for you data file: ")
         outname = input + '.csv'
+        #if exe make sure redirecting is correct
+        if getattr(sys, 'frozen', False) and hasattr(sys, '_MEIPASS'):
+            outname = os.path.join(os.path.dirname(sys.executable), outname)
         df.to_csv(outname, encoding='utf-8', header=True, index=False)
         #put other info in text file
         outname = input + '.txt'
@@ -96,7 +94,10 @@ if __name__ == '__main__':
 
     else:
         folder = input("Enter a folder name to store the data: ")
-        dir = os.getcwd() + "/" + folder
+        if getattr(sys, 'frozen', False) and hasattr(sys, '_MEIPASS'):
+            dir = os.path.dirname(sys.executable) + "/" + folder
+        else:
+            dir = os.getcwd() + "/" + folder
         if not os.path.exists(dir):
             os.mkdir(dir)
         count = 0

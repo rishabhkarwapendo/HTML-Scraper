@@ -2,6 +2,7 @@
 import glob
 import os
 import pandas as pd
+import sys
 
 def findElement(dir, tag, depth, attributes_type, attributes_name, text, contains, tag_names, tag_depths, tag_texts, tag_attributes, tag_full_tag):
     tags_ret, depths_ret, texts_ret, attributes_ret, full_tags_ret = [], [], [], [], []
@@ -34,7 +35,10 @@ def findElement(dir, tag, depth, attributes_type, attributes_name, text, contain
 
 #get the folder where the regex search needs to be done
 folder = input("Enter the folder name of your data: ")
-dir = os.getcwd() + "/" + folder
+if getattr(sys, 'frozen', False) and hasattr(sys, '_MEIPASS'):
+    dir = os.path.dirname(sys.executable) + "/" + folder
+else:
+    dir = os.getcwd() + "/" + folder
 attribute_file = glob.glob(os.path.join(dir, "all_element_data.csv"))
 df = pd.read_csv(attribute_file[0])
 tag_names = df.Name

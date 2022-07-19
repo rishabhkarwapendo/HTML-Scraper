@@ -7,6 +7,7 @@ import pandas as pd
 from uuid import UUID
 import enchant
 import glob
+import sys
 
 
 
@@ -179,7 +180,10 @@ def goodFilters(dir, matchedType, failedType, matchedAttributes, failedAttribute
 
 #get the folder where the regex search needs to be done
 folder = input("Enter the folder name of your data: ")
-dir = os.getcwd() + "/" + folder
+if getattr(sys, 'frozen', False) and hasattr(sys, '_MEIPASS'):
+    dir = os.path.dirname(sys.executable) + "/" + folder
+else:
+    dir = os.getcwd() + "/" + folder
 attribute_file = glob.glob(os.path.join(dir, "all_attributes.csv"))
 df = pd.read_csv(attribute_file[0])
 att_types = df.Type

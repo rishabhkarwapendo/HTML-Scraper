@@ -13,14 +13,16 @@ import numpy as np
 import pandas as pd
 import validators
 import collections
-from matplotlib import rcParams
 import os
-
+from os import path
+import sys
 
 #all common attributes between the html files that could help with tagging together
 allAttributesToCount, allAttributeToNameCount, allTagsToCount,  allInnerTextToCount = {}, {}, {}, {}
 #get the percent of URLs that have the specific attributes
 allAttributesToPercent, allAttributeToNameCountPercent, allTagsToCountPercent, allInnerTextToCountPercent = {}, {}, {}, {}
+
+
 
 #ask whether multiple URLs/files are to be used
 ask = input("Type '1' if input is a file which will contain multiple URLs/files: ")
@@ -31,12 +33,23 @@ def dataCreate(inp, parent_folder):
     #create a folder to store all info relating to URL/file
     folder = input("Enter a folder name to store the data: ")
     if parent_folder:
-        dir = os.getcwd() + "/" + parent_folder
-        if not os.path.exists(dir):
-            os.mkdir(dir)
-        dir = os.getcwd() + "/" + parent_folder + "/" + folder
-    else: 
-        dir = os.getcwd() + "/" + folder
+        #program is running in an exe
+        if getattr(sys, 'frozen', False) and hasattr(sys, '_MEIPASS'):
+            dir = os.path.dirname(sys.executable) + '/' + parent_folder
+            if not os.path.exists(dir):
+                os.mkdir(dir)
+            dir = os.path.dirname(sys.executable) + "/" + parent_folder + "/" + folder
+        #program running as a regular python file
+        else:
+            dir = os.getcwd() + "/" + parent_folder
+            if not os.path.exists(dir):
+                os.mkdir(dir)
+            dir = os.getcwd() + "/" + parent_folder + "/" + folder
+    else:
+        if getattr(sys, 'frozen', False) and hasattr(sys, '_MEIPASS'):
+            dir = os.path.dirname(sys.executable) + "/" + folder
+        else:
+            dir = os.getcwd() + "/" + folder
     if not os.path.exists(dir):
         os.mkdir(dir)
     #convert to soup based on input
@@ -550,7 +563,10 @@ def commonData(lines, parent_folder):
     matched_data = {'Attribute': atts, 'Count': count, 'Usage Fraction': percent}
     df = pd.DataFrame.from_dict(matched_data)
     outname = 'common_attributes.csv'
-    dir = os.getcwd() + "/" + parent_folder + "/" + 'commonalities'
+    if getattr(sys, 'frozen', False) and hasattr(sys, '_MEIPASS'):
+        dir = os.path.dirname(sys.executable) + "/" + parent_folder + "/" + 'commonalities'
+    else:
+        dir = os.getcwd() + "/" + parent_folder + "/" + 'commonalities'
     if not os.path.exists(dir):
         os.mkdir(dir)
     fullname = os.path.join(dir, outname)
@@ -566,7 +582,6 @@ def commonData(lines, parent_folder):
     matched_data = {'Full Attribute': atts, 'Count': count, 'Usage Fraction': percent}
     df = pd.DataFrame.from_dict(matched_data)
     outname = 'common_attribute_names.csv'
-    dir = os.getcwd() + "/" + parent_folder + "/" + 'commonalities'
     fullname = os.path.join(dir, outname)
     df.to_csv(fullname, encoding='utf-8', header=True, index=False)
     #create csv for tag similiarities
@@ -580,7 +595,6 @@ def commonData(lines, parent_folder):
     matched_data = {'Tag': tags, 'Count': count, 'Usage Fraction': percent}
     df = pd.DataFrame.from_dict(matched_data)
     outname = 'common_tags.csv'
-    dir = os.getcwd() + "/" + parent_folder + "/" + 'commonalities'
     fullname = os.path.join(dir, outname)
     df.to_csv(fullname, encoding='utf-8', header=True, index=False)
     #create csv for text similiarities
@@ -594,7 +608,6 @@ def commonData(lines, parent_folder):
     matched_data = {'Text': text, 'Count': count, 'Usage Fraction': percent}
     df = pd.DataFrame.from_dict(matched_data)
     outname = 'common_inner_text.csv'
-    dir = os.getcwd() + "/" + parent_folder + "/" + 'commonalities'
     fullname = os.path.join(dir, outname)
     df.to_csv(fullname, encoding='utf-8', header=True, index=False)
 
@@ -606,7 +619,7 @@ def commonData(lines, parent_folder):
             break
         #only display the graph if the tags exists among all the URLs
         if allTagsToCountPercent[key] == lines:
-            ten_tags.append(key + ', ' + str(value))
+            ten_tags.append(key + ', ' + str(value) + '/' + str(lines))
             ten_count.append(value)
             count += 1
     ten_tags = np.array(ten_tags)
@@ -628,7 +641,7 @@ def commonData(lines, parent_folder):
             break
         #only display the graph if the tags exists among all the URLs
         if allTagsToCountPercent[key] == lines:
-            ten_tags.append(key + ', ' + str(value))
+            ten_tags.append(key + ', ' + str(value) + '/' + str(lines))
             ten_count.append(value)
             count += 1
     ten_tags = np.array(ten_tags)
@@ -651,7 +664,7 @@ def commonData(lines, parent_folder):
             break
         #only display the graph if the attribute exists among all the URLs
         if allAttributesToPercent[key] == lines:
-            ten_atts.append(key + ', ' + str(value))
+            ten_atts.append(key + ', ' + str(value) + '/' + str(lines))
             ten_count.append(value)
             count += 1
     ten_atts = np.array(ten_atts)
@@ -672,7 +685,7 @@ def commonData(lines, parent_folder):
             break
         #only display the graph if the attribute exists among all the URLs
         if allAttributesToPercent[key] == lines:
-            ten_atts.append(key + ', ' + str(value))
+            ten_atts.append(key + ', ' + str(value) + '/' + str(lines))
             ten_count.append(value)
             count += 1
     ten_atts = np.array(ten_atts)
@@ -689,6 +702,9 @@ def commonData(lines, parent_folder):
 #file with combination of multiple URLs or files
 if (str(ask) == '1'):
     parent_folder = input("Enter folder to hold all URLs information: ")
+    #if running as exe change input file path
+    if getattr(sys, 'frozen', False) and hasattr(sys, '_MEIPASS'):
+        inp = os.path.dirname(sys.executable) + '/' + inp
     with open(inp) as f:
         lines = f.readlines()
         for url in lines:
