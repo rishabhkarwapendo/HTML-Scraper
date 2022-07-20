@@ -6,9 +6,9 @@ import sys
 
 def findElement(dir, tag, depth, attributes_type, attributes_name, text, contains, tag_names, tag_depths, tag_texts, tag_attributes, tag_full_tag):
     tags_ret, depths_ret, texts_ret, attributes_ret, full_tags_ret = [], [], [], [], []
-    full_attribute = set([attributes_type + '=' + attributes_name, attributes_type, attributes_name])
+    full_attribute = attributes_type + '=' + attributes_name
     for i in range(len(tag_names)):
-        if ((tag == '' or tag == str(tag_names[i])) and (depth == '' or depth == str(tag_depths[i])) and ((attributes_type == '' and attributes_name == '') or (tag_attributes[i] in full_attribute)) 
+        if ((tag == '' or tag == str(tag_names[i])) and (depth == '' or depth == str(tag_depths[i])) and ((attributes_type == '' and attributes_name == '') or (str(attributes_type) in str(tag_attributes[i]) and attributes_name == '') or (str(attributes_name) in str(tag_attributes[i]) and attributes_type == '') or (str(full_attribute) in str(tag_attributes[i]))) 
             and (text == '' or str(tag_texts[i]).find(text) != -1) and (contains == '' or contains in str(tag_full_tag[i]))):
             tags_ret.append(tag_names[i])
             depths_ret.append(tag_depths[i])
@@ -26,11 +26,14 @@ def findElement(dir, tag, depth, attributes_type, attributes_name, text, contain
     if contains == '':
         contains = 'all'
     matched_data = {'Tag: ' + tag: tags_ret, 'Depth: ' + depth: depths_ret, 'Inner Text: ' + text: texts_ret, 
-        'Attribute: ' + full_attribute: attributes_ret, 'Full Tag: ' + contains: full_tags_ret}
+        'Attribute: ' + attributes_type + '=' + attributes_name: attributes_ret, 'Full Tag: ' + contains: full_tags_ret}
     df = pd.DataFrame(matched_data)
     outname = 'elements_searched.csv'
     fullname = os.path.join(dir, outname)
     df.to_csv(fullname, encoding='utf-8', header=True, index=False)
+    print("--------------------------------")
+    print("elements_searched.csv generated!")
+    print("--------------------------------")
 
 
 #get the folder where the regex search needs to be done

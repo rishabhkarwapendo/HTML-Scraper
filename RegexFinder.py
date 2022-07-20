@@ -176,6 +176,9 @@ def goodFilters(dir, matchedType, failedType, matchedAttributes, failedAttribute
     outname = 'non_matched_recommendations.csv'
     fullname = os.path.join(dir, outname)
     df.to_csv(fullname, encoding='utf-8', header=True, index=False)
+    print("---------------------------------------------------------------------------------------------------------------------------")
+    print("matched_attributes.csv, non_matched_attributes.csv, matched_recommendations.csv, non_matched_recommendations.csv generated!")
+    print("---------------------------------------------------------------------------------------------------------------------------")
 
 
 #get the folder where the regex search needs to be done
