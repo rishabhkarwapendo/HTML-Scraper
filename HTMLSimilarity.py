@@ -1,5 +1,6 @@
 #this script compares the css and tag sequence similarities of html pages
-from html_similarity import style_similarity, structural_similarity
+from collections import defaultdict
+from html_similarity import similarity, style_similarity, structural_similarity
 import requests as req
 import validators
 import pandas as pd
@@ -7,16 +8,18 @@ import os
 import sys
 
 class url_sim:
-  def __init__(self, name, style_total, structural_total, joint_total):
+  def __init__(self, name, style_total, structural_total):
     self.name = name
     self.style_total = style_total
     self.structural_total = structural_total
-    self.joint_total = joint_total
 
 #holding the array of url_sims parsed
 url_sim_holder = []
 #total number of URLs
 total = 0
+
+#cache to reduce runtime in half if comparison is already done
+cache = defaultdict(list)
 
 #maybe only want to test program against two urls?
 html_1 = input("Enter the first URL or file containing URLs: ")
@@ -53,6 +56,8 @@ else:
         #get aggregate similiarity for all urls/html files
         total = len(lines)
         for i in range(len(lines)):
+            #create a url_sim object 
+            u = url_sim(lines[i], 0, 0)
             #this line was a url
             if validators.url(lines[i]):
                 url = req.get(lines[i])
@@ -65,26 +70,33 @@ else:
                 else:
                     with open(lines[i], 'r') as file:
                         url = file.read()
-            #create a url_sim object 
-            u = url_sim(lines[i], 0, 0, 0)
             #go through all other urls
             for j in range(len(lines)):
-                #do not want to self compare
-                if i != j:
-                    #this line was a url
-                    if validators.url(lines[j]):
-                        url_2 = req.get(lines[j])
-                        url_2 = url_2.text
-                    #it was a file instead
-                    else:
-                        if getattr(sys, 'frozen', False) and hasattr(sys, '_MEIPASS'):
-                            with open(os.path.join(os.path.dirname(sys.executable), lines[j]), 'r') as file:
-                                url_2 = file.read()
+                if (j, i) in cache:
+                    u.style_total += cache[(j, i)][0]
+                    u.structural_total += cache[(j, i)][1]
+                else:
+                    #do not want to self compare
+                    if i != j:
+                        #this line was a url
+                        if validators.url(lines[j]):
+                            url_2 = req.get(lines[j])
+                            url_2 = url_2.text
+                        #it was a file instead
                         else:
-                            with open(lines[j], 'r') as file:
-                                url_2 = file.read()
-                    u.style_total += style_similarity(url, url_2)
-                    u.structural_total += structural_similarity(url, url_2)
+                            if getattr(sys, 'frozen', False) and hasattr(sys, '_MEIPASS'):
+                                with open(os.path.join(os.path.dirname(sys.executable), lines[j]), 'r') as file:
+                                    url_2 = file.read()
+                            else:
+                                with open(lines[j], 'r') as file:
+                                    url_2 = file.read()
+                        #add all comparisons to the cache
+                        style_sim = style_similarity(url, url_2)
+                        struct_sim = structural_similarity(url, url_2)
+                        cache[(i, j)] = [style_sim, struct_sim]
+                        #add aggregate to the url_sim object
+                        u.style_total += style_sim
+                        u.structural_total += struct_sim
             url_sim_holder.append(u)
     
     #parse through the similarities
