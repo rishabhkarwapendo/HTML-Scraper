@@ -4,7 +4,6 @@ The style_similarity method extracts all the CSS classes from both html document
 The structural_similarity uses the difflib.SequenceMatcher method to calculate tag sequence similarity: https://docs.python.org/3/library/difflib.html
 """
 from collections import defaultdict
-from html_similarity import style_similarity
 import requests as req
 import validators
 import pandas as pd
