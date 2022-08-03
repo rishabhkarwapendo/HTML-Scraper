@@ -1,4 +1,8 @@
 #this script compares the css and tag sequence similarities of html pages
+"""
+The style_similarity method extracts all the CSS classes from both html documents and calculates jaccard similarity: (|A n B| / |A u B|)
+The structural_similarity uses the difflib.SequenceMatcher method to calculate tag sequence similarity: https://docs.python.org/3/library/difflib.html
+"""
 from collections import defaultdict
 from html_similarity import similarity, style_similarity, structural_similarity
 import requests as req
@@ -38,7 +42,7 @@ if validators.url(html_1):
     print('HTML Tag Sequence Similarity: ' + str(struct_sim))
     print('Joint Similarity: ' + str(joint_sim))
 
-#test program against a file or urls/html file names   
+#test program against a file of urls/html file names   
 else:
     file_name = input("Enter a file name to store your data: ")
     outname = file_name + '.csv'
