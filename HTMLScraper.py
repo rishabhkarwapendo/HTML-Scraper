@@ -154,8 +154,6 @@ def dataCreate(inp, parent_folder):
                 tagsToInnerText[key].append(tag.getText())
                 if (str(ask) == '1'):
                     text = tag.getText()
-                    #string_list = [string.strip() for string in text.splitlines()]
-                    #for s in string_list:
                     if len(text) > 0:
                         if text not in allInnerTextToCount:
                             allInnerTextToCount[text] = 1
@@ -245,16 +243,10 @@ def dataCreate(inp, parent_folder):
     IDs = []
     classesToIds = collections.OrderedDict(sorted(classesToIds.items()))
     for key, value in classesToIds.items():
-        #if (regex[len(regex)-2:] == '/i' and not re.search(regex, key, re.IGNORECASE)) or ((matchFind.lower() != 'class' and matchFind.lower() != 'all')):
-                valuesJoined = ', '.join(str(id) for id in value)
-                classes.append(key)
-                IdLength.append(str(len(value)))
-                IDs.append(valuesJoined)
-        # elif regex[len(regex)-2:] != '/i' and not re.search(regex, key):
-        #         valuesJoined = ' '.join(str(id) for id in value)
-        #         classes.append(key)
-        #         IdLength.append(str(len(value)))
-        #         IDs.append(valuesJoined)
+        valuesJoined = ', '.join(str(id) for id in value)
+        classes.append(key)
+        IdLength.append(str(len(value)))
+        IDs.append(valuesJoined)
     #export to csv file
     matched_data = {'Class': classes, 'IDs Length': IdLength, 'IDs': IDs}
     df = pd.DataFrame(matched_data)
@@ -269,16 +261,10 @@ def dataCreate(inp, parent_folder):
     atts = []
     classesToAttributes = collections.OrderedDict(sorted(classesToAttributes.items()))
     for key, value in classesToAttributes.items():
-        #if (regex[len(regex)-2:] == '/i' and not re.search(regex, key, re.IGNORECASE)) or ((matchFind.lower() != 'class' and matchFind.lower() != 'all')):
-                valuesJoined = ', '.join(str(attribute) for attribute in value)
-                classes.append(key)
-                attributeLength.append(str(len(value)))
-                atts.append(valuesJoined)
-        # elif regex[len(regex)-2:] != '/i' and not re.search(regex, key):
-        #         valuesJoined = ', '.join(str(attribute) for attribute in value)
-        #         classes.append(key)
-        #         attributeLength.append(str(len(value)))
-        #         atts.append(valuesJoined)
+        valuesJoined = ', '.join(str(attribute) for attribute in value)
+        classes.append(key)
+        attributeLength.append(str(len(value)))
+        atts.append(valuesJoined)
     #export to csv file
     matched_data = {'Class': classes, 'Attribute Length': attributeLength, 'Attributes': atts}
     df = pd.DataFrame(matched_data)
@@ -293,16 +279,10 @@ def dataCreate(inp, parent_folder):
     IDs = []
     idsToClasses = collections.OrderedDict(sorted(idsToClasses.items()))
     for key, value in idsToClasses.items():
-    # if ((regex[len(regex)-2:] == '/i' and not re.search(regex, key, re.IGNORECASE)) or (matchFind.lower() != 'id' and matchFind.lower() != 'all')):
-                valuesJoined = ', '.join(str(classes) for classes in value)
-                IDs.append(key)
-                classLength.append(str(len(value)))
-                classes.append(valuesJoined)
-        # elif regex[len(regex)-2:] != '/i' and not re.search(regex, key):
-        #         valuesJoined = ', '.join(str(classes) for classes in value)
-        #         IDs.append(key)
-        #         classLength.append(str(len(value)))
-        #         classes.append(valuesJoined)
+        valuesJoined = ', '.join(str(classes) for classes in value)
+        IDs.append(key)
+        classLength.append(str(len(value)))
+        classes.append(valuesJoined)
     #export to csv file
     matched_data = {'ID': IDs, 'Class Length': classLength, 'Classes': classes}
     df = pd.DataFrame(matched_data)
@@ -349,10 +329,6 @@ def dataCreate(inp, parent_folder):
     fullname = os.path.join(dir, outname)
     df.to_csv(fullname, encoding='utf-8', header=True, index=False)
 
-
-    # for key, value in tagsToAttributes.items():
-    #     print(key)
-    #     print(value)
 
 
     #creating a csv for the attribute names to how frequently they appear
